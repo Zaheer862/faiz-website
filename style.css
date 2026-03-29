@@ -168,6 +168,18 @@ nav {
   display: flex;
   gap: 2rem;
   align-items: center;
+  /* Positioned at body level so backdrop-filter on header does not trap it */
+  position: fixed;
+  top: 0;
+  right: 2rem;
+  height: 72px;
+  z-index: 1001;
+  background: transparent;
+}
+
+/* Phone link only visible in mobile nav */
+.nav-phone-mobile {
+  display: none;
 }
 
 nav a {
@@ -1823,23 +1835,42 @@ footer {
   }
 
   nav {
-    display: none;
     position: fixed;
-    top: 80px;
+    top: 72px;
     left: 0;
     right: 0;
     bottom: 0;
+    height: auto;
+    display: none;
     background: rgba(3, 7, 18, 0.98);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     flex-direction: column;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem 6rem;
     gap: 0;
     z-index: 999;
     overflow-y: auto;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: transform 0.25s ease, opacity 0.25s ease;
   }
 
   nav.open {
     display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .nav-phone-mobile {
+    display: flex !important;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent) !important;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+    width: 100%;
   }
 
   nav a {
