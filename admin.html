@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F.AI.Z | Admin Panel</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+  <!-- LOGIN GATE -->
+  <div class="admin-login-overlay" id="admin-login">
+    <div class="admin-login-box">
+      <div class="admin-login-logo">F.<span class="ai">AI</span>.Z</div>
+      <h2>Admin Panel</h2>
+      <p>Enter the admin PIN to continue</p>
+      <form id="login-form">
+        <input type="password" id="pin-input" placeholder="Enter PIN" maxlength="20" autocomplete="off" />
+        <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-lock"></i> Unlock</button>
+      </form>
+      <p class="login-error" id="login-error" style="display:none">Incorrect PIN. Try again.</p>
+      <p class="login-hint">Default PIN: <strong>faiz2024</strong></p>
+    </div>
+  </div>
+
+  <!-- ADMIN PANEL -->
+  <div class="admin-panel" id="admin-panel" style="display:none">
+
+    <!-- ADMIN HEADER -->
+    <header class="admin-header">
+      <div class="admin-header-inner">
+        <a href="index.html" class="logo">F.<span class="ai">AI</span>.Z<span class="logo-sub">Admin Panel</span></a>
+        <div class="admin-header-actions">
+          <a href="index.html" class="btn btn-outline btn-sm"><i class="fas fa-external-link-alt"></i> View Site</a>
+          <a href="shop.html" class="btn btn-outline btn-sm"><i class="fas fa-shopping-bag"></i> View Shop</a>
+          <button class="btn btn-outline btn-sm" id="btn-change-pin"><i class="fas fa-key"></i> Change PIN</button>
+          <button class="btn btn-outline btn-sm" onclick="adminLogout()"><i class="fas fa-sign-out-alt"></i> Lock</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- STATS BAR -->
+    <section class="admin-stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-box"></i></div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-total">0</span>
+              <span class="stat-label">Total Products</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-phones">0</span>
+              <span class="stat-label">Phones</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-tablet-alt"></i></div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-tablets">0</span>
+              <span class="stat-label">Tablets</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-covers">0</span>
+              <span class="stat-label">Covers</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-headphones-alt"></i></div>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-accessories">0</span>
+              <span class="stat-label">Accessories</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLBAR -->
+    <section class="admin-toolbar">
+      <div class="container">
+        <div class="toolbar-row">
+          <div class="toolbar-left">
+            <button class="btn btn-primary" id="btn-add-product"><i class="fas fa-plus"></i> Add Product</button>
+          </div>
+          <div class="toolbar-right">
+            <button class="btn btn-outline btn-sm" id="btn-import"><i class="fas fa-file-import"></i> Import JSON</button>
+            <button class="btn btn-outline btn-sm" id="btn-export"><i class="fas fa-file-export"></i> Export JSON</button>
+            <button class="btn btn-outline btn-sm btn-danger" id="btn-reset"><i class="fas fa-undo"></i> Reset to Default</button>
+            <input type="file" id="import-file" accept=".json" style="display:none" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS TABLE -->
+    <section class="admin-products">
+      <div class="container">
+        <div class="admin-table-wrap">
+          <table class="admin-table" id="products-table">
+            <thead>
+              <tr>
+                <th class="col-img">Image</th>
+                <th class="col-name">Product Name</th>
+                <th class="col-cat">Category</th>
+                <th class="col-price">Price</th>
+                <th class="col-badge">Badge</th>
+                <th class="col-actions">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="products-tbody"></tbody>
+          </table>
+          <div class="admin-empty" id="admin-empty" style="display:none">
+            <i class="fas fa-box-open"></i>
+            <p>No products yet. Click "Add Product" to get started.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal-overlay" id="product-modal-overlay">
+    <div class="modal admin-modal" id="product-modal">
+      <div class="modal-header">
+        <h2 id="modal-title"><i class="fas fa-plus-circle"></i> Add Product</h2>
+        <button class="modal-close" id="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        <form id="product-form" novalidate>
+          <input type="hidden" id="edit-id" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prod-name">Product Name *</label>
+              <input type="text" id="prod-name" placeholder="e.g. iPhone 15 128GB" required />
+            </div>
+            <div class="form-group">
+              <label for="prod-category">Category *</label>
+              <select id="prod-category" required>
+                <option value="">Select category</option>
+                <option value="phones">Phones</option>
+                <option value="tablets">Tablets</option>
+                <option value="covers">Covers</option>
+                <option value="accessories">Accessories</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prod-price">Price (&pound;) *</label>
+              <input type="number" id="prod-price" step="0.01" min="0" placeholder="e.g. 349.99" required />
+            </div>
+            <div class="form-group">
+              <label for="prod-badge">Badge *</label>
+              <select id="prod-badge" required>
+                <option value="">Select badge</option>
+                <option value="New">New</option>
+                <option value="Used">Used</option>
+                <option value="Refurbished">Refurbished</option>
+                <option value="Accessory">Accessory</option>
+                <option value="Sale">Sale</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="prod-desc">Description *</label>
+            <textarea id="prod-desc" rows="3" placeholder="Short product description..." required></textarea>
+          </div>
+
+          <!-- IMAGE -->
+          <div class="form-group">
+            <label>Product Image</label>
+            <div class="image-upload-area">
+              <div class="image-tabs">
+                <button type="button" class="img-tab active" data-tab="url">Image URL</button>
+                <button type="button" class="img-tab" data-tab="upload">Upload File</button>
+              </div>
+              <div class="img-tab-content" id="tab-url">
+                <input type="text" id="prod-image-url" placeholder="https://example.com/image.jpg" />
+              </div>
+              <div class="img-tab-content" id="tab-upload" style="display:none">
+                <label class="file-drop-zone" id="file-drop-zone">
+                  <i class="fas fa-cloud-upload-alt"></i>
+                  <span>Click or drag an image here</span>
+                  <input type="file" id="prod-image-file" accept="image/*" />
+                </label>
+              </div>
+              <div class="image-preview" id="image-preview" style="display:none">
+                <img id="preview-img" alt="Preview" />
+                <button type="button" class="btn btn-sm btn-danger" id="clear-image"><i class="fas fa-trash-alt"></i> Remove</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-outline" onclick="closeProductModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary" id="save-btn"><i class="fas fa-save"></i> Save Product</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHANGE PIN MODAL -->
+  <div class="modal-overlay" id="pin-modal-overlay">
+    <div class="modal admin-modal admin-modal-sm">
+      <div class="modal-header">
+        <h2><i class="fas fa-key"></i> Change PIN</h2>
+        <button class="modal-close" id="pin-modal-close" aria-label="Close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        <form id="pin-form">
+          <div class="form-group">
+            <label for="current-pin">Current PIN</label>
+            <input type="password" id="current-pin" required />
+          </div>
+          <div class="form-group">
+            <label for="new-pin">New PIN</label>
+            <input type="password" id="new-pin" minlength="4" required />
+          </div>
+          <div class="form-group">
+            <label for="confirm-pin">Confirm New PIN</label>
+            <input type="password" id="confirm-pin" required />
+          </div>
+          <p class="login-error" id="pin-error" style="display:none"></p>
+          <div class="form-actions">
+            <button type="button" class="btn btn-outline" onclick="closePinModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Update PIN</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONFIRM MODAL -->
+  <div class="modal-overlay" id="confirm-modal-overlay">
+    <div class="modal admin-modal admin-modal-sm">
+      <div class="modal-header">
+        <h2 id="confirm-title"><i class="fas fa-exclamation-triangle"></i> Confirm</h2>
+        <button class="modal-close" id="confirm-modal-close" aria-label="Close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        <p id="confirm-message">Are you sure?</p>
+        <div class="form-actions">
+          <button class="btn btn-outline" id="confirm-cancel">Cancel</button>
+          <button class="btn btn-primary btn-danger" id="confirm-ok">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
