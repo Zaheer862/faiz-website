@@ -47,6 +47,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
+  overflow-x: hidden;
 }
 
 body {
@@ -1908,6 +1909,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .why-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -1985,6 +1990,10 @@ footer {
 
 @media (max-width: 480px) {
   .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .products-grid {
     grid-template-columns: 1fr;
   }
 
