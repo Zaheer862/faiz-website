@@ -1,0 +1,240 @@
+{
+  "posts": [
+    {
+      "id": 12,
+      "title": "Nintendo Switch 2 Is Here: Everything You Need to Know",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-03-29",
+      "dateDisplay": "29 Mar 2026",
+      "excerpt": "Nintendo has officially launched the Switch 2 with a larger 8-inch OLED screen, magnetic Joy-Cons, and 4K output when docked. It's backwards compatible with most Switch 1 titles and launches at £349. Early hands-on reviews are glowing.",
+      "image": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=600&h=350&fit=crop",
+      "imageAlt": "Nintendo Switch gaming console",
+      "readTime": "4 min read",
+      "source": "https://www.theverge.com/nintendo",
+      "sourceLabel": "The Verge",
+      "tags": [
+        "Nintendo",
+        "Switch 2",
+        "Gaming"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "M4 MacBook Air: Is It the Best Laptop of 2026?",
+      "category": "laptops",
+      "categoryLabel": "Laptops",
+      "date": "2026-03-27",
+      "dateDisplay": "27 Mar 2026",
+      "excerpt": "Apple's M4 MacBook Air hits 22 hours of battery life in real-world tests, blowing the competition out of the water. It runs cool, boots in seconds, and starts at £1,099. Here's what makes it so impressive — and who it's not for.",
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&h=350&fit=crop",
+      "imageAlt": "Apple MacBook laptop on desk",
+      "readTime": "5 min read",
+      "source": "https://www.theverge.com/apple",
+      "sourceLabel": "The Verge",
+      "tags": [
+        "Apple",
+        "MacBook",
+        "M4"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Major UK Banks Hit by Phishing Wave — How to Stay Safe",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-03-25",
+      "dateDisplay": "25 Mar 2026",
+      "excerpt": "Thousands of UK customers received fake 'suspicious activity' texts this week impersonating Barclays and Lloyds. The scam harvests login details in under 90 seconds. Here's exactly what the messages look like and how to protect yourself.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Cyber security and phishing warning",
+      "readTime": "3 min read",
+      "source": "https://www.bleepingcomputer.com/",
+      "sourceLabel": "BleepingComputer",
+      "tags": [
+        "Phishing",
+        "Scam",
+        "UK",
+        "Banking"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Samsung Galaxy S25 Ultra Camera: We Tested It for a Month",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-03-22",
+      "dateDisplay": "22 Mar 2026",
+      "excerpt": "The 200MP main sensor combined with Galaxy AI produces genuinely stunning night shots. But is the £1,299 price tag justified? After 30 days of daily shooting in Leicester, here's our honest verdict.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung Galaxy smartphone camera",
+      "readTime": "6 min read",
+      "source": "https://www.gsmarena.com/",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "Samsung",
+        "Galaxy S25",
+        "Camera"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Your Old Laptop Might Be Spying on You — Here's How to Check",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-03-20",
+      "dateDisplay": "20 Mar 2026",
+      "excerpt": "Security researchers uncovered pre-installed spyware on budget laptops sold through several UK retailers. The malware runs silently in the background, uploading screenshots every 30 minutes. We explain how to scan your device and what to do if you find it.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Laptop security and hacking concept",
+      "readTime": "4 min read",
+      "source": "https://www.bleepingcomputer.com/",
+      "sourceLabel": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Spyware",
+        "Laptop",
+        "Security"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "PS5 Pro vs Xbox Series X: Which Console Is Worth It in 2026?",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-03-18",
+      "dateDisplay": "18 Mar 2026",
+      "excerpt": "Six months on from the PS5 Pro launch, the upgrade debate is still raging. We compared performance in 10 titles, analysed the price-per-frame, and asked: if you only own one console, which should it be?",
+      "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=600&h=350&fit=crop",
+      "imageAlt": "Gaming console controllers",
+      "readTime": "7 min read",
+      "source": "https://www.eurogamer.net/",
+      "sourceLabel": "Eurogamer",
+      "tags": [
+        "PlayStation",
+        "Xbox",
+        "Console War",
+        "Gaming"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Google Pixel 9a Leaked: Flagship Features at Half the Price",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-03-15",
+      "dateDisplay": "15 Mar 2026",
+      "excerpt": "Leaked renders and spec sheets reveal the Pixel 9a will pack the same Tensor G5 chip as the Pixel 9 Pro, a 50MP main camera, and 7 years of OS updates — all for under £500. Could this be the best-value phone of the year?",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Google Pixel smartphone",
+      "readTime": "3 min read",
+      "source": "https://9to5google.com/",
+      "sourceLabel": "9to5Google",
+      "tags": [
+        "Google",
+        "Pixel 9a",
+        "Android",
+        "Budget Phone"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Windows 11 Update Kills Performance on Older PCs — Fix Inside",
+      "category": "laptops",
+      "categoryLabel": "Laptops",
+      "date": "2026-03-12",
+      "dateDisplay": "12 Mar 2026",
+      "excerpt": "The March 2026 Windows 11 cumulative update is causing 40-60% slowdowns on Intel 8th and 9th gen machines. Microsoft has acknowledged the issue. Here's the manual fix to restore your machine's speed while you wait for the patch.",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&h=350&fit=crop",
+      "imageAlt": "Windows laptop computer",
+      "readTime": "4 min read",
+      "source": "https://www.theregister.com/",
+      "sourceLabel": "The Register",
+      "tags": [
+        "Windows 11",
+        "Microsoft",
+        "Performance",
+        "Bug"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "iPhone 17 Air: Apple's Thinnest iPhone Ever — Specs Confirmed",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-03-10",
+      "dateDisplay": "10 Mar 2026",
+      "excerpt": "At just 5.5mm thin, the iPhone 17 Air is confirmed to replace the Plus model. It ditches a physical SIM slot entirely, sports a new 48MP ultra-wide, and introduces the first Apple-designed 5G modem. Expect it to launch in September.",
+      "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=350&fit=crop",
+      "imageAlt": "iPhone Apple smartphone",
+      "readTime": "4 min read",
+      "source": "https://9to5mac.com/",
+      "sourceLabel": "9to5Mac",
+      "tags": [
+        "iPhone 17",
+        "Apple",
+        "Leaks"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Steam Deck 2 Confirmed: What Valve Has Announced So Far",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-03-07",
+      "dateDisplay": "7 Mar 2026",
+      "excerpt": "Valve has officially confirmed the Steam Deck 2 is in development, promising a larger screen, OLED display, and longer battery life. No release date yet, but leaked specs suggest it will run AMD's newest Ryzen mobile chip.",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&h=350&fit=crop",
+      "imageAlt": "Handheld gaming device",
+      "readTime": "3 min read",
+      "source": "https://www.eurogamer.net/",
+      "sourceLabel": "Eurogamer",
+      "tags": [
+        "Steam Deck",
+        "Valve",
+        "Gaming",
+        "Handheld"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ransomware Hits 3 UK Schools — Is Your Child's Data Safe?",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-03-05",
+      "dateDisplay": "5 Mar 2026",
+      "excerpt": "Three secondary schools in the Midlands were hit by ransomware this week, exposing pupil records, staff payroll data, and medical information. Experts say under-resourced school IT departments are now prime targets. Here's what parents should know.",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=350&fit=crop",
+      "imageAlt": "Ransomware cyber attack concept",
+      "readTime": "5 min read",
+      "source": "https://www.bleepingcomputer.com/",
+      "sourceLabel": "BleepingComputer",
+      "tags": [
+        "Ransomware",
+        "UK",
+        "Schools",
+        "Data Breach"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "OnePlus 13 Review: The Android Phone That Challenges Samsung",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-02-28",
+      "dateDisplay": "28 Feb 2026",
+      "excerpt": "With a 6000mAh battery, Snapdragon 8 Elite chip, and 100W fast charging, the OnePlus 13 is a serious challenger at £799. It charges from flat to full in 27 minutes and matches the Galaxy S25 in most benchmarks.",
+      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=600&h=350&fit=crop",
+      "imageAlt": "Android smartphone OnePlus",
+      "readTime": "6 min read",
+      "source": "https://www.gsmarena.com/",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "OnePlus",
+        "Android",
+        "Review",
+        "Flagship"
+      ]
+    }
+  ]
+}
