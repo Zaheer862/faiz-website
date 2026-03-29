@@ -180,17 +180,10 @@
         </article>
       `).join('');
 
-      // Re-observe freshly rendered cards so animate-on-scroll triggers correctly
-      const newCards = homeGrid.querySelectorAll('.animate-on-scroll');
-      const obs = new IntersectionObserver((entries) => {
-        entries.forEach((entry, i) => {
-          if (entry.isIntersecting) {
-            setTimeout(() => entry.target.classList.add('visible'), i * 100);
-            obs.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.1 });
-      newCards.forEach(card => obs.observe(card));
+      // Make cards visible — staggered so each slides in 120ms apart
+      homeGrid.querySelectorAll('.animate-on-scroll').forEach((card, i) => {
+        setTimeout(() => card.classList.add('visible'), 100 + i * 120);
+      });
     })
     .catch(() => {});
 })();
