@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="F.AI.Z — Leicester's trusted mobile, tablet & computer repair shop. Fast repairs within 3 working days, genuine parts, same-day service available. Call 07440 423053." />
+  <meta name="keywords" content="phone repair Leicester, mobile repair Leicester, screen replacement, tablet repair, laptop repair, F.AI.Z, Mere Road Leicester" />
+  <title>F.AI.Z | Mobile, Tablet & Computer Repair — Leicester</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-body">
+          <span class="logo-name">F.<span class="ai">AI</span>.Z</span>
+          <span class="logo-sub">Leicester&rsquo;s Tech Repair Specialists</span>
+        </span>
+      </a>
+
+      <nav id="main-nav">
+        <a href="tel:07440423053" class="nav-phone-mobile" style="display:none;">
+          <i class="fas fa-phone-alt"></i> 07440 423 053
+        </a>
+        <a href="#services">Services</a>
+        <a href="#process">How It Works</a>
+        <a href="prices.html">Prices</a>
+        <a href="#products">Products</a>
+        <a href="shop.html" class="nav-shop-link"><i class="fas fa-shopping-bag"></i> Shop Online</a>
+        <a href="#faq">FAQ</a>
+        <a href="#blog">Blog</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/4407440423053" target="_blank" class="nav-cta">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-effects">
+      <div class="hero-gradient"></div>
+      <div class="hero-grid-pattern"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-particles" id="hero-particles"></div>
+    </div>
+    <div class="hero-bg-image"></div>
+
+    <!-- Two-column hero -->
+    <div class="hero-main">
+
+      <!-- LEFT: text + CTAs -->
+      <div class="hero-text">
+        <div class="hero-badge animate-in">
+          <i class="fas fa-bolt"></i> Leicester's Trusted Tech Repair Shop
+        </div>
+
+        <h1 class="hero-title animate-in">
+          F.<span class="ai">AI</span>.Z
+        </h1>
+
+        <p class="hero-tagline animate-in">Phone &middot; Tablet &middot; Computer &middot; Console Repairs</p>
+
+        <p class="hero-desc animate-in">
+          Professional repairs for phones, tablets and computers.
+          Fast turnaround. Genuine parts. Expert technicians.
+        </p>
+
+        <div class="hero-actions animate-in">
+          <a href="tel:07440423053" class="btn btn-primary btn-lg">
+            <i class="fas fa-phone-alt"></i> Call Now
+          </a>
+          <a href="https://wa.me/4407440423053" target="_blank" class="btn btn-whatsapp btn-lg">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="#services" class="btn btn-outline btn-lg">
+            Our Services <i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="hero-phone animate-in">
+          <a href="tel:07440423053">
+            <i class="fas fa-phone-alt"></i> 07440 423 053
+          </a>
+          <span>Call or WhatsApp us anytime</span>
+        </div>
+      </div>
+
+      <!-- RIGHT: device showcase (rotating carousel) -->
+      <div class="hero-device animate-in">
+        <div class="hero-device-glow" id="heroDeviceGlow"></div>
+        <img
+          id="heroDeviceImg"
+          src="https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25ultra_titanium-silverblue.png"
+          alt="Device we repair or sell — F.AI.Z Leicester"
+          class="hero-device-img"
+        />
+        <div class="hero-device-pill hero-device-pill--top">
+          <i class="fas fa-tools"></i> Expert Repairs
+        </div>
+        <div class="hero-device-pill hero-device-pill--bottom" id="heroDevicePill">
+          <i class="fas fa-bolt"></i> Same-Day Available
+        </div>
+      </div>
+
+    </div><!-- /.hero-main -->
+
+    <!-- BOTTOM STRIP: trust + stats + brands -->
+    <div class="hero-footer animate-in">
+      <div class="hero-trust-bar">
+        <div class="trust-item">
+          <i class="fas fa-calendar-check"></i>
+          <span>Trusted Since 2019</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <i class="fas fa-clock"></i>
+          <span>Same-Day Repairs</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <i class="fas fa-tools"></i>
+          <span>Genuine Parts</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Leicester, LE5</span>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="stat-number-row">
+            <span class="stat-num" data-count="500">0</span>
+            <span class="stat-suffix">+</span>
+          </div>
+          <span class="stat-label">Repairs Done</span>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-number-row">
+            <span class="stat-num">5</span>
+            <span class="stat-suffix">★</span>
+          </div>
+          <span class="stat-label">Google Rating</span>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-number-row">
+            <span class="stat-num" data-count="7">0</span>
+            <span class="stat-suffix"> Yrs</span>
+          </div>
+          <span class="stat-label">In Leicester</span>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-number-row">
+            <span class="stat-num">3</span>
+            <span class="stat-suffix"> Day</span>
+          </div>
+          <span class="stat-label">Max Turnaround</span>
+        </div>
+      </div>
+
+      <div class="brand-logos">
+        <span class="brand-logos-label">We Repair &amp; Sell</span>
+        <div class="brand-logos-row">
+          <div class="brand-logo"><i class="fab fa-apple"></i><span>Apple</span></div>
+          <div class="brand-logo"><span class="brand-text-icon">Samsung</span></div>
+          <div class="brand-logo"><span class="brand-text-icon">Xiaomi</span></div>
+          <div class="brand-logo"><i class="fab fa-google"></i><span>Google</span></div>
+          <div class="brand-logo"><span class="brand-text-icon">OnePlus</span></div>
+          <div class="brand-logo"><span class="brand-text-icon">Huawei</span></div>
+        </div>
+      </div>
+    </div><!-- /.hero-footer -->
+
+    <div class="scroll-indicator animate-in">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-wrench"></i> What We Fix</span>
+        <h2 class="section-title">Our Repair Services</h2>
+        <p class="section-sub">Fast, professional repairs by experienced technicians. Most repairs completed within 3 working days when parts are available.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon-wrap">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Phone Repair</h3>
+          <div class="service-img"><img src="https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?w=400&h=250&fit=crop" alt="Phone screen repair" loading="lazy"></div>
+          <p>Cracked screens, charging ports, cameras, speakers and more. All major brands covered — iPhone, Samsung, Xiaomi and beyond.</p>
+          <span class="service-tag">From &pound;25</span>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+to+book+a+phone+repair+please" target="_blank" class="service-book-btn">
+            <i class="fab fa-whatsapp"></i> Book This Repair
+          </a>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon-wrap">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <h3>Tablet Repair</h3>
+          <div class="service-img"><img src="https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=400&h=250&fit=crop" alt="Tablet repair" loading="lazy"></div>
+          <p>iPad and Android tablet screen replacements, battery swaps, software issues and water damage recovery.</p>
+          <span class="service-tag">From &pound;35</span>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+to+book+a+tablet+repair+please" target="_blank" class="service-book-btn">
+            <i class="fab fa-whatsapp"></i> Book This Repair
+          </a>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon-wrap">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h3>Computer &amp; Laptop</h3>
+          <div class="service-img"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="Laptop repair" loading="lazy"></div>
+          <p>Slow performance, virus removal, screen replacement, keyboard repair, RAM upgrades and full OS reinstalls.</p>
+          <span class="service-tag">From &pound;30</span>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+to+book+a+laptop%2Fcomputer+repair+please" target="_blank" class="service-book-btn">
+            <i class="fab fa-whatsapp"></i> Book This Repair
+          </a>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <span class="popular-badge"><i class="fas fa-fire"></i> Most Popular</span>
+          <div class="service-icon-wrap">
+            <i class="fas fa-tv"></i>
+          </div>
+          <h3>Screen Replacement</h3>
+          <div class="service-devices"><i class="fas fa-mobile-alt"></i><i class="fas fa-tablet-alt"></i><i class="fas fa-laptop"></i></div>
+          <div class="service-img"><img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=250&fit=crop" alt="Screen replacement" loading="lazy"></div>
+          <p>Crystal clear OEM-quality screens fitted while you wait. iPhones, Samsung Galaxy, OnePlus and more in stock.</p>
+          <span class="service-tag">While You Wait</span>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+to+book+a+screen+replacement+please" target="_blank" class="service-book-btn">
+            <i class="fab fa-whatsapp"></i> Book This Repair
+          </a>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon-wrap">
+            <i class="fas fa-battery-full"></i>
+          </div>
+          <h3>Battery Replacement</h3>
+          <div class="service-devices"><i class="fas fa-mobile-alt"></i><i class="fas fa-tablet-alt"></i><i class="fas fa-laptop"></i></div>
+          <div class="service-img"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=250&fit=crop" alt="Battery replacement" loading="lazy"></div>
+          <p>Restore your phone to full battery life. Genuine high-capacity batteries for all major models. Quick 30-min fitting.</p>
+          <span class="service-tag">30 Min Fix</span>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+to+book+a+battery+replacement+please" target="_blank" class="service-book-btn">
+            <i class="fab fa-whatsapp"></i> Book This Repair
+          </a>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon-wrap">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <h3>Electronics &amp; Consoles</h3>
+          <div class="service-img"><img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=250&fit=crop" alt="PlayStation and console repair" loading="lazy"></div>
+          <p>PlayStation (PS4 &amp; PS5), Xbox, Nintendo Switch and other electronics. HDMI ports, disc drives, overheating, controller repairs and more.</p>
+          <span class="service-tag">Free Quote</span>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+a+quote+for+an+electronics%2Fconsole+repair+please" target="_blank" class="service-book-btn">
+            <i class="fab fa-whatsapp"></i> Get a Quote
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section id="process">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-cogs"></i> How It Works</span>
+        <h2 class="section-title">Our Repair Process</h2>
+        <p class="section-sub">Simple, transparent and hassle-free. Here's how we get your device back up and running.</p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step animate-on-scroll">
+          <div class="process-number">1</div>
+          <div class="process-content">
+            <h3>Bring It In or Contact Us</h3>
+            <p>Walk into our shop on Mere Road, or send us a WhatsApp message describing the issue. No appointment needed.</p>
+          </div>
+        </div>
+
+        <div class="process-connector"></div>
+
+        <div class="process-step animate-on-scroll">
+          <div class="process-number">2</div>
+          <div class="process-content">
+            <h3>Free Diagnosis &amp; Quote</h3>
+            <p>We'll diagnose the problem on the spot and give you an honest, no-obligation quote before any work begins.</p>
+          </div>
+        </div>
+
+        <div class="process-connector"></div>
+
+        <div class="process-step animate-on-scroll">
+          <div class="process-number">3</div>
+          <div class="process-content">
+            <h3>Expert Repair</h3>
+            <p>Our technicians get to work using genuine parts. Most repairs are completed within <strong>3 working days</strong> when parts are available &mdash; many simple fixes done same day.</p>
+          </div>
+        </div>
+
+        <div class="process-connector"></div>
+
+        <div class="process-step animate-on-scroll">
+          <div class="process-number">4</div>
+          <div class="process-content">
+            <h3>Collect &amp; Done</h3>
+            <p>Pick up your device fully tested and working. We keep you updated every step of the way via WhatsApp.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="process-cta animate-on-scroll">
+        <div class="process-info-banner">
+          <i class="fas fa-info-circle"></i>
+          <p><strong>Typical turnaround: 3 working days</strong> when parts are in stock. Simple repairs like screen and battery replacements are often completed same day. We'll always keep you updated via WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PRODUCTS -->
+  <section id="products">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-shopping-bag"></i> Shop</span>
+        <h2 class="section-title">Products &amp; Accessories</h2>
+        <p class="section-sub">Phones, tablets, cases and accessories — all tested and ready to go.</p>
+      </div>
+
+      <div class="filter-tabs animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="phones"><i class="fas fa-mobile-alt"></i> Phones</button>
+        <button class="filter-btn" data-filter="tablets"><i class="fas fa-tablet-alt"></i> Tablets</button>
+        <button class="filter-btn" data-filter="covers"><i class="fas fa-shield-alt"></i> Covers</button>
+        <button class="filter-btn" data-filter="accessories"><i class="fas fa-headphones-alt"></i> Accessories</button>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+        <div class="products-loading">
+          <i class="fas fa-circle-notch fa-spin"></i>
+          <span>Loading products...</span>
+        </div>
+      </div>
+
+      <div class="products-view-all animate-on-scroll">
+        <a href="shop.html" class="btn btn-outline btn-lg">
+          <i class="fas fa-shopping-bag"></i> View All Products
+          <i class="fas fa-arrow-right" style="font-size:0.8rem;margin-left:0.3rem;"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- REVIEWS -->
+  <section id="reviews">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-star"></i> Testimonials</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-sub">Don't just take our word for it. Here's what the people of Leicester think.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card animate-on-scroll">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Cracked my iPhone screen on a Saturday morning, walked into F.AI.Z and had it fixed within 45 minutes. Brilliant service and great price. Highly recommend!"</p>
+          <div class="review-author">
+            <div class="review-avatar">A</div>
+            <div>
+              <strong>Amina K.</strong>
+              <span>Leicester</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card animate-on-scroll">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"My laptop was running painfully slow. They cleaned it up, upgraded the RAM and it's like brand new. Fair price and honest advice — didn't try to upsell me on things I didn't need."</p>
+          <div class="review-author">
+            <div class="review-avatar">J</div>
+            <div>
+              <strong>James T.</strong>
+              <span>Leicester</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card animate-on-scroll">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Bought a refurbished Samsung from here — excellent condition, worked perfectly straight away and saved me hundreds compared to buying new. Will definitely be back."</p>
+          <div class="review-author">
+            <div class="review-avatar">R</div>
+            <div>
+              <strong>Rohit P.</strong>
+              <span>Leicester</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WHY US -->
+  <section id="why">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-award"></i> Why F.AI.Z</span>
+        <h2 class="section-title">Trusted by Leicester</h2>
+        <p class="section-sub">We've been fixing devices for the local community for years. Here's why customers keep coming back.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-item animate-on-scroll">
+          <div class="why-icon-wrap">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Fast 3-Day Turnaround</h3>
+          <p>Most repairs completed within 3 working days when parts are available. Simple fixes often done same day.</p>
+        </div>
+
+        <div class="why-item animate-on-scroll">
+          <div class="why-icon-wrap">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h3>Genuine Parts</h3>
+          <p>We only use quality OEM and certified parts — not cheap knockoffs that fail in weeks.</p>
+        </div>
+
+        <div class="why-item animate-on-scroll">
+          <div class="why-icon-wrap">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Transparent Pricing</h3>
+          <p>No hidden fees, no surprises. We quote you upfront and only charge if the repair is successful.</p>
+        </div>
+
+        <div class="why-item animate-on-scroll">
+          <div class="why-icon-wrap">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Local Leicester Shop</h3>
+          <p>Based right here on Mere Road, Leicester. No shipping, no waiting — drop in and we'll sort it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-envelope"></i> Get In Touch</span>
+        <h2 class="section-title">Visit or Call Us</h2>
+        <p class="section-sub">Walk-ins welcome. No appointment needed. Most repairs completed within 3 working days.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-card-body">
+              <strong>Address</strong>
+              <span>241B Mere Road<br>Leicester, LE5 5GS</span>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="contact-card-body">
+              <strong>Phone / WhatsApp</strong>
+              <a href="tel:07440423053">07440 423 053</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-card-body">
+              <strong>Email</strong>
+              <a href="mailto:faizmobilele55gs1@gmail.com">faizmobilele55gs1@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+            <div class="contact-card-body">
+              <strong>Opening Hours</strong>
+              <div class="hours-table">
+                <div class="hours-row">
+                  <span>Monday &ndash; Friday</span>
+                  <span>9:00 AM &ndash; 7:00 PM</span>
+                </div>
+                <div class="hours-row">
+                  <span>Saturday</span>
+                  <span>9:00 AM &ndash; 6:00 PM</span>
+                </div>
+                <div class="hours-row">
+                  <span>Sunday</span>
+                  <span>11:00 AM &ndash; 4:00 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:07440423053" class="btn btn-call btn-full">
+              <i class="fas fa-phone-alt"></i> Call Us Now
+            </a>
+            <a href="https://wa.me/4407440423053" target="_blank" class="btn btn-whatsapp btn-full">
+              <i class="fab fa-whatsapp"></i> Message on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map animate-on-scroll">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.1!2d-1.0825!3d52.6375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877614c55fa1f79%3A0x7c9c6f3867ed42a6!2s241B+Mere+Rd%2C+Leicester+LE5+5GS!5e0!3m2!1sen!2suk!4v1"
+            width="100%" height="100%" style="border:0; border-radius: var(--radius-lg);" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="F.AI.Z Location - 241B Mere Road, Leicester">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-question-circle"></i> FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-sub">Got questions? We've got answers. Here are the most common things our customers ask.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>How long does a repair take?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Most repairs are completed within <strong>3 working days</strong> when parts are available. Simple fixes like screen replacements and battery swaps are often done same day or while you wait.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>Do you repair gaming consoles and electronics?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We repair PlayStation consoles (PS4, PS5), Xbox, Nintendo Switch, and other electronics. Common fixes include HDMI port replacement, overheating, disc drive issues and controller repairs. Bring it in for a free quote.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>What brands do you repair?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We repair all major brands including Apple (iPhone, iPad, MacBook), Samsung, Xiaomi, OnePlus, Google Pixel, Huawei, and more. If it's a phone, tablet, or laptop &mdash; we can fix it.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>Do you use genuine parts?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We use OEM-quality and certified parts for all our repairs. We never use cheap knockoffs &mdash; quality and reliability come first.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>Can you fix water-damaged devices?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we offer water damage assessment and repair. Bring your device in as soon as possible after water exposure for the best chance of recovery. We'll diagnose it for free and let you know the options.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>Do I need to book an appointment?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>No appointment needed. You can walk into our shop on Mere Road during opening hours, or message us on WhatsApp to discuss your issue beforehand.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>Do you sell phones and accessories?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We sell new and refurbished phones, tablets, cases, chargers, earbuds and more. You can browse our <a href="shop.html">online shop</a> or visit us in store.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question">
+            <span>Can I order online and get it delivered?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Visit our <a href="shop.html">online shop</a>, add items to your cart, and checkout with your shipping address. We deliver across the UK.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fas fa-newspaper"></i> Blog</span>
+        <h2 class="section-title">Tips &amp; News</h2>
+        <p class="section-sub">Stay informed with the latest tech tips, repair guides and news from F.AI.Z.</p>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card animate-on-scroll">
+          <div class="blog-img">
+            <img src="https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?w=600&h=350&fit=crop" alt="Phone screen repair guide" loading="lazy">
+            <span class="blog-category">Repair Guide</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span><i class="fas fa-calendar-alt"></i> 10 Mar 2026</span>
+              <span><i class="fas fa-clock"></i> 4 min read</span>
+            </div>
+            <h3>5 Signs Your Phone Screen Needs Replacing</h3>
+            <p>Hairline cracks, touch dead zones, discolouration &mdash; here's how to tell when it's time for a professional screen replacement instead of living with the damage.</p>
+            <a href="https://wa.me/4407440423053?text=Hi%2C%20I%20need%20advice%20about%20screen%20replacement" target="_blank" class="blog-read-more">Get Advice <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card animate-on-scroll">
+          <div class="blog-img">
+            <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=350&fit=crop" alt="Battery health guide" loading="lazy">
+            <span class="blog-category">Battery Tips</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span><i class="fas fa-calendar-alt"></i> 5 Mar 2026</span>
+              <span><i class="fas fa-clock"></i> 3 min read</span>
+            </div>
+            <h3>How to Make Your Phone Battery Last Longer</h3>
+            <p>Simple habits that extend battery life: charging cycles, temperature tips, which settings drain power fastest, and when it's time for a replacement.</p>
+            <a href="https://wa.me/4407440423053?text=Hi%2C%20I%20need%20advice%20about%20battery%20health" target="_blank" class="blog-read-more">Get Advice <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card animate-on-scroll">
+          <div class="blog-img">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=350&fit=crop" alt="Laptop speed tips" loading="lazy">
+            <span class="blog-category">Performance</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span><i class="fas fa-calendar-alt"></i> 28 Feb 2026</span>
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+            </div>
+            <h3>Why Is My Laptop So Slow? Top Fixes</h3>
+            <p>From bloated startup programs to failing hard drives &mdash; the most common reasons your laptop crawls and what you can do about it before bringing it in.</p>
+            <a href="https://wa.me/4407440423053?text=Hi%2C%20my%20laptop%20is%20running%20slow" target="_blank" class="blog-read-more">Get Advice <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PRE-FOOTER CTA STRIP -->
+  <div class="footer-cta-strip">
+    <div class="container">
+      <div class="footer-cta-inner">
+        <div>
+          <h3>Ready to Get Your Device Fixed?</h3>
+          <p>Walk in anytime or send us a WhatsApp — no appointment needed. Leicester's most trusted repair shop.</p>
+        </div>
+        <div class="footer-cta-actions">
+          <a href="tel:07440423053" class="btn btn-call btn-lg">
+            <i class="fas fa-phone-alt"></i> Call Now
+          </a>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+a+free+repair+quote+please" target="_blank" class="btn btn-whatsapp btn-lg">
+            <i class="fab fa-whatsapp"></i> Free Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">F.<span class="ai">AI</span>.Z</span>
+          <span class="footer-logo-sub">Phone &middot; Tablet &middot; Computer</span>
+          <p>Professional mobile, tablet &amp; computer repairs in Leicester. Fast turnaround, genuine parts, same-day service available.</p>
+          <div class="footer-social">
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/4407440423053" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:faizmobilele55gs1@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:07440423053" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#services">Services</a>
+          <a href="#process">How It Works</a>
+          <a href="#products">Products</a>
+          <a href="shop.html"><i class="fas fa-shopping-bag"></i> Shop Online</a>
+          <a href="#faq">FAQ</a>
+          <a href="#blog">Blog</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <a href="tel:07440423053"><i class="fas fa-phone-alt"></i> 07440 423 053</a>
+          <a href="mailto:faizmobilele55gs1@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+          <a href="https://wa.me/4407440423053" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 F.AI.Z Mobile Accessories &middot; 241B Mere Road, Leicester LE5 5GS &middot; All rights reserved</p>
+        <p style="margin-top:0.5rem;"><a href="admin.html" style="color:var(--text-muted);font-size:0.75rem;"><i class="fas fa-lock"></i> Admin</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/4407440423053" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- STICKY MOBILE CTA BAR (hidden on desktop via CSS) -->
+  <div class="mobile-cta-bar" id="mobile-cta-bar">
+    <a href="tel:07440423053" class="btn btn-call">
+      <i class="fas fa-phone-alt"></i> Call Now
+    </a>
+    <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+a+free+quote+please" target="_blank" class="btn btn-whatsapp">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
