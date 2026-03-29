@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="F.AI.Z Online Shop — Buy phones, tablets, cases and accessories online. Fast UK delivery from Leicester's trusted tech shop." />
+  <title>F.AI.Z | Online Shop — Phones, Tablets & Accessories</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shop.css?v=2" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="site-header" class="scrolled">
+    <div class="header-inner">
+      <a href="index.html" class="logo">F.<span class="ai">AI</span>.Z<span class="logo-sub">Phone &middot; Tablet &middot; Computer</span></a>
+
+      <nav id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="prices.html">Prices</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="#" class="nav-cart-btn" id="nav-cart-btn" aria-label="Shopping cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count" id="nav-cart-count">0</span>
+        </a>
+      </nav>
+
+      <div class="header-right-mobile">
+        <a href="#" class="mobile-cart-btn" id="mobile-cart-btn" aria-label="Shopping cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count" id="mobile-cart-count">0</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- SHOP HERO -->
+  <section class="shop-hero">
+    <div class="container">
+      <div class="shop-hero-content">
+        <span class="section-label"><i class="fas fa-shopping-bag"></i> Online Shop</span>
+        <h1 class="section-title">Shop Online &amp; Get It Delivered</h1>
+        <p class="section-sub">Phones, tablets, cases and accessories — tested, quality-checked, and shipped straight to your door across the UK.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SHOP TOOLBAR -->
+  <section class="shop-toolbar">
+    <div class="container">
+      <div class="toolbar-inner">
+        <div class="filter-tabs" id="shop-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="phones"><i class="fas fa-mobile-alt"></i> Phones</button>
+          <button class="filter-btn" data-filter="tablets"><i class="fas fa-tablet-alt"></i> Tablets</button>
+          <button class="filter-btn" data-filter="covers"><i class="fas fa-shield-alt"></i> Covers</button>
+          <button class="filter-btn" data-filter="accessories"><i class="fas fa-headphones-alt"></i> Accessories</button>
+        </div>
+        <div class="toolbar-search">
+          <i class="fas fa-search"></i>
+          <input type="text" id="shop-search" placeholder="Search products..." autocomplete="off" />
+        </div>
+      </div>
+      <div class="brand-filter-row" id="brand-filters">
+        <span class="brand-filter-label">Brand:</span>
+        <button class="brand-btn active" data-brand="all">All Brands</button>
+        <button class="brand-btn" data-brand="Apple"><i class="fab fa-apple"></i> Apple</button>
+        <button class="brand-btn" data-brand="Samsung">Samsung</button>
+        <button class="brand-btn" data-brand="Xiaomi">Xiaomi</button>
+        <button class="brand-btn" data-brand="Google">Google</button>
+        <button class="brand-btn" data-brand="Motorola">Motorola</button>
+        <button class="brand-btn" data-brand="OnePlus">OnePlus</button>
+        <button class="brand-btn" data-brand="Anker">Anker</button>
+        <button class="brand-btn" data-brand="JBL">JBL</button>
+        <button class="brand-btn" data-brand="F.AI.Z">F.AI.Z</button>
+      </div>
+      <div class="series-filter-row" id="series-filters" style="display:none;">
+        <span class="brand-filter-label">Series:</span>
+        <button class="series-btn active" data-series="all">All</button>
+        <button class="series-btn" data-series="S Series">S Series</button>
+        <button class="series-btn" data-series="Note Series">Note</button>
+        <button class="series-btn" data-series="Z Series">Z Fold &amp; Flip</button>
+        <button class="series-btn" data-series="A Series">A Series</button>
+        <button class="series-btn" data-series="Tab S Series">Tab S</button>
+        <button class="series-btn" data-series="Tab A Series">Tab A</button>
+        <button class="series-btn" data-series="Galaxy Buds">Buds</button>
+        <button class="series-btn" data-series="Galaxy Watch">Watch</button>
+        <button class="series-btn" data-series="Accessories">Accessories</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SHOP PRODUCTS -->
+  <section class="shop-products">
+    <div class="container">
+      <div class="shop-grid" id="shop-grid">
+        <div class="products-loading">
+          <i class="fas fa-circle-notch fa-spin"></i>
+          <span>Loading products...</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SHIPPING INFO BAR -->
+  <section class="shipping-info-bar">
+    <div class="container">
+      <div class="shipping-features">
+        <div class="shipping-feature">
+          <i class="fas fa-truck"></i>
+          <div>
+            <strong>UK-Wide Delivery</strong>
+            <span>Fast shipping across the UK</span>
+          </div>
+        </div>
+        <div class="shipping-feature">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong>Quality Checked</strong>
+            <span>Every product tested before dispatch</span>
+          </div>
+        </div>
+        <div class="shipping-feature">
+          <i class="fas fa-undo"></i>
+          <div>
+            <strong>Easy Returns</strong>
+            <span>14-day hassle-free returns</span>
+          </div>
+        </div>
+        <div class="shipping-feature">
+          <i class="fas fa-lock"></i>
+          <div>
+            <strong>Secure Checkout</strong>
+            <span>Your data is always safe</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CART SLIDE-OVER -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <h2><i class="fas fa-shopping-bag"></i> Your Cart</h2>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="cart-drawer-body" id="cart-drawer-body">
+      <div class="cart-empty" id="cart-empty">
+        <i class="fas fa-shopping-bag"></i>
+        <p>Your cart is empty</p>
+        <span>Browse our products and add items to get started.</span>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+    </div>
+
+    <div class="cart-drawer-footer" id="cart-drawer-footer" style="display:none;">
+      <div class="cart-summary">
+        <div class="cart-summary-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">&pound;0.00</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Delivery</span>
+          <span id="cart-delivery">&pound;4.99</span>
+        </div>
+        <div class="cart-summary-row cart-total-row">
+          <span>Total</span>
+          <span id="cart-total">&pound;0.00</span>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-full" id="checkout-btn">
+        <i class="fas fa-lock"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+
+  <!-- CHECKOUT MODAL -->
+  <div class="modal-overlay" id="checkout-overlay">
+    <div class="modal" id="checkout-modal">
+      <div class="modal-header">
+        <h2><i class="fas fa-lock"></i> Checkout</h2>
+        <button class="modal-close" id="checkout-close" aria-label="Close checkout"><i class="fas fa-times"></i></button>
+      </div>
+
+      <div class="modal-body" id="checkout-body">
+        <!-- Step 1: Shipping -->
+        <div class="checkout-step" id="step-shipping">
+          <h3 class="checkout-step-title"><span class="step-num">1</span> Shipping Details</h3>
+          <form id="shipping-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ship-fname">First Name *</label>
+                <input type="text" id="ship-fname" required autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="ship-lname">Last Name *</label>
+                <input type="text" id="ship-lname" required autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ship-email">Email *</label>
+              <input type="email" id="ship-email" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="ship-phone">Phone *</label>
+              <input type="tel" id="ship-phone" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="ship-address">Address Line 1 *</label>
+              <input type="text" id="ship-address" required autocomplete="address-line1" />
+            </div>
+            <div class="form-group">
+              <label for="ship-address2">Address Line 2</label>
+              <input type="text" id="ship-address2" autocomplete="address-line2" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ship-city">City / Town *</label>
+                <input type="text" id="ship-city" required autocomplete="address-level2" />
+              </div>
+              <div class="form-group">
+                <label for="ship-postcode">Postcode *</label>
+                <input type="text" id="ship-postcode" required autocomplete="postal-code" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ship-notes">Order Notes (optional)</label>
+              <textarea id="ship-notes" rows="3" placeholder="Any special instructions..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Continue to Order Review <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Step 2: Review & Confirm -->
+        <div class="checkout-step" id="step-review" style="display:none;">
+          <h3 class="checkout-step-title"><span class="step-num">2</span> Review Your Order</h3>
+
+          <div class="review-section">
+            <h4><i class="fas fa-map-marker-alt"></i> Shipping To</h4>
+            <div class="review-address" id="review-address"></div>
+            <button class="review-edit-btn" id="edit-shipping-btn"><i class="fas fa-pen"></i> Edit</button>
+          </div>
+
+          <div class="review-section">
+            <h4><i class="fas fa-box"></i> Order Items</h4>
+            <div class="review-items" id="review-items"></div>
+          </div>
+
+          <div class="review-section">
+            <div class="review-totals">
+              <div class="review-totals-row">
+                <span>Subtotal</span>
+                <span id="review-subtotal">&pound;0.00</span>
+              </div>
+              <div class="review-totals-row">
+                <span>Delivery</span>
+                <span id="review-delivery">&pound;4.99</span>
+              </div>
+              <div class="review-totals-row review-total-final">
+                <span>Total</span>
+                <span id="review-total">&pound;0.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-payment-note">
+            <i class="fas fa-info-circle"></i>
+            <p>After placing your order, we'll contact you via WhatsApp or phone to arrange payment and confirm delivery details.</p>
+          </div>
+
+          <button class="btn btn-primary btn-full btn-lg" id="place-order-btn">
+            <i class="fab fa-whatsapp"></i> Place Order via WhatsApp
+          </button>
+        </div>
+
+        <!-- Step 3: Confirmation -->
+        <div class="checkout-step" id="step-confirmation" style="display:none;">
+          <div class="confirmation-content">
+            <div class="confirmation-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Order Sent!</h3>
+            <p>Your order has been sent to F.AI.Z via WhatsApp. We'll confirm your order and arrange payment shortly.</p>
+            <div class="confirmation-details" id="confirmation-details"></div>
+            <div class="confirmation-actions">
+              <a href="shop.html" class="btn btn-outline">Continue Shopping</a>
+              <a href="https://wa.me/4407440423053" target="_blank" class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> Open WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">F.<span class="ai">AI</span>.Z</span>
+          <span class="footer-logo-sub">Phone &middot; Tablet &middot; Computer</span>
+          <p>Professional mobile, tablet &amp; computer repairs in Leicester. Fast turnaround, genuine parts, warranty on every repair.</p>
+          <div class="footer-social">
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/4407440423053" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:faizmobilele55gs1@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:07440423053" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="shop.html">Online Shop</a>
+          <a href="index.html#reviews">Reviews</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <a href="tel:07440423053"><i class="fas fa-phone-alt"></i> 07440 423 053</a>
+          <a href="mailto:faizmobilele55gs1@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+          <a href="https://wa.me/4407440423053" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 F.AI.Z Mobile Accessories &middot; 241B Mere Road, Leicester LE5 5GS &middot; All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/4407440423053" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="shop.js?v=6"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
