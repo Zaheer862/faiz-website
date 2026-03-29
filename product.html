@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product | F.AI.Z</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shop.css?v=3" />
+
+  <style>
+    /* ── Product Detail Page Styles ── */
+    .product-detail-section {
+      padding: 40px 0 80px;
+      min-height: 70vh;
+    }
+    .product-detail-section .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted, #8a9ab5);
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-bottom: 32px;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: #00c2ff; }
+
+    .product-detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+      align-items: start;
+    }
+    @media (max-width: 768px) {
+      .product-detail-grid { grid-template-columns: 1fr; gap: 32px; }
+    }
+
+    /* Image panel */
+    .pd-image-wrap {
+      background: radial-gradient(ellipse at center, #1e2a3a 0%, #0d1117 100%);
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      aspect-ratio: 4/3;
+    }
+    .pd-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 16px;
+      display: block;
+      transition: opacity 0.25s ease;
+    }
+    .pd-badge {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background: #00c2ff;
+      color: #000;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .pd-badge.like-new  { background: #7c3aed; color: #fff; }
+    .pd-badge.good      { background: #16a34a; color: #fff; }
+
+    /* Info panel */
+    .pd-brand-cat {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #00c2ff;
+      margin-bottom: 10px;
+    }
+    .pd-name {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+    .pd-price {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #00c2ff;
+      margin-bottom: 16px;
+    }
+    .pd-desc {
+      color: #8a9ab5;
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      padding-bottom: 16px;
+    }
+    /* ── Variant selectors (detail page) ── */
+    .pd-variant-section {
+      margin-bottom: 18px;
+    }
+    .pd-variant-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #8a9ab5;
+      margin-bottom: 10px;
+    }
+    .pd-variant-value {
+      color: #fff;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    .pd-color-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pd-color-swatch {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 2.5px solid transparent;
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+      position: relative;
+    }
+    .pd-color-swatch:hover { transform: scale(1.15); }
+    .pd-color-swatch.active {
+      border-color: #00c2ff;
+      box-shadow: 0 0 0 2px #0d1117;
+      transform: scale(1.12);
+    }
+    .pd-storage-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pd-storage-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1.5px solid rgba(255,255,255,0.15);
+      background: transparent;
+      color: #8a9ab5;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .pd-storage-btn:hover { border-color: #00c2ff; color: #fff; }
+    .pd-storage-btn.active { background: #00c2ff; border-color: #00c2ff; color: #000; }
+    .pd-storage-extra {
+      font-size: 0.72rem;
+      opacity: 0.75;
+    }
+    .pd-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+    .pd-add-btn {
+      flex: 1;
+      min-width: 160px;
+      padding: 15px 28px;
+      background: #00c2ff;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .pd-add-btn:hover { background: #00a8e0; transform: translateY(-1px); }
+    .pd-add-btn.added { background: #16a34a; color: #fff; }
+    .pd-whatsapp-btn {
+      padding: 15px 22px;
+      background: #25D366;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+      text-decoration: none;
+    }
+    .pd-whatsapp-btn:hover { background: #1ebe5d; }
+
+    /* Trust badges */
+    .pd-trust {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .pd-trust-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: #8a9ab5;
+    }
+    .pd-trust-item i { color: #00c2ff; font-size: 0.9rem; }
+
+    /* Specs table */
+    .pd-specs-section {
+      margin-top: 56px;
+    }
+    .pd-specs-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .pd-specs-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+    }
+    .pd-specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+    .pd-specs-table tr {
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .pd-specs-table tr:last-child { border-bottom: none; }
+    .pd-specs-table td {
+      padding: 12px 8px;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .pd-specs-table td:first-child {
+      color: #8a9ab5;
+      font-weight: 600;
+      width: 38%;
+      white-space: nowrap;
+      padding-right: 20px;
+    }
+    .pd-specs-table td:last-child { color: #e2e8f0; }
+
+    /* Related products */
+    .pd-related {
+      margin-top: 72px;
+    }
+    .pd-related-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 28px;
+    }
+    .pd-related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 20px;
+    }
+
+    /* Loading / error states */
+    .pd-loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 120px 20px;
+      color: #8a9ab5;
+      gap: 16px;
+    }
+    .pd-loading .spinner {
+      width: 40px; height: 40px;
+      border: 3px solid rgba(0,194,255,0.2);
+      border-top-color: #00c2ff;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER (same as shop.html) -->
+  <header id="site-header" class="scrolled">
+    <div class="header-inner">
+      <a href="index.html" class="logo">F.<span class="ai">AI</span>.Z<span class="logo-sub">Phone &middot; Tablet &middot; Computer</span></a>
+      <nav id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="prices.html">Prices</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="#" class="nav-cart-btn" id="nav-cart-btn" aria-label="Shopping cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count" id="nav-cart-count">0</span>
+        </a>
+      </nav>
+      <div class="header-right-mobile">
+        <a href="#" class="mobile-cart-btn" id="mobile-cart-btn" aria-label="Shopping cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count" id="mobile-cart-count">0</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- mobile nav -->
+    <nav id="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="prices.html">Prices</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <section class="product-detail-section">
+    <div class="container">
+      <div id="pd-root">
+        <div class="pd-loading">
+          <div class="spinner"></div>
+          <span>Loading product…</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CART PANEL (copied from shop.html) -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel" aria-label="Shopping cart">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer" id="cart-footer" style="display:none">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total-price">£0.00</span>
+      </div>
+      <button class="checkout-btn" id="checkout-btn">Checkout via WhatsApp</button>
+    </div>
+  </aside>
+
+  <!-- CHECKOUT MODAL -->
+  <div class="checkout-overlay" id="checkout-overlay"></div>
+  <div class="checkout-modal" id="checkout-modal">
+    <div class="checkout-header">
+      <h2>Complete Your Order</h2>
+      <button class="checkout-close" id="checkout-close">&times;</button>
+    </div>
+    <div class="checkout-body">
+      <div id="checkout-details-section">
+        <p style="color:#8a9ab5;margin-bottom:16px">We'll send your order details via WhatsApp so you can confirm and pay.</p>
+        <div class="confirmation-details" id="confirmation-details"></div>
+      </div>
+      <div id="checkout-shipping-section" style="display:none">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" id="shipping-name" placeholder="Your full name" />
+        </div>
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" id="shipping-phone" placeholder="+44..." />
+        </div>
+        <div class="form-group">
+          <label>Delivery Address</label>
+          <textarea id="shipping-address" rows="3" placeholder="Street, City, Postcode"></textarea>
+        </div>
+      </div>
+      <div class="checkout-actions">
+        <button id="edit-shipping-btn" class="btn-secondary">Add Delivery Details</button>
+        <button id="place-order-btn" class="checkout-btn">Send Order via WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="shop.js?v=6"></script>
+  <script>
+  // ── Product Detail Page Logic ──────────────────────────────
+  (function() {
+    const params  = new URLSearchParams(window.location.search);
+    const id      = parseInt(params.get('id'), 10);
+    const root    = document.getElementById('pd-root');
+
+    function escH(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    function badgeClass(b) {
+      if (!b) return '';
+      const l = b.toLowerCase();
+      if (l.includes('like')) return 'like-new';
+      if (l.includes('good')) return 'good';
+      return '';
+    }
+
+    // ── Product-detail variant state ──────────────────────
+    let pdColorIdx   = 0;
+    let pdStorageIdx = 0;
+
+    window.pdSelectColor = function(idx) {
+      pdColorIdx = idx;
+      const swatches = document.querySelectorAll('.pd-color-swatch');
+      swatches.forEach((el, i) => el.classList.toggle('active', i === idx));
+
+      const swatch = swatches[idx];
+      if (!swatch) return;
+
+      // Swap main image if this colour has its own image URL
+      const colorImg = swatch.dataset.image;
+      if (colorImg) {
+        const mainImg = document.querySelector('.pd-image-wrap img');
+        if (mainImg) { mainImg.style.opacity='0'; mainImg.src = colorImg; mainImg.onload = ()=>{ mainImg.style.opacity='1'; }; mainImg.onerror = ()=>{ mainImg.style.opacity='1'; }; }
+      }
+
+      // Always update image-wrap background glow to match selected colour
+      const hex = swatch.dataset.hex || '#1e2a3a';
+      const wrap = document.querySelector('.pd-image-wrap');
+      if (wrap) {
+        wrap.style.background = `radial-gradient(ellipse 80% 70% at 50% 50%, ${hex}99 0%, ${hex}22 55%, #0d1117 100%)`;
+        wrap.style.transition = 'background 0.4s ease';
+      }
+    };
+
+    window.pdSelectStorage = function(idx) {
+      pdStorageIdx = idx;
+      document.querySelectorAll('.pd-storage-btn').forEach((el, i) => {
+        el.classList.toggle('active', i === idx);
+      });
+      // Update price
+      const base  = +document.getElementById('pd-price').dataset.base;
+      const adder = +document.querySelectorAll('.pd-storage-btn')[idx].dataset.adder;
+      document.getElementById('pd-price').textContent = `\u00A3${(base + adder).toFixed(2)}`;
+    };
+
+    function buildPage(product, allProducts) {
+      // Reset variant selectors for new product
+      pdColorIdx = 0; pdStorageIdx = 0;
+
+      // Update page title
+      document.title = `${product.name} | F.AI.Z`;
+
+      // Cart state
+      const cart = JSON.parse(localStorage.getItem('faiz_cart') || '[]');
+      const inCart = cart.some(c => c.id === product.id);
+
+      // Specs rows
+      const specsHTML = product.specs
+        ? Object.entries(product.specs).map(([k,v]) =>
+            `<tr><td>${escH(k)}</td><td>${escH(v)}</td></tr>`
+          ).join('')
+        : '<tr><td colspan="2" style="color:#8a9ab5">No specifications listed.</td></tr>';
+
+      // WhatsApp link
+      const waMsg = encodeURIComponent(
+        `Hi F.AI.Z, I'm interested in: ${product.name} — £${product.price.toFixed(2)}\nProduct link: ${window.location.href}`
+      );
+      const waLink = `https://wa.me/447375549570?text=${waMsg}`;
+
+      // Related products (same brand, exclude self, max 4)
+      const related = allProducts
+        .filter(p => p.brand === product.brand && p.id !== product.id)
+        .slice(0, 4);
+
+      const relatedHTML = related.length ? `
+        <div class="pd-related">
+          <h2 class="pd-related-title">You May Also Like</h2>
+          <div class="pd-related-grid">
+            ${related.map(p => {
+              const rInCart = cart.some(c => c.id === p.id);
+              return `
+              <div class="shop-product-card" style="cursor:pointer" onclick="window.location='product.html?id=${p.id}'">
+                <div class="shop-product-img">
+                  <img src="${escH(p.image)}" alt="${escH(p.name)}" loading="lazy"
+                       data-local="${escH(p.localImage||'')}" onerror="this.onerror=null;this.src='images/brand-placeholder/'+(p.brand||'phone').toLowerCase()+'.svg'">
+                  <span class="shop-product-badge">${escH(p.badge||'')}</span>
+                </div>
+                <div class="shop-product-body">
+                  <div class="shop-product-name" style="font-size:0.88rem">${escH(p.name)}</div>
+                  <div class="shop-product-footer">
+                    <span class="shop-product-price">£${p.price.toFixed(2)}</span>
+                    <button class="add-to-cart-btn${rInCart?' added':''}"
+                            onclick="event.stopPropagation();addToCart(${p.id})">
+                      <i class="fas ${rInCart?'fa-check':'fa-cart-plus'}"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>`;
+            }).join('')}
+          </div>
+        </div>` : '';
+
+      root.innerHTML = `
+        <a href="shop.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Shop</a>
+
+        <div class="product-detail-grid">
+          <!-- Image -->
+          <div class="pd-image-wrap">
+            <img src="${escH(product.image)}" alt="${escH(product.name)}"
+                 data-local="${escH(product.localImage||'')}"
+                 onerror="this.onerror=null;this.src='images/brand-placeholder/'+(product.brand||'phone').toLowerCase()+'.svg'" />
+            <span class="pd-badge ${badgeClass(product.badge)}">${escH(product.badge||'')}</span>
+          </div>
+
+          <!-- Info -->
+          <div class="pd-info">
+            <div class="pd-brand-cat">${escH(product.brand||'')}${product.series?' · '+escH(product.series):''}</div>
+            <h1 class="pd-name">${escH(product.name)}</h1>
+            <div class="pd-price" id="pd-price" data-base="${product.price}">£${product.price.toFixed(2)}</div>
+            <p class="pd-desc">${escH(product.description||'')}</p>
+
+            ${(()=>{
+              const colors  = product.variants?.colors  || [];
+              const storage = product.variants?.storage || [];
+              let html = '';
+
+              // Colour selector
+              if (colors.length > 1) {
+                html += `<div class="pd-variant-section">
+                  <div class="pd-variant-label">Colour: <span class="pd-variant-value" id="pd-color-label">${escH(colors[0].name)}</span></div>
+                  <div class="pd-color-row">
+                    ${colors.map((col, i) => `
+                      <button class="pd-color-swatch${i===0?' active':''}"
+                              style="background:${escH(col.hex)}"
+                              title="${escH(col.name)}"
+                              data-hex="${escH(col.hex)}"
+                              data-image="${escH(col.image||'')}"
+                              onclick="pdSelectColor(${i});document.getElementById('pd-color-label').textContent='${col.name.replace(/'/g,"\\'")}'"
+                              aria-label="${escH(col.name)}">
+                      </button>`).join('')}
+                  </div>
+                </div>`;
+              }
+
+              // Storage / capacity selector
+              if (storage.length > 1) {
+                html += `<div class="pd-variant-section">
+                  <div class="pd-variant-label">Storage</div>
+                  <div class="pd-storage-row">
+                    ${storage.map((s, i) => `
+                      <button class="pd-storage-btn${i===0?' active':''}"
+                              data-adder="${s.priceAdder}"
+                              onclick="pdSelectStorage(${i})">
+                        ${escH(s.capacity)}
+                        ${s.priceAdder > 0 ? `<span class="pd-storage-extra">+£${s.priceAdder}</span>` : ''}
+                        ${s.priceAdder < 0 ? `<span class="pd-storage-extra">-£${Math.abs(s.priceAdder)}</span>` : ''}
+                      </button>`).join('')}
+                  </div>
+                </div>`;
+              }
+
+              return html;
+            })()}
+
+            <div class="pd-actions">
+              <button class="pd-add-btn${inCart?' added':''}" id="pd-cart-btn" onclick="pdAddToCart(${product.id})">
+                <i class="fas ${inCart?'fa-check':'fa-cart-plus'}"></i>
+                ${inCart ? 'In Cart' : 'Add to Cart'}
+              </button>
+              <a href="${waLink}" target="_blank" class="pd-whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Ask on WhatsApp
+              </a>
+            </div>
+
+            <div class="pd-trust">
+              <div class="pd-trust-item"><i class="fas fa-truck"></i> Free UK delivery over £50</div>
+              <div class="pd-trust-item"><i class="fas fa-shield-alt"></i> 12-month warranty</div>
+              <div class="pd-trust-item"><i class="fas fa-undo"></i> 14-day returns</div>
+              <div class="pd-trust-item"><i class="fas fa-store"></i> In-store collection · LE1</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specs -->
+        <div class="pd-specs-section">
+          <div class="pd-specs-title">Specifications</div>
+          <table class="pd-specs-table">
+            <tbody>${specsHTML}</tbody>
+          </table>
+        </div>
+
+        ${relatedHTML}
+      `;
+
+      // Apply default (first) colour glow to image wrap on initial render
+      const firstSwatch = document.querySelector('.pd-color-swatch');
+      if (firstSwatch) {
+        const hex0 = firstSwatch.dataset.hex || '#1e2a3a';
+        const wrap = document.querySelector('.pd-image-wrap');
+        if (wrap) wrap.style.background = `radial-gradient(ellipse at center, ${hex0}44 0%, #0d1117 80%)`;
+      }
+    }
+
+    function showError(msg) {
+      root.innerHTML = `
+        <a href="shop.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Shop</a>
+        <div class="pd-loading">
+          <i class="fas fa-exclamation-circle" style="font-size:2rem;color:#ef4444"></i>
+          <span style="color:#ef4444">${escH(msg)}</span>
+        </div>`;
+    }
+
+    // Add to cart from detail page — passes variant selections
+    window.pdAddToCart = function(productId) {
+      if (typeof variantSel !== 'undefined') {
+        variantSel[productId] = { colorIdx: pdColorIdx, storageIdx: pdStorageIdx };
+      }
+      if (typeof addToCart === 'function') {
+        addToCart(productId);
+        const btn = document.getElementById('pd-cart-btn');
+        if (btn) {
+          btn.classList.add('added');
+          btn.innerHTML = '<i class="fas fa-check"></i> In Cart';
+        }
+      }
+    };
+
+    // Load products
+    if (!id) { showError('No product specified.'); return; }
+
+    fetch('products.json')
+      .then(r => { if (!r.ok) throw new Error('Could not load products'); return r.json(); })
+      .then(products => {
+        const product = products.find(p => p.id === id);
+        if (!product) { showError('Product not found.'); return; }
+        buildPage(product, products);
+      })
+      .catch(err => showError('Failed to load product data. Please try again.'));
+  })();
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
