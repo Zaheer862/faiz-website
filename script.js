@@ -70,8 +70,16 @@ async function loadProducts(filter = 'all') {
       </div>
     `).join('');
 
-    // Re-observe new product cards for scroll animation
-    initScrollAnimations();
+    // Make product cards visible — stagger 80ms apart.
+    // Using setTimeout instead of IntersectionObserver so cards always appear
+    // even when the section is already in the viewport (e.g. after filter click).
+    if (isHomepage) {
+      grid.querySelectorAll('.animate-on-scroll').forEach((card, i) => {
+        setTimeout(() => card.classList.add('visible'), 100 + i * 80);
+      });
+    } else {
+      initScrollAnimations();
+    }
   } catch (e) {
     grid.innerHTML = `
       <div class="products-loading">
