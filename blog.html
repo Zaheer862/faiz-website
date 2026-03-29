@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog — F.AI.Z | Leicester's Tech Repair Specialists</title>
+  <meta name="description" content="Daily tech news, phone & laptop tips, cybersecurity alerts, and gaming updates from F.AI.Z — Leicester's most trusted repair shop.">
+  <meta property="og:title" content="Tech Blog — F.AI.Z | Leicester Repair Shop">
+  <meta property="og:description" content="Daily tech news, phone & laptop tips, cybersecurity alerts, and gaming updates.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1200&h=630&fit=crop">
+  <link rel="canonical" href="https://faizrepair.com/blog.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="F.AI.Z Home">
+        <span class="logo-f">F.</span><span class="logo-ai">AI</span><span class="logo-z">.Z</span>
+        <span class="logo-sub">LEICESTER'S TECH REPAIR SPECIALISTS</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="main-nav">
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="prices.html">Prices</a>
+    <a href="shop.html"><i class="fas fa-shopping-bag"></i> Shop</a>
+    <a href="blog.html" class="active">Blog</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="https://wa.me/4407440423053" target="_blank" class="nav-cta">
+      <i class="fab fa-whatsapp"></i> WhatsApp Us
+    </a>
+  </nav>
+
+  <!-- BLOG HERO -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="blog-hero-inner">
+        <span class="section-label"><i class="fas fa-bolt"></i> Daily Tech Updates</span>
+        <h1>Tech News &amp; Tips</h1>
+        <p>Phones. Laptops. Consoles. Cybersecurity. Updated every day with the stories that matter — straight from Leicester's repair experts.</p>
+        <div class="blog-hero-stats">
+          <div class="blog-stat"><span id="post-count">12</span><small>Posts</small></div>
+          <div class="blog-stat-div"></div>
+          <div class="blog-stat"><span>Daily</span><small>Updates</small></div>
+          <div class="blog-stat-div"></div>
+          <div class="blog-stat"><span>Free</span><small>Advice</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED POST -->
+  <section class="blog-featured-section">
+    <div class="container">
+      <div id="featured-post" class="blog-featured-card">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <section class="blog-main">
+    <div class="container">
+
+      <!-- CATEGORY FILTERS -->
+      <div class="blog-filters" role="tablist" aria-label="Filter by category">
+        <button class="blog-filter-btn active" data-cat="all" role="tab" aria-selected="true">
+          <i class="fas fa-th-large"></i> All
+        </button>
+        <button class="blog-filter-btn" data-cat="phones" role="tab" aria-selected="false">
+          <i class="fas fa-mobile-alt"></i> Phones
+        </button>
+        <button class="blog-filter-btn" data-cat="laptops" role="tab" aria-selected="false">
+          <i class="fas fa-laptop"></i> Laptops
+        </button>
+        <button class="blog-filter-btn" data-cat="cyber" role="tab" aria-selected="false">
+          <i class="fas fa-shield-alt"></i> Cyber
+        </button>
+        <button class="blog-filter-btn" data-cat="consoles" role="tab" aria-selected="false">
+          <i class="fas fa-gamepad"></i> Consoles
+        </button>
+      </div>
+
+      <!-- SEARCH BAR -->
+      <div class="blog-search-row">
+        <div class="blog-search-wrap">
+          <i class="fas fa-search"></i>
+          <input type="text" id="blog-search" placeholder="Search posts..." aria-label="Search blog posts">
+        </div>
+        <span class="blog-results-count" id="results-count"></span>
+      </div>
+
+      <!-- POSTS GRID -->
+      <div class="blog-grid-main" id="blog-grid">
+        <div class="blog-loading">
+          <div class="blog-spinner"></div>
+          <p>Loading posts…</p>
+        </div>
+      </div>
+
+      <!-- NO RESULTS -->
+      <div class="blog-no-results" id="no-results" style="display:none;">
+        <i class="fas fa-search"></i>
+        <h3>No posts found</h3>
+        <p>Try a different search term or category.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CYBER ALERT BANNER -->
+  <div class="cyber-alert-strip">
+    <div class="container">
+      <div class="cyber-alert-inner">
+        <span class="cyber-alert-badge"><i class="fas fa-exclamation-triangle"></i> Cyber Watch</span>
+        <p id="cyber-ticker">Phishing attacks targeting UK bank customers on the rise this week. Always verify sender details before clicking links.</p>
+        <a href="?cat=cyber" class="cyber-alert-link">See all cyber alerts <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA STRIP -->
+  <div class="footer-cta-strip">
+    <div class="container">
+      <div class="footer-cta-inner">
+        <div>
+          <h3>Got a Device Problem?</h3>
+          <p>Our Leicester repair experts are on hand. Walk in or WhatsApp us for a free quote.</p>
+        </div>
+        <div class="footer-cta-actions">
+          <a href="tel:07440423053" class="btn btn-call btn-lg">
+            <i class="fas fa-phone-alt"></i> Call Now
+          </a>
+          <a href="https://wa.me/4407440423053?text=Hi%2C+I'd+like+a+free+repair+quote+please" target="_blank" class="btn btn-whatsapp btn-lg">
+            <i class="fab fa-whatsapp"></i> Free Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-f">F.</span><span class="logo-ai">AI</span><span class="logo-z">.Z</span>
+          </div>
+          <p>Leicester's most trusted tech repair specialists. Phones, tablets, laptops and consoles — fixed fast.</p>
+          <div class="footer-socials">
+            <a href="https://wa.me/4407440423053" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Blog Topics</h4>
+          <ul>
+            <li><a href="blog.html?cat=phones">Phones</a></li>
+            <li><a href="blog.html?cat=laptops">Laptops</a></li>
+            <li><a href="blog.html?cat=cyber">Cyber Security</a></li>
+            <li><a href="blog.html?cat=consoles">Consoles</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-phone-alt"></i> <a href="tel:07440423053">07440 423 053</a></p>
+          <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/4407440423053" target="_blank">WhatsApp Us</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Leicester, LE5</p>
+          <p><i class="fas fa-clock"></i> Mon–Sat: 9am – 6pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 F.AI.Z Tech Repair. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="blog.js"></script>
+</body>
+</html>
