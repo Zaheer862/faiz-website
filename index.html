@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="blog.css" />
 </head>
 <body>
 
@@ -672,63 +673,69 @@
   <section id="blog">
     <div class="container">
       <div class="section-header animate-on-scroll">
-        <span class="section-label"><i class="fas fa-newspaper"></i> Blog</span>
-        <h2 class="section-title">Tips &amp; News</h2>
-        <p class="section-sub">Stay informed with the latest tech tips, repair guides and news from F.AI.Z.</p>
+        <span class="section-label"><i class="fas fa-bolt"></i> Daily Tech News</span>
+        <h2 class="section-title">Latest from the Blog</h2>
+        <p class="section-sub">Phones, laptops, cybersecurity, consoles — the tech stories that matter, updated every day.</p>
       </div>
 
       <div class="blog-grid">
+        <!-- Dynamically replaced by blog.js — static fallback shown if JS fails -->
         <article class="blog-card animate-on-scroll">
           <div class="blog-img">
-            <img src="https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?w=600&h=350&fit=crop" alt="Phone screen repair guide" loading="lazy">
-            <span class="blog-category">Repair Guide</span>
+            <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=600&h=350&fit=crop" alt="Nintendo Switch 2" loading="lazy">
+            <span class="blog-category">Consoles</span>
           </div>
           <div class="blog-body">
             <div class="blog-meta">
-              <span><i class="fas fa-calendar-alt"></i> 10 Mar 2026</span>
+              <span><i class="fas fa-calendar-alt"></i> 29 Mar 2026</span>
               <span><i class="fas fa-clock"></i> 4 min read</span>
             </div>
-            <h3>5 Signs Your Phone Screen Needs Replacing</h3>
-            <p>Hairline cracks, touch dead zones, discolouration &mdash; here's how to tell when it's time for a professional screen replacement instead of living with the damage.</p>
-            <a href="https://wa.me/4407440423053?text=Hi%2C%20I%20need%20advice%20about%20screen%20replacement" target="_blank" class="blog-read-more">Get Advice <i class="fas fa-arrow-right"></i></a>
+            <h3>Nintendo Switch 2 Is Here: Everything You Need to Know</h3>
+            <p>Larger OLED screen, magnetic Joy-Cons, and 4K output — Nintendo's latest console launches at £349 with backwards compatibility.</p>
+            <a href="https://www.theverge.com/nintendo" target="_blank" rel="noopener" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
 
         <article class="blog-card animate-on-scroll">
           <div class="blog-img">
-            <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=350&fit=crop" alt="Battery health guide" loading="lazy">
-            <span class="blog-category">Battery Tips</span>
+            <img src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop" alt="Phishing cyber attack" loading="lazy">
+            <span class="blog-category">Cyber Security</span>
           </div>
           <div class="blog-body">
             <div class="blog-meta">
-              <span><i class="fas fa-calendar-alt"></i> 5 Mar 2026</span>
+              <span><i class="fas fa-calendar-alt"></i> 25 Mar 2026</span>
               <span><i class="fas fa-clock"></i> 3 min read</span>
             </div>
-            <h3>How to Make Your Phone Battery Last Longer</h3>
-            <p>Simple habits that extend battery life: charging cycles, temperature tips, which settings drain power fastest, and when it's time for a replacement.</p>
-            <a href="https://wa.me/4407440423053?text=Hi%2C%20I%20need%20advice%20about%20battery%20health" target="_blank" class="blog-read-more">Get Advice <i class="fas fa-arrow-right"></i></a>
+            <h3>Major UK Banks Hit by Phishing Wave — How to Stay Safe</h3>
+            <p>Thousands received fake 'suspicious activity' texts impersonating Barclays and Lloyds. Here's exactly what to look for.</p>
+            <a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
 
         <article class="blog-card animate-on-scroll">
           <div class="blog-img">
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=350&fit=crop" alt="Laptop speed tips" loading="lazy">
-            <span class="blog-category">Performance</span>
+            <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&h=350&fit=crop" alt="MacBook laptop" loading="lazy">
+            <span class="blog-category">Laptops</span>
           </div>
           <div class="blog-body">
             <div class="blog-meta">
-              <span><i class="fas fa-calendar-alt"></i> 28 Feb 2026</span>
+              <span><i class="fas fa-calendar-alt"></i> 27 Mar 2026</span>
               <span><i class="fas fa-clock"></i> 5 min read</span>
             </div>
-            <h3>Why Is My Laptop So Slow? Top Fixes</h3>
-            <p>From bloated startup programs to failing hard drives &mdash; the most common reasons your laptop crawls and what you can do about it before bringing it in.</p>
-            <a href="https://wa.me/4407440423053?text=Hi%2C%20my%20laptop%20is%20running%20slow" target="_blank" class="blog-read-more">Get Advice <i class="fas fa-arrow-right"></i></a>
+            <h3>M4 MacBook Air: Is It the Best Laptop of 2026?</h3>
+            <p>22 hours of battery life, M4 chip, and starts at £1,099. After testing, here's whether it lives up to the hype.</p>
+            <a href="https://www.theverge.com/apple" target="_blank" rel="noopener" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
       </div>
+
+      <div class="view-all-btn">
+        <a href="blog.html" class="btn btn-outline">
+          <i class="fas fa-newspaper"></i> View All Posts
+        </a>
+      </div>
     </div>
   </section>
-
 
   <!-- PRE-FOOTER CTA STRIP -->
   <div class="footer-cta-strip">
@@ -812,6 +819,7 @@
   </div>
 
   <script src="script.js"></script>
+  <script src="blog.js"></script>
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support
