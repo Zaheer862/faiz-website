@@ -1,0 +1,6401 @@
+[
+  {
+    "id": 168,
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "series": "S25 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 1249,
+    "badge": "New",
+    "description": "Samsung's most powerful Galaxy \u2014 Snapdragon 8 Elite, 200MP quad-camera, built-in S Pen, and Galaxy AI on a stunning 6.9\" Dynamic AMOLED 2X display.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-ultra-sm-s938.jpg",
+    "localImage": "images/products/168/main.jpg",
+    "specs": {
+      "Display": "6.9\" Dynamic AMOLED 2X, QHD+, 120Hz, 2600 nits",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "200MP Wide + 50MP Ultra Wide + 50MP 5\u00d7 Periscope Telephoto + 10MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP",
+      "Battery": "5000mAh \u00b7 45W wired \u00b7 15W wireless",
+      "OS": "Android 15 \u00b7 One UI 7",
+      "Build": "Titanium frame \u00b7 Corning Gorilla Armor 2",
+      "Dimensions": "162.8 \u00d7 77.6 \u00d7 8.2mm \u00b7 218g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.4 \u00b7 UWB \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Titanium Black",
+          "hex": "#2B2B2B",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25ultra_titanium-black.png"
+        },
+        {
+          "name": "Titanium Silverblue",
+          "hex": "#B0BCC8",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25ultra_titanium-silverblue.png"
+        },
+        {
+          "name": "Titanium Grey",
+          "hex": "#9E9E9E",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25ultra_titanium-grey.png"
+        },
+        {
+          "name": "Titanium Whitesilver",
+          "hex": "#E8E4DF",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25ultra_titanium-whitesilver.png"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 150
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 350
+        }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "name": "Samsung Galaxy S25+",
+    "brand": "Samsung",
+    "series": "S25 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 999,
+    "badge": "New",
+    "description": "Snapdragon 8 Elite power in a 6.7\" form factor \u2014 Galaxy AI, 50MP triple camera and all-day battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-plus-sm-s936.jpg",
+    "localImage": "images/products/169/main.jpg",
+    "specs": {
+      "Display": "6.7\" Dynamic AMOLED 2X, QHD+, 120Hz, 2600 nits",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide + 10MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP",
+      "Battery": "4900mAh \u00b7 45W wired \u00b7 15W wireless",
+      "OS": "Android 15 \u00b7 One UI 7",
+      "Build": "Armour Aluminium frame \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "158.0 \u00d7 75.8 \u00d7 7.3mm \u00b7 190g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.4 \u00b7 UWB \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Blueblack",
+          "hex": "#1A1D2E",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25plus_blueblack.png"
+        },
+        {
+          "name": "Coralred",
+          "hex": "#E8614A",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25plus_coral-red.png"
+        },
+        {
+          "name": "Pinkgold",
+          "hex": "#E8C4B0",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25plus_pink-gold.png"
+        },
+        {
+          "name": "Icyblue",
+          "hex": "#C4D8E8",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25plus_icy-blue.png"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "series": "S25 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 799,
+    "badge": "New",
+    "description": "The essential Galaxy flagship \u2014 Snapdragon 8 Elite, slim 6.2\" design, 50MP triple camera and Galaxy AI.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-sm-s931.jpg",
+    "localImage": "images/products/170/main.jpg",
+    "specs": {
+      "Display": "6.2\" Dynamic AMOLED 2X, FHD+, 120Hz, 2600 nits",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "RAM": "12GB",
+      "Storage": "128GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide + 10MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP",
+      "Battery": "4000mAh \u00b7 25W wired \u00b7 15W wireless",
+      "OS": "Android 15 \u00b7 One UI 7",
+      "Build": "Armour Aluminium frame \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "146.9 \u00d7 70.5 \u00d7 7.2mm \u00b7 162g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.4 \u00b7 UWB \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Blueblack",
+          "hex": "#1A1D2E",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25_blueblack.png"
+        },
+        {
+          "name": "Coralred",
+          "hex": "#E8614A",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25_coral-red.png"
+        },
+        {
+          "name": "Pinkgold",
+          "hex": "#E8C4B0",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25_pink-gold.png"
+        },
+        {
+          "name": "Icyblue",
+          "hex": "#C4D8E8",
+          "image": "https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25_icy-blue.png"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -100
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "name": "Samsung Galaxy S25 FE",
+    "brand": "Samsung",
+    "series": "S25 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 649,
+    "badge": "New",
+    "description": "All the Galaxy AI smarts at a fan-friendly price \u2014 Exynos 2400, 6.7\" AMOLED display and a 4900mAh battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-fe.jpg",
+    "localImage": "images/products/171/main.jpg",
+    "specs": {
+      "Display": "6.7\" Super AMOLED, FHD+, 120Hz, 1900 nits",
+      "Chip": "Exynos 2400",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide + 10MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP",
+      "Battery": "4900mAh \u00b7 45W wired \u00b7 15W wireless",
+      "OS": "Android 15 \u00b7 One UI 7",
+      "Build": "Gorilla Glass Victus+",
+      "Dimensions": "161.9 \u00d7 77.4 \u00d7 7.8mm \u00b7 199g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C 2.0"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Icyblue",
+          "hex": "#C4D8E8"
+        },
+        {
+          "name": "Jetblack",
+          "hex": "#2B2B2B"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1A2B3C"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 50
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 160
+        }
+      ]
+    }
+  },
+  {
+    "id": 172,
+    "name": "Samsung Galaxy S24 FE",
+    "brand": "Samsung",
+    "series": "S24 Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 549,
+    "badge": "Like New",
+    "description": "Flagship-lite with Exynos 2400e, 6.7\" Vision Booster display, 50MP triple camera and 4700mAh battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe-r1.jpg",
+    "localImage": "images/products/172/main.jpg",
+    "specs": {
+      "Display": "6.7\" Super AMOLED, FHD+, 120Hz, 1900 nits",
+      "Chip": "Exynos 2400e",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide + 8MP 3\u00d7 Telephoto",
+      "Front Camera": "10MP",
+      "Battery": "4700mAh \u00b7 25W wired \u00b7 15W wireless",
+      "OS": "Android 14 \u00b7 One UI 6.1.1",
+      "Build": "Gorilla Glass Victus+",
+      "Dimensions": "162.0 \u00d7 77.3 \u00d7 8.0mm \u00b7 213g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 USB-C 2.0"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A7FBF"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#5E5E5E"
+        },
+        {
+          "name": "Mint",
+          "hex": "#7EC8BE"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#E8C84A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "name": "Samsung Galaxy Z Fold7",
+    "brand": "Samsung",
+    "series": "Z Fold Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 1799,
+    "badge": "New",
+    "description": "The thinnest Galaxy Fold ever \u2014 8.0\" inner display, Snapdragon 8 Elite, 200MP main camera, just 4.2mm thin when unfolded.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold7.jpg",
+    "localImage": "images/products/173/main.jpg",
+    "specs": {
+      "Display": "8.0\" Dynamic AMOLED 2X inner \u00b7 6.5\" cover, 120Hz",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "RAM": "12GB / 16GB (1TB)",
+      "Storage": "256GB",
+      "Rear Camera": "200MP Wide + 12MP Ultra Wide + 10MP 3\u00d7 Telephoto",
+      "Front Camera": "10MP cover \u00b7 4MP under-display inner",
+      "Battery": "4400mAh \u00b7 25W wired \u00b7 15W wireless",
+      "OS": "Android 15 \u00b7 One UI 7",
+      "Build": "Armour Aluminium \u00b7 Corning Gorilla Glass Victus 2 \u00b7 IPX8",
+      "Dimensions": "159.5 \u00d7 132.6 \u00d7 4.2mm open \u00b7 8.9mm folded",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.4 \u00b7 UWB \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue Shadow",
+          "hex": "#2D3E6E"
+        },
+        {
+          "name": "Jetblack",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Silver Shadow",
+          "hex": "#B0B4B8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "name": "Samsung Galaxy Z Fold6",
+    "brand": "Samsung",
+    "series": "Z Fold Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 1799,
+    "badge": "Like New",
+    "description": "Refined foldable flagship \u2014 7.6\" inner AMOLED, Snapdragon 8 Gen 3, Galaxy AI and enhanced S Pen support.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold6.jpg",
+    "localImage": "images/products/174/main.jpg",
+    "specs": {
+      "Display": "7.6\" Dynamic AMOLED 2X inner \u00b7 6.3\" cover, 120Hz",
+      "Chip": "Snapdragon 8 Gen 3 for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide + 10MP 3\u00d7 Telephoto",
+      "Front Camera": "10MP cover \u00b7 4MP under-display inner",
+      "Battery": "4400mAh \u00b7 25W wired \u00b7 15W wireless",
+      "OS": "Android 14 \u00b7 One UI 6.1.1",
+      "Build": "Armour Aluminium frame \u00b7 IPX8",
+      "Dimensions": "153.5 \u00d7 132.1 \u00d7 5.6mm open \u00b7 12.1mm folded",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 UWB \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Navy",
+          "hex": "#1A2B3C"
+        },
+        {
+          "name": "Pink",
+          "hex": "#E8B4C0"
+        },
+        {
+          "name": "Silver Shadow",
+          "hex": "#B0B4B8"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Crafted Black",
+          "hex": "#2A2A2A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": 175,
+    "name": "Samsung Galaxy Z Flip7",
+    "brand": "Samsung",
+    "series": "Z Flip Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 1049,
+    "badge": "New",
+    "description": "The stylish flip phone reborn \u2014 Snapdragon 8 Elite, 6.9\" AMOLED with 120Hz, large FlexWindow cover display and Galaxy AI.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip7.jpg",
+    "localImage": "images/products/175/main.jpg",
+    "specs": {
+      "Display": "6.9\" Dynamic AMOLED 2X inner \u00b7 4.0\" cover FlexWindow, 120Hz",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide",
+      "Front Camera": "10MP",
+      "Battery": "4300mAh \u00b7 25W wired \u00b7 15W wireless",
+      "OS": "Android 15 \u00b7 One UI 7",
+      "Build": "Armour Aluminium \u00b7 Gorilla Glass Victus 2 \u00b7 IPX8",
+      "Dimensions": "85.1 \u00d7 71.9 \u00d7 15.9mm folded \u00b7 165.1 \u00d7 71.9 \u00d7 7.0mm open",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.4 \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue Shadow",
+          "hex": "#2D3E6E"
+        },
+        {
+          "name": "Jetblack",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Coralred",
+          "hex": "#E8614A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 176,
+    "name": "Samsung Galaxy Z Flip6",
+    "brand": "Samsung",
+    "series": "Z Flip Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 1099,
+    "badge": "Like New",
+    "description": "Compact and powerful \u2014 Snapdragon 8 Gen 3, enlarged FlexWindow, 50MP dual camera and all-day battery in flip form.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip6.jpg",
+    "localImage": "images/products/176/main.jpg",
+    "specs": {
+      "Display": "6.7\" Dynamic AMOLED 2X inner \u00b7 3.4\" cover FlexWindow, 120Hz",
+      "Chip": "Snapdragon 8 Gen 3 for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP Wide + 12MP Ultra Wide",
+      "Front Camera": "10MP",
+      "Battery": "4000mAh \u00b7 25W wired \u00b7 15W wireless",
+      "OS": "Android 14 \u00b7 One UI 6.1.1",
+      "Build": "Armour Aluminium \u00b7 Corning Gorilla Glass Victus 2 \u00b7 IPX8",
+      "Dimensions": "85.1 \u00d7 71.9 \u00d7 14.9mm folded \u00b7 163.1 \u00d7 71.9 \u00d7 6.9mm open",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 USB-C 3.2"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A7FBF"
+        },
+        {
+          "name": "Crafted Black",
+          "hex": "#2A2A2A"
+        },
+        {
+          "name": "Mint",
+          "hex": "#8ECDC8"
+        },
+        {
+          "name": "Silver Shadow",
+          "hex": "#B0B4B8"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#E8C84A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 1209,
+    "badge": "New",
+    "description": "The ultimate 2024 Galaxy flagship with built-in S Pen, titanium frame, and the most powerful camera system Samsung has ever made.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra-5g-sm-s928-stylus.jpg",
+    "specs": {
+      "Display": "6.8\" Dynamic AMOLED 2X, 3088\u00d71440, 120Hz, 2600 nits",
+      "Processor": "Snapdragon 8 Gen 3 for Galaxy",
+      "RAM": "12GB LPDDR5X",
+      "Storage": "256GB UFS 4.0",
+      "Rear Camera": "200MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto + 50MP 5\u00d7 periscope",
+      "Front Camera": "12MP",
+      "Battery": "5000mAh",
+      "Charging": "45W wired \u00b7 15W wireless \u00b7 4.5W reverse wireless",
+      "S Pen": "Built-in, 2.8ms latency",
+      "OS": "Android 14, One UI 6.1 (7 years updates)",
+      "Build": "Titanium frame \u00b7 Gorilla Glass Armor front & back",
+      "Dimensions": "162.3 \u00d7 79.0 \u00d7 8.6mm \u00b7 232g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2 Gen 2"
+    },
+    "localImage": "images/products/101/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Titanium Black",
+          "hex": "#2C2C2C"
+        },
+        {
+          "name": "Titanium Gray",
+          "hex": "#9B9B9B"
+        },
+        {
+          "name": "Titanium Violet",
+          "hex": "#7B6E8F"
+        },
+        {
+          "name": "Titanium Yellow",
+          "hex": "#E8D7A8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 360
+        }
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "name": "Samsung Galaxy S24+",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 934,
+    "badge": "New",
+    "description": "Big-screen flagship with Snapdragon 8 Gen 3, all-day battery, and Galaxy AI built in.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-plus-5g-sm-s926.jpg",
+    "specs": {
+      "Display": "6.7\" Dynamic AMOLED 2X, 3088\u00d71440, 120Hz",
+      "Processor": "Snapdragon 8 Gen 3 for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "12MP",
+      "Battery": "4900mAh",
+      "Charging": "45W wired \u00b7 15W wireless \u00b7 4.5W reverse",
+      "OS": "Android 14, One UI 6.1",
+      "Build": "Armour Aluminium frame \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "158.5 \u00d7 75.9 \u00d7 7.7mm \u00b7 196g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/102/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cobalt Violet",
+          "hex": "#4A3F6B"
+        },
+        {
+          "name": "Jade Green",
+          "hex": "#2E5E4E"
+        },
+        {
+          "name": "Marble Gray",
+          "hex": "#8A8A8A"
+        },
+        {
+          "name": "Onyx Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 879,
+    "badge": "New",
+    "description": "Compact 2024 flagship with Snapdragon 8 Gen 3 and Galaxy AI \u2014 powerful performance in a pocket-friendly size.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-5g-sm-s921.jpg",
+    "specs": {
+      "Display": "6.2\" Dynamic AMOLED 2X, 2340\u00d71080, 120Hz",
+      "Processor": "Snapdragon 8 Gen 3 for Galaxy",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "12MP",
+      "Battery": "4000mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 14, One UI 6.1",
+      "Build": "Armour Aluminium \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "147.0 \u00d7 70.6 \u00d7 7.6mm \u00b7 167g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/103/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cobalt Violet",
+          "hex": "#4A3F6B"
+        },
+        {
+          "name": "Jade Green",
+          "hex": "#2E5E4E"
+        },
+        {
+          "name": "Marble Gray",
+          "hex": "#8A8A8A"
+        },
+        {
+          "name": "Onyx Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Samsung Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 879,
+    "badge": "Like New",
+    "description": "2023's ultimate Galaxy with built-in S Pen, 200MP camera, and Snapdragon 8 Gen 2 \u2014 still one of the best phones ever made.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
+    "specs": {
+      "Display": "6.8\" Dynamic AMOLED 2X, 3088\u00d71440, 120Hz, 1750 nits",
+      "Processor": "Snapdragon 8 Gen 2 for Galaxy",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "200MP wide + 12MP ultra-wide + 10MP 3\u00d7 + 10MP 10\u00d7 periscope",
+      "Front Camera": "12MP",
+      "Battery": "5000mAh",
+      "Charging": "45W wired \u00b7 15W wireless \u00b7 4.5W reverse",
+      "S Pen": "Built-in",
+      "OS": "Android 13 \u2192 14, One UI 6",
+      "Build": "Armour Aluminium \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "163.4 \u00d7 78.1 \u00d7 8.9mm \u00b7 234g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/104/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A5A4A"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#9B8FA8"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 340
+        }
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "name": "Samsung Galaxy S23+",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 659,
+    "badge": "Like New",
+    "description": "Large-screen 2023 flagship with Snapdragon 8 Gen 2, ProVisual camera engine, and 45W fast charging.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-plus-5g.jpg",
+    "specs": {
+      "Display": "6.6\" Dynamic AMOLED 2X, 2340\u00d71080, 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "12MP",
+      "Battery": "4700mAh",
+      "Charging": "45W wired \u00b7 15W wireless",
+      "OS": "Android 13 \u2192 14",
+      "Build": "Armour Aluminium \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "157.8 \u00d7 76.2 \u00d7 7.6mm \u00b7 195g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/105/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A5A4A"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#9B8FA8"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "name": "Samsung Galaxy S23",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 549,
+    "badge": "Like New",
+    "description": "Compact powerhouse \u2014 Snapdragon 8 Gen 2 in a 6.1\" body. Punches well above its price.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-5g.jpg",
+    "specs": {
+      "Display": "6.1\" Dynamic AMOLED 2X, 2340\u00d71080, 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "12MP",
+      "Battery": "3900mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 13 \u2192 14",
+      "Build": "Armour Aluminium \u00b7 Gorilla Glass Victus 2",
+      "Dimensions": "146.3 \u00d7 70.9 \u00d7 7.6mm \u00b7 168g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/106/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A5A4A"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#9B8FA8"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "name": "Samsung Galaxy S23 FE",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 379,
+    "badge": "New",
+    "description": "Fan Edition flagship value \u2014 Snapdragon 8 Gen 1, vibrant AMOLED, and the Galaxy camera experience at a lower price.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-fe.jpg",
+    "specs": {
+      "Display": "6.4\" Dynamic AMOLED 2X, 2340\u00d71080, 120Hz",
+      "Processor": "Snapdragon 8 Gen 1",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 8MP 3\u00d7 telephoto",
+      "Front Camera": "10MP",
+      "Battery": "4500mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 13 \u2192 14",
+      "Build": "Armour Aluminium \u00b7 Gorilla Glass 5",
+      "Dimensions": "158.0 \u00d7 76.5 \u00d7 8.4mm \u00b7 209g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/107/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A5A4A"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#9B8FA8"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "name": "Samsung Galaxy S22 Ultra",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 699,
+    "badge": "Like New",
+    "description": "The original S-Pen Ultra \u2014 108MP camera, Snapdragon 8 Gen 1, and a design that inspired the S23 and S24 Ultra.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg",
+    "specs": {
+      "Display": "6.8\" Dynamic AMOLED 2X, 3088\u00d71440, 120Hz",
+      "Processor": "Snapdragon 8 Gen 1",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "108MP wide + 12MP ultra-wide + 10MP 3\u00d7 + 10MP 10\u00d7 periscope",
+      "Front Camera": "40MP",
+      "Battery": "5000mAh",
+      "Charging": "45W wired \u00b7 15W wireless \u00b7 4.5W reverse",
+      "S Pen": "Built-in",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "163.3 \u00d7 77.9 \u00d7 8.9mm \u00b7 229g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/108/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#5C2D3E"
+        },
+        {
+          "name": "Green",
+          "hex": "#2E4A3A"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "name": "Samsung Galaxy S22+",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 449,
+    "badge": "Like New",
+    "description": "2022 large-screen flagship \u2014 45W charging, Snapdragon 8 Gen 1, and a bright ProGrade camera system.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
+    "specs": {
+      "Display": "6.6\" Dynamic AMOLED 2X, 2340\u00d71080, 120Hz",
+      "Processor": "Snapdragon 8 Gen 1",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "10MP",
+      "Battery": "4500mAh",
+      "Charging": "45W wired \u00b7 15W wireless",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "157.4 \u00d7 75.8 \u00d7 7.6mm \u00b7 196g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/109/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Bora Purple",
+          "hex": "#8B7BA8"
+        },
+        {
+          "name": "Green",
+          "hex": "#2E5A45"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "name": "Samsung Galaxy S22",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 359,
+    "badge": "Like New",
+    "description": "Compact 2022 flagship \u2014 50MP camera, Snapdragon 8 Gen 1, Gorilla Glass Victus+.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
+    "specs": {
+      "Display": "6.1\" Dynamic AMOLED 2X, 2340\u00d71080, 120Hz",
+      "Processor": "Snapdragon 8 Gen 1",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "10MP",
+      "Battery": "3700mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "146.0 \u00d7 70.6 \u00d7 7.6mm \u00b7 167g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/110/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Bora Purple",
+          "hex": "#8B7BA8"
+        },
+        {
+          "name": "Green",
+          "hex": "#2E5A45"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 70
+        }
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "name": "Samsung Galaxy S21 Ultra",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 499,
+    "badge": "Good",
+    "description": "S21 Ultra \u2014 first Galaxy to support S Pen, 108MP quad camera, Snapdragon 888, and Gorilla Glass Victus.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg",
+    "specs": {
+      "Display": "6.8\" Dynamic AMOLED 2X, 3200\u00d71440, 120Hz",
+      "Processor": "Snapdragon 888",
+      "RAM": "12GB",
+      "Storage": "128GB",
+      "Rear Camera": "108MP wide + 12MP ultra-wide + 10MP 3\u00d7 + 10MP 10\u00d7 periscope",
+      "Front Camera": "40MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired \u00b7 15W wireless \u00b7 4.5W reverse",
+      "S Pen": "Compatible (sold separately)",
+      "OS": "Android 11 \u2192 14",
+      "Dimensions": "165.1 \u00d7 75.6 \u00d7 8.9mm \u00b7 227g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/111/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Phantom Silver",
+          "hex": "#C8C8C8"
+        },
+        {
+          "name": "Phantom Titanium",
+          "hex": "#8A8A7A"
+        },
+        {
+          "name": "Phantom Brown",
+          "hex": "#6B5A4A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "name": "Samsung Galaxy S21",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 279,
+    "badge": "Good",
+    "description": "Still a capable 2021 flagship \u2014 Snapdragon 888, 64MP camera, bright AMOLED. Great value now.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g-r.jpg",
+    "specs": {
+      "Display": "6.2\" Dynamic AMOLED 2X, 2400\u00d71080, 120Hz",
+      "Processor": "Snapdragon 888",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 64MP hi-res + 12MP ultra-wide",
+      "Front Camera": "10MP",
+      "Battery": "4000mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 11 \u2192 14",
+      "Dimensions": "151.7 \u00d7 71.2 \u00d7 7.9mm \u00b7 169g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/112/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Phantom Gray",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Phantom Pink",
+          "hex": "#D4A0A0"
+        },
+        {
+          "name": "Phantom Violet",
+          "hex": "#7B6A8A"
+        },
+        {
+          "name": "Phantom White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Samsung Galaxy S21 FE",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 219,
+    "badge": "Good",
+    "description": "Fan Edition with Snapdragon 888, OIS camera, and IP68 \u2014 a refined mid-range option.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-fe-5g.jpg",
+    "specs": {
+      "Display": "6.4\" Dynamic AMOLED 2X, 2400\u00d71080, 120Hz",
+      "Processor": "Snapdragon 888",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 8MP 3\u00d7 telephoto + 12MP ultra-wide",
+      "Front Camera": "32MP",
+      "Battery": "4500mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "155.7 \u00d7 74.5 \u00d7 8.2mm \u00b7 177g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/113/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Phantom Gray",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Phantom Pink",
+          "hex": "#D4A0A0"
+        },
+        {
+          "name": "Phantom Violet",
+          "hex": "#7B6A8A"
+        },
+        {
+          "name": "Phantom White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "name": "Samsung Galaxy S20 Ultra",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2020,
+    "price": 229,
+    "badge": "Good",
+    "description": "100\u00d7 Space Zoom, 108MP camera, 5000mAh \u2014 the phone that redefined zoom photography on mobile.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-ultra-.jpg",
+    "specs": {
+      "Display": "6.9\" Dynamic AMOLED 2X, 3200\u00d71440, 120Hz",
+      "Processor": "Snapdragon 865",
+      "RAM": "12GB",
+      "Storage": "128GB",
+      "Rear Camera": "108MP wide + 48MP 4\u00d7 + 12MP ultra-wide + depth sensor",
+      "Front Camera": "40MP",
+      "Battery": "5000mAh",
+      "Charging": "45W wired \u00b7 15W wireless",
+      "OS": "Android 10 \u2192 13",
+      "Dimensions": "166.9 \u00d7 76.0 \u00d7 8.8mm \u00b7 220g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C 3.1"
+    },
+    "localImage": "images/products/114/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cloud Blue",
+          "hex": "#A8C5DA"
+        },
+        {
+          "name": "Cloud Gray",
+          "hex": "#9A9A9A"
+        },
+        {
+          "name": "Cloud Pink",
+          "hex": "#E8B4B8"
+        },
+        {
+          "name": "Cosmic Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "name": "Samsung Galaxy S20 FE",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2020,
+    "price": 179,
+    "badge": "Good",
+    "description": "Fan favourite \u2014 Snapdragon 865, OIS triple camera, and 5G at a price that changed the market.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-fe-5g.jpg",
+    "specs": {
+      "Display": "6.5\" Super AMOLED, 2400\u00d71080, 120Hz",
+      "Processor": "Snapdragon 865",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 8MP 3\u00d7 telephoto + 12MP ultra-wide",
+      "Front Camera": "32MP",
+      "Battery": "4500mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 10 \u2192 13",
+      "Dimensions": "159.8 \u00d7 74.5 \u00d7 8.4mm \u00b7 190g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/115/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cloud Blue",
+          "hex": "#A8C5DA"
+        },
+        {
+          "name": "Cloud Gray",
+          "hex": "#9A9A9A"
+        },
+        {
+          "name": "Cloud Pink",
+          "hex": "#E8B4B8"
+        },
+        {
+          "name": "Cosmic Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "name": "Samsung Galaxy S10+",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2019,
+    "price": 149,
+    "badge": "Good",
+    "description": "2019 flagship that set the template \u2014 Infinity-O display, in-display fingerprint, triple rear camera.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-plus-new.jpg",
+    "specs": {
+      "Display": "6.4\" Dynamic AMOLED, QHD+, 60Hz",
+      "Processor": "Snapdragon 855",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP telephoto + 16MP ultra-wide",
+      "Front Camera": "10MP + 8MP depth",
+      "Battery": "4100mAh",
+      "Charging": "25W wired \u00b7 15W wireless \u00b7 reverse wireless",
+      "OS": "Android 9 \u2192 12",
+      "Dimensions": "157.6 \u00d7 74.1 \u00d7 7.8mm \u00b7 175g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/116/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Prism Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Prism Blue",
+          "hex": "#4A6B8A"
+        },
+        {
+          "name": "Prism Green",
+          "hex": "#3A6A4A"
+        },
+        {
+          "name": "Prism White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "name": "Samsung Galaxy S10",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2019,
+    "price": 129,
+    "badge": "Good",
+    "description": "Compact 2019 flagship \u2014 hole-punch display, triple camera, and wireless PowerShare.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10.jpg",
+    "specs": {
+      "Display": "6.1\" Dynamic AMOLED, 3040\u00d71440, 60Hz",
+      "Processor": "Snapdragon 855",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP telephoto + 16MP ultra-wide",
+      "Front Camera": "10MP",
+      "Battery": "3400mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 9 \u2192 12",
+      "Dimensions": "149.9 \u00d7 70.4 \u00d7 7.8mm \u00b7 157g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/117/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Prism Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Prism Blue",
+          "hex": "#4A6B8A"
+        },
+        {
+          "name": "Prism Green",
+          "hex": "#3A6A4A"
+        },
+        {
+          "name": "Prism White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "name": "Samsung Galaxy S9+",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2018,
+    "price": 99,
+    "badge": "Good",
+    "description": "Dual-aperture camera that adjusts like a human eye. Still runs well and takes great photos.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-plus-blue.jpg",
+    "specs": {
+      "Display": "6.2\" Super AMOLED, QHD+, 60Hz",
+      "Processor": "Snapdragon 845",
+      "RAM": "6GB",
+      "Storage": "64GB (expandable)",
+      "Rear Camera": "12MP wide (f/1.5\u2013f/2.4) + 12MP telephoto",
+      "Front Camera": "8MP",
+      "Battery": "3500mAh",
+      "Charging": "15W wired \u00b7 wireless",
+      "OS": "Android 8 \u2192 10",
+      "Dimensions": "158.1 \u00d7 73.8 \u00d7 8.5mm \u00b7 189g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/118/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Coral Blue",
+          "hex": "#4A7A8A"
+        },
+        {
+          "name": "Lilac Purple",
+          "hex": "#8A6A8A"
+        },
+        {
+          "name": "Titanium Gray",
+          "hex": "#8A8A8A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "128GB",
+          "priceAdder": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "name": "Samsung Galaxy S8+",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2017,
+    "price": 79,
+    "badge": "Good",
+    "description": "The phone that launched the Infinity Display era \u2014 still a beautiful 6.2\" curved screen.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-plus-.jpg",
+    "specs": {
+      "Display": "6.2\" Super AMOLED, 2960\u00d71440, 60Hz (curved)",
+      "Processor": "Snapdragon 835",
+      "RAM": "4GB",
+      "Storage": "64GB (expandable)",
+      "Rear Camera": "12MP OIS",
+      "Front Camera": "8MP",
+      "Battery": "3500mAh",
+      "Charging": "15W wired \u00b7 wireless",
+      "OS": "Android 7 \u2192 9",
+      "Dimensions": "159.5 \u00d7 73.4 \u00d7 8.1mm \u00b7 173g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/119/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Coral Blue",
+          "hex": "#4A7A8A"
+        },
+        {
+          "name": "Maple Gold",
+          "hex": "#C8A84A"
+        },
+        {
+          "name": "Orchid Gray",
+          "hex": "#9A8A9A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "name": "Samsung Galaxy S7 Edge",
+    "brand": "Samsung",
+    "series": "S Series",
+    "category": "phones",
+    "year": 2016,
+    "price": 59,
+    "badge": "Good",
+    "description": "The curved-edge icon. Dual-pixel camera, waterproof, still functional for everyday use.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7-edge-.jpg",
+    "specs": {
+      "Display": "5.5\" Super AMOLED, 2560\u00d71440, 60Hz (curved)",
+      "Processor": "Snapdragon 820",
+      "RAM": "4GB",
+      "Storage": "32GB (expandable)",
+      "Rear Camera": "12MP dual-pixel OIS",
+      "Front Camera": "5MP",
+      "Battery": "3600mAh",
+      "Charging": "15W wired \u00b7 wireless",
+      "OS": "Android 6 \u2192 8",
+      "Dimensions": "150.9 \u00d7 72.6 \u00d7 7.7mm \u00b7 157g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 4.2 \u00b7 NFC \u00b7 micro-USB"
+    },
+    "localImage": "images/products/120/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#C8A84A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "32GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "name": "Samsung Galaxy Note 20 Ultra",
+    "brand": "Samsung",
+    "series": "Note Series",
+    "category": "phones",
+    "year": 2020,
+    "price": 449,
+    "badge": "Like New",
+    "description": "The definitive Note \u2014 6.9\" Dynamic AMOLED, Snapdragon 865+, 108MP, and the most refined S Pen ever in a Note.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note20-ultra-.jpg",
+    "specs": {
+      "Display": "6.9\" Dynamic AMOLED 2X, 3088\u00d71440, 120Hz",
+      "Processor": "Snapdragon 865+",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "108MP wide + 12MP ultra-wide + 12MP 5\u00d7 periscope",
+      "Front Camera": "10MP",
+      "Battery": "4500mAh",
+      "Charging": "25W wired \u00b7 15W wireless \u00b7 9W reverse",
+      "S Pen": "Included (0.8ms latency, BT Air Actions)",
+      "OS": "Android 10 \u2192 13",
+      "Dimensions": "164.8 \u00d7 77.2 \u00d7 8.1mm \u00b7 213g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/121/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Mystic Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Mystic Bronze",
+          "hex": "#8A6A4A"
+        },
+        {
+          "name": "Mystic White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "name": "Samsung Galaxy Note 20",
+    "brand": "Samsung",
+    "series": "Note Series",
+    "category": "phones",
+    "year": 2020,
+    "price": 279,
+    "badge": "Like New",
+    "description": "Note productivity meets 5G \u2014 S Pen with BT Air Actions, 64MP Zoom, and a flat 6.7\" display.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note20-5g-r.jpg",
+    "specs": {
+      "Display": "6.7\" Super AMOLED Plus, 2400\u00d71080, 60Hz",
+      "Processor": "Snapdragon 865+",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 64MP hi-res + 12MP ultra-wide",
+      "Front Camera": "10MP",
+      "Battery": "4300mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "S Pen": "Included (BT Air Actions)",
+      "OS": "Android 10 \u2192 13",
+      "Dimensions": "161.6 \u00d7 75.2 \u00d7 8.3mm \u00b7 192g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/122/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Mystic Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Mystic Bronze",
+          "hex": "#8A6A4A"
+        },
+        {
+          "name": "Mystic Gray",
+          "hex": "#8A8A8A"
+        },
+        {
+          "name": "Mystic Green",
+          "hex": "#3A5A4A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Samsung Galaxy Note 10+",
+    "brand": "Samsung",
+    "series": "Note Series",
+    "category": "phones",
+    "year": 2019,
+    "price": 249,
+    "badge": "Good",
+    "description": "6.8\" Infinity-O display, 12GB RAM, quad rear cameras and the classic Note S Pen experience.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-plus-.jpg",
+    "specs": {
+      "Display": "6.8\" Dynamic AMOLED, 3040\u00d71440, 60Hz",
+      "Processor": "Snapdragon 855+",
+      "RAM": "12GB",
+      "Storage": "256GB (expandable)",
+      "Rear Camera": "12MP wide + 12MP telephoto + 16MP ultra-wide + depth sensor",
+      "Front Camera": "10MP",
+      "Battery": "4300mAh",
+      "Charging": "45W wired \u00b7 12W wireless \u00b7 reverse wireless",
+      "S Pen": "Included (BT Air Actions)",
+      "OS": "Android 9 \u2192 12",
+      "Dimensions": "162.3 \u00d7 77.2 \u00d7 7.9mm \u00b7 196g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C 3.1"
+    },
+    "localImage": "images/products/123/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Aura Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Aura Glow",
+          "hex": "#C0A8B0"
+        },
+        {
+          "name": "Aura Pink",
+          "hex": "#E8B4B8"
+        },
+        {
+          "name": "Aura White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "name": "Samsung Galaxy Note 10",
+    "brand": "Samsung",
+    "series": "Note Series",
+    "category": "phones",
+    "year": 2019,
+    "price": 189,
+    "badge": "Good",
+    "description": "Compact Note with 6.3\" display, triple camera, and the iconic S Pen productivity suite.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-.jpg",
+    "specs": {
+      "Display": "6.3\" Dynamic AMOLED, 2280\u00d71080, 60Hz",
+      "Processor": "Snapdragon 855",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "12MP wide + 12MP telephoto + 16MP ultra-wide",
+      "Front Camera": "10MP",
+      "Battery": "3500mAh",
+      "Charging": "25W wired \u00b7 12W wireless",
+      "S Pen": "Included (BT Air Actions)",
+      "OS": "Android 9 \u2192 12",
+      "Dimensions": "151.0 \u00d7 71.8 \u00d7 7.9mm \u00b7 168g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/124/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Aura Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Aura Glow",
+          "hex": "#C0A8B0"
+        },
+        {
+          "name": "Aura Pink",
+          "hex": "#E8B4B8"
+        },
+        {
+          "name": "Aura White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "name": "Samsung Galaxy Note 9",
+    "brand": "Samsung",
+    "series": "Note Series",
+    "category": "phones",
+    "year": 2018,
+    "price": 149,
+    "badge": "Good",
+    "description": "Bluetooth S Pen, 6.4\" Super AMOLED, 4000mAh battery \u2014 the Note that truly matured the line.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note9-r1.jpg",
+    "specs": {
+      "Display": "6.4\" Super AMOLED, 2960\u00d71440, 60Hz",
+      "Processor": "Snapdragon 845",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "12MP wide (dual aperture) + 12MP telephoto",
+      "Front Camera": "8MP",
+      "Battery": "4000mAh",
+      "Charging": "15W wired \u00b7 wireless",
+      "S Pen": "Included (BT)",
+      "OS": "Android 8 \u2192 10",
+      "Dimensions": "161.9 \u00d7 76.4 \u00d7 8.8mm \u00b7 201g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/125/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Lavender Purple",
+          "hex": "#9B8FA8"
+        },
+        {
+          "name": "Metallic Copper",
+          "hex": "#B87A5A"
+        },
+        {
+          "name": "Ocean Blue",
+          "hex": "#2A5A8A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 70
+        }
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "name": "Samsung Galaxy Note 8",
+    "brand": "Samsung",
+    "series": "Note Series",
+    "category": "phones",
+    "year": 2017,
+    "price": 89,
+    "badge": "Good",
+    "description": "First dual-camera Note \u2014 6.3\" Infinity Display, OIS on both lenses, and a refined S Pen.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note-8-sm-n950.jpg",
+    "specs": {
+      "Display": "6.3\" Super AMOLED, 2960\u00d71440, 60Hz",
+      "Processor": "Snapdragon 835",
+      "RAM": "6GB",
+      "Storage": "64GB (expandable)",
+      "Rear Camera": "12MP wide OIS + 12MP telephoto OIS",
+      "Front Camera": "8MP",
+      "Battery": "3300mAh",
+      "Charging": "15W wired \u00b7 wireless",
+      "S Pen": "Included",
+      "OS": "Android 7 \u2192 9",
+      "Dimensions": "162.5 \u00d7 74.6 \u00d7 8.6mm \u00b7 195g",
+      "Water Resistance": "IP68",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/126/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Maple Gold",
+          "hex": "#C8A84A"
+        },
+        {
+          "name": "Orchid Gray",
+          "hex": "#9A8A9A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "name": "Samsung Galaxy Z Fold 5",
+    "brand": "Samsung",
+    "series": "Z Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 1429,
+    "badge": "New",
+    "description": "Next-gen foldable \u2014 thinner hinge, crease-free inner display, Snapdragon 8 Gen 2 and all-day battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold5-5g.jpg",
+    "specs": {
+      "Main Display": "7.6\" Dynamic AMOLED 2X, 2176\u00d71812, 120Hz",
+      "Cover Display": "6.2\" Dynamic AMOLED 2X, 2316\u00d7904, 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "10MP cover + 4MP under-display",
+      "Battery": "4400mAh",
+      "Charging": "25W wired \u00b7 15W wireless \u00b7 4.5W reverse",
+      "OS": "Android 13, One UI 5.1.1",
+      "Dimensions": "Open: 154.9 \u00d7 129.9 \u00d7 6.1mm | Closed: 154.9 \u00d7 67.1 \u00d7 13.4mm \u00b7 253g",
+      "Water Resistance": "IPX8",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/131/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Icy Blue",
+          "hex": "#B0C8D8"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "name": "Samsung Galaxy Z Fold 4",
+    "brand": "Samsung",
+    "series": "Z Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 869,
+    "badge": "Like New",
+    "description": "Refined foldable with a wider cover screen, improved hinge, and Snapdragon 8+ Gen 1.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4.jpg",
+    "specs": {
+      "Main Display": "7.6\" Dynamic AMOLED 2X, 2176\u00d71812, 120Hz",
+      "Cover Display": "6.2\" Dynamic AMOLED 2X, 2316\u00d7904, 120Hz",
+      "Processor": "Snapdragon 8+ Gen 1",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP wide + 12MP ultra-wide + 10MP 3\u00d7 telephoto",
+      "Front Camera": "10MP cover + 4MP UDC",
+      "Battery": "4400mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 12L \u2192 14",
+      "Dimensions": "Open: 155.1 \u00d7 130.1 \u00d7 6.3mm \u00b7 263g",
+      "Water Resistance": "IPX8",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/132/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        },
+        {
+          "name": "Graygreen",
+          "hex": "#6A8A7A"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "name": "Samsung Galaxy Z Fold 3",
+    "brand": "Samsung",
+    "series": "Z Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 549,
+    "badge": "Good",
+    "description": "First IPX8 foldable with S Pen support \u2014 still an impressive 7.6\" book-style foldable.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold3-5g.jpg",
+    "specs": {
+      "Main Display": "7.6\" Dynamic AMOLED 2X, 2208\u00d71768, 120Hz",
+      "Cover Display": "6.2\" Dynamic AMOLED 2X, 2268\u00d7832, 120Hz",
+      "Processor": "Snapdragon 888",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "12MP wide + 12MP ultra-wide + 12MP telephoto",
+      "S Pen": "Compatible (Pro sold separately)",
+      "Battery": "4400mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 11 \u2192 14",
+      "Dimensions": "Open: 158.2 \u00d7 128.1 \u00d7 6.4mm \u00b7 271g",
+      "Water Resistance": "IPX8",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/133/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Phantom Green",
+          "hex": "#3A5A4A"
+        },
+        {
+          "name": "Phantom Silver",
+          "hex": "#C8C8C8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "name": "Samsung Galaxy Z Flip 5",
+    "brand": "Samsung",
+    "series": "Z Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 759,
+    "badge": "New",
+    "description": "Massive new Flex Window cover display \u2014 see notifications, reply to messages and run apps without opening.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip5-5g.jpg",
+    "specs": {
+      "Main Display": "6.7\" Dynamic AMOLED 2X, 2640\u00d71080, 120Hz",
+      "Cover Display": "3.4\" Super AMOLED, 748\u00d7720 (Flex Window)",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "12MP wide OIS + 12MP ultra-wide",
+      "Front Camera": "10MP (inner)",
+      "Battery": "3700mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 13, One UI 5.1.1",
+      "Dimensions": "Open: 165.1 \u00d7 71.9 \u00d7 6.9mm | Closed: 85.1 \u00d7 71.9 \u00d7 15.1mm \u00b7 187g",
+      "Water Resistance": "IPX8",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/134/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#5A5A5A"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#C0B0D0"
+        },
+        {
+          "name": "Mint",
+          "hex": "#8ABAA8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "name": "Samsung Galaxy Z Flip 4",
+    "brand": "Samsung",
+    "series": "Z Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 499,
+    "badge": "Like New",
+    "description": "Snapdragon 8+ Gen 1, improved Flex Mode hinge, and 25W fast charging in a compact flip form factor.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip4-5g.jpg",
+    "specs": {
+      "Main Display": "6.7\" Dynamic AMOLED 2X, 2640\u00d71080, 120Hz",
+      "Cover Display": "1.9\" Super AMOLED",
+      "Processor": "Snapdragon 8+ Gen 1",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide OIS + 12MP ultra-wide",
+      "Front Camera": "10MP (inner)",
+      "Battery": "3700mAh",
+      "Charging": "25W wired \u00b7 15W wireless",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "Open: 165.2 \u00d7 71.9 \u00d7 6.9mm | Closed: 84.9 \u00d7 71.9 \u00d7 15.9mm \u00b7 187g",
+      "Water Resistance": "IPX8",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/135/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Bora Purple",
+          "hex": "#8B7BA8"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#5A5A5A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#C8A84A"
+        },
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 70
+        }
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "name": "Samsung Galaxy Z Flip 3",
+    "brand": "Samsung",
+    "series": "Z Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 329,
+    "badge": "Good",
+    "description": "The flip phone reinvented \u2014 IPX8 waterproof, Snapdragon 888, and a cover display that actually works.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip3-5g.jpg",
+    "specs": {
+      "Main Display": "6.7\" Dynamic AMOLED 2X, 2640\u00d71080, 120Hz",
+      "Cover Display": "1.9\" Super AMOLED",
+      "Processor": "Snapdragon 888",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP ultra-wide",
+      "Front Camera": "10MP (inner)",
+      "Battery": "3300mAh",
+      "Charging": "15W wired \u00b7 10W wireless",
+      "OS": "Android 11 \u2192 14",
+      "Dimensions": "Open: 166.0 \u00d7 72.2 \u00d7 6.9mm \u00b7 183g",
+      "Water Resistance": "IPX8",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/136/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#C0B0D0"
+        },
+        {
+          "name": "Phantom Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 319,
+    "badge": "New",
+    "description": "2024's mid-range champion \u2014 Exynos 1480, 50MP OIS camera, 6.6\" AMOLED and IP67 dust/water resistance.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg",
+    "specs": {
+      "Display": "6.6\" Super AMOLED, 2340\u00d71080, 120Hz",
+      "Processor": "Exynos 1480",
+      "RAM": "8GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "50MP OIS wide + 12MP ultra-wide + 5MP macro",
+      "Front Camera": "32MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 14, One UI 6.1 (4 years updates)",
+      "Dimensions": "161.1 \u00d7 77.4 \u00d7 8.2mm \u00b7 213g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/141/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Iceblue",
+          "hex": "#A8C8D8"
+        },
+        {
+          "name": "Awesome Lilac",
+          "hex": "#C0A8C8"
+        },
+        {
+          "name": "Awesome Navy",
+          "hex": "#2A3A5A"
+        },
+        {
+          "name": "Awesome Lemon",
+          "hex": "#E8E0A0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "name": "Samsung Galaxy A35 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 229,
+    "badge": "New",
+    "description": "Balanced mid-ranger \u2014 Exynos 1380, bright AMOLED, and OIS camera with 4 years of OS updates guaranteed.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a35.jpg",
+    "specs": {
+      "Display": "6.6\" Super AMOLED, 2340\u00d71080, 120Hz",
+      "Processor": "Exynos 1380",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "50MP OIS + 8MP ultra-wide + 5MP macro",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 14, One UI 6.1",
+      "Dimensions": "161.7 \u00d7 78.0 \u00d7 8.2mm \u00b7 210g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/142/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Iceblue",
+          "hex": "#A8C8D8"
+        },
+        {
+          "name": "Awesome Lilac",
+          "hex": "#C0A8C8"
+        },
+        {
+          "name": "Awesome Navy",
+          "hex": "#2A3A5A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "name": "Samsung Galaxy A25 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 169,
+    "badge": "New",
+    "description": "Affordable 5G with a bright AMOLED display, 50MP main camera, and 5000mAh battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a25.jpg",
+    "specs": {
+      "Display": "6.5\" Super AMOLED, 2340\u00d71080, 120Hz",
+      "Processor": "Exynos 1280",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "50MP + 8MP ultra-wide + 2MP macro",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 14, One UI 6",
+      "Dimensions": "161.0 \u00d7 76.5 \u00d7 7.8mm \u00b7 197g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/143/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Dark Blue",
+          "hex": "#2A3A5A"
+        },
+        {
+          "name": "Light Green",
+          "hex": "#8AC8A0"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#E8D880"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 144,
+    "name": "Samsung Galaxy A15 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 119,
+    "badge": "New",
+    "description": "Entry-level 5G \u2014 50MP triple camera, 5000mAh battery and a 90Hz display for everyday tasks.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a15-5g-new.jpg",
+    "specs": {
+      "Display": "6.5\" TFT LCD, 2340\u00d71080, 90Hz",
+      "Processor": "MediaTek Dimensity 6100+",
+      "RAM": "4GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "50MP + 5MP ultra-wide + 2MP macro",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 14, One UI 6",
+      "Dimensions": "160.1 \u00d7 76.8 \u00d7 8.4mm \u00b7 200g",
+      "Connectivity": "5G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/144/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Light Blue",
+          "hex": "#8AB8D8"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#E8D880"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "name": "Samsung Galaxy A54 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 199,
+    "badge": "Like New",
+    "description": "2023's most-praised mid-ranger \u2014 Exynos 1380, OIS 50MP camera, IP67 and 5000mAh battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a54.jpg",
+    "specs": {
+      "Display": "6.4\" Super AMOLED, 2340\u00d71080, 120Hz",
+      "Processor": "Exynos 1380",
+      "RAM": "8GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "50MP OIS + 12MP ultra-wide + 5MP macro",
+      "Front Camera": "32MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 13 \u2192 14",
+      "Dimensions": "158.2 \u00d7 76.7 \u00d7 8.2mm \u00b7 202g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/145/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Graphite",
+          "hex": "#5A5A5A"
+        },
+        {
+          "name": "Awesome Lime",
+          "hex": "#9AC870"
+        },
+        {
+          "name": "Awesome Violet",
+          "hex": "#8A6AA8"
+        },
+        {
+          "name": "Awesome White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "name": "Samsung Galaxy A34 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 159,
+    "badge": "Like New",
+    "description": "Vibrant 6.6\" AMOLED, Dimensity 1080, 48MP OIS and IP67 in the wallet-friendly A range.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a34.jpg",
+    "specs": {
+      "Display": "6.6\" Super AMOLED, 2340\u00d71080, 120Hz",
+      "Processor": "MediaTek Dimensity 1080",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "48MP OIS + 8MP ultra-wide + 5MP macro",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 13 \u2192 14",
+      "Dimensions": "161.3 \u00d7 78.1 \u00d7 8.2mm \u00b7 199g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/146/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Graphite",
+          "hex": "#5A5A5A"
+        },
+        {
+          "name": "Awesome Lime",
+          "hex": "#9AC870"
+        },
+        {
+          "name": "Awesome Silver",
+          "hex": "#C8C8C8"
+        },
+        {
+          "name": "Awesome Violet",
+          "hex": "#8A6AA8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 147,
+    "name": "Samsung Galaxy A24",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 129,
+    "badge": "Like New",
+    "description": "AMOLED colour, Helio G99, 50MP main camera \u2014 great value 4G mid-ranger.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a24-4g-2.jpg",
+    "specs": {
+      "Display": "6.5\" Super AMOLED, 2340\u00d71080, 90Hz",
+      "Processor": "MediaTek Helio G99",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "50MP + 5MP ultra-wide + 2MP macro",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 13 \u2192 14",
+      "Dimensions": "162.1 \u00d7 77.6 \u00d7 8.3mm \u00b7 195g",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/147/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Dark Red",
+          "hex": "#8A2A2A"
+        },
+        {
+          "name": "Light Green",
+          "hex": "#8AC8A0"
+        },
+        {
+          "name": "White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "name": "Samsung Galaxy A14 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 89,
+    "badge": "Like New",
+    "description": "Budget 5G from Samsung \u2014 50MP camera, large 6.6\" display, and 5000mAh to keep you going all day.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-5g.jpg",
+    "specs": {
+      "Display": "6.6\" TFT LCD, 2408\u00d71080, 90Hz",
+      "Processor": "MediaTek Dimensity 700",
+      "RAM": "4GB",
+      "Storage": "64GB (expandable)",
+      "Rear Camera": "50MP + 5MP ultra-wide + 2MP macro",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "15W wired",
+      "OS": "Android 13",
+      "Dimensions": "167.7 \u00d7 78.6 \u00d7 9.1mm \u00b7 201g",
+      "Connectivity": "5G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/148/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Dark Red",
+          "hex": "#8A2A2A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A6A4A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "128GB",
+          "priceAdder": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 149,
+    "name": "Samsung Galaxy A53 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 159,
+    "badge": "Good",
+    "description": "64MP quad camera, OIS, IP67, and 5000mAh \u2014 the A53 set the benchmark for mid-range in 2022.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a53-5g-.jpg",
+    "specs": {
+      "Display": "6.5\" Super AMOLED, 2400\u00d71080, 120Hz",
+      "Processor": "Exynos 1280",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "64MP OIS + 12MP ultra-wide + 5MP macro + 5MP depth",
+      "Front Camera": "32MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "159.6 \u00d7 74.8 \u00d7 8.1mm \u00b7 189g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.1 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/149/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Awesome Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Awesome Peach",
+          "hex": "#E8B4A0"
+        },
+        {
+          "name": "Awesome White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "name": "Samsung Galaxy A33 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 129,
+    "badge": "Good",
+    "description": "IP67 waterproof mid-ranger with Exynos 1280, 6.4\" AMOLED and 48MP OIS camera.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a33-5g.jpg",
+    "specs": {
+      "Display": "6.4\" Super AMOLED, 2400\u00d71080, 90Hz",
+      "Processor": "Exynos 1280",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "48MP OIS + 8MP ultra-wide + 5MP macro + 2MP depth",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "25W wired",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "159.7 \u00d7 74.0 \u00d7 8.1mm \u00b7 186g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.1 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/150/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Awesome Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Awesome Peach",
+          "hex": "#E8B4A0"
+        },
+        {
+          "name": "Awesome White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "name": "Samsung Galaxy A52s 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 119,
+    "badge": "Good",
+    "description": "Snapdragon 778G in the A-Series \u2014 64MP OIS camera, 6.5\" AMOLED, and IP67 at a mid-range price.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52s-5g.jpg",
+    "specs": {
+      "Display": "6.5\" Super AMOLED, 2400\u00d71080, 120Hz",
+      "Processor": "Snapdragon 778G",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "64MP OIS + 12MP ultra-wide + 5MP macro + 5MP depth",
+      "Front Camera": "32MP",
+      "Battery": "4500mAh",
+      "Charging": "25W wired",
+      "OS": "Android 11 \u2192 13",
+      "Dimensions": "159.9 \u00d7 75.1 \u00d7 8.4mm \u00b7 189g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/151/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Awesome Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Awesome Mint",
+          "hex": "#8AC8B0"
+        },
+        {
+          "name": "Awesome White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 152,
+    "name": "Samsung Galaxy A32 5G",
+    "brand": "Samsung",
+    "series": "A Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 89,
+    "badge": "Good",
+    "description": "Affordable 5G entry with 48MP quad camera, 6.5\" display and 5000mAh battery.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-5g.jpg",
+    "specs": {
+      "Display": "6.5\" TFT LCD, 2408\u00d71080, 90Hz",
+      "Processor": "MediaTek Dimensity 720",
+      "RAM": "4GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "48MP + 8MP ultra-wide + 5MP macro + 2MP depth",
+      "Front Camera": "13MP",
+      "Battery": "5000mAh",
+      "Charging": "15W wired",
+      "OS": "Android 11 \u2192 13",
+      "Dimensions": "164.4 \u00d7 76.3 \u00d7 9.1mm \u00b7 205g",
+      "Connectivity": "5G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/152/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Awesome Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Awesome Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Awesome Violet",
+          "hex": "#8A6AA8"
+        },
+        {
+          "name": "Awesome White",
+          "hex": "#F0F0F0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "name": "Samsung Galaxy Tab S9 Ultra 256GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab S Series",
+    "category": "tablets",
+    "year": 2023,
+    "price": 1099,
+    "badge": "New",
+    "description": "Laptop-replacing 14.6\" AMOLED tablet \u2014 Snapdragon 8 Gen 2, S Pen included, DeX desktop mode.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-ultra-5g.jpg",
+    "specs": {
+      "Display": "14.6\" Dynamic AMOLED 2X, 2960\u00d71848, 120Hz, 420ppi",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "13MP + 8MP ultra-wide",
+      "Front Camera": "12MP + 12MP ultra-wide",
+      "Battery": "11200mAh",
+      "Charging": "45W wired",
+      "S Pen": "Included",
+      "OS": "Android 13, One UI 5.1",
+      "Dimensions": "326.4 \u00d7 208.6 \u00d7 5.5mm \u00b7 732g",
+      "Water Resistance": "IP68",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/161/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 150
+        }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "name": "Samsung Galaxy Tab S9+ 256GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab S Series",
+    "category": "tablets",
+    "year": 2023,
+    "price": 879,
+    "badge": "New",
+    "description": "12.4\" AMOLED powerhouse \u2014 Snapdragon 8 Gen 2, IP68, S Pen included and DeX desktop mode.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-plus-5g.jpg",
+    "specs": {
+      "Display": "12.4\" Dynamic AMOLED 2X, 2800\u00d71752, 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "13MP + 8MP",
+      "Front Camera": "12MP",
+      "Battery": "10090mAh",
+      "Charging": "45W wired",
+      "S Pen": "Included",
+      "OS": "Android 13, One UI 5.1",
+      "Dimensions": "285.4 \u00d7 185.4 \u00d7 5.7mm \u00b7 581g",
+      "Water Resistance": "IP68",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/162/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 130
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "name": "Samsung Galaxy Tab S9 128GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab S Series",
+    "category": "tablets",
+    "year": 2023,
+    "price": 649,
+    "badge": "New",
+    "description": "11\" AMOLED tablet with Snapdragon 8 Gen 2, IP68 rating and S Pen included as standard.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-5g.jpg",
+    "specs": {
+      "Display": "11\" Dynamic AMOLED 2X, 2560\u00d71600, 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "13MP + 8MP",
+      "Front Camera": "12MP",
+      "Battery": "8400mAh",
+      "Charging": "45W wired",
+      "S Pen": "Included",
+      "OS": "Android 13, One UI 5.1",
+      "Dimensions": "254.7 \u00d7 166.3 \u00d7 5.9mm \u00b7 498g",
+      "Water Resistance": "IP68",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/163/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "name": "Samsung Galaxy Tab S9 FE 128GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab S Series",
+    "category": "tablets",
+    "year": 2023,
+    "price": 399,
+    "badge": "New",
+    "description": "Fan Edition Tab S9 \u2014 Exynos 1380, 10.9\" display, S Pen compatible and IP68 at a friendlier price.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s9-fe-10-.jpg",
+    "specs": {
+      "Display": "10.9\" TFT LCD, 2304\u00d71440, 90Hz",
+      "Processor": "Exynos 1380",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "8MP",
+      "Front Camera": "10MP",
+      "Battery": "10090mAh",
+      "Charging": "45W wired",
+      "S Pen": "Compatible (not included)",
+      "OS": "Android 13",
+      "Dimensions": "254.3 \u00d7 165.8 \u00d7 6.5mm \u00b7 523g",
+      "Water Resistance": "IP68",
+      "Connectivity": "Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/164/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "name": "Samsung Galaxy Tab S8 Ultra 128GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab S Series",
+    "category": "tablets",
+    "year": 2022,
+    "price": 699,
+    "badge": "Like New",
+    "description": "14.6\" Super AMOLED, Snapdragon 8 Gen 1, S Pen included \u2014 the original Ultra Tab experience.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-ultra.jpg",
+    "specs": {
+      "Display": "14.6\" Super AMOLED, 2960\u00d71848, 120Hz",
+      "Processor": "Snapdragon 8 Gen 1",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "13MP + 6MP ultra-wide",
+      "Front Camera": "12MP + 12MP ultra-wide",
+      "Battery": "11200mAh",
+      "Charging": "45W wired",
+      "S Pen": "Included",
+      "OS": "Android 12 \u2192 14",
+      "Dimensions": "326.4 \u00d7 208.6 \u00d7 5.5mm \u00b7 726g",
+      "Water Resistance": "IP68",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.2 \u00b7 USB-C 3.1"
+    },
+    "localImage": "images/products/165/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 130
+        }
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "name": "Samsung Galaxy Tab A9+ 64GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab A Series",
+    "category": "tablets",
+    "year": 2023,
+    "price": 259,
+    "badge": "New",
+    "description": "11\" four-speaker tablet for entertainment and productivity \u2014 Snapdragon 695, 90Hz LCD, expandable storage.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a9-plus.jpg",
+    "specs": {
+      "Display": "11\" TFT LCD, 1920\u00d71200, 90Hz",
+      "Processor": "Snapdragon 695",
+      "RAM": "4GB",
+      "Storage": "64GB (expandable)",
+      "Rear Camera": "8MP",
+      "Front Camera": "5MP",
+      "Battery": "7040mAh",
+      "Charging": "15W wired",
+      "OS": "Android 13",
+      "Dimensions": "257.0 \u00d7 168.7 \u00d7 6.9mm \u00b7 480g",
+      "Connectivity": "Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/166/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "128GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "name": "Samsung Galaxy Tab A9 64GB Wi-Fi",
+    "brand": "Samsung",
+    "series": "Tab A Series",
+    "category": "tablets",
+    "year": 2023,
+    "price": 189,
+    "badge": "New",
+    "description": "Compact 8.7\" everyday tablet with Helio G99, expandable storage and a slim metal design.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a9.jpg",
+    "specs": {
+      "Display": "8.7\" TFT LCD, 1340\u00d7800, 60Hz",
+      "Processor": "MediaTek Helio G99",
+      "RAM": "4GB",
+      "Storage": "64GB (expandable)",
+      "Rear Camera": "8MP",
+      "Front Camera": "5MP",
+      "Battery": "5100mAh",
+      "Charging": "15W wired",
+      "OS": "Android 13",
+      "Dimensions": "210.1 \u00d7 128.3 \u00d7 8.0mm \u00b7 336g",
+      "Connectivity": "Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/167/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Beige",
+          "hex": "#E8D8C0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "128GB",
+          "priceAdder": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "name": "Samsung Galaxy Buds 3 Pro",
+    "brand": "Samsung",
+    "series": "Galaxy Buds",
+    "category": "accessories",
+    "year": 2024,
+    "price": 219,
+    "badge": "New",
+    "description": "Samsung's best earbuds yet \u2014 ANC, 360 Audio, Blade Lite design and up to 30 hours total battery.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Driver": "10mm woofer + 6.5mm tweeter",
+      "ANC": "Intelligent Active Noise Cancellation",
+      "Transparency": "Ambient Sound mode",
+      "Battery": "Buds: 6hr (ANC on) | Case: 30hr total",
+      "Charging": "Wired USB-C \u00b7 Wireless (Qi) \u00b7 Reverse wireless",
+      "Connectivity": "Bluetooth 5.4 \u00b7 LE Audio",
+      "Codec": "SSC, SBC, AAC",
+      "Features": "360 Audio \u00b7 Voice detect \u00b7 Multipoint \u00b7 IPX7",
+      "Weight": "5.7g each"
+    },
+    "localImage": "images/products/171/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 172,
+    "name": "Samsung Galaxy Buds 3",
+    "brand": "Samsung",
+    "series": "Galaxy Buds",
+    "category": "accessories",
+    "year": 2024,
+    "price": 149,
+    "badge": "New",
+    "description": "New open-type design with AI-powered adaptive EQ, ANC, and 36 hours total battery life.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Driver": "11mm woofer + 6.5mm tweeter",
+      "ANC": "Active Noise Cancellation",
+      "Battery": "Buds: 6hr | Case: 36hr total",
+      "Charging": "Wired USB-C \u00b7 Wireless",
+      "Connectivity": "Bluetooth 5.4",
+      "Features": "Adaptive EQ \u00b7 Voice detect \u00b7 Multipoint \u00b7 IPX7",
+      "Weight": "5.1g each"
+    },
+    "localImage": "images/products/172/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "name": "Samsung Galaxy Buds 2 Pro",
+    "brand": "Samsung",
+    "series": "Galaxy Buds",
+    "category": "accessories",
+    "year": 2022,
+    "price": 119,
+    "badge": "Like New",
+    "description": "Hi-Fi 24-bit audio, intelligent ANC, and comfortable fit \u2014 still among the best earbuds for Galaxy users.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Driver": "10mm woofer + 5.5mm tweeter",
+      "ANC": "Intelligent ANC",
+      "Battery": "Buds: 5hr (ANC on) | Case: 18hr total",
+      "Charging": "Wired USB-C \u00b7 Wireless",
+      "Connectivity": "Bluetooth 5.3",
+      "Codec": "SSC Hi-Fi, SBC, AAC",
+      "Features": "360 Audio \u00b7 Voice detect \u00b7 IPX7",
+      "Weight": "5.5g each"
+    },
+    "localImage": "images/products/173/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Bora Purple",
+          "hex": "#8B7BA8"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "name": "Samsung Galaxy Buds 2",
+    "brand": "Samsung",
+    "series": "Galaxy Buds",
+    "category": "accessories",
+    "year": 2021,
+    "price": 69,
+    "badge": "Good",
+    "description": "Lightweight ANC earbuds with three microphones, clear two-way speaker and all-day comfort.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Driver": "11mm woofer + 6.5mm tweeter",
+      "ANC": "Active Noise Cancellation",
+      "Battery": "Buds: 5hr (ANC on) | Case: 20hr total",
+      "Charging": "Wired USB-C \u00b7 Wireless",
+      "Connectivity": "Bluetooth 5.2",
+      "Features": "Ambient mode \u00b7 Auto switch \u00b7 IPX2",
+      "Weight": "5.0g each"
+    },
+    "localImage": "images/products/174/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#C0B0D0"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 181,
+    "name": "Samsung Galaxy Watch Ultra 47mm",
+    "brand": "Samsung",
+    "series": "Galaxy Watch",
+    "category": "accessories",
+    "year": 2024,
+    "price": 549,
+    "badge": "New",
+    "description": "Samsung's toughest smartwatch \u2014 titanium case, 3ATM + IP68 + MIL-STD-810H, and 60-hour battery.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_Galaxy_Watch_7_%28Silver%29.png",
+    "specs": {
+      "Display": "1.47\" Super AMOLED, 480\u00d7480, always-on",
+      "Processor": "Exynos W1000",
+      "RAM": "2GB",
+      "Storage": "32GB",
+      "Battery": "590mAh \u00b7 up to 60hr",
+      "Charging": "Wireless",
+      "Sensors": "ECG, blood pressure, body comp, SpO2, skin temp",
+      "OS": "Wear OS 5 / One UI Watch 6",
+      "Case": "47mm Titanium \u00b7 13.4mm thick \u00b7 60.5g",
+      "Water Resistance": "3ATM + IP68 + MIL-STD-810H",
+      "Connectivity": "Bluetooth 5.3 \u00b7 Wi-Fi \u00b7 NFC \u00b7 GPS"
+    },
+    "localImage": "images/products/181/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Titanium Gray",
+          "hex": "#8A8A8A"
+        },
+        {
+          "name": "Titanium White",
+          "hex": "#F5F5F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 182,
+    "name": "Samsung Galaxy Watch 7 44mm",
+    "brand": "Samsung",
+    "series": "Galaxy Watch",
+    "category": "accessories",
+    "year": 2024,
+    "price": 299,
+    "badge": "New",
+    "description": "Exynos W1000, advanced sleep coaching, ECG + blood pressure, 40hr battery in a sleek 44mm case.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Samsung_Galaxy_Watch_6.jpg/800px-Samsung_Galaxy_Watch_6.jpg",
+    "specs": {
+      "Display": "1.47\" Super AMOLED, 480\u00d7480, always-on",
+      "Processor": "Exynos W1000",
+      "Battery": "425mAh \u00b7 up to 40hr",
+      "Charging": "Wireless",
+      "Sensors": "ECG, blood pressure, body comp, SpO2",
+      "OS": "Wear OS 5 / One UI Watch 6",
+      "Case": "44mm Aluminum \u00b7 9.7mm thick \u00b7 33.8g",
+      "Water Resistance": "IP68 \u00b7 5ATM",
+      "Connectivity": "Bluetooth 5.3 \u00b7 Wi-Fi \u00b7 NFC \u00b7 GPS"
+    },
+    "localImage": "images/products/182/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F5E6D3"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A6A4A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        }
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "name": "Samsung Galaxy Watch 6 Classic 47mm",
+    "brand": "Samsung",
+    "series": "Galaxy Watch",
+    "category": "accessories",
+    "year": 2023,
+    "price": 279,
+    "badge": "Like New",
+    "description": "Rotating bezel returns \u2014 Exynos W930, sapphire crystal glass, ECG and blood pressure monitoring.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Display": "1.47\" Super AMOLED, 480\u00d7480",
+      "Processor": "Exynos W930",
+      "Battery": "425mAh \u00b7 up to 40hr",
+      "Rotating Bezel": "Physical click-rotating bezel",
+      "Sensors": "ECG, blood pressure, SpO2, body comp",
+      "OS": "Wear OS 4 / One UI Watch 5",
+      "Case": "47mm Stainless Steel \u00b7 10.9mm \u00b7 59g",
+      "Water Resistance": "IP68 \u00b7 5ATM \u00b7 MIL-STD-810H",
+      "Connectivity": "Bluetooth 5.3 \u00b7 Wi-Fi \u00b7 NFC \u00b7 GPS"
+    },
+    "localImage": "images/products/183/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Classic Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Classic Silver",
+          "hex": "#C8C8C8"
+        }
+      ]
+    }
+  },
+  {
+    "id": 184,
+    "name": "Samsung Galaxy Watch 6 44mm",
+    "brand": "Samsung",
+    "series": "Galaxy Watch",
+    "category": "accessories",
+    "year": 2023,
+    "price": 199,
+    "badge": "Like New",
+    "description": "Advanced health tracking \u2014 ECG, blood pressure, sleep coaching \u2014 in a slim 44mm aluminium case.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Display": "1.47\" Super AMOLED, 480\u00d7480",
+      "Processor": "Exynos W930",
+      "Battery": "425mAh \u00b7 up to 40hr",
+      "Sensors": "ECG, blood pressure, SpO2, body comp",
+      "OS": "Wear OS 4 / One UI Watch 5",
+      "Case": "44mm Aluminum \u00b7 9.0mm thick \u00b7 33.3g",
+      "Water Resistance": "IP68 \u00b7 5ATM",
+      "Connectivity": "Bluetooth 5.3 \u00b7 Wi-Fi \u00b7 NFC \u00b7 GPS"
+    },
+    "localImage": "images/products/184/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        }
+      ]
+    }
+  },
+  {
+    "id": 191,
+    "name": "Samsung 45W USB-C Super Fast Charger",
+    "brand": "Samsung",
+    "series": "Accessories",
+    "category": "accessories",
+    "year": 2023,
+    "price": 29,
+    "badge": "New",
+    "description": "Official Samsung 45W Super Fast Charging 2.0 adapter \u2014 charges S22 Ultra / S23 / S24 series to 50% in ~20 minutes.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Output": "45W USB-C (PD 3.0 PPS)",
+      "Compatibility": "Galaxy S21 Ultra and newer, Z Fold/Flip 3+",
+      "Cable": "USB-C to USB-C cable not included",
+      "Input": "100\u2013240V AC",
+      "Size": "Compact folding-pin design"
+    },
+    "localImage": "images/products/191/main.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Samsung 25W USB-C Fast Charger",
+    "brand": "Samsung",
+    "series": "Accessories",
+    "category": "accessories",
+    "year": 2022,
+    "price": 17,
+    "badge": "New",
+    "description": "Official Samsung 25W Super Fast Charging adapter \u2014 compatible with all Galaxy S, A, Z series.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Output": "25W USB-C (PD 3.0 PPS)",
+      "Compatibility": "Galaxy S20 series and newer, most Galaxy A 5G",
+      "Cable": "USB-C cable not included",
+      "Input": "100\u2013240V AC"
+    },
+    "localImage": "images/products/192/main.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Samsung 15W Wireless Charger Pad",
+    "brand": "Samsung",
+    "series": "Accessories",
+    "category": "accessories",
+    "year": 2023,
+    "price": 25,
+    "badge": "New",
+    "description": "Official Samsung fast wireless charging pad \u2014 15W for Galaxy, 12W for Apple MagSafe-compatible iPhones.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Output": "15W (Samsung) \u00b7 12W (Apple Fast Charge) \u00b7 5W (Standard Qi)",
+      "Standard": "Qi universal",
+      "Cable": "USB-C cable included",
+      "Compatible": "All Qi-enabled phones including iPhone 8 and later"
+    },
+    "localImage": "images/products/193/main.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Samsung Galaxy SmartTag 2",
+    "brand": "Samsung",
+    "series": "Accessories",
+    "category": "accessories",
+    "year": 2023,
+    "price": 25,
+    "badge": "New",
+    "description": "Find your keys, bag or anything via SmartThings \u2014 works offline via Bluetooth and UWB direction finding.",
+    "image": "images/brand-placeholder/samsung.svg",
+    "specs": {
+      "Technology": "Bluetooth 5.3 \u00b7 UWB direction finding",
+      "Battery": "CR2032 replaceable \u00b7 up to 500 days",
+      "Range": "~120m Bluetooth",
+      "App": "SmartThings (Galaxy required)",
+      "Water Resistance": "IP67",
+      "Weight": "8.97g"
+    },
+    "localImage": "images/products/194/main.jpg"
+  },
+  {
+    "id": 225,
+    "name": "iPhone 17 Pro Max",
+    "brand": "Apple",
+    "series": "iPhone 17 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 1199,
+    "badge": "New",
+    "description": "Apple's largest and most capable iPhone \u2014 A19 Pro chip, redesigned horizontal camera system, 48MP tetraprism telephoto and up to 2TB storage.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg",
+    "localImage": "images/products/225/main.jpg",
+    "specs": {
+      "Display": "6.9\" Super Retina XDR OLED, 2868\u00d71320, 460ppi, 120Hz ProMotion, 2000 nits",
+      "Chip": "Apple A19 Pro (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 48MP Ultra Wide + 48MP 5\u00d7 Tetraprism Telephoto",
+      "Front Camera": "18MP Centre Stage",
+      "Battery": "4685mAh \u00b7 up to 33hr video",
+      "Charging": "30W wired \u00b7 25W MagSafe \u00b7 15W Qi2",
+      "OS": "iOS 18.5",
+      "Build": "Titanium frame \u00b7 Ceramic Shield 2 front",
+      "Dimensions": "163.0 \u00d7 77.6 \u00d7 8.3mm \u00b7 227g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 USB-C 3"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "#C8693A"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "#1A3050"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 400
+        },
+        {
+          "capacity": "2TB",
+          "priceAdder": 800
+        }
+      ]
+    }
+  },
+  {
+    "id": 226,
+    "name": "iPhone 17 Pro",
+    "brand": "Apple",
+    "series": "iPhone 17 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 1099,
+    "badge": "New",
+    "description": "Pro-grade performance in 6.3\" \u2014 A19 Pro, redesigned camera bump with 48MP triple system and Camera Control.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg",
+    "localImage": "images/products/226/main.jpg",
+    "specs": {
+      "Display": "6.3\" Super Retina XDR OLED, 2622\u00d71206, 460ppi, 120Hz ProMotion, 2000 nits",
+      "Chip": "Apple A19 Pro (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 48MP Ultra Wide + 48MP 5\u00d7 Tetraprism Telephoto",
+      "Front Camera": "18MP Centre Stage",
+      "Battery": "3582mAh \u00b7 up to 27hr video",
+      "Charging": "30W wired \u00b7 25W MagSafe \u00b7 15W Qi2",
+      "OS": "iOS 18.5",
+      "Build": "Titanium frame \u00b7 Ceramic Shield 2 front",
+      "Dimensions": "149.6 \u00d7 71.5 \u00d7 8.3mm \u00b7 199g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 USB-C 3"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "#C8693A"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "#1A3050"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C8C8C8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 400
+        }
+      ]
+    }
+  },
+  {
+    "id": 227,
+    "name": "iPhone Air",
+    "brand": "Apple",
+    "series": "iPhone 17 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 999,
+    "badge": "New",
+    "description": "Apple's thinnest iPhone ever \u2014 titanium frame, 6.6\" OLED, A18 chip and Apple Intelligence in an impossibly slim design.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg",
+    "localImage": "images/products/227/main.jpg",
+    "specs": {
+      "Display": "6.6\" Super Retina XDR OLED, 2622\u00d71206, 460ppi, 120Hz ProMotion",
+      "Chip": "Apple A18 (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3578mAh \u00b7 up to 22hr video",
+      "Charging": "25W wired \u00b7 25W MagSafe",
+      "OS": "iOS 18.5",
+      "Build": "Titanium frame \u00b7 Ceramic Shield 2 front",
+      "Dimensions": "149.6 \u00d7 71.5 \u00d7 5.5mm \u00b7 145g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 USB-C 3"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Sky Blue",
+          "hex": "#7AB4D0"
+        },
+        {
+          "name": "Light Gold",
+          "hex": "#D4C09A"
+        },
+        {
+          "name": "Cloud White",
+          "hex": "#F0EDE8"
+        },
+        {
+          "name": "Space Black",
+          "hex": "#2A2A2E"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 400
+        }
+      ]
+    }
+  },
+  {
+    "id": 228,
+    "name": "iPhone 17",
+    "brand": "Apple",
+    "series": "iPhone 17 Series",
+    "category": "phones",
+    "year": 2025,
+    "price": 799,
+    "badge": "New",
+    "description": "The essential iPhone \u2014 A19 chip, 120Hz ProMotion for the first time on a standard model, and a dual 48MP camera system.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg",
+    "localImage": "images/products/228/main.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2556\u00d71179, 460ppi, 120Hz ProMotion",
+      "Chip": "Apple A19 (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 48MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3279mAh \u00b7 up to 22hr video",
+      "Charging": "25W wired \u00b7 25W MagSafe",
+      "OS": "iOS 18.5",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield 2 front",
+      "Dimensions": "147.6 \u00d7 71.5 \u00d7 7.8mm \u00b7 170g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Lavender",
+          "hex": "#C8BEDD"
+        },
+        {
+          "name": "Sage",
+          "hex": "#B5C7B0"
+        },
+        {
+          "name": "Mist Blue",
+          "hex": "#9BB5C7"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Black",
+          "hex": "#1D1D1F"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 229,
+    "name": "iPhone 17e",
+    "brand": "Apple",
+    "series": "iPhone 17e",
+    "category": "phones",
+    "year": 2026,
+    "price": 599,
+    "badge": "New",
+    "description": "The most affordable iPhone with Apple Intelligence \u2014 A19 chip, C1X modem, 48MP camera, Action Button and 6.1\" Ceramic Shield 2 display.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg",
+    "localImage": "images/products/229/main.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2556\u00d71179, 460ppi",
+      "Chip": "Apple A19 (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion with 2\u00d7 Telephoto",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "4005mAh \u00b7 up to 26hr video",
+      "Charging": "25W wired \u00b7 25W MagSafe",
+      "OS": "iOS 19",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield 2 front",
+      "Dimensions": "138.7 \u00d7 67.3 \u00d7 7.8mm \u00b7 167g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1D1D1F"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Soft Pink",
+          "hex": "#F5C5C5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        }
+      ]
+    }
+  },
+  {
+    "id": 230,
+    "name": "iPhone 16e",
+    "brand": "Apple",
+    "series": "iPhone 16e",
+    "category": "phones",
+    "year": 2025,
+    "price": 599,
+    "badge": "New",
+    "description": "The most affordable iPhone with A18 chip and Apple Intelligence \u2014 48MP camera, MagSafe and Apple's first custom C1 modem.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+    "localImage": "images/products/230/main.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2532\u00d71170, 460ppi",
+      "Chip": "Apple A18 (3nm)",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion with 2\u00d7 Telephoto",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "4005mAh \u00b7 up to 26hr video",
+      "Charging": "25W wired \u00b7 25W MagSafe",
+      "OS": "iOS 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield front",
+      "Dimensions": "138.7 \u00d7 67.3 \u00d7 7.8mm \u00b7 167g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1D1D1F"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Ultramarine",
+          "hex": "#5B6EAE"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 100
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 300
+        }
+      ]
+    }
+  },
+  {
+    "id": 201,
+    "name": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "series": "iPhone 16 Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 1269,
+    "badge": "New",
+    "description": "Apple's largest and most capable iPhone \u2014 A18 Pro, 48MP 5\u00d7 Tetraprism camera, Camera Control button, and the thinnest bezels ever on a Pro Max.",
+    "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-2.jpg",
+    "specs": {
+      "Display": "6.9\" Super Retina XDR OLED, 2868\u00d71320, 460ppi, 120Hz ProMotion, 2000 nits",
+      "Chip": "Apple A18 Pro (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 48MP Ultra Wide + 12MP 5\u00d7 Tetraprism Telephoto",
+      "Front Camera": "12MP TrueDepth + LiDAR",
+      "Battery": "4685mAh \u00b7 up to 33hr video",
+      "Charging": "27W wired \u00b7 25W MagSafe \u00b7 15W Qi2",
+      "OS": "iOS 18",
+      "Build": "Grade-5 Titanium frame \u00b7 textured matte glass back \u00b7 Ceramic Shield front",
+      "Dimensions": "163.0 \u00d7 77.6 \u00d7 8.25mm \u00b7 227g",
+      "Water Resistance": "IP68 (6m / 30 min)",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 Thread \u00b7 Ultra Wideband \u00b7 USB-C 3 (10Gbps)"
+    },
+    "localImage": "images/products/201/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "#3D3531"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#F2EDE4"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "#C4AE94"
+        },
+        {
+          "name": "Desert Titanium",
+          "hex": "#D2A679"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 360
+        }
+      ]
+    }
+  },
+  {
+    "id": 202,
+    "name": "iPhone 16 Pro",
+    "brand": "Apple",
+    "series": "iPhone 16 Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 1099,
+    "badge": "New",
+    "description": "6.3\" Pro with A18 Pro chip, Camera Control, 48MP triple-camera system and 4K 120fps Dolby Vision video.",
+    "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-2.jpg",
+    "specs": {
+      "Display": "6.3\" Super Retina XDR OLED, 2622\u00d71206, 460ppi, 120Hz ProMotion, 2000 nits",
+      "Chip": "Apple A18 Pro (3nm)",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 48MP Ultra Wide + 12MP 5\u00d7 Tetraprism Telephoto",
+      "Front Camera": "12MP TrueDepth + LiDAR",
+      "Battery": "3582mAh \u00b7 up to 27hr video",
+      "Charging": "27W wired \u00b7 25W MagSafe \u00b7 15W Qi2",
+      "OS": "iOS 18",
+      "Build": "Grade-5 Titanium frame \u00b7 Ceramic Shield front",
+      "Dimensions": "149.6 \u00d7 71.5 \u00d7 8.25mm \u00b7 199g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 Thread \u00b7 Ultra Wideband \u00b7 USB-C 3 (10Gbps)"
+    },
+    "localImage": "images/products/202/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "#3D3531"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#F2EDE4"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "#C4AE94"
+        },
+        {
+          "name": "Desert Titanium",
+          "hex": "#D2A679"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -90
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 360
+        }
+      ]
+    }
+  },
+  {
+    "id": 203,
+    "name": "iPhone 16 Plus",
+    "brand": "Apple",
+    "series": "iPhone 16 Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 969,
+    "badge": "New",
+    "description": "6.7\" iPhone with A18 chip, Camera Control, 48MP main camera, and exceptional battery life.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2796\u00d71290, 460ppi, 60Hz, 2000 nits",
+      "Chip": "Apple A18 (3nm)",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "4674mAh \u00b7 up to 27hr video",
+      "Charging": "25W wired \u00b7 25W MagSafe \u00b7 15W Qi2",
+      "OS": "iOS 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield front & back",
+      "Dimensions": "160.9 \u00d7 77.8 \u00d7 7.80mm \u00b7 223g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 Ultra Wideband \u00b7 USB-C"
+    },
+    "localImage": "images/products/203/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Pink",
+          "hex": "#EDB4B4"
+        },
+        {
+          "name": "Teal",
+          "hex": "#4A8A8A"
+        },
+        {
+          "name": "Ultramarine",
+          "hex": "#3A4A8A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -100
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "name": "iPhone 16",
+    "brand": "Apple",
+    "series": "iPhone 16 Series",
+    "category": "phones",
+    "year": 2024,
+    "price": 849,
+    "badge": "New",
+    "description": "A18 chip, Camera Control, 48MP camera \u2014 the standard iPhone 16 packs flagship performance in a 6.1\" form.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2556\u00d71179, 460ppi, 60Hz, 2000 nits",
+      "Chip": "Apple A18 (3nm)",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3561mAh \u00b7 up to 22hr video",
+      "Charging": "25W wired \u00b7 25W MagSafe \u00b7 15W Qi2",
+      "OS": "iOS 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield front & back",
+      "Dimensions": "147.6 \u00d7 71.6 \u00d7 7.80mm \u00b7 170g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 Ultra Wideband \u00b7 USB-C"
+    },
+    "localImage": "images/products/204/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Pink",
+          "hex": "#EDB4B4"
+        },
+        {
+          "name": "Teal",
+          "hex": "#4A8A8A"
+        },
+        {
+          "name": "Ultramarine",
+          "hex": "#3A4A8A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 205,
+    "name": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "series": "iPhone 15 Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 1099,
+    "badge": "Like New",
+    "description": "Titanium iPhone 15 Pro Max \u2014 A17 Pro, first 5\u00d7 optical zoom on a standard Pro Max, and USB 3 speeds.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2796\u00d71290, 460ppi, 120Hz ProMotion, 2000 nits",
+      "Chip": "Apple A17 Pro (3nm)",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide + 12MP 5\u00d7 Tetraprism Telephoto",
+      "Front Camera": "12MP TrueDepth + LiDAR",
+      "Battery": "4422mAh \u00b7 up to 29hr video",
+      "Charging": "27W wired \u00b7 15W MagSafe \u00b7 7.5W Qi",
+      "OS": "iOS 17 \u2192 18",
+      "Build": "Grade-5 Titanium frame \u00b7 textured matte glass back \u00b7 Ceramic Shield front",
+      "Dimensions": "159.9 \u00d7 76.7 \u00d7 8.25mm \u00b7 221g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 Ultra Wideband \u00b7 USB-C 3 (10Gbps)"
+    },
+    "localImage": "images/products/205/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "#4A4440"
+        },
+        {
+          "name": "Blue Titanium",
+          "hex": "#5A7A8A"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "#C4AE94"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#F2EDE4"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 340
+        }
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "name": "iPhone 15 Pro",
+    "brand": "Apple",
+    "series": "iPhone 15 Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 969,
+    "badge": "Like New",
+    "description": "Titanium, A17 Pro, Action Button and USB 3 \u2014 the 6.1\" Pro that set the template for modern iPhone.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2556\u00d71179, 460ppi, 120Hz ProMotion, 2000 nits",
+      "Chip": "Apple A17 Pro (3nm)",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide + 12MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP TrueDepth + LiDAR",
+      "Battery": "3274mAh \u00b7 up to 23hr video",
+      "Charging": "27W wired \u00b7 15W MagSafe",
+      "OS": "iOS 17 \u2192 18",
+      "Build": "Grade-5 Titanium \u00b7 Ceramic Shield",
+      "Dimensions": "146.6 \u00d7 70.6 \u00d7 8.25mm \u00b7 187g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 Ultra Wideband \u00b7 USB-C 3 (10Gbps)"
+    },
+    "localImage": "images/products/206/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "#4A4440"
+        },
+        {
+          "name": "Blue Titanium",
+          "hex": "#5A7A8A"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "#C4AE94"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#F2EDE4"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "name": "iPhone 15 Plus",
+    "brand": "Apple",
+    "series": "iPhone 15 Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 849,
+    "badge": "Like New",
+    "description": "Big screen, big battery \u2014 6.7\" Dynamic Island iPhone 15 Plus with A16 Bionic and USB-C.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus-.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2796\u00d71290, 460ppi, 60Hz, 2000 nits",
+      "Chip": "Apple A16 Bionic",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "4383mAh \u00b7 up to 26hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 17 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "160.9 \u00d7 77.8 \u00d7 7.80mm \u00b7 201g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/207/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A7A5A"
+        },
+        {
+          "name": "Pink",
+          "hex": "#EDB4B4"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#F0D878"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -100
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": 208,
+    "name": "iPhone 15",
+    "brand": "Apple",
+    "series": "iPhone 15 Series",
+    "category": "phones",
+    "year": 2023,
+    "price": 729,
+    "badge": "Like New",
+    "description": "Dynamic Island comes to the standard iPhone \u2014 48MP camera, USB-C, A16 Bionic and a bright new colour lineup.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2556\u00d71179, 460ppi, 60Hz, 2000 nits",
+      "Chip": "Apple A16 Bionic",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3349mAh \u00b7 up to 20hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 17 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "147.6 \u00d7 71.6 \u00d7 7.80mm \u00b7 171g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/208/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A7A5A"
+        },
+        {
+          "name": "Pink",
+          "hex": "#EDB4B4"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#F0D878"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": 209,
+    "name": "iPhone 14 Pro Max",
+    "brand": "Apple",
+    "series": "iPhone 14 Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 879,
+    "badge": "Good",
+    "description": "First Dynamic Island iPhone \u2014 A16 Bionic, always-on display, 48MP main camera and 4K Cinematic mode.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2796\u00d71290, 460ppi, 120Hz ProMotion, Always-On",
+      "Chip": "Apple A16 Bionic (4nm)",
+      "RAM": "6GB",
+      "Storage": "256GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide + 12MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP TrueDepth + LiDAR",
+      "Battery": "4323mAh \u00b7 up to 29hr video",
+      "Charging": "27W wired \u00b7 15W MagSafe",
+      "OS": "iOS 16 \u2192 18",
+      "Build": "Surgical stainless steel \u00b7 Ceramic Shield",
+      "Dimensions": "160.7 \u00d7 77.6 \u00d7 7.85mm \u00b7 240g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 Lightning"
+    },
+    "localImage": "images/products/209/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Deep Purple",
+          "hex": "#5A3A6A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        },
+        {
+          "name": "Space Black",
+          "hex": "#2A2A2A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -120
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 340
+        }
+      ]
+    }
+  },
+  {
+    "id": 210,
+    "name": "iPhone 14 Pro",
+    "brand": "Apple",
+    "series": "iPhone 14 Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 769,
+    "badge": "Good",
+    "description": "A16 Bionic, Dynamic Island, always-on display and 48MP camera \u2014 the 6.1\" Pro at its finest.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2556\u00d71179, 460ppi, 120Hz ProMotion, Always-On",
+      "Chip": "Apple A16 Bionic (4nm)",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "48MP Fusion + 12MP Ultra Wide + 12MP 3\u00d7 Telephoto",
+      "Front Camera": "12MP TrueDepth + LiDAR",
+      "Battery": "3200mAh \u00b7 up to 23hr video",
+      "Charging": "27W wired \u00b7 15W MagSafe",
+      "OS": "iOS 16 \u2192 18",
+      "Build": "Surgical stainless steel \u00b7 Ceramic Shield",
+      "Dimensions": "147.5 \u00d7 71.5 \u00d7 7.85mm \u00b7 206g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 Lightning"
+    },
+    "localImage": "images/products/210/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Deep Purple",
+          "hex": "#5A3A6A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        },
+        {
+          "name": "Space Black",
+          "hex": "#2A2A2A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -90
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": 211,
+    "name": "iPhone 14 Plus",
+    "brand": "Apple",
+    "series": "iPhone 14 Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 649,
+    "badge": "Good",
+    "description": "6.7\" iPhone 14 with A15 Bionic, 12MP dual camera, crash detection and exceptional battery life.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2778\u00d71284, 458ppi, 60Hz, 2000 nits",
+      "Chip": "Apple A15 Bionic (5nm)",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "4325mAh \u00b7 up to 26hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 16 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "160.8 \u00d7 78.1 \u00d7 7.80mm \u00b7 203g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 Lightning"
+    },
+    "localImage": "images/products/211/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Product Red",
+          "hex": "#CC2A2A"
+        },
+        {
+          "name": "Purple",
+          "hex": "#8A5AA8"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -90
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": 212,
+    "name": "iPhone 14",
+    "brand": "Apple",
+    "series": "iPhone 14 Series",
+    "category": "phones",
+    "year": 2022,
+    "price": 549,
+    "badge": "Good",
+    "description": "A15 Bionic, crash detection, Emergency SOS via Satellite \u2014 the 6.1\" iPhone 14 at great value now.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2532\u00d71170, 460ppi, 60Hz, 2000 nits",
+      "Chip": "Apple A15 Bionic (5nm)",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP Fusion + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3279mAh \u00b7 up to 20hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 16 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "146.7 \u00d7 71.5 \u00d7 7.80mm \u00b7 172g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 Lightning"
+    },
+    "localImage": "images/products/212/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Product Red",
+          "hex": "#CC2A2A"
+        },
+        {
+          "name": "Purple",
+          "hex": "#8A5AA8"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 213,
+    "name": "iPhone 13 Pro Max",
+    "brand": "Apple",
+    "series": "iPhone 13 Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 699,
+    "badge": "Good",
+    "description": "A15 Bionic, ProMotion 120Hz, 3\u00d7 optical zoom and best-in-class low-light photography.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2778\u00d71284, 458ppi, 120Hz ProMotion",
+      "Chip": "Apple A15 Bionic",
+      "RAM": "6GB",
+      "Storage": "256GB",
+      "Rear Camera": "12MP wide + 12MP Ultra Wide + 12MP 3\u00d7 Telephoto + LiDAR",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "4352mAh \u00b7 up to 28hr video",
+      "Charging": "27W wired \u00b7 15W MagSafe",
+      "OS": "iOS 15 \u2192 18",
+      "Build": "Surgical stainless steel \u00b7 Ceramic Shield",
+      "Dimensions": "160.8 \u00d7 78.1 \u00d7 7.65mm \u00b7 238g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/213/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Alpine Green",
+          "hex": "#4A7A5A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Sierra Blue",
+          "hex": "#7A9AB0"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -110
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 120
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 330
+        }
+      ]
+    }
+  },
+  {
+    "id": 214,
+    "name": "iPhone 13 Pro",
+    "brand": "Apple",
+    "series": "iPhone 13 Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 599,
+    "badge": "Good",
+    "description": "First 120Hz iPhone \u2014 ProMotion, macro photography, 3\u00d7 zoom and A15 Bionic under 7.65mm.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2532\u00d71170, 460ppi, 120Hz ProMotion",
+      "Chip": "Apple A15 Bionic",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP Ultra Wide + 12MP 3\u00d7 Telephoto + LiDAR",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3095mAh \u00b7 up to 22hr video",
+      "Charging": "27W wired \u00b7 15W MagSafe",
+      "OS": "iOS 15 \u2192 18",
+      "Build": "Surgical stainless steel \u00b7 Ceramic Shield",
+      "Dimensions": "146.7 \u00d7 71.5 \u00d7 7.65mm \u00b7 203g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/214/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Alpine Green",
+          "hex": "#4A7A5A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Sierra Blue",
+          "hex": "#7A9AB0"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -80
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": 215,
+    "name": "iPhone 13",
+    "brand": "Apple",
+    "series": "iPhone 13 Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 449,
+    "badge": "Good",
+    "description": "Diagonal dual cameras, A15 Bionic, Cinematic mode \u2014 a hugely popular iPhone still worth every penny.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2532\u00d71170, 460ppi, 60Hz",
+      "Chip": "Apple A15 Bionic",
+      "RAM": "4GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3227mAh \u00b7 up to 19hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 15 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "146.7 \u00d7 71.5 \u00d7 7.65mm \u00b7 174g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/215/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A7A5A"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Pink",
+          "hex": "#F0C8C0"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": -60
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 216,
+    "name": "iPhone 13 Mini",
+    "brand": "Apple",
+    "series": "iPhone 13 Series",
+    "category": "phones",
+    "year": 2021,
+    "price": 379,
+    "badge": "Good",
+    "description": "The last great small iPhone \u2014 5.4\", A15 Bionic, MagSafe and a surprisingly capable camera in a tiny frame.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+    "specs": {
+      "Display": "5.4\" Super Retina XDR OLED, 2340\u00d71080, 476ppi, 60Hz",
+      "Chip": "Apple A15 Bionic",
+      "RAM": "4GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "2438mAh \u00b7 up to 17hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 15 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "131.5 \u00d7 64.2 \u00d7 7.65mm \u00b7 141g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/216/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A7A5A"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Pink",
+          "hex": "#F0C8C0"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "name": "iPhone 12 Pro Max",
+    "brand": "Apple",
+    "series": "iPhone 12 Series",
+    "category": "phones",
+    "year": 2020,
+    "price": 449,
+    "badge": "Good",
+    "description": "LiDAR, sensor-shift OIS, 5\u00d7 optical zoom equivalent and A14 Bionic \u2014 the Pro Max that set the bar.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg",
+    "specs": {
+      "Display": "6.7\" Super Retina XDR OLED, 2778\u00d71284, 458ppi, 60Hz",
+      "Chip": "Apple A14 Bionic",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP Ultra Wide + 12MP 2.5\u00d7 Telephoto + LiDAR",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "3687mAh \u00b7 up to 20hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 14 \u2192 18",
+      "Build": "Surgical stainless steel \u00b7 Ceramic Shield",
+      "Dimensions": "160.8 \u00d7 78.1 \u00d7 7.4mm \u00b7 228g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/217/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#4A4A4A"
+        },
+        {
+          "name": "Pacific Blue",
+          "hex": "#4A7A9A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 100
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        }
+      ]
+    }
+  },
+  {
+    "id": 218,
+    "name": "iPhone 12",
+    "brand": "Apple",
+    "series": "iPhone 12 Series",
+    "category": "phones",
+    "year": 2020,
+    "price": 299,
+    "badge": "Good",
+    "description": "OLED, 5G and Ceramic Shield arrived to the standard iPhone \u2014 A14 Bionic and MagSafe ecosystem.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+    "specs": {
+      "Display": "6.1\" Super Retina XDR OLED, 2532\u00d71170, 460ppi, 60Hz",
+      "Chip": "Apple A14 Bionic",
+      "RAM": "4GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP wide + 12MP Ultra Wide",
+      "Front Camera": "12MP TrueDepth",
+      "Battery": "2815mAh \u00b7 up to 17hr video",
+      "Charging": "20W wired \u00b7 15W MagSafe",
+      "OS": "iOS 14 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield",
+      "Dimensions": "146.7 \u00d7 71.5 \u00d7 7.4mm \u00b7 164g",
+      "Water Resistance": "IP68",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/218/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Green",
+          "hex": "#3A7A5A"
+        },
+        {
+          "name": "Product Red",
+          "hex": "#CC2A2A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": -50
+        },
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "name": "iPhone SE 3rd Gen",
+    "brand": "Apple",
+    "series": "iPhone SE",
+    "category": "phones",
+    "year": 2022,
+    "price": 329,
+    "badge": "Good",
+    "description": "5G, A15 Bionic and Touch ID \u2014 the most affordable new iPhone. Iconic 4.7\" design, huge performance.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2022.jpg",
+    "specs": {
+      "Display": "4.7\" Retina IPS LCD, 1334\u00d7750, 326ppi, 60Hz",
+      "Chip": "Apple A15 Bionic",
+      "RAM": "4GB",
+      "Storage": "64GB",
+      "Rear Camera": "12MP f/1.8 OIS",
+      "Front Camera": "7MP",
+      "Battery": "2018mAh \u00b7 up to 15hr video",
+      "Charging": "20W wired \u00b7 7.5W Qi wireless",
+      "OS": "iOS 15 \u2192 18",
+      "Build": "Aluminium frame \u00b7 Ceramic Shield front \u00b7 glass back \u00b7 Touch ID home button",
+      "Dimensions": "138.4 \u00d7 67.3 \u00d7 7.3mm \u00b7 144g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.0 \u00b7 Lightning"
+    },
+    "localImage": "images/products/219/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Product Red",
+          "hex": "#CC2A2A"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "128GB",
+          "priceAdder": 70
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 150
+        }
+      ]
+    }
+  },
+  {
+    "id": 221,
+    "name": "iPad Pro M4 11-inch 256GB Wi-Fi",
+    "brand": "Apple",
+    "series": "iPad Pro",
+    "category": "tablets",
+    "year": 2024,
+    "price": 1099,
+    "badge": "New",
+    "description": "Impossibly thin at 5.3mm \u2014 OLED display, M4 chip, Apple Pencil Pro support, and tandem OLED tech.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-11-2024.jpg",
+    "specs": {
+      "Display": "11\" Ultra Retina XDR tandem OLED, 2420\u00d71668, 264ppi, 120Hz ProMotion, 1000 nits",
+      "Chip": "Apple M4",
+      "RAM": "8GB",
+      "Storage": "256GB",
+      "Rear Camera": "12MP wide + 10MP ultra-wide + LiDAR",
+      "Front Camera": "12MP landscape TrueDepth",
+      "Battery": "Up to 10hr",
+      "Charging": "36W USB-C 3",
+      "Apple Pencil": "Pro (hover, squeeze, rotate)",
+      "OS": "iPadOS 17 \u2192 18",
+      "Dimensions": "249.7 \u00d7 177.5 \u00d7 5.3mm \u00b7 444g",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C 3 (10Gbps)"
+    },
+    "localImage": "images/products/221/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        },
+        {
+          "name": "Space Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 400
+        },
+        {
+          "capacity": "2TB",
+          "priceAdder": 600
+        }
+      ]
+    }
+  },
+  {
+    "id": 222,
+    "name": "iPad Air M2 11-inch 128GB Wi-Fi",
+    "brand": "Apple",
+    "series": "iPad Air",
+    "category": "tablets",
+    "year": 2024,
+    "price": 699,
+    "badge": "New",
+    "description": "M2 power in the svelte iPad Air \u2014 Liquid Retina, Apple Pencil Pro and Magic Keyboard support.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air-11-2024.jpg",
+    "specs": {
+      "Display": "11\" Liquid Retina IPS, 2360\u00d71640, 264ppi, 60Hz, 500 nits",
+      "Chip": "Apple M2",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP",
+      "Front Camera": "12MP landscape TrueDepth",
+      "Battery": "Up to 10hr",
+      "Apple Pencil": "Pro / USB-C 2nd gen",
+      "OS": "iPadOS 17 \u2192 18",
+      "Dimensions": "247.6 \u00d7 178.5 \u00d7 6.1mm \u00b7 462g",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/222/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Purple",
+          "hex": "#7A5A9A"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 130
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 260
+        },
+        {
+          "capacity": "1TB",
+          "priceAdder": 390
+        }
+      ]
+    }
+  },
+  {
+    "id": 223,
+    "name": "iPad 10th Gen 64GB Wi-Fi",
+    "brand": "Apple",
+    "series": "iPad",
+    "category": "tablets",
+    "year": 2022,
+    "price": 379,
+    "badge": "Like New",
+    "description": "Redesigned iPad \u2014 10.9\" Liquid Retina, A14 Bionic, USB-C, landscape front camera and 5 colours.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-10-2022.jpg",
+    "specs": {
+      "Display": "10.9\" Liquid Retina IPS, 2360\u00d71640, 264ppi, 60Hz, 500 nits",
+      "Chip": "Apple A14 Bionic",
+      "RAM": "4GB",
+      "Storage": "64GB",
+      "Rear Camera": "12MP",
+      "Front Camera": "12MP landscape TrueDepth",
+      "Battery": "Up to 10hr",
+      "Apple Pencil": "USB-C 1st gen",
+      "OS": "iPadOS 16 \u2192 18",
+      "Dimensions": "248.6 \u00d7 179.5 \u00d7 7.0mm \u00b7 477g",
+      "Connectivity": "Wi-Fi 6 \u00b7 Bluetooth 5.2 \u00b7 USB-C"
+    },
+    "localImage": "images/products/223/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Pink",
+          "hex": "#F0C8C0"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#F0D878"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "64GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 100
+        }
+      ]
+    }
+  },
+  {
+    "id": 224,
+    "name": "iPad mini 7 128GB Wi-Fi",
+    "brand": "Apple",
+    "series": "iPad mini",
+    "category": "tablets",
+    "year": 2024,
+    "price": 579,
+    "badge": "New",
+    "description": "A17 Pro in the palm of your hand \u2014 8.3\" Liquid Retina iPad mini with Apple Intelligence support.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini-2024.jpg",
+    "specs": {
+      "Display": "8.3\" Liquid Retina IPS, 2266\u00d71488, 326ppi, 60Hz, 500 nits",
+      "Chip": "Apple A17 Pro",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "12MP",
+      "Front Camera": "12MP landscape TrueDepth",
+      "Battery": "Up to 10hr",
+      "Apple Pencil": "Pro / USB-C 2nd gen",
+      "OS": "iPadOS 18",
+      "Dimensions": "195.4 \u00d7 134.8 \u00d7 6.3mm \u00b7 293g",
+      "Connectivity": "Wi-Fi 6E \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/224/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#4A6A8A"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        },
+        {
+          "name": "Purple",
+          "hex": "#8A6AA8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 100
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 200
+        }
+      ]
+    }
+  },
+  {
+    "id": 231,
+    "name": "Apple Watch Ultra 2 49mm",
+    "brand": "Apple",
+    "series": "Apple Watch",
+    "category": "accessories",
+    "year": 2023,
+    "price": 879,
+    "badge": "New",
+    "description": "Built for extremes \u2014 titanium, 3000 nits, 60hr battery, dual GPS, action button and Oceanic+ dive computer.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-ultra2-black.jpg",
+    "specs": {
+      "Display": "49mm 2.1\" micro-LTPO OLED, 410\u00d7502, 3000 nits, always-on",
+      "Chip": "Apple S9 SiP",
+      "Storage": "64GB",
+      "Battery": "Up to 60hr (low power), 36hr normal",
+      "Charging": "8W MagSafe fast charge",
+      "Sensors": "ECG, blood oxygen, body temp, crash + fall detection",
+      "Case": "49mm Grade-5 Titanium \u00b7 14.4mm thick \u00b7 61.4g",
+      "Water Resistance": "100m water resistant \u00b7 EN13319 dive standard",
+      "Connectivity": "LTE (optional) \u00b7 GPS/GNSS (L1+L5) \u00b7 Bluetooth 5.3 \u00b7 Wi-Fi 6 \u00b7 Thread \u00b7 Ultra Wideband",
+      "OS": "watchOS 10 \u2192 11"
+    },
+    "localImage": "images/products/231/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "49mm",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 232,
+    "name": "Apple Watch Series 10 42mm",
+    "brand": "Apple",
+    "series": "Apple Watch",
+    "category": "accessories",
+    "year": 2024,
+    "price": 449,
+    "badge": "New",
+    "description": "Thinnest Apple Watch ever \u2014 9.7mm, new wide-angle LTPO OLED, sleep apnoea detection and fast charge.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series10.jpg",
+    "specs": {
+      "Display": "42mm 1.77\" wide-angle LTPO OLED, 430\u00d7360, always-on, 2000 nits",
+      "Chip": "Apple S10 SiP",
+      "Battery": "Up to 18hr (36hr low power)",
+      "Charging": "USB-C MagSafe fast charge (80% in 30min)",
+      "Sensors": "ECG, blood oxygen, sleep apnoea detection, crash + fall detection",
+      "Case": "42mm Aluminium \u00b7 9.7mm thin \u00b7 31.7g",
+      "Water Resistance": "50m waterproof",
+      "Connectivity": "Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 Ultra Wideband \u00b7 GPS",
+      "OS": "watchOS 11"
+    },
+    "localImage": "images/products/232/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Gold",
+          "hex": "#D4B87A"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#D4947A"
+        },
+        {
+          "name": "Silver",
+          "hex": "#D8D8D8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "42mm",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "46mm",
+          "priceAdder": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "name": "Apple Watch SE 2 40mm",
+    "brand": "Apple",
+    "series": "Apple Watch",
+    "category": "accessories",
+    "year": 2022,
+    "price": 249,
+    "badge": "Like New",
+    "description": "The best-value Apple Watch \u2014 S8 chip, crash detection, family setup, swim-proof and full watchOS.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-8se-2022.jpg",
+    "specs": {
+      "Display": "40mm 1.57\" LTPO OLED, 324\u00d7394",
+      "Chip": "Apple S8 SiP",
+      "Battery": "Up to 18hr",
+      "Charging": "MagSafe",
+      "Sensors": "Heart rate, SpO2, fall + crash detection",
+      "Case": "40mm Aluminium \u00b7 10.7mm thick \u00b7 26.4g",
+      "Water Resistance": "50m waterproof",
+      "Connectivity": "Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 GPS",
+      "OS": "watchOS 9 \u2192 11"
+    },
+    "localImage": "images/products/233/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "40mm",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "44mm",
+          "priceAdder": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 241,
+    "name": "AirPods 4",
+    "brand": "Apple",
+    "series": "AirPods",
+    "category": "accessories",
+    "year": 2024,
+    "price": 139,
+    "badge": "New",
+    "description": "Redesigned open-ear fit with H2 chip, Adaptive Audio and Personalised Spatial Audio.",
+    "image": "images/brand-placeholder/apple.svg",
+    "specs": {
+      "Chip": "Apple H2",
+      "Driver": "Custom high-excursion",
+      "ANC": "Adaptive Noise Cancellation (ANC model)",
+      "Transparency": "Conversation Awareness",
+      "Battery": "Buds: 5hr | Case: 30hr total",
+      "Charging": "USB-C \u00b7 wireless (Qi) \u00b7 MagSafe",
+      "Connectivity": "Bluetooth 5.3",
+      "Features": "Adaptive Audio \u00b7 Personalised Spatial Audio \u00b7 Siri \u00b7 IPX4",
+      "Weight": "4.3g each"
+    },
+    "localImage": "images/products/241/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "Standard",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 242,
+    "name": "AirPods Pro 2nd Gen",
+    "brand": "Apple",
+    "series": "AirPods",
+    "category": "accessories",
+    "year": 2022,
+    "price": 249,
+    "badge": "Like New",
+    "description": "H2 chip, industry-leading ANC, Adaptive Transparency, Personalised Spatial Audio and 30hr total battery.",
+    "image": "images/brand-placeholder/apple.svg",
+    "specs": {
+      "Chip": "Apple H2",
+      "ANC": "Active Noise Cancellation (2\u00d7 stronger than Gen 1)",
+      "Transparency": "Adaptive Transparency",
+      "Battery": "Buds: 6hr ANC | Case: 30hr total",
+      "Charging": "USB-C \u00b7 MagSafe \u00b7 Qi2",
+      "Connectivity": "Bluetooth 5.3",
+      "Features": "Personalised Spatial Audio \u00b7 Conversation Awareness \u00b7 Hearing Health \u00b7 IPX4",
+      "Weight": "5.3g each"
+    },
+    "localImage": "images/products/242/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "Standard",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 243,
+    "name": "AirPods Max USB-C",
+    "brand": "Apple",
+    "series": "AirPods",
+    "category": "accessories",
+    "year": 2023,
+    "price": 549,
+    "badge": "New",
+    "description": "Premium over-ear \u2014 40mm custom drivers, H1 chip, computational audio, ANC and 20hr battery with USB-C.",
+    "image": "images/brand-placeholder/apple.svg",
+    "specs": {
+      "Chip": "Apple H1 (per cup)",
+      "Driver": "40mm Apple dynamic driver",
+      "ANC": "Active Noise Cancellation",
+      "Transparency": "Transparency mode",
+      "Battery": "20hr ANC on \u00b7 20min charge = 1.5hr",
+      "Charging": "USB-C",
+      "Connectivity": "Bluetooth 5.0",
+      "Features": "Adaptive EQ \u00b7 Personalised Spatial Audio \u00b7 9-microphone array",
+      "Weight": "385g"
+    },
+    "localImage": "images/products/243/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Midnight",
+          "hex": "#1A1A2A"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#E8E4DA"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "Standard",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 251,
+    "name": "Apple MagSafe Charger 1m",
+    "brand": "Apple",
+    "series": "Accessories",
+    "category": "accessories",
+    "year": 2023,
+    "price": 39,
+    "badge": "New",
+    "description": "Official MagSafe charger with USB-C connector \u2014 25W for iPhone 16, 15W for iPhone 12\u201315, Qi2 compatible.",
+    "image": "images/brand-placeholder/apple.svg",
+    "specs": {
+      "Output": "25W MagSafe (iPhone 16 series) \u00b7 15W MagSafe (iPhone 12\u201315) \u00b7 7.5W Qi (other)",
+      "Cable": "USB-C \u00b7 1m braided",
+      "Connector": "USB-C to MagSafe",
+      "Compatibility": "iPhone 12 and newer (MagSafe) \u00b7 All Qi devices"
+    },
+    "localImage": "images/products/251/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "1m",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "2m",
+          "priceAdder": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 252,
+    "name": "Apple 30W USB-C Power Adapter",
+    "brand": "Apple",
+    "series": "Accessories",
+    "category": "accessories",
+    "year": 2023,
+    "price": 35,
+    "badge": "New",
+    "description": "Official Apple 30W GaN USB-C adapter \u2014 fast charges iPhone 15/16 to 50% in ~30 minutes.",
+    "image": "images/brand-placeholder/apple.svg",
+    "specs": {
+      "Output": "30W USB-C (PD)",
+      "Fast Charge": "iPhone 8 and newer (with USB-C cable)",
+      "Input": "100\u2013240V \u00b7 50/60Hz",
+      "Size": "Compact folding UK plug",
+      "Compatibility": "iPhone, iPad, MacBook (up to 30W), AirPods"
+    },
+    "localImage": "images/products/252/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "30W",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "45W",
+          "priceAdder": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Xiaomi Redmi Note 13",
+    "brand": "Xiaomi",
+    "series": "",
+    "category": "phones",
+    "year": 2024,
+    "price": 169,
+    "badge": "New",
+    "description": "200MP AMOLED stunner at a budget price \u2014 Snapdragon 685, 33W fast charge and vibrant 6.67\" display.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-13-5g.jpg",
+    "specs": {
+      "Display": "6.67\" AMOLED, 2400\u00d71080, 120Hz, 1000 nits",
+      "Processor": "Snapdragon 685",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "200MP OIS + 8MP ultra-wide + 2MP macro",
+      "Front Camera": "16MP",
+      "Battery": "5000mAh",
+      "Charging": "33W wired",
+      "OS": "Android 13, MIUI 14",
+      "Dimensions": "161.1 \u00d7 75.3 \u00d7 7.6mm \u00b7 174g",
+      "Connectivity": "4G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/8/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Arctic White",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Midnight Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Ocean Teal",
+          "hex": "#3A7A7A"
+        },
+        {
+          "name": "Prism Gold",
+          "hex": "#C8A84A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "brand": "Xiaomi",
+    "series": "",
+    "category": "phones",
+    "year": 2024,
+    "price": 229,
+    "badge": "New",
+    "description": "200MP pro-grade camera, Dimensity 7200 Ultra, 5000mAh with 67W turbo charging.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-13-pro-5g.jpg",
+    "specs": {
+      "Display": "6.67\" AMOLED, 2712\u00d71220, 120Hz, 1800 nits",
+      "Processor": "MediaTek Dimensity 7200 Ultra",
+      "RAM": "8GB",
+      "Storage": "256GB (expandable)",
+      "Rear Camera": "200MP OIS + 8MP ultra-wide + 2MP macro",
+      "Front Camera": "16MP",
+      "Battery": "5000mAh",
+      "Charging": "67W wired",
+      "OS": "Android 13, MIUI 14",
+      "Dimensions": "161.2 \u00d7 74.3 \u00d7 8.0mm \u00b7 187g",
+      "Water Resistance": "IP54",
+      "Connectivity": "4G \u00b7 Wi-Fi 6 \u00b7 Bluetooth 5.3 \u00b7 USB-C"
+    },
+    "localImage": "images/products/9/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Coral Purple",
+          "hex": "#8A5A8A"
+        },
+        {
+          "name": "Lavender Purple",
+          "hex": "#9B8FA8"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Google Pixel 8a",
+    "brand": "Google",
+    "series": "",
+    "category": "phones",
+    "year": 2024,
+    "price": 549,
+    "badge": "New",
+    "description": "Google Tensor G3, 7 years of OS + security updates, 64MP camera with Night Sight and Magic Eraser.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8a.jpg",
+    "specs": {
+      "Display": "6.1\" OLED, 2400\u00d71080, 120Hz, 1400 nits",
+      "Processor": "Google Tensor G3",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Rear Camera": "64MP OIS wide + 13MP ultra-wide",
+      "Front Camera": "13MP",
+      "Battery": "4492mAh",
+      "Charging": "18W wired \u00b7 Qi wireless",
+      "OS": "Android 14 (7 years updates guaranteed)",
+      "Dimensions": "152.1 \u00d7 72.7 \u00d7 8.9mm \u00b7 188g",
+      "Water Resistance": "IP67",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.3 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/10/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Aloe",
+          "hex": "#8AB878"
+        },
+        {
+          "name": "Bay",
+          "hex": "#5A7A9A"
+        },
+        {
+          "name": "Obsidian",
+          "hex": "#1A1A1A"
+        },
+        {
+          "name": "Porcelain",
+          "hex": "#F0EBE0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Motorola Moto G84 5G",
+    "brand": "Motorola",
+    "series": "",
+    "category": "phones",
+    "year": 2023,
+    "price": 179,
+    "badge": "New",
+    "description": "6.5\" pOLED, Snapdragon 695, 256GB built-in, 50MP OIS camera \u2014 great budget 5G from Motorola.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g84.jpg",
+    "specs": {
+      "Display": "6.5\" pOLED, 2400\u00d71080, 120Hz, 1300 nits",
+      "Processor": "Snapdragon 695",
+      "RAM": "12GB",
+      "Storage": "256GB (expandable)",
+      "Rear Camera": "50MP OIS + 8MP ultra-wide",
+      "Front Camera": "16MP",
+      "Battery": "5000mAh",
+      "Charging": "33W wired",
+      "OS": "Android 13 \u2192 14",
+      "Dimensions": "161.9 \u00d7 73.3 \u00d7 7.6mm \u00b7 167g",
+      "Connectivity": "5G \u00b7 Wi-Fi 5 \u00b7 Bluetooth 5.0 \u00b7 NFC \u00b7 USB-C"
+    },
+    "localImage": "images/products/11/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Marshmallow Blue",
+          "hex": "#7A9AB0"
+        },
+        {
+          "name": "Midnight Blue",
+          "hex": "#2A3A5A"
+        },
+        {
+          "name": "Viva Magenta",
+          "hex": "#9A2A4A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "series": "",
+    "category": "phones",
+    "year": 2024,
+    "price": 879,
+    "badge": "New",
+    "description": "Snapdragon 8 Gen 3, Hasselblad triple camera, 100W SUPERVOOC wired and 50W wireless charging.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg",
+    "specs": {
+      "Display": "6.82\" LTPO AMOLED, 3168\u00d71440, 120Hz, 4500 nits",
+      "Processor": "Snapdragon 8 Gen 3",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Rear Camera": "50MP Hasselblad OIS + 48MP ultra-wide + 64MP 3\u00d7 periscope",
+      "Front Camera": "32MP",
+      "Battery": "5400mAh",
+      "Charging": "100W wired SUPERVOOC \u00b7 50W wireless AIRVOOC",
+      "OS": "Android 14, OxygenOS 14",
+      "Dimensions": "164.3 \u00d7 75.8 \u00d7 9.15mm \u00b7 220g",
+      "Water Resistance": "IP65",
+      "Connectivity": "5G \u00b7 Wi-Fi 7 \u00b7 Bluetooth 5.4 \u00b7 NFC \u00b7 USB-C 3.2"
+    },
+    "localImage": "images/products/12/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Flowy Emerald",
+          "hex": "#3A6A5A"
+        },
+        {
+          "name": "Silky Black",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "256GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "512GB",
+          "priceAdder": 80
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Xiaomi Pad 6 128GB Wi-Fi",
+    "brand": "Xiaomi",
+    "series": "",
+    "category": "tablets",
+    "year": 2023,
+    "price": 279,
+    "badge": "New",
+    "description": "11\" 144Hz display, Snapdragon 870, quad speakers with Dolby Atmos \u2014 laptop-class tablet for less.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-pad6.jpg",
+    "specs": {
+      "Display": "11\" IPS LCD, 2880\u00d71800, 144Hz, 550 nits",
+      "Processor": "Snapdragon 870",
+      "RAM": "6GB",
+      "Storage": "128GB (expandable)",
+      "Rear Camera": "13MP",
+      "Front Camera": "8MP",
+      "Battery": "8840mAh",
+      "Charging": "33W wired",
+      "OS": "Android 13, MIUI Pad 14",
+      "Dimensions": "253.95 \u00d7 165.18 \u00d7 6.51mm \u00b7 490g",
+      "Connectivity": "Wi-Fi 6 \u00b7 Bluetooth 5.2 \u00b7 USB-C"
+    },
+    "localImage": "images/products/15/main.jpg",
+    "variants": {
+      "colors": [
+        {
+          "name": "Champagne Gold",
+          "hex": "#C8A87A"
+        },
+        {
+          "name": "Gravity Gray",
+          "hex": "#5A5A5A"
+        },
+        {
+          "name": "Mist Blue",
+          "hex": "#7A9AB0"
+        }
+      ],
+      "storage": [
+        {
+          "capacity": "128GB",
+          "priceAdder": 0
+        },
+        {
+          "capacity": "256GB",
+          "priceAdder": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Anker 65W GaN USB-C Charger",
+    "brand": "Anker",
+    "series": "",
+    "category": "accessories",
+    "year": 2023,
+    "price": 36,
+    "badge": "New",
+    "description": "Three ports, 65W \u2014 charge laptop, phone and earbuds at the same time. GaN tech, compact design.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Ports": "2\u00d7 USB-C + 1\u00d7 USB-A",
+      "Total Output": "65W",
+      "Single Port": "65W USB-C | 20W USB-C | 12W USB-A",
+      "Technology": "GaN II",
+      "Compatible": "MacBook Air, iPhone, iPad, Galaxy, Pixel",
+      "Size": "Compact UK plug \u00b7 foldable pins"
+    },
+    "localImage": "images/products/18/main.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Anker 240W USB-C to USB-C Cable 2m",
+    "brand": "Anker",
+    "series": "",
+    "category": "accessories",
+    "year": 2023,
+    "price": 19,
+    "badge": "New",
+    "description": "240W Power Delivery 3.1 cable \u2014 charge laptops at full speed, transfer data at USB 2.0, 2m length.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Power": "240W (48V/5A) USB PD 3.1",
+      "Data": "USB 2.0 (480Mbps)",
+      "Length": "2m",
+      "Connector": "USB-C to USB-C",
+      "Compatible": "All USB-C devices including MacBook, iPad Pro, Galaxy, Pixel"
+    },
+    "localImage": "images/products/19/main.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Anker 20000mAh Power Bank",
+    "brand": "Anker",
+    "series": "",
+    "category": "accessories",
+    "year": 2023,
+    "price": 49,
+    "badge": "New",
+    "description": "Slim 20000mAh with 22.5W output \u2014 charges most phones 4\u20135\u00d7 over, two USB-A ports and USB-C.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Capacity": "20000mAh",
+      "Output": "22.5W USB-C + 12W USB-A + 12W USB-A",
+      "Input": "USB-C 22.5W",
+      "Charges Phone": "~4\u20135 full iPhone charges",
+      "Weight": "340g",
+      "Size": "158 \u00d7 74 \u00d7 16mm",
+      "Safety": "PowerIQ \u00b7 VoltageBoost \u00b7 MultiProtect"
+    },
+    "localImage": "images/products/20/main.jpg"
+  },
+  {
+    "id": 21,
+    "name": "JBL Tune 770NC Headphones",
+    "brand": "JBL",
+    "series": "",
+    "category": "accessories",
+    "year": 2023,
+    "price": 89,
+    "badge": "New",
+    "description": "Adaptive ANC, 70-hour battery, foldable over-ear headphones with JBL Pure Bass and multipoint.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Driver": "40mm",
+      "ANC": "Adaptive Noise Cancelling",
+      "Battery": "70hr (ANC off) \u00b7 50hr (ANC on)",
+      "Charging": "USB-C \u00b7 fast charge (5min = 2hr)",
+      "Connectivity": "Bluetooth 5.3 \u00b7 3.5mm jack",
+      "Features": "Multipoint \u00b7 Google Fast Pair \u00b7 Voice assistant \u00b7 Foldable",
+      "Weight": "222g"
+    },
+    "localImage": "images/products/21/main.jpg"
+  },
+  {
+    "id": 22,
+    "name": "JBL Vibe Flex True Wireless Earbuds",
+    "brand": "JBL",
+    "series": "",
+    "category": "accessories",
+    "year": 2023,
+    "price": 49,
+    "badge": "New",
+    "description": "Open-type earbuds with JBL Deep Bass Sound, IPX4, and up to 32 hours total battery.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Driver": "8mm",
+      "Battery": "Buds: 8hr | Case: 32hr total",
+      "Charging": "USB-C",
+      "Connectivity": "Bluetooth 5.2",
+      "Features": "JBL Deep Bass \u00b7 Smart Ambient \u00b7 IPX4 \u00b7 Google Fast Pair",
+      "Weight": "5.0g each"
+    },
+    "localImage": "images/products/22/main.jpg"
+  },
+  {
+    "id": 23,
+    "name": "JBL Go 3 Portable Bluetooth Speaker",
+    "brand": "JBL",
+    "series": "",
+    "category": "accessories",
+    "year": 2021,
+    "price": 35,
+    "badge": "New",
+    "description": "Ultra-portable JBL speaker \u2014 IP67 waterproof and dustproof, 5hr battery and USB-C charging.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Output": "4.2W",
+      "Battery": "5hr playback",
+      "Charging": "USB-C \u00b7 2.5hr charge",
+      "Connectivity": "Bluetooth 5.1",
+      "Water Resistance": "IP67",
+      "Dimensions": "86.9 \u00d7 69.3 \u00d7 31.7mm \u00b7 209g",
+      "Features": "Speakerphone \u00b7 JBL Pro Sound"
+    },
+    "localImage": "images/products/23/main.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Tempered Glass Screen Protector",
+    "brand": "F.AI.Z",
+    "series": "",
+    "category": "covers",
+    "year": 2024,
+    "price": 9,
+    "badge": "New",
+    "description": "9H hardness tempered glass \u2014 full-coverage oleophobic coating, edge-to-edge fit, case-friendly edges.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Hardness": "9H tempered glass",
+      "Coating": "Anti-fingerprint oleophobic",
+      "Thickness": "0.3mm",
+      "Compatibility": "Available for iPhone 12\u201316 series, Samsung S20\u2013S24 series",
+      "Installation": "Dust-removal kit + alignment guide included"
+    },
+    "localImage": "images/products/24/main.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Premium Silicone Case",
+    "brand": "F.AI.Z",
+    "series": "",
+    "category": "covers",
+    "year": 2024,
+    "price": 12,
+    "badge": "New",
+    "description": "Liquid silicone case with microfibre lining \u2014 drop protection, wireless charging compatible, precise cutouts.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Material": "Liquid silicone + microfibre interior",
+      "Drop Protection": "Up to 1.5m",
+      "Wireless Charging": "Compatible (MagSafe cases available)",
+      "Compatibility": "iPhone 12\u201316, Samsung S21\u2013S24, Google Pixel 7\u20138",
+      "Colours": "Black, Midnight Blue, Stone Grey, Forest Green"
+    },
+    "localImage": "images/products/25/main.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Crystal Clear Hard Case",
+    "brand": "F.AI.Z",
+    "series": "",
+    "category": "covers",
+    "year": 2024,
+    "price": 8,
+    "badge": "New",
+    "description": "Show off your phone's colour \u2014 anti-yellow PC back, raised lip protection for camera and screen.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Material": "Polycarbonate hard back + TPU bumper",
+      "Feature": "Anti-yellowing UV coating",
+      "Protection": "Raised camera lip \u00b7 recessed screen edge",
+      "Compatibility": "iPhone 12\u201316, Samsung A32\u2013A55, Galaxy S21\u2013S24",
+      "Weight": "Featherlight 28g"
+    },
+    "localImage": "images/products/26/main.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Leather Wallet Flip Case",
+    "brand": "F.AI.Z",
+    "series": "",
+    "category": "covers",
+    "year": 2024,
+    "price": 19,
+    "badge": "New",
+    "description": "Genuine PU leather flip case with 3-card wallet, magnetic closure and kickstand functionality.",
+    "image": "images/brand-placeholder/phone.svg",
+    "specs": {
+      "Material": "Premium PU leather exterior \u00b7 soft microfibre interior",
+      "Cards": "3-card slot wallet",
+      "Closure": "Magnetic snap",
+      "Stand": "Landscape kickstand",
+      "Compatibility": "iPhone 12\u201316 series, Samsung S21\u2013S24, A54, Note 20",
+      "Colours": "Black, Brown, Navy"
+    },
+    "localImage": "images/products/27/main.jpg"
+  }
+]
