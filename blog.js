@@ -173,9 +173,24 @@
             </div>
             <h3>${post.title}</h3>
             <p>${post.excerpt.slice(0, 130)}…</p>
-            <a href="${post.source}" target="_blank" rel="noopener" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            <a href="${post.source}" target="_blank" rel="noopener" class="blog-read-more">
+              Read More <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
-        </article>`).join('');
+        </article>
+      `).join('');
+
+      // Re-observe freshly rendered cards so animate-on-scroll triggers correctly
+      const newCards = homeGrid.querySelectorAll('.animate-on-scroll');
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => entry.target.classList.add('visible'), i * 100);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      newCards.forEach(card => obs.observe(card));
     })
     .catch(() => {});
 })();
