@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": 14,
+      "title": "Samsung Galaxy S25 March Update Lands in the UK — Here's What's New",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-03-30",
+      "dateDisplay": "30 Mar 2026",
+      "excerpt": "Samsung's March 2026 security update is now rolling out to Galaxy S25, S25+, and S25 Ultra across the UK and Europe. It bundles 67 patches — 60 from Google and 7 from Samsung. If your phone hasn't updated yet, check Settings > Software update now.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung Galaxy S25 smartphone",
+      "readTime": "3 min read",
+      "source": "https://www.sammobile.com/news/samsung-expands-galaxy-s25-march-2026-security-update-more-regions/",
+      "sourceLabel": "SamMobile",
+      "tags": [
+        "Samsung",
+        "Galaxy S25",
+        "Update",
+        "Security"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Millions of iPhones at Risk After 'DarkSword' Hack Tool Leaks Online",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-03-30",
+      "dateDisplay": "30 Mar 2026",
+      "excerpt": "A powerful iPhone hacking toolkit called DarkSword has leaked onto GitHub, putting an estimated 221 million devices at risk. Anyone still on iOS 18.6.2 or below needs to update right now — Apple's emergency patch is already out.",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=350&fit=crop",
+      "imageAlt": "Cybersecurity hacking threat on iPhone",
+      "readTime": "4 min read",
+      "source": "https://techcrunch.com/2026/03/26/a-major-hacking-tool-has-leaked-online-putting-millions-of-iphones-at-risk-heres-what-you-need-to-know/",
+      "sourceLabel": "TechCrunch",
+      "tags": [
+        "iPhone",
+        "iOS",
+        "Hack",
+        "Cyber Security",
+        "Apple"
+      ]
+    },
+    {
       "id": 12,
       "title": "Nintendo Switch 2 Is Here: Everything You Need to Know",
       "category": "consoles",
