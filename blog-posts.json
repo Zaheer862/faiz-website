@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 16,
+      "title": "UK's £250m Online Crime Centre Will Block Scam Texts and Freeze Fraudster Accounts",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-03-31",
+      "dateDisplay": "31 Mar 2026",
+      "excerpt": "The UK government has launched a new Online Crime Centre backed by £250m to fight fraud at its source. Starting April 2026, it will block scam texts, freeze criminal accounts, and take down fake websites — protecting the 1 in 14 adults hit by fraud each year.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Cybersecurity fraud protection concept",
+      "readTime": "3 min read",
+      "source": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+      "sourceLabel": "GOV.UK",
+      "tags": [
+        "Scams",
+        "Fraud",
+        "Cyber Security",
+        "UK",
+        "Online Safety"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Google's March Pixel Drop: AI-Generated Icons, Smarter Gemini & New Circle to Search Tricks",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-03-31",
+      "dateDisplay": "31 Mar 2026",
+      "excerpt": "Google's March 2026 Pixel Drop has started rolling out and it's a big one. Pixel phones are getting custom AI-generated home screen icons in five styles, Gemini can now order your groceries in the background, and Circle to Search lets you virtually try on clothes.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Google Pixel smartphone with AI features",
+      "readTime": "4 min read",
+      "source": "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/",
+      "sourceLabel": "Google Blog",
+      "tags": [
+        "Google",
+        "Pixel",
+        "Gemini",
+        "AI",
+        "Android"
+      ]
+    },
+    {
       "id": 14,
       "title": "Samsung Galaxy S25 March Update Lands in the UK — Here's What's New",
       "category": "phones",
