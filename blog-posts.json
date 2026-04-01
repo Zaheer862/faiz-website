@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 18,
+      "title": "UK's Flagship Cyber Security Conference Heads to Glasgow — Why It Matters for You",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-04-01",
+      "dateDisplay": "1 Apr 2026",
+      "excerpt": "CYBERUK 2026 kicks off in Glasgow on 21–23 April, bringing together 2,500+ security experts to tackle the UK's growing cyber threats. Backed by GCHQ's NCSC, this year's theme is accelerating cyber defence — and the risks they're discussing affect every phone and laptop owner.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Cybersecurity conference and digital defence",
+      "readTime": "3 min read",
+      "source": "https://www.ncsc.gov.uk/news/international-security-chiefs-convene-glasgow-flagship-cyberuk-conference",
+      "sourceLabel": "NCSC",
+      "tags": [
+        "Cyber Security",
+        "NCSC",
+        "UK",
+        "CYBERUK 2026",
+        "Data Protection"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Oppo Find X9 Ultra Launches 21 April: Twin 200MP Cameras & £1,200 Price Tag",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-04-01",
+      "dateDisplay": "1 Apr 2026",
+      "excerpt": "Oppo has confirmed the Find X9 Ultra goes global on 21 April, including the UK. It packs two 200MP cameras, a 10x periscope zoom, Snapdragon 8 Elite Gen 5, and a massive 7,500mAh battery — all for around £1,200. Could this be the camera phone of the year?",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Oppo flagship smartphone camera system",
+      "readTime": "3 min read",
+      "source": "https://www.t3.com/tech/android-phones/oppo-find-x9-ultra-confirmed-for-europe-wants-to-be-your-next-camera",
+      "sourceLabel": "T3",
+      "tags": [
+        "Oppo",
+        "Find X9 Ultra",
+        "Flagship",
+        "Camera Phone",
+        "Android"
+      ]
+    },
+    {
       "id": 16,
       "title": "UK's £250m Online Crime Centre Will Block Scam Texts and Freeze Fraudster Accounts",
       "category": "cyber",
