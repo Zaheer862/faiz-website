@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": 20,
+      "title": "UK Hit by 4 Major Cyber Attacks Every Week — NCSC Issues Urgent Warning",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-04-06",
+      "dateDisplay": "6 Apr 2026",
+      "excerpt": "The NCSC has revealed the UK now faces four 'nationally significant' cyber attacks every week — a 129% rise in a single year. Nation-state hackers and criminal groups are ramping up attacks on UK businesses. Here's what you need to do right now.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Cyber security threat warning digital screen",
+      "readTime": "4 min read",
+      "source": "https://www.ncsc.gov.uk/news/uk-experiencing-four-nationally-significant-cyber-attacks-weekly",
+      "sourceLabel": "NCSC",
+      "tags": [
+        "Cyber Security",
+        "NCSC",
+        "UK",
+        "Hacking"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Samsung Galaxy S26 Gets £270 Off on Amazon UK — Best Deal Right Now?",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-04-06",
+      "dateDisplay": "6 Apr 2026",
+      "excerpt": "Amazon UK has slashed £270 off the Galaxy S26, combining a £170 price cut with a hidden £100 clickable voucher. The S26+ and S26 Ultra are also heavily discounted — and Amazon's deal beats Samsung's own offer by £100. Worth grabbing now.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung Galaxy S26 smartphone on display",
+      "readTime": "3 min read",
+      "source": "https://www.gsmarena.com/weekly_deals_the_galaxy_s26_deeply_discounted_s26_and_s26_ultra_also_get_price_cuts-news-72243.php",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "Samsung",
+        "Galaxy S26",
+        "Deals",
+        "Amazon"
+      ]
+    },
+    {
       "id": 18,
       "title": "UK's Flagship Cyber Security Conference Heads to Glasgow — Why It Matters for You",
       "category": "cyber",
