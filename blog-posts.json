@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 22,
+      "title": "Russian Military Hackers Are Hijacking UK Home Routers — Is Yours Safe?",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-04-13",
+      "dateDisplay": "13 Apr 2026",
+      "excerpt": "The NCSC has issued an urgent warning after Russian military hackers (APT28) were caught hijacking home routers across the UK. They're using DNS tricks to silently redirect you to fake bank and email pages — stealing your login details without you knowing.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Router cybersecurity threat hacking",
+      "readTime": "4 min read",
+      "source": "https://www.ncsc.gov.uk/news/uk-exposes-russian-military-intelligence-hijacking-vulnerable-routers-for-cyber-attacks",
+      "sourceLabel": "NCSC",
+      "tags": [
+        "Cyber Security",
+        "Router",
+        "Russia",
+        "NCSC",
+        "Hacking"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Oppo Find X9 Ultra Goes Global on 21 April — 200MP Camera & 7,050mAh Battery",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-04-13",
+      "dateDisplay": "13 Apr 2026",
+      "excerpt": "Oppo's most powerful phone yet finally goes global on 21 April. It packs a staggering 200MP Sony camera, 10x true optical zoom, Snapdragon 8 Elite, and a 7,050mAh battery — making it the first Oppo Ultra to launch outside China.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Oppo flagship smartphone camera close-up",
+      "readTime": "3 min read",
+      "source": "https://www.t3.com/tech/phones/oppo-find-x9-ultra-launch-confirmed-heres-when-the-contender-for-best-camera-phone-will-arrive",
+      "sourceLabel": "T3",
+      "tags": [
+        "Oppo",
+        "Find X9 Ultra",
+        "Phones",
+        "Camera",
+        "Android"
+      ]
+    },
+    {
       "id": 20,
       "title": "UK Hit by 4 Major Cyber Attacks Every Week — NCSC Issues Urgent Warning",
       "category": "cyber",
