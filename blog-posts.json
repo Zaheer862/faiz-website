@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 23,
+      "title": "Motorola Razr Fold Lands in UK: £1,579.99 Pre-order with Free Moto Watch",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-04-20",
+      "dateDisplay": "20 Apr 2026",
+      "excerpt": "Motorola's new Razr Fold is up for UK pre-order at £1,579.99 — £220 off the £1,799.99 list price — with a free Moto Watch and Buds Loop earphones thrown in. Ships 6 May with an 8.1-inch inner display and Snapdragon 8 Gen 5.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Motorola Razr Fold foldable smartphone",
+      "readTime": "3 min read",
+      "source": "https://www.gsmarena.com/motorola_razr_fold_uk_europe_price_release_date_pre_order_offers-news-72390.php",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "Phones",
+        "Motorola",
+        "Foldable",
+        "Razr Fold",
+        "UK Release"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Fake Windows 11 Update Site Slips Past All 69 Antivirus Engines",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-04-20",
+      "dateDisplay": "20 Apr 2026",
+      "excerpt": "A convincing fake Windows 11 24H2 update site (microsoft-update.support) is pushing password-stealing malware that zero antivirus engines caught during testing. It snoops on browser logins, Discord tokens and payment details — here's how to stay safe.",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=350&fit=crop",
+      "imageAlt": "Fake Windows update scam malware warning",
+      "readTime": "4 min read",
+      "source": "https://www.malwarebytes.com/blog/scams/2026/04/this-fake-windows-support-website-delivers-password-stealing-malware",
+      "sourceLabel": "Malwarebytes",
+      "tags": [
+        "Cyber Security",
+        "Windows 11",
+        "Malware",
+        "Phishing",
+        "Infostealer"
+      ]
+    },
+    {
       "id": 22,
       "title": "Russian Military Hackers Are Hijacking UK Home Routers — Is Yours Safe?",
       "category": "cyber",
