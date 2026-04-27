@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 25,
+      "title": "Apple's First Foldable iPhone Leaks: Autumn 2026 Launch & £1,800+ Price",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-04-27",
+      "dateDisplay": "27 Apr 2026",
+      "excerpt": "Fresh leaks point to Apple's long-rumoured foldable iPhone — likely badged the 'iPhone Ultra' — landing alongside the iPhone 18 Pro this autumn. Expect a book-style fold with a 7.8-inch inner display, the new A20 chip and a hefty £1,800+ price tag.",
+      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=600&h=350&fit=crop",
+      "imageAlt": "Apple foldable iPhone concept folding device",
+      "readTime": "3 min read",
+      "source": "https://www.indiatvnews.com/technology/news/iphone-fold-launch-in-2026-latest-apple-foldable-iphone-leaks-price-specs-and-features-revealed-2026-04-27-1039045",
+      "sourceLabel": "India TV News",
+      "tags": [
+        "Phones",
+        "Apple",
+        "iPhone",
+        "Foldable",
+        "Leaks"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Switch 2 Hits 17 Million Sales — Now Nintendo's Fastest-Selling Console Ever",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-04-27",
+      "dateDisplay": "27 Apr 2026",
+      "excerpt": "Nintendo's Switch 2 has officially become the company's fastest-selling console ever, topping 17 million units worldwide. US shoppers grabbed 568,000 in March alone — a 69% spike on last year — driven by surprise hit Pokémon Pokopia.",
+      "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=600&h=350&fit=crop",
+      "imageAlt": "Nintendo Switch handheld console gaming",
+      "readTime": "3 min read",
+      "source": "https://variety.com/2026/gaming/news/nintendo-switch-2-sales-17-million-1236650699/",
+      "sourceLabel": "Variety",
+      "tags": [
+        "Consoles",
+        "Nintendo",
+        "Switch 2",
+        "Pokemon",
+        "Gaming"
+      ]
+    },
+    {
       "id": 23,
       "title": "Motorola Razr Fold Lands in UK: £1,579.99 Pre-order with Free Moto Watch",
       "category": "phones",
