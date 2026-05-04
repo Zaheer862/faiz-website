@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 27,
+      "title": "Indiana Jones and the Great Circle Cracks Onto Switch 2 — 12 May, £59.99",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-05-04",
+      "dateDisplay": "4 May 2026",
+      "excerpt": "MachineGames' Indiana Jones and the Great Circle finally lands on Nintendo Switch 2 on 12 May for £59.99. It runs locked at 30fps (1080p docked, 720p handheld) and the 57.7GB adventure ships on a real cartridge — no Game-Key Card faff.",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600&h=350&fit=crop",
+      "imageAlt": "Nintendo Switch 2 console controller close-up",
+      "readTime": "3 min read",
+      "source": "https://www.nintendolife.com/games/nintendo-switch-2/indiana-jones-and-the-great-circle",
+      "sourceLabel": "Nintendo Life",
+      "tags": [
+        "Consoles",
+        "Nintendo Switch 2",
+        "Indiana Jones",
+        "Gaming",
+        "Bethesda"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Royal Mail & HMRC 'Missed Parcel' Texts Are Back — Don't Tap That Link",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-05-04",
+      "dateDisplay": "4 May 2026",
+      "excerpt": "Smishing texts pretending to be Royal Mail or HMRC are surging again across the UK in 2026 — phishing now hits 38% of UK businesses every year. Real Royal Mail texts never include payment links. Forward suspicious SMS to 7726 (free) to report them.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Phishing scam text message warning on phone",
+      "readTime": "4 min read",
+      "source": "https://www.ncsc.gov.uk/guidance/scam-missed-parcel-sms-messages",
+      "sourceLabel": "NCSC",
+      "tags": [
+        "Cyber Security",
+        "Phishing",
+        "Smishing",
+        "Royal Mail",
+        "HMRC"
+      ]
+    },
+    {
       "id": 25,
       "title": "Apple's First Foldable iPhone Leaks: Autumn 2026 Launch & £1,800+ Price",
       "category": "phones",
