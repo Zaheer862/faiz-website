@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 29,
+      "title": "iPhone 18 Pro Leak: 2nm A20 Chip, Tiny Dynamic Island & 5,000 mAh Battery",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-05-11",
+      "dateDisplay": "11 May 2026",
+      "excerpt": "Apple's iPhone 18 Pro is shaping up to be a proper jump — leaks point to a 2nm A20 chip, Face ID hidden under the screen with a 35% smaller Dynamic Island, and a beefier 5,000 mAh battery. Launching September with a new Dark Cherry colour.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "iPhone 18 Pro design leak with smaller Dynamic Island",
+      "readTime": "4 min read",
+      "source": "https://www.macrumors.com/2026/05/09/iphone-18-pro-10-new-features/",
+      "sourceLabel": "MacRumors",
+      "tags": [
+        "Phones",
+        "iPhone 18 Pro",
+        "Apple",
+        "Leaks",
+        "A20 Chip"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Switch 2 Price Hike Confirmed: Nintendo Blames Memory Chip Costs",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-05-11",
+      "dateDisplay": "11 May 2026",
+      "excerpt": "Nintendo has officially announced a Switch 2 price revision, citing soaring memory chip costs driven by AI data centre demand. Shares tumbled after the news, with Nintendo forecasting 16.5 million console sales this fiscal year — down from previous expectations.",
+      "image": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=600&h=350&fit=crop",
+      "imageAlt": "Nintendo Switch 2 console price increase announcement",
+      "readTime": "3 min read",
+      "source": "https://www.nintendo.co.jp/corporate/release/en/2026/260508.html",
+      "sourceLabel": "Nintendo",
+      "tags": [
+        "Consoles",
+        "Nintendo",
+        "Switch 2",
+        "Price Increase",
+        "Gaming"
+      ]
+    },
+    {
       "id": 27,
       "title": "Indiana Jones and the Great Circle Cracks Onto Switch 2 — 12 May, £59.99",
       "category": "consoles",
