@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 31,
+      "title": "HMRC Text Scam Surge: Real Letters Run Until 31 May — Here's How to Tell Them Apart",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-05-18",
+      "dateDisplay": "18 May 2026",
+      "excerpt": "HMRC is actually sending genuine 'check your details' texts until 31 May 2026 — and scammers are piggybacking on the campaign hard. Real HMRC will never ask for your bank details or National Insurance number by text. Forward dodgy ones to 60599.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Phishing scam text message warning on smartphone",
+      "readTime": "3 min read",
+      "source": "https://www.gov.uk/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
+      "sourceLabel": "GOV.UK",
+      "tags": [
+        "Cyber Security",
+        "Phishing",
+        "HMRC",
+        "Scam Alert",
+        "UK"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Yoshi and the Mysterious Book Lands 21 May — Switch 2's First Big First-Party Exclusive",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-05-18",
+      "dateDisplay": "18 May 2026",
+      "excerpt": "Nintendo's Yoshi and the Mysterious Book drops 21 May as the Switch 2's first major first-party exclusive. With Indiana Jones and the Great Circle already on the system, the Switch 2 library is finally heating up. Bring yours in for a screen check before launch day.",
+      "image": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=600&h=350&fit=crop",
+      "imageAlt": "Nintendo Switch 2 console with Yoshi game",
+      "readTime": "3 min read",
+      "source": "https://www.nintendolife.com/guides/upcoming-nintendo-switch-2-games-and-accessories-for-may-and-june-2026",
+      "sourceLabel": "Nintendo Life",
+      "tags": [
+        "Consoles",
+        "Nintendo Switch 2",
+        "Yoshi",
+        "Gaming",
+        "New Release"
+      ]
+    },
+    {
       "id": 29,
       "title": "iPhone 18 Pro Leak: 2nm A20 Chip, Tiny Dynamic Island & 5,000 mAh Battery",
       "category": "phones",
