@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "id": 33,
+      "title": "Samsung One UI 9 Beta 2 Lands on Galaxy S26 — 16 Core Upgrades",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-05-27",
+      "dateDisplay": "27 May 2026",
+      "excerpt": "Samsung's pushed out One UI 9 Beta 2 for the Galaxy S26 line, packing 16 core changes built on Android 17 — think new Notes tools, a customisable Quick Panel and the June security patch. UK owners can join via Samsung Members.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung Galaxy smartphone showing a customised home screen",
+      "readTime": "3 min read",
+      "source": "https://www.sammyfans.com/2026/05/26/one-ui-9-beta-2-has-16-core-updates-for-galaxy-s26/",
+      "sourceLabel": "Sammy Fans",
+      "tags": [
+        "Samsung",
+        "One UI 9",
+        "Android 17"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "AI-Written Phishing Now Fools Most Brits — NCSC Sounds the Alarm",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-05-27",
+      "dateDisplay": "27 May 2026",
+      "excerpt": "Phishing still drives most UK breaches, hitting 38% of businesses last year — and crooks now use AI for near-perfect grammar and spot-on branding. Spot a dodgy text? Forward it free to 7726 and don't tap any links.",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=350&fit=crop",
+      "imageAlt": "Hooded figure at a laptop representing online phishing scams",
+      "readTime": "4 min read",
+      "source": "https://www.cybernewscentre.com/1st-may-2026-cyber-update-uk-survey-phishing-breach-economy/",
+      "sourceLabel": "Cyber News Centre",
+      "tags": [
+        "Phishing",
+        "NCSC",
+        "Scam Protection"
+      ]
+    },
+    {
       "id": 31,
       "title": "HMRC Text Scam Surge: Real Letters Run Until 31 May — Here's How to Tell Them Apart",
       "category": "cyber",
