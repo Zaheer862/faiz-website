@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 35,
+      "title": "Motorola Edge 70 Pro+ Lands 4 June: 144Hz, 6500mAh & 90W Charging",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-06-01",
+      "dateDisplay": "1 Jun 2026",
+      "excerpt": "Motorola's Edge 70 Pro+ launches 4 June with a 6.8-inch 144Hz AMOLED hitting 5,200 nits, a triple 50MP camera with 3.5x periscope zoom, and a beefy 6,500mAh silicon-carbon battery with 90W fast charging. IP69 rated and packing Android 16.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Motorola Edge 70 Pro+ smartphone with triple camera",
+      "readTime": "3 min read",
+      "source": "https://www.gsmarena.com/motorola_edge_70_pro_full_specs_officially_revealed_ahead_of_launch-news-73039.php",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "Phones",
+        "Motorola",
+        "Edge 70 Pro+",
+        "Android 16",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "'iCloud Storage Full' Scam Is Back — And Now It Wants Your Card Details",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-06-01",
+      "dateDisplay": "1 Jun 2026",
+      "excerpt": "Which? has warned every Apple user about a nasty scam doing the rounds: fake 'iCloud storage is full' emails threatening to delete your photos unless you 'update' payment. The link leads to a fake site harvesting your Apple ID and bank card. Here's how to spot it.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "iCloud phishing scam warning on phone screen",
+      "readTime": "4 min read",
+      "source": "https://www.malwarebytes.com/blog/news/2026/04/icloud-storage-is-full-scam-is-back-and-now-it-wants-your-payment-details",
+      "sourceLabel": "Malwarebytes",
+      "tags": [
+        "Cyber Security",
+        "Apple",
+        "iCloud",
+        "Phishing",
+        "Scam Alert"
+      ]
+    },
+    {
       "id": 33,
       "title": "Samsung One UI 9 Beta 2 Lands on Galaxy S26 — 16 Core Upgrades",
       "category": "phones",
