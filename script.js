@@ -62,7 +62,7 @@ async function loadProducts(filter = 'all') {
           </div>
           <div class="product-name">${p.name}</div>
           <div class="product-desc">${p.description}</div>
-          <a href="https://wa.me/4407440423053?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
+          <a href="https://wa.me/447440423053?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
              target="_blank" class="product-enquire">
             <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
           </a>

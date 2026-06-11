@@ -5,7 +5,7 @@
 const STORAGE_KEY = 'faiz_products';
 const PIN_KEY = 'faiz_admin_pin';
 const SESSION_KEY = 'faiz_admin_session';
-const DEFAULT_PIN = 'faiz2024';
+const DEFAULT_PIN = 'FZ-mere-9472';
 
 // ---- STATE ----
 let products = [];

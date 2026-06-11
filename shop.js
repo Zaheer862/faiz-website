@@ -4,7 +4,7 @@
 
 const DELIVERY_COST = 4.99;
 const FREE_DELIVERY_THRESHOLD = 100;
-const WHATSAPP_NUMBER = '4407440423053';
+const WHATSAPP_NUMBER = '447440423053';
 
 const categoryIcons = {
   phones: 'fa-mobile-alt',
