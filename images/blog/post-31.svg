@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Phishing scam text message warning on smartphone">
+  <defs>
+    <linearGradient id="bg31" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#482015"/>
+      <stop offset="100%" stop-color="#8a290f"/>
+    </linearGradient>
+    <radialGradient id="glowA31" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f67351" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f67351" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink31" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft31" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg31)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="450" cy="119" r="150" fill="url(#glowA31)" filter="url(#soft31)"/>
+  <circle cx="144" cy="309" r="120" fill="url(#glowA31)" opacity="0.5" filter="url(#soft31)"/>
+
+  <!-- decorative pattern -->
+  <circle cx="532" cy="206" r="22" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="449" cy="117" r="16" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="487" cy="112" r="24" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="414" cy="49" r="11" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="490" cy="298" r="20" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="548" cy="228" r="16" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="534" cy="284" r="12" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="387" cy="66" r="30" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="558" cy="58" r="24" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="426" cy="191" r="7" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="470" cy="131" r="17" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="570" cy="211" r="31" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="426" cy="28" r="19" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+  <circle cx="545" cy="180" r="25" fill="none" stroke="#f67351" stroke-width="2" opacity="0.13"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><path d="M50 6 L84 20 V48 C84 72 68 86 50 94 C32 86 16 72 16 48 V20 Z"
+             fill="none" stroke="#f67351" stroke-width="4"/>
+           <path d="M37 49 L46 60 L65 36" fill="none" stroke="#f67351" stroke-width="5"
+             stroke-linecap="round" stroke-linejoin="round"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="168" height="34" rx="17" fill="#f67351" opacity="0.16"/>
+    <rect width="168" height="34" rx="17" fill="none" stroke="#f67351" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><path d="M50 6 L84 20 V48 C84 72 68 86 50 94 C32 86 16 72 16 48 V20 Z"
+             fill="none" stroke="#f7a38e" stroke-width="4"/>
+           <path d="M37 49 L46 60 L65 36" fill="none" stroke="#f7a38e" stroke-width="5"
+             stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#f7a38e">CYBER SECURITY</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#f67351" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#f67351" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><path d="M50 6 L84 20 V48 C84 72 68 86 50 94 C32 86 16 72 16 48 V20 Z"
+             fill="none" stroke="#f7a38e" stroke-width="4"/>
+           <path d="M37 49 L46 60 L65 36" fill="none" stroke="#f7a38e" stroke-width="5"
+             stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1" fill="url(#ink31)">PHISHING</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#f67351"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Stay safe online</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#f67351" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>
