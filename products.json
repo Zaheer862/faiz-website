@@ -3671,7 +3671,7 @@
       "Input": "100–240V AC",
       "Size": "Compact folding-pin design"
     },
-    "localImage": "images/products/191/main.jpg"
+    "localImage": "images/accessories/charger.svg"
   },
   {
     "id": 192,
@@ -3690,7 +3690,7 @@
       "Cable": "USB-C cable not included",
       "Input": "100–240V AC"
     },
-    "localImage": "images/products/192/main.jpg"
+    "localImage": "images/accessories/charger.svg"
   },
   {
     "id": 193,
@@ -3709,7 +3709,7 @@
       "Cable": "USB-C cable included",
       "Compatible": "All Qi-enabled phones including iPhone 8 and later"
     },
-    "localImage": "images/products/193/main.jpg"
+    "localImage": "images/accessories/charger.svg"
   },
   {
     "id": 194,
@@ -5820,7 +5820,7 @@
       "Connector": "USB-C to MagSafe",
       "Compatibility": "iPhone 12 and newer (MagSafe) · All Qi devices"
     },
-    "localImage": "images/products/251/main.jpg",
+    "localImage": "images/accessories/charger.svg",
     "variants": {
       "colors": [
         {
@@ -5858,7 +5858,7 @@
       "Size": "Compact folding UK plug",
       "Compatibility": "iPhone, iPad, MacBook (up to 30W), AirPods"
     },
-    "localImage": "images/products/252/main.jpg",
+    "localImage": "images/accessories/charger.svg",
     "variants": {
       "colors": [
         {
@@ -6208,7 +6208,7 @@
       "Compatible": "MacBook Air, iPhone, iPad, Galaxy, Pixel",
       "Size": "Compact UK plug · foldable pins"
     },
-    "localImage": "images/products/18/main.jpg"
+    "localImage": "images/accessories/charger.svg"
   },
   {
     "id": 19,
@@ -6228,7 +6228,7 @@
       "Connector": "USB-C to USB-C",
       "Compatible": "All USB-C devices including MacBook, iPad Pro, Galaxy, Pixel"
     },
-    "localImage": "images/products/19/main.jpg"
+    "localImage": "images/accessories/cable.svg"
   },
   {
     "id": 20,
@@ -6250,7 +6250,7 @@
       "Size": "158 × 74 × 16mm",
       "Safety": "PowerIQ · VoltageBoost · MultiProtect"
     },
-    "localImage": "images/products/20/main.jpg"
+    "localImage": "images/accessories/powerbank.svg"
   },
   {
     "id": 21,
@@ -6272,7 +6272,7 @@
       "Features": "Multipoint · Google Fast Pair · Voice assistant · Foldable",
       "Weight": "222g"
     },
-    "localImage": "images/products/21/main.jpg"
+    "localImage": "images/accessories/headphones.svg"
   },
   {
     "id": 22,
@@ -6293,7 +6293,7 @@
       "Features": "JBL Deep Bass · Smart Ambient · IPX4 · Google Fast Pair",
       "Weight": "5.0g each"
     },
-    "localImage": "images/products/22/main.jpg"
+    "localImage": "images/accessories/earbuds.svg"
   },
   {
     "id": 23,
@@ -6315,7 +6315,7 @@
       "Dimensions": "86.9 × 69.3 × 31.7mm · 209g",
       "Features": "Speakerphone · JBL Pro Sound"
     },
-    "localImage": "images/products/23/main.jpg"
+    "localImage": "images/accessories/speaker.svg"
   },
   {
     "id": 24,
@@ -6335,7 +6335,7 @@
       "Compatibility": "Available for iPhone 12–16 series, Samsung S20–S24 series",
       "Installation": "Dust-removal kit + alignment guide included"
     },
-    "localImage": "images/products/24/main.jpg"
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 25,
@@ -6355,7 +6355,7 @@
       "Compatibility": "iPhone 12–16, Samsung S21–S24, Google Pixel 7–8",
       "Colours": "Black, Midnight Blue, Stone Grey, Forest Green"
     },
-    "localImage": "images/products/25/main.jpg"
+    "localImage": "images/covers/silicone.svg"
   },
   {
     "id": 26,
@@ -6375,7 +6375,7 @@
       "Compatibility": "iPhone 12–16, Samsung A32–A55, Galaxy S21–S24",
       "Weight": "Featherlight 28g"
     },
-    "localImage": "images/products/26/main.jpg"
+    "localImage": "images/covers/clear.svg"
   },
   {
     "id": 27,
@@ -6396,7 +6396,7 @@
       "Compatibility": "iPhone 12–16 series, Samsung S21–S24, A54, Note 20",
       "Colours": "Black, Brown, Navy"
     },
-    "localImage": "images/products/27/main.jpg"
+    "localImage": "images/covers/flip.svg"
   },
   {
     "id": 253,
@@ -6416,7 +6416,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S25 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 254,
@@ -6436,7 +6436,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S25 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 255,
@@ -6456,7 +6456,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S25+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 256,
@@ -6476,7 +6476,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S25+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 257,
@@ -6496,7 +6496,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S25"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 258,
@@ -6516,7 +6516,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S25",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 259,
@@ -6536,7 +6536,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S25 FE"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 260,
@@ -6556,7 +6556,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S25 FE",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 261,
@@ -6576,7 +6576,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S24 FE"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 262,
@@ -6596,7 +6596,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S24 FE",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 263,
@@ -6616,7 +6616,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Fold7"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 264,
@@ -6636,7 +6636,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Fold7",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 265,
@@ -6656,7 +6656,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Fold6"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 266,
@@ -6676,7 +6676,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Fold6",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 267,
@@ -6696,7 +6696,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Flip7"
     },
-    "localImage": ""
+    "localImage": "images/covers/flip.svg"
   },
   {
     "id": 268,
@@ -6716,7 +6716,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Flip7",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 269,
@@ -6736,7 +6736,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Flip6"
     },
-    "localImage": ""
+    "localImage": "images/covers/flip.svg"
   },
   {
     "id": 270,
@@ -6756,7 +6756,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Flip6",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 271,
@@ -6776,7 +6776,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S24 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 272,
@@ -6796,7 +6796,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S24 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 273,
@@ -6816,7 +6816,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S24+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 274,
@@ -6836,7 +6836,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S24+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 275,
@@ -6856,7 +6856,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S24"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 276,
@@ -6876,7 +6876,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S24",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 277,
@@ -6896,7 +6896,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S23 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 278,
@@ -6916,7 +6916,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S23 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 279,
@@ -6936,7 +6936,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S23+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 280,
@@ -6956,7 +6956,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S23+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 281,
@@ -6976,7 +6976,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S23"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 282,
@@ -6996,7 +6996,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S23",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 283,
@@ -7016,7 +7016,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S23 FE"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 284,
@@ -7036,7 +7036,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S23 FE",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 285,
@@ -7056,7 +7056,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S22 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 286,
@@ -7076,7 +7076,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S22 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 287,
@@ -7096,7 +7096,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S22+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 288,
@@ -7116,7 +7116,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S22+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 289,
@@ -7136,7 +7136,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S22"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 290,
@@ -7156,7 +7156,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S22",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 291,
@@ -7176,7 +7176,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S21 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 292,
@@ -7196,7 +7196,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S21 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 293,
@@ -7216,7 +7216,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S21"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 294,
@@ -7236,7 +7236,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S21",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 295,
@@ -7256,7 +7256,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S21 FE"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 296,
@@ -7276,7 +7276,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S21 FE",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 297,
@@ -7296,7 +7296,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S20 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 298,
@@ -7316,7 +7316,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S20 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 299,
@@ -7336,7 +7336,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S20 FE"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 300,
@@ -7356,7 +7356,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S20 FE",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 301,
@@ -7376,7 +7376,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S10+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 302,
@@ -7396,7 +7396,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S10+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 303,
@@ -7416,7 +7416,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S10"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 304,
@@ -7436,7 +7436,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S10",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 305,
@@ -7456,7 +7456,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S9+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 306,
@@ -7476,7 +7476,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S9+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 307,
@@ -7496,7 +7496,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S8+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 308,
@@ -7516,7 +7516,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S8+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 309,
@@ -7536,7 +7536,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy S7 Edge"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 310,
@@ -7556,7 +7556,7 @@
       "Fit": "Precision-cut for Samsung Galaxy S7 Edge",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 311,
@@ -7576,7 +7576,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Note 20 Ultra"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 312,
@@ -7596,7 +7596,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Note 20 Ultra",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 313,
@@ -7616,7 +7616,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Note 20"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 314,
@@ -7636,7 +7636,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Note 20",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 315,
@@ -7656,7 +7656,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Note 10+"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 316,
@@ -7676,7 +7676,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Note 10+",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 317,
@@ -7696,7 +7696,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Note 10"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 318,
@@ -7716,7 +7716,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Note 10",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 319,
@@ -7736,7 +7736,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Note 9"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 320,
@@ -7756,7 +7756,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Note 9",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 321,
@@ -7776,7 +7776,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Note 8"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 322,
@@ -7796,7 +7796,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Note 8",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 323,
@@ -7816,7 +7816,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Fold 5"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 324,
@@ -7836,7 +7836,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Fold 5",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 325,
@@ -7856,7 +7856,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Fold 4"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 326,
@@ -7876,7 +7876,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Fold 4",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 327,
@@ -7896,7 +7896,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Fold 3"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 328,
@@ -7916,7 +7916,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Fold 3",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 329,
@@ -7936,7 +7936,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Flip 5"
     },
-    "localImage": ""
+    "localImage": "images/covers/flip.svg"
   },
   {
     "id": 330,
@@ -7956,7 +7956,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Flip 5",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 331,
@@ -7976,7 +7976,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Flip 4"
     },
-    "localImage": ""
+    "localImage": "images/covers/flip.svg"
   },
   {
     "id": 332,
@@ -7996,7 +7996,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Flip 4",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 333,
@@ -8016,7 +8016,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy Z Flip 3"
     },
-    "localImage": ""
+    "localImage": "images/covers/flip.svg"
   },
   {
     "id": 334,
@@ -8036,7 +8036,7 @@
       "Fit": "Precision-cut for Samsung Galaxy Z Flip 3",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 335,
@@ -8056,7 +8056,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A55 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 336,
@@ -8076,7 +8076,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A55 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 337,
@@ -8096,7 +8096,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A35 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 338,
@@ -8116,7 +8116,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A35 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 339,
@@ -8136,7 +8136,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A25 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 340,
@@ -8156,7 +8156,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A25 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 341,
@@ -8176,7 +8176,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A15 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 342,
@@ -8196,7 +8196,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A15 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 343,
@@ -8216,7 +8216,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A54 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 344,
@@ -8236,7 +8236,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A54 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 345,
@@ -8256,7 +8256,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A34 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 346,
@@ -8276,7 +8276,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A34 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 347,
@@ -8296,7 +8296,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A24"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 348,
@@ -8316,7 +8316,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A24",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 349,
@@ -8336,7 +8336,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A14 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 350,
@@ -8356,7 +8356,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A14 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 351,
@@ -8376,7 +8376,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A53 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 352,
@@ -8396,7 +8396,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A53 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 353,
@@ -8416,7 +8416,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A33 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 354,
@@ -8436,7 +8436,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A33 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 355,
@@ -8456,7 +8456,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A52s 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 356,
@@ -8476,7 +8476,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A52s 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 357,
@@ -8496,7 +8496,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Samsung Galaxy A32 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 358,
@@ -8516,7 +8516,7 @@
       "Fit": "Precision-cut for Samsung Galaxy A32 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 359,
@@ -8536,7 +8536,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 17 Pro Max"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 360,
@@ -8556,7 +8556,7 @@
       "Fit": "Precision-cut for iPhone 17 Pro Max",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 361,
@@ -8576,7 +8576,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 17 Pro"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 362,
@@ -8596,7 +8596,7 @@
       "Fit": "Precision-cut for iPhone 17 Pro",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 363,
@@ -8616,7 +8616,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone Air"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 364,
@@ -8636,7 +8636,7 @@
       "Fit": "Precision-cut for iPhone Air",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 365,
@@ -8656,7 +8656,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 17"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 366,
@@ -8676,7 +8676,7 @@
       "Fit": "Precision-cut for iPhone 17",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 367,
@@ -8696,7 +8696,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 17e"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 368,
@@ -8716,7 +8716,7 @@
       "Fit": "Precision-cut for iPhone 17e",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 369,
@@ -8736,7 +8736,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 16e"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 370,
@@ -8756,7 +8756,7 @@
       "Fit": "Precision-cut for iPhone 16e",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 371,
@@ -8776,7 +8776,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 16 Pro Max"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 372,
@@ -8796,7 +8796,7 @@
       "Fit": "Precision-cut for iPhone 16 Pro Max",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 373,
@@ -8816,7 +8816,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 16 Pro"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 374,
@@ -8836,7 +8836,7 @@
       "Fit": "Precision-cut for iPhone 16 Pro",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 375,
@@ -8856,7 +8856,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 16 Plus"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 376,
@@ -8876,7 +8876,7 @@
       "Fit": "Precision-cut for iPhone 16 Plus",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 377,
@@ -8896,7 +8896,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 16"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 378,
@@ -8916,7 +8916,7 @@
       "Fit": "Precision-cut for iPhone 16",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 379,
@@ -8936,7 +8936,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 15 Pro Max"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 380,
@@ -8956,7 +8956,7 @@
       "Fit": "Precision-cut for iPhone 15 Pro Max",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 381,
@@ -8976,7 +8976,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 15 Pro"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 382,
@@ -8996,7 +8996,7 @@
       "Fit": "Precision-cut for iPhone 15 Pro",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 383,
@@ -9016,7 +9016,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 15 Plus"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 384,
@@ -9036,7 +9036,7 @@
       "Fit": "Precision-cut for iPhone 15 Plus",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 385,
@@ -9056,7 +9056,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 15"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 386,
@@ -9076,7 +9076,7 @@
       "Fit": "Precision-cut for iPhone 15",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 387,
@@ -9096,7 +9096,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 14 Pro Max"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 388,
@@ -9116,7 +9116,7 @@
       "Fit": "Precision-cut for iPhone 14 Pro Max",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 389,
@@ -9136,7 +9136,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 14 Pro"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 390,
@@ -9156,7 +9156,7 @@
       "Fit": "Precision-cut for iPhone 14 Pro",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 391,
@@ -9176,7 +9176,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 14 Plus"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 392,
@@ -9196,7 +9196,7 @@
       "Fit": "Precision-cut for iPhone 14 Plus",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 393,
@@ -9216,7 +9216,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 14"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 394,
@@ -9236,7 +9236,7 @@
       "Fit": "Precision-cut for iPhone 14",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 395,
@@ -9256,7 +9256,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 13 Pro Max"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 396,
@@ -9276,7 +9276,7 @@
       "Fit": "Precision-cut for iPhone 13 Pro Max",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 397,
@@ -9296,7 +9296,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 13 Pro"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 398,
@@ -9316,7 +9316,7 @@
       "Fit": "Precision-cut for iPhone 13 Pro",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 399,
@@ -9336,7 +9336,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 13"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 400,
@@ -9356,7 +9356,7 @@
       "Fit": "Precision-cut for iPhone 13",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 401,
@@ -9376,7 +9376,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 13 Mini"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 402,
@@ -9396,7 +9396,7 @@
       "Fit": "Precision-cut for iPhone 13 Mini",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 403,
@@ -9416,7 +9416,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 12 Pro Max"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 404,
@@ -9436,7 +9436,7 @@
       "Fit": "Precision-cut for iPhone 12 Pro Max",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 405,
@@ -9456,7 +9456,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone 12"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 406,
@@ -9476,7 +9476,7 @@
       "Fit": "Precision-cut for iPhone 12",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 407,
@@ -9496,7 +9496,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for iPhone SE 3rd Gen"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 408,
@@ -9516,7 +9516,7 @@
       "Fit": "Precision-cut for iPhone SE 3rd Gen",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 409,
@@ -9536,7 +9536,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Xiaomi Redmi Note 13"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 410,
@@ -9556,7 +9556,7 @@
       "Fit": "Precision-cut for Xiaomi Redmi Note 13",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 411,
@@ -9576,7 +9576,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Xiaomi Redmi Note 13 Pro"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 412,
@@ -9596,7 +9596,7 @@
       "Fit": "Precision-cut for Xiaomi Redmi Note 13 Pro",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 413,
@@ -9616,7 +9616,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Google Pixel 8a"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 414,
@@ -9636,7 +9636,7 @@
       "Fit": "Precision-cut for Google Pixel 8a",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 415,
@@ -9656,7 +9656,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for Motorola Moto G84 5G"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 416,
@@ -9676,7 +9676,7 @@
       "Fit": "Precision-cut for Motorola Moto G84 5G",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   },
   {
     "id": 417,
@@ -9696,7 +9696,7 @@
       "Colours": "Black, Clear, Navy, Red",
       "Fit": "Designed specifically for OnePlus 12"
     },
-    "localImage": ""
+    "localImage": "images/covers/case.svg"
   },
   {
     "id": 418,
@@ -9716,6 +9716,6 @@
       "Fit": "Precision-cut for OnePlus 12",
       "Kit": "Dust-removal sticker + alignment guide included"
     },
-    "localImage": ""
+    "localImage": "images/covers/glass.svg"
   }
 ]

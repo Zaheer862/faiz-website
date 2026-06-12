@@ -2,7 +2,8 @@
    F.AI.Z — Professional Style Sheet
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+/* Fonts are loaded once via <link> in each page head — no @import here,
+   double-loading the same family blocks rendering twice. */
 
 *, *::before, *::after {
   margin: 0;
@@ -157,11 +158,6 @@ header.scrolled {
 
 .logo .ai, .logo-name .ai, .footer-logo .ai {
   color: var(--accent);
-  text-shadow: 0 0 24px var(--accent-glow);
-}
-
-.logo .ai, .logo-name .ai, .footer-logo .ai {
-  color: var(--accent);
   text-shadow: 0 0 20px var(--accent-glow);
 }
 
@@ -296,7 +292,7 @@ nav a:hover {
 .hero-bg-image {
   position: absolute;
   inset: 0;
-  background: url('https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?w=1920&h=1080&fit=crop') center/cover no-repeat;
+  background: url('images/site/hero-bg.jpg') center/cover no-repeat;
   opacity: 0.07;
   pointer-events: none;
   filter: saturate(0.3);
@@ -2394,3 +2390,27 @@ footer {
   .hero-footer .hero-trust-bar { gap: 1rem; }
 }
 
+
+
+/* ============================================
+   Accessibility
+   ============================================ */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent, #3b82f6);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product | F.AI.Z</title>
+  <title>Product | F.AI.Z Mobiles Leicester</title>
+  <link rel="icon" href="images/site/favicon.svg" type="image/svg+xml" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -321,6 +322,7 @@
         <a href="index.html#services">Services</a>
         <a href="shop.html" class="active">Shop</a>
         <a href="prices.html">Prices</a>
+        <a href="blog.html">Blog</a>
         <a href="index.html#contact">Contact</a>
         <a href="#" class="nav-cart-btn" id="nav-cart-btn" aria-label="Shopping cart">
           <i class="fas fa-shopping-bag"></i>
@@ -337,14 +339,6 @@
         </button>
       </div>
     </div>
-    <!-- mobile nav -->
-    <nav id="mobile-nav">
-      <a href="index.html">Home</a>
-      <a href="index.html#services">Services</a>
-      <a href="shop.html" class="active">Shop</a>
-      <a href="prices.html">Prices</a>
-      <a href="index.html#contact">Contact</a>
-    </nav>
   </header>
 
   <!-- MAIN CONTENT -->
@@ -359,52 +353,165 @@
     </div>
   </section>
 
-  <!-- CART PANEL (copied from shop.html) -->
+  <!-- CART SLIDE-OVER (same markup as shop.html so shop.js drives it) -->
   <div class="cart-overlay" id="cart-overlay"></div>
-  <aside class="cart-panel" id="cart-panel" aria-label="Shopping cart">
-    <div class="cart-header">
-      <h2>Your Cart</h2>
-      <button class="cart-close" id="cart-close" aria-label="Close cart">&times;</button>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <h2><i class="fas fa-shopping-bag"></i> Your Cart</h2>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">
+        <i class="fas fa-times"></i>
+      </button>
     </div>
-    <div class="cart-body" id="cart-body"></div>
-    <div class="cart-footer" id="cart-footer" style="display:none">
-      <div class="cart-total-row">
-        <span>Total</span>
-        <span id="cart-total-price">£0.00</span>
+
+    <div class="cart-drawer-body" id="cart-drawer-body">
+      <div class="cart-empty" id="cart-empty">
+        <i class="fas fa-shopping-bag"></i>
+        <p>Your cart is empty</p>
+        <span>Browse our products and add items to get started.</span>
       </div>
-      <button class="checkout-btn" id="checkout-btn">Checkout via WhatsApp</button>
+      <div class="cart-items" id="cart-items"></div>
+    </div>
+
+    <div class="cart-drawer-footer" id="cart-drawer-footer" style="display:none;">
+      <div class="cart-summary">
+        <div class="cart-summary-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">&pound;0.00</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Delivery</span>
+          <span id="cart-delivery">&pound;4.99</span>
+        </div>
+        <div class="cart-summary-row cart-total-row">
+          <span>Total</span>
+          <span id="cart-total">&pound;0.00</span>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-full" id="checkout-btn">
+        <i class="fas fa-lock"></i> Proceed to Checkout
+      </button>
     </div>
   </aside>
 
-  <!-- CHECKOUT MODAL -->
-  <div class="checkout-overlay" id="checkout-overlay"></div>
-  <div class="checkout-modal" id="checkout-modal">
-    <div class="checkout-header">
-      <h2>Complete Your Order</h2>
-      <button class="checkout-close" id="checkout-close">&times;</button>
-    </div>
-    <div class="checkout-body">
-      <div id="checkout-details-section">
-        <p style="color:#8a9ab5;margin-bottom:16px">We'll send your order details via WhatsApp so you can confirm and pay.</p>
-        <div class="confirmation-details" id="confirmation-details"></div>
+
+  <!-- CHECKOUT MODAL (same markup as shop.html so shop.js drives it) -->
+  <div class="modal-overlay" id="checkout-overlay">
+    <div class="modal" id="checkout-modal">
+      <div class="modal-header">
+        <h2><i class="fas fa-lock"></i> Checkout</h2>
+        <button class="modal-close" id="checkout-close" aria-label="Close checkout"><i class="fas fa-times"></i></button>
       </div>
-      <div id="checkout-shipping-section" style="display:none">
-        <div class="form-group">
-          <label>Full Name</label>
-          <input type="text" id="shipping-name" placeholder="Your full name" />
+
+      <div class="modal-body" id="checkout-body">
+        <!-- Step 1: Shipping -->
+        <div class="checkout-step" id="step-shipping">
+          <h3 class="checkout-step-title"><span class="step-num">1</span> Shipping Details</h3>
+          <form id="shipping-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ship-fname">First Name *</label>
+                <input type="text" id="ship-fname" required autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="ship-lname">Last Name *</label>
+                <input type="text" id="ship-lname" required autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ship-email">Email *</label>
+              <input type="email" id="ship-email" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="ship-phone">Phone *</label>
+              <input type="tel" id="ship-phone" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="ship-address">Address Line 1 *</label>
+              <input type="text" id="ship-address" required autocomplete="address-line1" />
+            </div>
+            <div class="form-group">
+              <label for="ship-address2">Address Line 2</label>
+              <input type="text" id="ship-address2" autocomplete="address-line2" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ship-city">City / Town *</label>
+                <input type="text" id="ship-city" required autocomplete="address-level2" />
+              </div>
+              <div class="form-group">
+                <label for="ship-postcode">Postcode *</label>
+                <input type="text" id="ship-postcode" required autocomplete="postal-code" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ship-notes">Order Notes (optional)</label>
+              <textarea id="ship-notes" rows="3" placeholder="Any special instructions..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Continue to Order Review <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
         </div>
-        <div class="form-group">
-          <label>Phone Number</label>
-          <input type="tel" id="shipping-phone" placeholder="+44..." />
+
+        <!-- Step 2: Review & Confirm -->
+        <div class="checkout-step" id="step-review" style="display:none;">
+          <h3 class="checkout-step-title"><span class="step-num">2</span> Review Your Order</h3>
+
+          <div class="review-section">
+            <h4><i class="fas fa-map-marker-alt"></i> Shipping To</h4>
+            <div class="review-address" id="review-address"></div>
+            <button class="review-edit-btn" id="edit-shipping-btn"><i class="fas fa-pen"></i> Edit</button>
+          </div>
+
+          <div class="review-section">
+            <h4><i class="fas fa-box"></i> Order Items</h4>
+            <div class="review-items" id="review-items"></div>
+          </div>
+
+          <div class="review-section">
+            <div class="review-totals">
+              <div class="review-totals-row">
+                <span>Subtotal</span>
+                <span id="review-subtotal">&pound;0.00</span>
+              </div>
+              <div class="review-totals-row">
+                <span>Delivery</span>
+                <span id="review-delivery">&pound;4.99</span>
+              </div>
+              <div class="review-totals-row review-total-final">
+                <span>Total</span>
+                <span id="review-total">&pound;0.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-payment-note">
+            <i class="fas fa-info-circle"></i>
+            <p>After placing your order, we'll contact you via WhatsApp or phone to arrange payment and confirm delivery details.</p>
+          </div>
+
+          <button class="btn btn-primary btn-full btn-lg" id="place-order-btn">
+            <i class="fab fa-whatsapp"></i> Place Order via WhatsApp
+          </button>
         </div>
-        <div class="form-group">
-          <label>Delivery Address</label>
-          <textarea id="shipping-address" rows="3" placeholder="Street, City, Postcode"></textarea>
+
+        <!-- Step 3: Confirmation -->
+        <div class="checkout-step" id="step-confirmation" style="display:none;">
+          <div class="confirmation-content">
+            <div class="confirmation-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Order Sent!</h3>
+            <p>Your order has been sent to F.AI.Z via WhatsApp. We'll confirm your order and arrange payment shortly.</p>
+            <div class="confirmation-details" id="confirmation-details"></div>
+            <div class="confirmation-actions">
+              <a href="shop.html" class="btn btn-outline">Continue Shopping</a>
+              <a href="https://wa.me/447440423053" target="_blank" class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> Open WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="checkout-actions">
-        <button id="edit-shipping-btn" class="btn-secondary">Add Delivery Details</button>
-        <button id="place-order-btn" class="checkout-btn">Send Order via WhatsApp</button>
       </div>
     </div>
   </div>
@@ -445,7 +552,8 @@
       const colorImg = swatch.dataset.image;
       if (colorImg) {
         const mainImg = document.querySelector('.pd-image-wrap img');
-        if (mainImg) { mainImg.style.opacity='0'; mainImg.src = colorImg; mainImg.onload = ()=>{ mainImg.style.opacity='1'; }; mainImg.onerror = ()=>{ mainImg.style.opacity='1'; }; }
+        // Colour-variant URLs are usually remote; fall back to the working image
+        if (mainImg) { const prevSrc = mainImg.src; mainImg.style.opacity='0'; mainImg.src = colorImg; mainImg.onload = ()=>{ mainImg.style.opacity='1'; }; mainImg.onerror = ()=>{ mainImg.onerror=null; mainImg.src = prevSrc; mainImg.style.opacity='1'; }; }
       }
 
       // Always update image-wrap background glow to match selected colour
@@ -468,12 +576,45 @@
       document.getElementById('pd-price').textContent = `\u00A3${(base + adder).toFixed(2)}`;
     };
 
+    // Best image for a product: self-hosted localImage first, remote URL second,
+    // brand placeholder last (GSMArena blocks hotlinking, so remote often 403s).
+    function pdImgParts(p) {
+      const local = p.localImage || '';
+      const remote = (p.image && p.image !== local) ? p.image : '';
+      const brand = (p.brand || '').toLowerCase();
+      const known = ['apple', 'google', 'oneplus', 'samsung'];
+      const ph = 'images/brand-placeholder/' + (known.includes(brand) ? brand : 'phone') + '.svg';
+      return { src: local || remote || ph, fb: (local && remote) ? remote : '', ph };
+    }
+
     function buildPage(product, allProducts) {
       // Reset variant selectors for new product
       pdColorIdx = 0; pdStorageIdx = 0;
 
       // Update page title
       document.title = `${product.name} | F.AI.Z`;
+
+      // Canonical URL + Product schema for search engines
+      let canon = document.querySelector('link[rel="canonical"]');
+      if (!canon) { canon = document.createElement('link'); canon.rel = 'canonical'; document.head.appendChild(canon); }
+      canon.href = `https://faizrepair.com/product.html?id=${product.id}`;
+      let ldEl = document.getElementById('pd-jsonld');
+      if (!ldEl) { ldEl = document.createElement('script'); ldEl.type = 'application/ld+json'; ldEl.id = 'pd-jsonld'; document.head.appendChild(ldEl); }
+      ldEl.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: product.name,
+        description: product.description || '',
+        image: `https://faizrepair.com/${pdImgParts(product).src}`,
+        brand: { '@type': 'Brand', name: product.brand || 'F.AI.Z' },
+        offers: {
+          '@type': 'Offer',
+          price: String(product.price),
+          priceCurrency: 'GBP',
+          availability: 'https://schema.org/InStock',
+          seller: { '@type': 'Organization', name: 'F.AI.Z Mobiles' }
+        }
+      });
 
       // Cart state
       const cart = JSON.parse(localStorage.getItem('faiz_cart') || '[]');
@@ -506,8 +647,8 @@
               return `
               <div class="shop-product-card" style="cursor:pointer" onclick="window.location='product.html?id=${p.id}'">
                 <div class="shop-product-img">
-                  <img src="${escH(p.image)}" alt="${escH(p.name)}" loading="lazy"
-                       data-local="${escH(p.localImage||'')}" onerror="this.onerror=null;this.src='images/brand-placeholder/'+(p.brand||'phone').toLowerCase()+'.svg'">
+                  <img src="${escH(pdImgParts(p).src)}" alt="${escH(p.name)}" loading="lazy"
+                       data-fb="${escH(pdImgParts(p).fb)}" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb='';}else{this.onerror=null;this.src='${pdImgParts(p).ph}';}">
                   <span class="shop-product-badge">${escH(p.badge||'')}</span>
                 </div>
                 <div class="shop-product-body">
@@ -531,9 +672,9 @@
         <div class="product-detail-grid">
           <!-- Image -->
           <div class="pd-image-wrap">
-            <img src="${escH(product.image)}" alt="${escH(product.name)}"
-                 data-local="${escH(product.localImage||'')}"
-                 onerror="this.onerror=null;this.src='images/brand-placeholder/'+(product.brand||'phone').toLowerCase()+'.svg'" />
+            <img src="${escH(pdImgParts(product).src)}" alt="${escH(product.name)}"
+                 data-fb="${escH(pdImgParts(product).fb)}"
+                 onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb='';}else{this.onerror=null;this.src='${pdImgParts(product).ph}';}" />
             <span class="pd-badge ${badgeClass(product.badge)}">${escH(product.badge||'')}</span>
           </div>
 
@@ -560,7 +701,7 @@
                               title="${escH(col.name)}"
                               data-hex="${escH(col.hex)}"
                               data-image="${escH(col.image||'')}"
-                              onclick="pdSelectColor(${i});document.getElementById('pd-color-label').textContent='${col.name.replace(/'/g,"\\'")}'"
+                              onclick="pdSelectColor(${i});document.getElementById('pd-color-label').textContent='${escH(col.name).replace(/'/g,"\\'")}'"
                               aria-label="${escH(col.name)}">
                       </button>`).join('')}
                   </div>

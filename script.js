@@ -10,6 +10,25 @@ const categoryIcons = {
   accessories: 'fa-headphones-alt'
 };
 
+// --- HTML escaping (products can come from localStorage via the admin panel) ---
+function escapeHtml(str) {
+  return String(str ?? '').replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
+const escapeAttr = escapeHtml;
+
+// Best image for a product: self-hosted localImage first, remote URL second,
+// brand placeholder last (GSMArena blocks hotlinking, so remote often 403s).
+function productImgParts(p) {
+  const local = p.localImage || '';
+  const remote = (p.image && p.image !== local) ? p.image : '';
+  const brand = (p.brand || '').toLowerCase();
+  const known = ['apple', 'google', 'oneplus', 'samsung'];
+  const ph = 'images/brand-placeholder/' + (known.includes(brand) ? brand : 'phone') + '.svg';
+  return { src: local || remote || ph, fb: (local && remote) ? remote : '', ph };
+}
+
 // --- Load and render products ---
 async function loadProducts(filter = 'all') {
   const grid = document.getElementById('products-grid');
@@ -47,28 +66,29 @@ async function loadProducts(filter = 'all') {
       return;
     }
 
-    grid.innerHTML = filtered.map(p => `
+    grid.innerHTML = filtered.map(p => {
+      const im = productImgParts(p);
+      return `
       <div class="product-card animate-on-scroll">
         <div class="product-img">
-          ${p.image
-            ? `<img src="${p.image}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;">`
-            : `<i class="fas ${categoryIcons[p.category] || 'fa-box'}"></i>`
-          }
+          <img src="${escapeAttr(im.src)}" alt="${escapeAttr(p.name)}" loading="lazy" data-fb="${escapeAttr(im.fb)}"
+               style="width:100%;height:100%;object-fit:cover;"
+               onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb='';}else{this.onerror=null;this.src='${im.ph}';}">
         </div>
         <div class="product-body">
           <div class="product-meta">
-            <span class="product-badge">${p.badge}</span>
+            <span class="product-badge">${escapeHtml(p.badge)}</span>
             <span class="product-price">&pound;${p.price.toFixed(2)}</span>
           </div>
-          <div class="product-name">${p.name}</div>
-          <div class="product-desc">${p.description}</div>
+          <div class="product-name">${escapeHtml(p.name)}</div>
+          <div class="product-desc">${escapeHtml(p.description)}</div>
           <a href="https://wa.me/447440423053?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
              target="_blank" class="product-enquire">
             <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
           </a>
         </div>
       </div>
-    `).join('');
+    `;}).join('');
 
     // Make product cards visible — stagger 80ms apart.
     // Using setTimeout instead of IntersectionObserver so cards always appear
@@ -223,7 +243,9 @@ function initParticles() {
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-      const target = document.querySelector(this.getAttribute('href'));
+      const href = this.getAttribute('href');
+      if (!href || href.length < 2) return; // bare "#" is not a valid selector
+      const target = document.querySelector(href);
       if (target) {
         e.preventDefault();
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -235,16 +257,22 @@ function initSmoothScroll() {
 
 // --- FAQ accordion ---
 function initFAQ() {
-  document.querySelectorAll('.faq-question').forEach(btn => {
+  const buttons = document.querySelectorAll('.faq-question');
+  buttons.forEach(btn => {
+    btn.setAttribute('aria-expanded', 'false');
     btn.addEventListener('click', () => {
       const item = btn.parentElement;
       const wasActive = item.classList.contains('active');
 
       // Close all
       document.querySelectorAll('.faq-item.active').forEach(i => i.classList.remove('active'));
+      buttons.forEach(b => b.setAttribute('aria-expanded', 'false'));
 
       // Toggle current
-      if (!wasActive) item.classList.add('active');
+      if (!wasActive) {
+        item.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+      }
     });
   });
 }
@@ -293,44 +321,47 @@ function initDeviceRotator() {
   const glow  = document.getElementById('heroDeviceGlow');
   if (!img) return;
 
+  // The carousel is display:none on phones — don't preload or rotate there
+  if (window.matchMedia('(max-width: 600px)').matches) return;
+
   const devices = [
     {
-      src:   'https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25ultra_titanium-silverblue.png',
+      src:   'images/site/hero-s25ultra.png',
       alt:   'Samsung Galaxy S25 Ultra',
       pill:  '<i class="fas fa-bolt"></i> Same-Day Available',
       blend: false,
       glow:  'rgba(14,165,233,0.35)'
     },
     {
-      src:   'https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=440&h=640&fit=crop',
+      src:   'images/site/hero-iphone.jpg',
       alt:   'Apple iPhone',
       pill:  '<i class="fab fa-apple"></i> iPhones Repaired',
       blend: false,
       glow:  'rgba(200,200,200,0.2)'
     },
     {
-      src:   'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=440&h=640&fit=crop',
+      src:   'images/site/hero-android.jpg',
       alt:   'Android Phone Repair',
       pill:  '<i class="fas fa-mobile-alt"></i> All Brands Repaired',
       blend: false,
       glow:  'rgba(52,168,83,0.28)'
     },
     {
-      src:   'https://images.samsung.com/is/image/samsung/assets/uk/2501/smartphones/galaxy-s25/compare-table/s25_blueblack.png',
+      src:   'images/site/hero-s25.png',
       alt:   'Samsung Galaxy S25',
       pill:  '<i class="fas fa-mobile-alt"></i> New Phones In Stock',
       blend: false,
       glow:  'rgba(14,165,233,0.35)'
     },
     {
-      src:   'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=440&h=640&fit=crop',
+      src:   'images/site/hero-watch.jpg',
       alt:   'Smartwatch Repair',
       pill:  '<i class="fas fa-clock"></i> Smartwatches Too',
       blend: false,
       glow:  'rgba(234,179,8,0.28)'
     },
     {
-      src:   'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=440&h=640&fit=crop',
+      src:   'images/site/hero-console.jpg',
       alt:   'PlayStation Console Repair',
       pill:  '<i class="fas fa-gamepad"></i> Consoles Repaired',
       blend: false,

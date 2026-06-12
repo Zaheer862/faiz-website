@@ -46,8 +46,9 @@ function saveCart() {
 // ============================================
 
 async function loadShopProducts() {
+  // product.html loads this script for the cart but has no #shop-grid —
+  // always load the data (addToCart needs allProducts), only render with a grid.
   const grid = document.getElementById('shop-grid');
-  if (!grid) return;
 
   try {
     // Use admin-managed products from localStorage if available, otherwise fetch defaults
@@ -58,9 +59,9 @@ async function loadShopProducts() {
       const res = await fetch('products.json');
       allProducts = await res.json();
     }
-    renderProducts();
+    if (grid) renderProducts();
   } catch {
-    grid.innerHTML = `
+    if (grid) grid.innerHTML = `
       <div class="products-loading">
         <i class="fas fa-exclamation-circle" style="color: #ef4444;"></i>
         <span>Could not load products. Please try again later.</span>
@@ -138,13 +139,13 @@ function renderProducts() {
         `).join('')}
       </div>` : '';
 
+    const im = productImgParts(p);
+
     return `
     <div class="shop-product-card" onclick="window.location='product.html?id=${p.id}'" style="cursor:pointer">
       <div class="shop-product-img">
-        ${p.image
-          ? `<img src="${escapeAttr(p.image)}" alt="${escapeAttr(p.name)}" loading="lazy" data-local="${escapeAttr(p.localImage||'')}" onerror="this.onerror=null;this.src='images/brand-placeholder/${(p.brand||'phone').toLowerCase()}.svg'">`
-          : `<div class="img-placeholder"><i class="fas ${categoryIcons[p.category] || 'fa-box'}"></i></div>`
-        }
+        <img src="${escapeAttr(im.src)}" alt="${escapeAttr(p.name)}" loading="lazy" data-fb="${escapeAttr(im.fb)}"
+             onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb='';}else{this.onerror=null;this.src='${im.ph}';}">
         <span class="shop-product-badge">${escapeHtml(p.badge)}</span>
       </div>
       <div class="shop-product-body">
@@ -184,10 +185,12 @@ function cardSelectColor(productId, colorIdx, el) {
   const colorImg = el.dataset.image;
   const imgEl = card.querySelector('.shop-product-img img');
   if (colorImg && imgEl) {
+    const prevSrc = imgEl.src;
     imgEl.style.opacity = '0';
     imgEl.src = colorImg;
     imgEl.onload = () => { imgEl.style.opacity = '1'; };
-    imgEl.onerror = () => { imgEl.style.opacity = '1'; };
+    // Colour-variant URLs are usually remote; fall back to the working image
+    imgEl.onerror = () => { imgEl.onerror = null; imgEl.src = prevSrc; imgEl.style.opacity = '1'; };
   }
 
   // Update card image background glow to match selected colour
@@ -218,6 +221,17 @@ function cardSelectStorage(productId, storageIdx, el) {
 //   CART LOGIC
 // ============================================
 
+// Best image for a product: self-hosted localImage first, remote URL second,
+// brand placeholder last (GSMArena blocks hotlinking, so remote often 403s).
+function productImgParts(p) {
+  const local = p.localImage || '';
+  const remote = (p.image && p.image !== local) ? p.image : '';
+  const brand = (p.brand || '').toLowerCase();
+  const known = ['apple', 'google', 'oneplus', 'samsung'];
+  const ph = 'images/brand-placeholder/' + (known.includes(brand) ? brand : 'phone') + '.svg';
+  return { src: local || remote || ph, fb: (local && remote) ? remote : '', ph };
+}
+
 function addToCart(productId) {
   const product = allProducts.find(p => p.id === productId);
   if (!product) return;
@@ -243,7 +257,7 @@ function addToCart(productId) {
       variantKey,
       name: displayName,
       price: finalPrice,
-      image: product.image || '',
+      image: productImgParts(product).src,
       qty: 1
     });
   }
@@ -332,7 +346,7 @@ function updateCartUI() {
     <div class="cart-item">
       <div class="cart-item-img">
         ${item.image
-          ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}">`
+          ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" onerror="this.onerror=null;this.style.display='none';">`
           : ''
         }
       </div>
@@ -371,14 +385,20 @@ function updateCartUI() {
 // ============================================
 
 function openCart() {
-  document.getElementById('cart-drawer').classList.add('open');
-  document.getElementById('cart-overlay').classList.add('open');
+  const drawer = document.getElementById('cart-drawer');
+  const overlay = document.getElementById('cart-overlay');
+  if (!drawer || !overlay) return;
+  drawer.classList.add('open');
+  overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
 function closeCart() {
-  document.getElementById('cart-drawer').classList.remove('open');
-  document.getElementById('cart-overlay').classList.remove('open');
+  const drawer = document.getElementById('cart-drawer');
+  const overlay = document.getElementById('cart-overlay');
+  if (!drawer || !overlay) return;
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
   document.body.style.overflow = '';
 }
 
@@ -728,33 +748,34 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
   updateCartUI();
 
+  // Null-safe binding — this script also runs on product.html, where some
+  // elements may not exist; one missing element must not kill the rest.
+  const on = (id, event, fn) => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener(event, fn);
+  };
+
   // Cart open/close
-  document.getElementById('nav-cart-btn').addEventListener('click', e => {
-    e.preventDefault();
-    openCart();
-  });
-  document.getElementById('mobile-cart-btn').addEventListener('click', e => {
-    e.preventDefault();
-    openCart();
-  });
-  document.getElementById('cart-close').addEventListener('click', closeCart);
-  document.getElementById('cart-overlay').addEventListener('click', closeCart);
+  on('nav-cart-btn', 'click', e => { e.preventDefault(); openCart(); });
+  on('mobile-cart-btn', 'click', e => { e.preventDefault(); openCart(); });
+  on('cart-close', 'click', closeCart);
+  on('cart-overlay', 'click', closeCart);
 
   // Checkout
-  document.getElementById('checkout-btn').addEventListener('click', openCheckout);
-  document.getElementById('checkout-close').addEventListener('click', closeCheckout);
-  document.getElementById('checkout-overlay').addEventListener('click', e => {
+  on('checkout-btn', 'click', openCheckout);
+  on('checkout-close', 'click', closeCheckout);
+  on('checkout-overlay', 'click', e => {
     if (e.target === e.currentTarget) closeCheckout();
   });
 
   // Shipping form
-  document.getElementById('shipping-form').addEventListener('submit', handleShippingSubmit);
+  on('shipping-form', 'submit', handleShippingSubmit);
 
   // Edit shipping from review
-  document.getElementById('edit-shipping-btn').addEventListener('click', () => {
+  on('edit-shipping-btn', 'click', () => {
     showStep('step-shipping');
   });
 
   // Place order
-  document.getElementById('place-order-btn').addEventListener('click', placeOrder);
+  on('place-order-btn', 'click', placeOrder);
 });

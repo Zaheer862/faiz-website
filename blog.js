@@ -10,6 +10,11 @@
     cyber: 'fa-shield-alt', consoles: 'fa-gamepad', tips: 'fa-tools'
   };
 
+  // Post fields are interpolated into HTML — escape them
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+
   let allPosts = [], activeFilter = 'all', searchQuery = '';
 
   const grid = document.getElementById('blog-grid');
@@ -47,18 +52,18 @@
     if (!featuredEl || !post) return;
     featuredEl.innerHTML = `
       <div class="blog-featured-img">
-        <img src="${post.image}" alt="${post.imageAlt}" loading="lazy">
+        <img src="${esc(post.image)}" alt="${esc(post.imageAlt)}" loading="lazy">
         <span class="blog-featured-badge"><i class="fas fa-bolt"></i> Latest</span>
       </div>
       <div class="blog-featured-body">
-        <span class="blog-category-pill cat-${post.category}">
-          <i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${post.categoryLabel}
+        <span class="blog-category-pill cat-${esc(post.category)}">
+          <i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${esc(post.categoryLabel)}
         </span>
-        <h2>${post.title}</h2>
-        <p>${post.excerpt}</p>
+        <h2>${esc(post.title)}</h2>
+        <p>${esc(post.excerpt)}</p>
         <div class="blog-card-footer">
-          <span class="blog-source-badge"><i class="fas fa-external-link-alt"></i> ${post.sourceLabel} &mdash; ${post.dateDisplay}</span>
-          <a href="${post.source}" target="_blank" rel="noopener" class="blog-read-link">Read Article <i class="fas fa-arrow-right"></i></a>
+          <span class="blog-source-badge"><i class="fas fa-external-link-alt"></i> ${esc(post.sourceLabel)} &mdash; ${esc(post.dateDisplay)}</span>
+          <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-link">Read Article <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>`;
   }
@@ -90,19 +95,19 @@
     const delay = Math.min(index * 60, 300);
     return `<article class="blog-card-item" style="animation-delay:${delay}ms">
       <div class="blog-card-img">
-        <img src="${post.image}" alt="${post.imageAlt}" loading="lazy">
-        <span class="blog-category-pill cat-${post.category}"><i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${post.categoryLabel}</span>
+        <img src="${esc(post.image)}" alt="${esc(post.imageAlt)}" loading="lazy">
+        <span class="blog-category-pill cat-${esc(post.category)}"><i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${esc(post.categoryLabel)}</span>
       </div>
       <div class="blog-card-body">
         <div class="blog-card-meta">
-          <span><i class="fas fa-calendar-alt"></i>${post.dateDisplay}</span>
-          <span><i class="fas fa-clock"></i>${post.readTime}</span>
+          <span><i class="fas fa-calendar-alt"></i>${esc(post.dateDisplay)}</span>
+          <span><i class="fas fa-clock"></i>${esc(post.readTime)}</span>
         </div>
-        <h3>${post.title}</h3>
-        <p>${post.excerpt}</p>
+        <h3>${esc(post.title)}</h3>
+        <p>${esc(post.excerpt)}</p>
         <div class="blog-card-footer">
-          <span class="blog-source-badge"><i class="fas fa-external-link-alt"></i> ${post.sourceLabel}</span>
-          <a href="${post.source}" target="_blank" rel="noopener" class="blog-read-link">Read More <i class="fas fa-arrow-right"></i></a>
+          <span class="blog-source-badge"><i class="fas fa-external-link-alt"></i> ${esc(post.sourceLabel)}</span>
+          <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-link">Read More <i class="fas fa-arrow-right"></i></a>
         </div>
       </div></article>`;
   }
@@ -156,6 +161,9 @@
   const homeGrid = document.querySelector('#blog .blog-grid');
   if (!homeGrid) return;
   const CAT_ICONS = { phones: 'fa-mobile-alt', laptops: 'fa-laptop', cyber: 'fa-shield-alt', consoles: 'fa-gamepad', tips: 'fa-tools' };
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
   fetch('blog-posts.json?v=' + Date.now())
     .then(r => r.json())
     .then(data => {
@@ -163,17 +171,17 @@
       homeGrid.innerHTML = posts.map(post => `
         <article class="blog-card animate-on-scroll">
           <div class="blog-img">
-            <img src="${post.image}" alt="${post.imageAlt}" loading="lazy">
-            <span class="blog-category">${post.categoryLabel}</span>
+            <img src="${esc(post.image)}" alt="${esc(post.imageAlt)}" loading="lazy">
+            <span class="blog-category">${esc(post.categoryLabel)}</span>
           </div>
           <div class="blog-body">
             <div class="blog-meta">
-              <span><i class="fas fa-calendar-alt"></i> ${post.dateDisplay}</span>
-              <span><i class="fas fa-clock"></i> ${post.readTime}</span>
+              <span><i class="fas fa-calendar-alt"></i> ${esc(post.dateDisplay)}</span>
+              <span><i class="fas fa-clock"></i> ${esc(post.readTime)}</span>
             </div>
-            <h3>${post.title}</h3>
-            <p>${post.excerpt.slice(0, 130)}…</p>
-            <a href="${post.source}" target="_blank" rel="noopener" class="blog-read-more">
+            <h3>${esc(post.title)}</h3>
+            <p>${esc(post.excerpt.slice(0, 130))}…</p>
+            <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-more">
               Read More <i class="fas fa-arrow-right"></i>
             </a>
           </div>
