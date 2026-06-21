@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 37,
+      "title": "Got One UI 8.5? Your Samsung Galaxy Can Now AirDrop Files to iPhones",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-06-21",
+      "dateDisplay": "21 Jun 2026",
+      "excerpt": "Samsung's One UI 8.5 update finally lets Galaxy phones send files straight to iPhones, iPads and Macs via AirDrop — no app, no cloud, no internet needed. Works on S24, S25, S26 and recent Z Fold/Flip models, but the S23 misses out.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung Galaxy phone sharing files with an iPhone",
+      "readTime": "3 min read",
+      "source": "https://www.sammobile.com/news/one-ui-8-5-your-galaxy-phone-now-supports-airdrop/",
+      "sourceLabel": "SamMobile",
+      "tags": [
+        "Phones",
+        "Samsung",
+        "Galaxy",
+        "AirDrop",
+        "Quick Share"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "'Missed Parcel' Text Scams Surge — Royal Mail & Evri Never Charge by Link",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-06-21",
+      "dateDisplay": "21 Jun 2026",
+      "excerpt": "Fake delivery texts claiming a £1.99 'redelivery fee' from Royal Mail, Evri and DPD are flooding UK phones again. The links steal your card details. Real couriers never ask for payment by text — forward dodgy ones to 7726 to report them free.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Scam delivery text message on a smartphone",
+      "readTime": "4 min read",
+      "source": "https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-text-message",
+      "sourceLabel": "NCSC",
+      "tags": [
+        "Cyber Security",
+        "Smishing",
+        "Scam",
+        "Delivery Scam",
+        "Phishing"
+      ]
+    },
+    {
       "id": 35,
       "title": "Motorola Edge 70 Pro+ Lands 4 June: 144Hz, 6500mAh & 90W Charging",
       "category": "phones",
