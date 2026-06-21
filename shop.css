@@ -76,6 +76,61 @@
   color: var(--text-muted);
 }
 
+.toolbar-sort {
+  position: relative;
+  min-width: 200px;
+}
+
+.toolbar-sort i {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  pointer-events: none;
+}
+
+.toolbar-sort::after {
+  content: "\f078";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  pointer-events: none;
+}
+
+.toolbar-sort select {
+  width: 100%;
+  padding: 0.6rem 2.5rem 0.6rem 2.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: var(--transition);
+}
+
+.toolbar-sort select:focus {
+  border-color: var(--border-hover);
+  box-shadow: 0 0 0 3px var(--accent-subtle);
+}
+
+.toolbar-sort select option {
+  background: var(--bg-card);
+  color: var(--text-primary);
+}
+
 
 /* ============================================
    BRAND FILTER ROW
@@ -1257,6 +1312,10 @@
   }
 
   .toolbar-search {
+    min-width: unset;
+  }
+
+  .toolbar-sort {
     min-width: unset;
   }
 

@@ -20,6 +20,7 @@ let currentFilter = 'all';
 let currentBrand = 'all';
 let currentSeries = 'all';
 let searchTerm = '';
+let currentSort = 'default';
 // Track selected color/storage per product: { [id]: {colorIdx, storageIdx} }
 const variantSel = {};
 
@@ -93,6 +94,11 @@ function renderProducts() {
       p.category.toLowerCase().includes(term) ||
       (p.brand && p.brand.toLowerCase().includes(term))
     );
+  }
+
+  if (currentSort !== 'default') {
+    // copy before sorting so we never mutate the source order (lets "Featured" restore it)
+    filtered = [...filtered].sort(sortComparator);
   }
 
   if (filtered.length === 0) {
@@ -640,8 +646,35 @@ function initSeriesFilters() {
   });
 }
 
-function initShopSearch() {
-  const input = document.getElementById('shop-search');
+// Effective price = base price + currently selected storage adder (matches the card's shown price)
+function effectivePrice(p) {
+  const sel = variantSel[p.id];
+  const storage = (p.variants && p.variants.storage) || [];
+  const cur = sel ? storage[sel.storageIdx] : storage[0];
+  const adder = cur && typeof cur.priceAdder === 'number' ? cur.priceAdder : 0;
+  return (typeof p.price === 'number' ? p.price : 0) + adder;
+}
+
+function sortComparator(a, b) {
+  switch (currentSort) {
+    case 'price-asc':  return effectivePrice(a) - effectivePrice(b);
+    case 'price-desc': return effectivePrice(b) - effectivePrice(a);
+    case 'year-desc':  return (b.year || 0) - (a.year || 0);
+    case 'year-asc':   return (a.year || 0) - (b.year || 0);
+    default:           return 0;
+  }
+}
+
+function initShopSort() {
+  const select = document.getElementById('shop-sort');
+  if (!select) return;
+  select.addEventListener('change', () => {
+    currentSort = select.value;
+    renderProducts();
+  });
+}
+
+function initShopSearch() {  const input = document.getElementById('shop-search');
   if (!input) return;
 
   let timeout;
@@ -744,6 +777,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initBrandFilters();
   initSeriesFilters();
   initShopSearch();
+  initShopSort();
   initMenu();
   initHeaderScroll();
   updateCartUI();
