@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": 39,
+      "title": "June Pixel Drop Is Here: Make Videos & Music With Gemini on Your Phone",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-06-22",
+      "dateDisplay": "22 Jun 2026",
+      "excerpt": "Google's June Pixel Drop has landed for Pixel 6 and newer. Gemini Omni now creates and edits video from a prompt, Lyria 3 makes music, and any app can float as a Bubble for slicker multitasking.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Google Pixel phone showing AI features on screen",
+      "readTime": "4 min read",
+      "source": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+      "sourceLabel": "Google Blog",
+      "tags": [
+        "Phones",
+        "Google Pixel",
+        "Gemini",
+        "Android"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Argos Scam Warning: 1,175 Reports This Year — Don't Get Caught Out",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-06-22",
+      "dateDisplay": "22 Jun 2026",
+      "excerpt": "Fake Argos 'order' and account texts are spreading fast — 652 reports in May alone and 1,175 since January, says Which?. The links harvest your card and login details. Here's how to spot and report them.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Phone showing a suspicious scam text message",
+      "readTime": "4 min read",
+      "source": "https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC",
+      "sourceLabel": "Which?",
+      "tags": [
+        "Cyber Security",
+        "Scams",
+        "Argos",
+        "Phishing"
+      ]
+    },
+    {
       "id": 37,
       "title": "Got One UI 8.5? Your Samsung Galaxy Can Now AirDrop Files to iPhones",
       "category": "phones",
