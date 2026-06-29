@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 41,
+      "title": "DPD 'Missed Delivery' Text Scam Is Back — Don't Tap That £2.99 Link",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-06-29",
+      "dateDisplay": "29 Jun 2026",
+      "excerpt": "Which? is warning of a fresh wave of fake DPD texts claiming a missed delivery and asking for a small £1.99–£2.99 'redelivery fee'. They're now sent via iMessage and RCS from foreign numbers — here's how to spot one and what to do.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Phishing scam text message on a smartphone screen",
+      "readTime": "4 min read",
+      "source": "https://www.which.co.uk/news/article/dont-get-caught-out-by-this-dpd-text-scam-aHNAf7z5UPNA",
+      "sourceLabel": "Which?",
+      "tags": [
+        "Cyber Security",
+        "Scam",
+        "Phishing",
+        "DPD",
+        "Delivery Scam"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Android's June Drop Lands: WhatsApp Backups Now Live in Your Phone Settings",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-06-29",
+      "dateDisplay": "29 Jun 2026",
+      "excerpt": "Google's June 2026 Android Drop is rolling out with new personalisation and safety features — and for the first time you can manage your WhatsApp backups straight from your Android settings. Here's what's new and how to get it.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Android smartphone showing settings menu",
+      "readTime": "3 min read",
+      "source": "https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/",
+      "sourceLabel": "Google",
+      "tags": [
+        "Phones",
+        "Android",
+        "Google",
+        "WhatsApp",
+        "Software Update"
+      ]
+    },
+    {
       "id": 39,
       "title": "June Pixel Drop Is Here: Make Videos & Music With Gemini on Your Phone",
       "category": "phones",
