@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "id": 43,
+      "title": "iPhone Ultra Foldable Could Sell Out Instantly at $2,300+ Launch",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-07-06",
+      "dateDisplay": "6 Jul 2026",
+      "excerpt": "Analyst Ming-Chi Kuo says Apple's first foldable iPhone lands this September in tiny numbers, priced around $2,300–$2,500 — and scalpers could flip it for double the price.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "A foldable smartphone shown partly open",
+      "readTime": "3 min read",
+      "source": "https://www.gsmarena.com/kuo_iphone_ultra_may_have_limited_supply_at_launch_and_ship_later-news-73580.php",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "iPhone Ultra",
+        "Apple",
+        "Foldable"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "2 Million Android TVs and Boxes Hijacked in Botnet Takedown",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-07-06",
+      "dateDisplay": "6 Jul 2026",
+      "excerpt": "Google and the FBI have dismantled NetNut, a botnet secretly running on 2 million infected Android devices — including smart TVs and streaming boxes — via dodgy apps and Badbox 2.0 malware.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Lines of code on a dark computer screen",
+      "readTime": "4 min read",
+      "source": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+      "sourceLabel": "BleepingComputer",
+      "tags": [
+        "Android",
+        "Malware",
+        "Cyber Security"
+      ]
+    },
+    {
       "id": 41,
       "title": "DPD 'Missed Delivery' Text Scam Is Back — Don't Tap That £2.99 Link",
       "category": "cyber",
