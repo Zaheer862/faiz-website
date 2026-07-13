@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 45,
+      "title": "Samsung's Galaxy Z Fold8 Lands in London on 22 July — From £1,699",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-07-13",
+      "dateDisplay": "13 Jul 2026",
+      "excerpt": "Samsung holds its Galaxy Unpacked in London on 22 July, unveiling the Z Fold8, a wider Fold8 Ultra and the Z Flip8. UK prices start at £1,149 for the Flip8 and £1,699 for the Fold8, with pre-orders opening the same day.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung foldable smartphone folded open",
+      "readTime": "3 min read",
+      "source": "https://www.techtimes.com/articles/319620/20260703/samsung-unpacked-july-22-london-foldables-glasses-rising-prices.htm",
+      "sourceLabel": "TechTimes",
+      "tags": [
+        "Phones",
+        "Samsung",
+        "Foldable",
+        "Galaxy Z Fold8",
+        "UK Release"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Argos Account Fraud Jumps 323% — Check Your Orders Now",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-07-13",
+      "dateDisplay": "13 Jul 2026",
+      "excerpt": "Reports of Argos account takeovers hit 652 in May alone — up 323% on April. Crooks use passwords leaked in old breaches to raid accounts and grab pricey items via click and collect. Here's how to lock yours down.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Person shopping online security warning",
+      "readTime": "4 min read",
+      "source": "https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC",
+      "sourceLabel": "Which?",
+      "tags": [
+        "Cyber Security",
+        "Argos",
+        "Account Takeover",
+        "Password Safety",
+        "Scam Alert"
+      ]
+    },
+    {
       "id": 43,
       "title": "iPhone Ultra Foldable Could Sell Out Instantly at $2,300+ Launch",
       "category": "phones",
