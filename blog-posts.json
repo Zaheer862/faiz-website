@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 47,
+      "title": "Switch 2, PS5 and Steam Deck All Get Pricier — Blame the AI Memory Crunch",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-07-20",
+      "dateDisplay": "20 Jul 2026",
+      "excerpt": "Nintendo is raising the Switch 2 to $499 from 1 September, the PS5 now costs $649 and the Steam Deck OLED has jumped to $949 — all blamed on an AI-driven surge in memory-chip prices.",
+      "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=600&h=350&fit=crop",
+      "imageAlt": "Games console controller close-up",
+      "readTime": "3 min read",
+      "source": "https://www.gamingbible.com/news/playstation-xbox-and-nintendo-console-price-hikes-658784-20260707",
+      "sourceLabel": "GamingBible",
+      "tags": [
+        "Consoles",
+        "Nintendo Switch 2",
+        "PS5",
+        "Steam Deck",
+        "Price Rise"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Fake RingGo Parking Texts and QR Codes Are Hitting UK Drivers — Don't Scan",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-07-20",
+      "dateDisplay": "20 Jul 2026",
+      "excerpt": "Scammers are sending fake 'unpaid parking' texts posing as RingGo and sticking bogus QR codes on pay-and-display machines. RingGo says it never puts QR codes on its signs — here's how to stay safe.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=350&fit=crop",
+      "imageAlt": "Person reading a scam text message on a smartphone",
+      "readTime": "3 min read",
+      "source": "https://ringgo.co.uk/qr-code-stay-safe-from-scam",
+      "sourceLabel": "RingGo",
+      "tags": [
+        "Cyber Security",
+        "Scam Alert",
+        "Parking",
+        "QR Code",
+        "RingGo"
+      ]
+    },
+    {
       "id": 45,
       "title": "Samsung's Galaxy Z Fold8 Lands in London on 22 July — From £1,699",
       "category": "phones",
