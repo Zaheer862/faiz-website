@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "id": 49,
+      "title": "Pixel 11 Series Is Here: Tensor G6, 120x Zoom and UK Prices From £879",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-08-17",
+      "dateDisplay": "17 Aug 2026",
+      "excerpt": "Google unveiled four Pixel 11 models on 12 August and UK pre-orders are open now, from £879 up to £2,149 for the Pro Fold. Tensor G6 is roughly 20% faster and 20% more efficient.",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=350&fit=crop",
+      "imageAlt": "Modern Android smartphone with a multi-lens rear camera",
+      "readTime": "3 min read",
+      "source": "https://www.androidauthority.com/google-pixel-11-series-3693865/",
+      "sourceLabel": "Android Authority",
+      "tags": [
+        "Google",
+        "Pixel 11",
+        "Android"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Researchers Hijacked Copilot to Fake a CEO Email and Move $250,000",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-08-17",
+      "dateDisplay": "17 Aug 2026",
+      "excerpt": "Barracuda's red team showed how one hacked staff account plus Microsoft Copilot can reach the CEO's inbox, quietly bin the login alerts and push a $250,000 wire transfer through in minutes.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Laptop screen showing security code and a padlock icon",
+      "readTime": "4 min read",
+      "source": "https://www.securityweek.com/weaponized-email-ai-assistants-could-help-attackers-hijack-accounts/",
+      "sourceLabel": "SecurityWeek",
+      "tags": [
+        "Microsoft",
+        "Email Security",
+        "AI Scams"
+      ]
+    },
+    {
       "id": 47,
       "title": "Switch 2, PS5 and Steam Deck All Get Pricier — Blame the AI Memory Crunch",
       "category": "consoles",
