@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": 51,
+      "title": "Apple's iPhone 18 Pro Invites Could Land Wednesday — Event Tipped for 9 Sept",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-08-24",
+      "dateDisplay": "24 Aug 2026",
+      "excerpt": "Apple has sent its iPhone invites exactly 14 days before the keynote four years running — which points to invitations this Wednesday 26 August and an event on 9 September. Expect the iPhone 18 Pro, Pro Max and Apple's first foldable, the iPhone Ultra.",
+      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=600&h=350&fit=crop",
+      "imageAlt": "iPhone held in hand showing the display",
+      "readTime": "3 min read",
+      "source": "https://9to5mac.com/2026/08/22/iphone-18-pro-event-date-when-announcement/",
+      "sourceLabel": "9to5Mac",
+      "tags": [
+        "Phones",
+        "Apple",
+        "iPhone 18 Pro",
+        "iPhone Ultra",
+        "Apple Event"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Car Stereo Hijack: Malware Turns Android Head Units Into a Proxy Botnet",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-08-24",
+      "dateDisplay": "24 Aug 2026",
+      "excerpt": "Kaspersky has found malware being pushed onto Android car head units through a legitimate update app — the first infection chain ever built for car infotainment. It quietly turns your dashboard into a proxy node for click fraud.",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=350&fit=crop",
+      "imageAlt": "Cyber security warning on a screen",
+      "readTime": "4 min read",
+      "source": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+      "sourceLabel": "BleepingComputer",
+      "tags": [
+        "Cyber Security",
+        "Android",
+        "Malware",
+        "Botnet",
+        "Kaspersky"
+      ]
+    },
+    {
       "id": 49,
       "title": "Pixel 11 Series Is Here: Tensor G6, 120x Zoom and UK Prices From £879",
       "category": "phones",
