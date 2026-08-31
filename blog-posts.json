@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": 53,
+      "title": "Galaxy S26 FE Is Official: £699, Exynos 2500 and On Sale 4 September",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-08-31",
+      "dateDisplay": "31 Aug 2026",
+      "excerpt": "Samsung's cut-price flagship is official. The Galaxy S26 FE starts at £699 for 128GB, runs an Exynos 2500 behind a 6.7in screen with a 4,900mAh battery, and hits UK shelves on 4 September.",
+      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=600&h=350&fit=crop",
+      "imageAlt": "Samsung Galaxy smartphone on a desk",
+      "readTime": "3 min read",
+      "source": "https://www.sammobile.com/news/samsung-galaxy-s26-fe-price-release-date/",
+      "sourceLabel": "SamMobile",
+      "tags": [
+        "Phones",
+        "Samsung",
+        "Galaxy S26 FE",
+        "UK Price"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "East Midlands Airport Caught in Data Breach Hitting 8.7 Million",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-08-31",
+      "dateDisplay": "31 Aug 2026",
+      "excerpt": "Manchester Airports Group has admitted an unauthorised third party lifted customer data covering Manchester, Stansted and East Midlands airports — around 8.7 million people, mostly email addresses.",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=350&fit=crop",
+      "imageAlt": "Padlock and code representing a data breach",
+      "readTime": "4 min read",
+      "source": "https://www.theregister.com/security/2026/08/27/cybercrooks-jet-off-with-manchester-airports-group-customer-data/5292943",
+      "sourceLabel": "The Register",
+      "tags": [
+        "Cyber Security",
+        "Data Breach",
+        "East Midlands",
+        "Phishing"
+      ]
+    },
+    {
       "id": 51,
       "title": "Apple's iPhone 18 Pro Invites Could Land Wednesday — Event Tipped for 9 Sept",
       "category": "phones",
