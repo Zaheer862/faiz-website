@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Nintendo Switch 2 console controller close-up">
+  <defs>
+    <linearGradient id="bg27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#052b2a"/>
+    </linearGradient>
+    <radialGradient id="glowA27" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0bd2cd" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0bd2cd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink27" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft27" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg27)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="507" cy="119" r="150" fill="url(#glowA27)" filter="url(#soft27)"/>
+  <circle cx="171" cy="323" r="120" fill="url(#glowA27)" opacity="0.5" filter="url(#soft27)"/>
+
+  <!-- decorative pattern -->
+  <circle cx="473" cy="27" r="21" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="528" cy="274" r="9" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="476" cy="182" r="27" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="502" cy="46" r="33" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="476" cy="122" r="10" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="369" cy="100" r="6" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="354" cy="267" r="11" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="369" cy="223" r="25" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="523" cy="298" r="13" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="433" cy="23" r="31" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="369" cy="294" r="30" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="565" cy="268" r="14" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="557" cy="48" r="8" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+  <circle cx="398" cy="183" r="32" fill="none" stroke="#0bd2cd" stroke-width="2" opacity="0.13"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><path d="M28 34 H72 C84 34 92 46 92 60 C92 72 86 78 79 78
+              C73 78 70 72 66 68 H34 C30 72 27 78 21 78 C14 78 8 72 8 60
+              C8 46 16 34 28 34 Z" fill="none" stroke="#0bd2cd" stroke-width="4"/>
+            <line x1="24" y1="50" x2="24" y2="62" stroke="#0bd2cd" stroke-width="4" stroke-linecap="round"/>
+            <line x1="18" y1="56" x2="30" y2="56" stroke="#0bd2cd" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="70" cy="52" r="4" fill="#0bd2cd"/>
+            <circle cx="80" cy="60" r="4" fill="#0bd2cd"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="117" height="34" rx="17" fill="#0bd2cd" opacity="0.16"/>
+    <rect width="117" height="34" rx="17" fill="none" stroke="#0bd2cd" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><path d="M28 34 H72 C84 34 92 46 92 60 C92 72 86 78 79 78
+              C73 78 70 72 66 68 H34 C30 72 27 78 21 78 C14 78 8 72 8 60
+              C8 46 16 34 28 34 Z" fill="none" stroke="#2befea" stroke-width="4"/>
+            <line x1="24" y1="50" x2="24" y2="62" stroke="#2befea" stroke-width="4" stroke-linecap="round"/>
+            <line x1="18" y1="56" x2="30" y2="56" stroke="#2befea" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="70" cy="52" r="4" fill="#2befea"/>
+            <circle cx="80" cy="60" r="4" fill="#2befea"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#2befea">CONSOLES</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#0bd2cd" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#0bd2cd" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><path d="M28 34 H72 C84 34 92 46 92 60 C92 72 86 78 79 78
+              C73 78 70 72 66 68 H34 C30 72 27 78 21 78 C14 78 8 72 8 60
+              C8 46 16 34 28 34 Z" fill="none" stroke="#2befea" stroke-width="4"/>
+            <line x1="24" y1="50" x2="24" y2="62" stroke="#2befea" stroke-width="4" stroke-linecap="round"/>
+            <line x1="18" y1="56" x2="30" y2="56" stroke="#2befea" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="70" cy="52" r="4" fill="#2befea"/>
+            <circle cx="80" cy="60" r="4" fill="#2befea"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1" fill="url(#ink27)">SWITCH 2</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#0bd2cd"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Gaming &amp; consoles</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#0bd2cd" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>

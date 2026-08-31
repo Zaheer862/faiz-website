@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Windows laptop computer">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#191b63"/>
+      <stop offset="100%" stop-color="#0d10ad"/>
+    </linearGradient>
+    <radialGradient id="glowA5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6b6efc" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6b6efc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft5" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg5)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="546" cy="91" r="150" fill="url(#glowA5)" filter="url(#soft5)"/>
+  <circle cx="124" cy="305" r="120" fill="url(#glowA5)" opacity="0.5" filter="url(#soft5)"/>
+
+  <!-- decorative pattern -->
+  <circle cx="560" cy="141" r="34" fill="none" stroke="#6b6efc" stroke-width="2" opacity="0.18000000000000002"/>
+  <circle cx="560" cy="141" r="68" fill="none" stroke="#6b6efc" stroke-width="2" opacity="0.16"/>
+  <circle cx="560" cy="141" r="102" fill="none" stroke="#6b6efc" stroke-width="2" opacity="0.14"/>
+  <circle cx="560" cy="141" r="136" fill="none" stroke="#6b6efc" stroke-width="2" opacity="0.12000000000000001"/>
+  <circle cx="560" cy="141" r="170" fill="none" stroke="#6b6efc" stroke-width="2" opacity="0.1"/>
+  <circle cx="560" cy="141" r="204" fill="none" stroke="#6b6efc" stroke-width="2" opacity="0.08000000000000002"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><rect x="20" y="22" width="60" height="42" rx="5" fill="none" stroke="#6b6efc" stroke-width="4"/>
+           <rect x="27" y="29" width="46" height="28" rx="2" fill="#6b6efc" opacity="0.32"/>
+           <path d="M10 76 H90 L84 66 H16 Z" fill="none" stroke="#6b6efc" stroke-width="4" stroke-linejoin="round"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="108" height="34" rx="17" fill="#6b6efc" opacity="0.16"/>
+    <rect width="108" height="34" rx="17" fill="none" stroke="#6b6efc" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><rect x="20" y="22" width="60" height="42" rx="5" fill="none" stroke="#a9aafb" stroke-width="4"/>
+           <rect x="27" y="29" width="46" height="28" rx="2" fill="#a9aafb" opacity="0.32"/>
+           <path d="M10 76 H90 L84 66 H16 Z" fill="none" stroke="#a9aafb" stroke-width="4" stroke-linejoin="round"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#a9aafb">LAPTOPS</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#6b6efc" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#6b6efc" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><rect x="20" y="22" width="60" height="42" rx="5" fill="none" stroke="#a9aafb" stroke-width="4"/>
+           <rect x="27" y="29" width="46" height="28" rx="2" fill="#a9aafb" opacity="0.32"/>
+           <path d="M10 76 H90 L84 66 H16 Z" fill="none" stroke="#a9aafb" stroke-width="4" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="56" font-weight="800" letter-spacing="-1" fill="url(#ink5)">WINDOWS 11</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#6b6efc"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Laptops &amp; computing</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#6b6efc" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>

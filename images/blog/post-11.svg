@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Apple MacBook laptop on desk">
+  <defs>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#531963"/>
+      <stop offset="100%" stop-color="#890dad"/>
+    </linearGradient>
+    <radialGradient id="glowA11" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dc6bfc" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#dc6bfc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft11" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg11)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="465" cy="106" r="150" fill="url(#glowA11)" filter="url(#soft11)"/>
+  <circle cx="189" cy="332" r="120" fill="url(#glowA11)" opacity="0.5" filter="url(#soft11)"/>
+
+  <!-- decorative pattern -->
+  <circle cx="409" cy="319" r="8" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="512" cy="22" r="17" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="392" cy="196" r="15" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="469" cy="284" r="10" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="546" cy="286" r="25" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="441" cy="195" r="25" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="545" cy="82" r="31" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="536" cy="298" r="31" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="418" cy="81" r="29" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="488" cy="224" r="27" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="418" cy="93" r="33" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="384" cy="104" r="17" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="435" cy="222" r="29" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="335" cy="229" r="18" fill="none" stroke="#dc6bfc" stroke-width="2" opacity="0.13"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><rect x="20" y="22" width="60" height="42" rx="5" fill="none" stroke="#dc6bfc" stroke-width="4"/>
+           <rect x="27" y="29" width="46" height="28" rx="2" fill="#dc6bfc" opacity="0.32"/>
+           <path d="M10 76 H90 L84 66 H16 Z" fill="none" stroke="#dc6bfc" stroke-width="4" stroke-linejoin="round"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="108" height="34" rx="17" fill="#dc6bfc" opacity="0.16"/>
+    <rect width="108" height="34" rx="17" fill="none" stroke="#dc6bfc" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><rect x="20" y="22" width="60" height="42" rx="5" fill="none" stroke="#e9a9fb" stroke-width="4"/>
+           <rect x="27" y="29" width="46" height="28" rx="2" fill="#e9a9fb" opacity="0.32"/>
+           <path d="M10 76 H90 L84 66 H16 Z" fill="none" stroke="#e9a9fb" stroke-width="4" stroke-linejoin="round"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#e9a9fb">LAPTOPS</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#dc6bfc" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#dc6bfc" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><rect x="20" y="22" width="60" height="42" rx="5" fill="none" stroke="#e9a9fb" stroke-width="4"/>
+           <rect x="27" y="29" width="46" height="28" rx="2" fill="#e9a9fb" opacity="0.32"/>
+           <path d="M10 76 H90 L84 66 H16 Z" fill="none" stroke="#e9a9fb" stroke-width="4" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1" fill="url(#ink11)">MACBOOK</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#dc6bfc"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Laptops &amp; computing</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#dc6bfc" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>
