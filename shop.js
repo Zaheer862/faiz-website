@@ -70,6 +70,39 @@ async function loadShopProducts() {
   }
 }
 
+// Pagination: render products in pages so the grid stays light (121 products = a 138,000px page on mobile)
+const PAGE_SIZE = 24;
+let visibleCount = PAGE_SIZE;
+let lastFilterKey = '';
+
+function renderLoadMore(shown, total) {
+  const grid = document.getElementById('shop-grid');
+  let bar = document.getElementById('shop-load-more');
+  if (!bar) {
+    bar = document.createElement('div');
+    bar.id = 'shop-load-more';
+    bar.className = 'shop-load-more';
+    grid.insertAdjacentElement('afterend', bar);
+  }
+  if (total === 0) { bar.innerHTML = ''; return; }
+  const remaining = total - shown;
+  bar.innerHTML = `
+    <div class="shop-load-more-bar"><span style="width:${Math.round(shown / total * 100)}%"></span></div>
+    <p>Showing <strong>${shown}</strong> of <strong>${total}</strong> products</p>
+    ${remaining > 0 ? `<button type="button" class="btn btn-outline" id="shop-load-more-btn">
+      <i class="fas fa-plus"></i> Load ${Math.min(PAGE_SIZE, remaining)} more
+    </button>` : ''}`;
+  const btn = document.getElementById('shop-load-more-btn');
+  if (btn) btn.addEventListener('click', () => {
+    visibleCount += PAGE_SIZE;
+    renderProducts();
+    // keep the user's place: focus the first newly-added card
+    const cards = grid.querySelectorAll('.shop-product-card');
+    const first = cards[shown];
+    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
 function renderProducts() {
   const grid = document.getElementById('shop-grid');
   if (!grid) return;
@@ -101,14 +134,23 @@ function renderProducts() {
     filtered = [...filtered].sort(sortComparator);
   }
 
+  // Reset to the first page whenever the filter/search/sort changes
+  const filterKey = [currentFilter, currentBrand, currentSeries, searchTerm, currentSort].join('|');
+  if (filterKey !== lastFilterKey) { visibleCount = PAGE_SIZE; lastFilterKey = filterKey; }
+
   if (filtered.length === 0) {
     grid.innerHTML = `
       <div class="products-loading">
         <i class="fas fa-search" style="opacity:0.4"></i>
         <span>No products found. Try a different search or category.</span>
       </div>`;
+    renderLoadMore(0, 0);
     return;
   }
+
+  const total = filtered.length;
+  filtered = filtered.slice(0, visibleCount);
+  renderLoadMore(filtered.length, total);
 
   grid.innerHTML = filtered.map(p => {
     const inCart = cart.find(c => c.id === p.id);
