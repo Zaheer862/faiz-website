@@ -2364,3 +2364,138 @@ textarea:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* ============================================
+   POLISH PASS — Sep 2026
+   (missing styles + layout fixes)
+   ============================================ */
+
+/* Hero: tagline was wrapping "REPAIRS" onto its own line; desc was
+   centred by auto margins inside the left-aligned column */
+.hero-text .hero-tagline {
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
+.hero-text .hero-desc {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Contact: opening-hours rows collapsed because the card body had no width */
+.contact-card-body {
+  flex: 1;
+  min-width: 0;
+}
+.hours-table {
+  width: 100%;
+}
+.hours-row {
+  gap: 1rem;
+}
+.hours-row span:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Pre-footer CTA strip (index + blog) — markup existed with no CSS */
+.footer-cta-strip {
+  padding: 3.5rem 0;
+  background:
+    radial-gradient(60% 120% at 0% 50%, rgba(59,130,246,0.14), transparent 60%),
+    radial-gradient(50% 120% at 100% 50%, rgba(37,211,102,0.10), transparent 60%),
+    var(--bg-primary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.footer-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 2.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+.footer-cta-inner h3 {
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 0.4rem;
+  letter-spacing: -0.01em;
+}
+.footer-cta-inner p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.98rem;
+  max-width: 48ch;
+}
+.footer-cta-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+/* Sticky mobile CTA bar — markup existed with no CSS, so it rendered
+   as an unstyled block at the bottom of every page (desktop too) */
+.mobile-cta-bar {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-cta-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 998;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    padding: 0.6rem 0.75rem calc(0.6rem + env(safe-area-inset-bottom));
+    background: rgba(3, 7, 18, 0.92);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid var(--border);
+    transition: opacity 0.2s ease;
+  }
+  .mobile-cta-bar .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+  }
+  /* keep the floating WhatsApp bubble and page end clear of the bar */
+  body:has(.mobile-cta-bar) {
+    padding-bottom: 72px;
+  }
+  body:has(.mobile-cta-bar) .whatsapp-float {
+    bottom: calc(72px + 1rem);
+    width: 52px;
+    height: 52px;
+    right: 1rem;
+  }
+}
+
+/* Header logo — one markup, one look, on every page */
+.logo-body .logo-sub {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .footer-cta-strip { padding: 2.5rem 0; }
+  .footer-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.6rem 1.4rem;
+  }
+  .footer-cta-actions { width: 100%; }
+  .footer-cta-actions .btn { flex: 1; justify-content: center; padding: 0.9rem 1rem; white-space: nowrap; }
+}
+
+/* Footer with a 4th column (blog topics) */
+@media (min-width: 1025px) {
+  .footer-top:has(> :nth-child(4)) { grid-template-columns: 2fr 1fr 1fr 1fr; }
+}
