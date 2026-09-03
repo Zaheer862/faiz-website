@@ -2593,3 +2593,18 @@ textarea:focus-visible {
   .hero-actions .btn { width: 100%; max-width: 320px; }
   .hero-phone a { font-size: 1.5rem; }
 }
+
+/* ---- Footer: unified contact column (Sep 2026) ---- */
+.footer-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-top: 0.5rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.footer-hours i { width: 16px; font-size: 0.75rem; margin-right: 0.4rem; color: var(--text-secondary); }
+.footer-hours span + span { padding-left: calc(16px + 0.4rem); }
+.footer-links a { line-height: 1.4; }
