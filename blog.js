@@ -40,6 +40,10 @@
       const data = await res.json();
       allPosts = data.posts.sort((a, b) => b.id - a.id);
       if (postCount) postCount.textContent = allPosts.length;
+      // Cyber Watch strip: show the latest cyber-security post instead of a static line
+      const ticker = document.getElementById('cyber-ticker');
+      const latestCyber = allPosts.find(p => p.category === 'cyber');
+      if (ticker && latestCyber) ticker.textContent = latestCyber.title + ' — ' + latestCyber.excerpt.replace(/^(.{0,110}\S*)[\s\S]*$/, '$1') + (latestCyber.excerpt.length > 110 ? '…' : '');
       renderFeatured(allPosts[0]);
       render();
     } catch (err) {
@@ -128,24 +132,27 @@
     });
   }
 
+  // Mobile menu — only on blog.html. index.html also loads this file and
+  // script.js already owns the hamburger there (double-binding cancelled the toggle).
   const hamburger = document.getElementById('hamburger');
   const nav = document.getElementById('main-nav');
-  if (hamburger && nav) {
+  if (hamburger && nav && grid) {
     hamburger.addEventListener('click', () => {
       const open = nav.classList.toggle('open');
       hamburger.classList.toggle('open', open);
+      hamburger.classList.toggle('active', open);
       hamburger.setAttribute('aria-expanded', String(open));
       document.body.style.overflow = open ? 'hidden' : '';
     });
     document.addEventListener('click', e => {
       if (nav.classList.contains('open') && !nav.contains(e.target) && !hamburger.contains(e.target)) {
-        nav.classList.remove('open'); hamburger.classList.remove('open');
+        nav.classList.remove('open'); hamburger.classList.remove('open', 'active');
         hamburger.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
       }
     });
     nav.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
-        nav.classList.remove('open'); hamburger.classList.remove('open');
+        nav.classList.remove('open'); hamburger.classList.remove('open', 'active');
         hamburger.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
       });
     });
