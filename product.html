@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product | F.AI.Z Mobiles Leicester</title>
+  <meta name="description" content="Buy phones, tablets, cases and accessories from F.AI.Z Mobiles, Leicester. Tested, quality-checked and delivered UK-wide or collect in store on Mere Road." />
+  <meta property="og:type" content="product" />
+  <meta property="og:site_name" content="F.AI.Z Mobiles" />
+  <meta property="og:title" content="Product | F.AI.Z Mobiles Leicester" />
+  <meta property="og:description" content="Phones, tablets, cases and accessories from Leicester's trusted tech shop." />
+  <meta property="og:image" content="https://faizrepair.com/images/site/og-home.jpg" />
   <link rel="icon" href="images/site/favicon.svg" type="image/svg+xml" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css?v=20260903" />
-  <link rel="stylesheet" href="shop.css?v=3" />
+  <link rel="stylesheet" href="shop.css?v=4" />
 
   <style>
     /* ── Product Detail Page Styles ── */
@@ -292,6 +298,24 @@
     }
 
     /* Loading / error states */
+    .pd-notfound {
+      max-width: 560px;
+      margin: 3rem auto 4rem;
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+    }
+    .pd-notfound-icon {
+      width: 64px; height: 64px; margin: 0 auto 1.25rem;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--accent-subtle); color: var(--accent); font-size: 1.6rem;
+    }
+    .pd-notfound h1 { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.6rem; color: var(--text-primary); }
+    .pd-notfound p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; }
+    .pd-notfound-actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
     .pd-loading {
       display: flex;
       flex-direction: column;
@@ -581,7 +605,7 @@
     </div>
   </div>
 
-  <script src="shop.js?v=6"></script>
+  <script src="shop.js?v=7"></script>
   <script>
   // ── Product Detail Page Logic ──────────────────────────────
   (function() {
@@ -656,8 +680,19 @@
       // Reset variant selectors for new product
       pdColorIdx = 0; pdStorageIdx = 0;
 
-      // Update page title
+      // Update page title + meta description / Open Graph for sharing and search
       document.title = `${product.name} | F.AI.Z`;
+      const setMeta = (sel, attr, val) => {
+        let el = document.querySelector(sel);
+        if (!el) { el = document.createElement('meta'); const [k, v] = attr; el.setAttribute(k, v); document.head.appendChild(el); }
+        el.setAttribute('content', val);
+      };
+      const shortDesc = (product.description || '').slice(0, 150).replace(/\s+\S*$/, '') + ` — £${Number(product.price).toFixed(2)} at F.AI.Z Mobiles, Leicester. Free UK delivery over £50.`;
+      setMeta('meta[name="description"]', ['name', 'description'], shortDesc);
+      setMeta('meta[property="og:title"]', ['property', 'og:title'], `${product.name} | F.AI.Z Mobiles`);
+      setMeta('meta[property="og:description"]', ['property', 'og:description'], shortDesc);
+      const ogImg = product.localImage ? `https://faizrepair.com/${product.localImage}` : (product.image || 'https://faizrepair.com/images/site/og-home.jpg');
+      setMeta('meta[property="og:image"]', ['property', 'og:image'], ogImg);
 
       // Canonical URL + Product schema for search engines
       let canon = document.querySelector('link[rel="canonical"]');
@@ -833,11 +868,17 @@
     }
 
     function showError(msg) {
+      document.title = 'Product not found | F.AI.Z Mobiles Leicester';
       root.innerHTML = `
         <a href="shop.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Shop</a>
-        <div class="pd-loading">
-          <i class="fas fa-exclamation-circle" style="font-size:2rem;color:#ef4444"></i>
-          <span style="color:#ef4444">${escH(msg)}</span>
+        <div class="pd-notfound">
+          <div class="pd-notfound-icon"><i class="fas fa-box-open"></i></div>
+          <h1>${escH(msg)}</h1>
+          <p>That product may have sold out or the link is out of date. Everything we currently stock is in the shop — or message us and we'll find it for you.</p>
+          <div class="pd-notfound-actions">
+            <a href="shop.html" class="btn btn-primary"><i class="fas fa-shopping-bag"></i> Browse the shop</a>
+            <a href="https://wa.me/447440423053?text=Hi%2C+I%27m+looking+for+a+product+that+isn%27t+on+the+site" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+          </div>
         </div>`;
     }
 
