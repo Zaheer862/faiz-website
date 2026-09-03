@@ -115,3 +115,13 @@
   .blog-search-row { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .blog-search-wrap { max-width: 100%; width: 100%; }
 }
+
+/* Polish Sep 2026: category pills over photos were unreadable; featured pill stretched full width */
+.blog-card-img .blog-category-pill,
+.blog-featured-img .blog-category-pill {
+  background: rgba(3, 7, 18, 0.82);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.blog-featured-body .blog-category-pill { align-self: flex-start; }
