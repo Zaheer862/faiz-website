@@ -86,13 +86,45 @@
     return posts;
   }
 
+  // Pagination — 12 posts per page, "Load more" appends the next page.
+  const PAGE_SIZE = 12;
+  let visibleCount = PAGE_SIZE;
+  let lastKey = '';
+
+  function renderLoadMore(shown, total) {
+    let bar = document.getElementById('blog-load-more');
+    if (!bar) {
+      bar = document.createElement('div');
+      bar.id = 'blog-load-more';
+      bar.className = 'blog-load-more';
+      grid.insertAdjacentElement('afterend', bar);
+    }
+    if (total === 0 || shown >= total) {
+      bar.innerHTML = total > PAGE_SIZE ? `<p>You've reached the end — <strong>${total}</strong> posts shown.</p>` : '';
+      return;
+    }
+    bar.innerHTML = `
+      <p>Showing <strong>${shown}</strong> of <strong>${total}</strong> posts</p>
+      <button type="button" class="btn btn-outline" id="blog-load-more-btn"><i class="fas fa-plus"></i> Load ${Math.min(PAGE_SIZE, total - shown)} more</button>`;
+    document.getElementById('blog-load-more-btn').addEventListener('click', () => {
+      visibleCount += PAGE_SIZE;
+      render();
+      const card = grid.querySelectorAll('.blog-card-item')[shown];
+      if (card) card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
   function render() {
     if (!grid) return;
+    const key = activeFilter + '|' + searchQuery.trim().toLowerCase();
+    if (key !== lastKey) { visibleCount = PAGE_SIZE; lastKey = key; }
     const posts = getFiltered();
     if (resultsCount) resultsCount.textContent = posts.length === allPosts.length ? posts.length + ' posts' : posts.length + ' of ' + allPosts.length + ' posts';
-    if (posts.length === 0) { grid.innerHTML = ''; if (noResults) noResults.style.display = 'block'; return; }
+    if (posts.length === 0) { grid.innerHTML = ''; if (noResults) noResults.style.display = 'block'; renderLoadMore(0, 0); return; }
     if (noResults) noResults.style.display = 'none';
-    grid.innerHTML = posts.map((post, i) => buildCard(post, i)).join('');
+    const page = posts.slice(0, visibleCount);
+    grid.innerHTML = page.map((post, i) => buildCard(post, i)).join('');
+    renderLoadMore(page.length, posts.length);
   }
 
   function buildCard(post, index) {
