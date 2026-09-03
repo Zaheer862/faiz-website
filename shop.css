@@ -1394,3 +1394,33 @@
     padding: 1rem;
   }
 }
+
+/* ---- Load more (Sep 2026) ---- */
+.shop-load-more {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 2rem 0 0.5rem;
+}
+.shop-load-more:empty { display: none; }
+.shop-load-more-bar {
+  width: min(320px, 80%);
+  height: 4px;
+  margin: 0 auto 0.9rem;
+  background: var(--bg-elevated);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.shop-load-more-bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+.shop-load-more p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+.shop-load-more p strong { color: var(--text-secondary); }
+.shop-load-more .btn { min-width: 200px; justify-content: center; }
