@@ -2567,3 +2567,29 @@ textarea:focus-visible {
   .service-body { padding: 0 1.25rem 1.25rem; }
   .service-footer .service-book-btn { flex: 1; justify-content: center; }
 }
+
+/* ---- Mobile hero polish (Sep 2026) ---- */
+@media (max-width: 600px) {
+  .hero-badge {
+    font-size: 0.66rem;
+    letter-spacing: 0.8px;
+    padding: 0.4rem 0.85rem;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .hero-text .hero-tagline {
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    white-space: nowrap;
+  }
+  .hero-text .hero-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .hero-actions { gap: 0.6rem; }
+  .hero-actions .btn { width: 100%; max-width: 320px; }
+  .hero-phone a { font-size: 1.5rem; }
+}
