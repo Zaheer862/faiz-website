@@ -125,3 +125,10 @@
   border: 1px solid rgba(255,255,255,0.08);
 }
 .blog-featured-body .blog-category-pill { align-self: flex-start; }
+
+/* ---- Load more (Sep 2026) ---- */
+.blog-load-more { text-align: center; padding: 2.25rem 0 0.5rem; }
+.blog-load-more:empty { display: none; }
+.blog-load-more p { color: var(--text-muted); font-size: 0.85rem; margin: 0 0 1rem; }
+.blog-load-more p strong { color: var(--text-secondary); }
+.blog-load-more .btn { min-width: 200px; justify-content: center; }
