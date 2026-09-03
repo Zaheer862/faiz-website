@@ -164,6 +164,14 @@
     });
   }
 
+  // Header shadow once the page is scrolled (matches script.js on the other pages)
+  const siteHeader = document.getElementById('site-header');
+  if (siteHeader && grid) {
+    const onScroll = () => siteHeader.classList.toggle('scrolled', window.scrollY > 30);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
   // Mobile menu — only on blog.html. index.html also loads this file and
   // script.js already owns the hamburger there (double-binding cancelled the toggle).
   const hamburger = document.getElementById('hamburger');
