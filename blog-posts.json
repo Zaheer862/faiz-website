@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "id": 55,
+      "title": "Airport Hackers Dump 8.7M UK Traveller Records After Ransom Refused",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-09-07",
+      "dateDisplay": "7 Sep 2026",
+      "excerpt": "Manchester Airports Group refused to pay, so the hackers dumped the lot on 2 September. Emails, phone numbers, postcodes and car number plates from East Midlands, Manchester and Stansted are now public.",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&h=350&fit=crop",
+      "imageAlt": "Padlock and code on a screen representing a data breach",
+      "readTime": "3 min read",
+      "source": "https://cybernews.com/security/hackers-publish-sensitive-data-of-nearly-9m-uk-travelers-manchester-airports/",
+      "sourceLabel": "Cybernews",
+      "tags": [
+        "Data Breach",
+        "East Midlands",
+        "Phishing"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Foldable iPhone Lands Wednesday — And It's the New CEO's First Keynote",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-09-07",
+      "dateDisplay": "7 Sep 2026",
+      "excerpt": "Apple's Surprise and Shine keynote starts 6pm UK on Wednesday 9 September, with the iPhone 18 Pro and a first foldable iPhone Ultra expected. It is also John Ternus's debut after Tim Cook stepped aside.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=350&fit=crop",
+      "imageAlt": "Modern smartphone held in one hand",
+      "readTime": "3 min read",
+      "source": "https://9to5mac.com/2026/08/26/apple-officially-announces-iphone-18-pro-foldable-event/",
+      "sourceLabel": "9to5Mac",
+      "tags": [
+        "Apple",
+        "iPhone 18",
+        "Foldable"
+      ]
+    },
+    {
       "id": 53,
       "title": "Galaxy S26 FE Is Official: £699, Exynos 2500 and On Sale 4 September",
       "category": "phones",
