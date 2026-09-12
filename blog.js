@@ -2,6 +2,64 @@
    BLOG.JS — F.AI.Z Tech Blog Dynamic Renderer
    ===================================================== */
 
+/* =====================================================
+   POST COVERS — generated per post (Sep 2026)
+   ===================================================== */
+const FaizCover = (function faizCoverFactory() {
+  // Every post gets its own SVG cover built from its title, category and id.
+  // Replaces the shared Unsplash thumbnails (12 photos across 56 posts) with
+  // something unique per post, no external requests, no licensing.
+  const HUE = { phones: 205, laptops: 262, cyber: 2, consoles: 160, tips: 38 };
+  const GLYPH = {
+    phones: '<rect x="28" y="4" width="44" height="92" rx="9"/><line x1="42" y1="14" x2="58" y2="14"/>',
+    laptops: '<rect x="14" y="18" width="72" height="48" rx="5"/><line x1="4" y1="80" x2="96" y2="80"/>',
+    cyber: '<path d="M50 6 L88 20 V48 C88 70 70 88 50 94 C30 88 12 70 12 48 V20 Z"/><path d="M34 50 L46 62 L68 38"/>',
+    consoles: '<rect x="6" y="30" width="88" height="42" rx="21"/><line x1="26" y1="44" x2="26" y2="58"/><line x1="19" y1="51" x2="33" y2="51"/><circle cx="70" cy="46" r="4"/><circle cx="80" cy="56" r="4"/>',
+    tips: '<circle cx="50" cy="50" r="30"/><circle cx="50" cy="50" r="10"/>'
+  };
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  // Word-wrap the headline: 3 lines at 34px, else 4 at 28px, else 4 at 24px (then ellipsis).
+  function wrap(title) {
+    const words = String(title || '').split(/\s+/).filter(Boolean);
+    const fit = (max, maxLines) => {
+      const lines = []; let cur = '';
+      for (const w of words) { const t = cur ? cur + ' ' + w : w; if (t.length <= max) cur = t; else { if (cur) lines.push(cur); cur = w; } }
+      if (cur) lines.push(cur);
+      return lines.length <= maxLines ? lines : null;
+    };
+    let lines = fit(25, 3), size = 34;
+    if (!lines) { lines = fit(31, 4); size = 28; }
+    if (!lines) { lines = fit(37, 4); size = 24; }
+    if (!lines) { lines = fit(37, 99).slice(0, 4); size = 24; lines[3] = lines[3].slice(0, 34) + '…'; }
+    return { lines, size };
+  }
+  function svg(post) {
+    const id = Number(post.id) || 0;
+    const seed = (id * 9301 + 49297) % 233280;           // deterministic per post
+    const r = n => seed % n;
+    const base = HUE[post.category] ?? 205;
+    const h2 = base + (r(41) - 20);                       // ±20° hue shift so same-category covers differ
+    const c1 = `hsl(${base}, 70%, 11%)`, c2 = `hsl(${h2}, 60%, 24%)`, ac = `hsl(${h2}, 90%, 62%)`;
+    const angle = 15 + r(60);
+    const cx = 380 + r(160), cy = 40 + (seed >> 3) % 270;
+    const gx = 330 + (seed >> 5) % 170, gy = 30 + (seed >> 7) % 120, gs = 2 + r(7) / 10;
+    const { lines, size } = wrap(post.title);
+    const lh = size * 1.2, y0 = 190 - ((lines.length - 1) * lh) / 2;
+    const text = lines.map((l, i) => `<tspan x="300" y="${(y0 + i * lh).toFixed(1)}">${esc(l)}</tspan>`).join('');
+    const gid = 'pc' + id;
+    return `<svg class="post-cover" viewBox="0 0 600 350" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${esc(post.title)}" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="${gid}" gradientTransform="rotate(${angle} .5 .5)"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></linearGradient></defs>
+<rect width="600" height="350" fill="url(#${gid})"/>
+<g fill="none" stroke="${ac}" stroke-width="1.5" opacity=".22"><circle cx="${cx}" cy="${cy}" r="95"/><circle cx="${cx}" cy="${cy}" r="150"/></g>
+<g transform="translate(${gx} ${gy}) scale(${gs})" fill="none" stroke="${ac}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".16">${GLYPH[post.category] || GLYPH.tips}</g>
+<rect x="277" y="${(y0 - size - 20).toFixed(1)}" width="46" height="4" rx="2" fill="${ac}"/>
+<text x="300" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="800" font-size="${size}" fill="#f8fafc">${text}</text>
+<text x="570" y="330" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="${ac}" opacity=".85">F.AI.Z TECH BLOG</text>
+</svg>`;
+  }
+  return { svg };
+})();
+
 (function () {
   'use strict';
 
@@ -56,7 +114,7 @@
     if (!featuredEl || !post) return;
     featuredEl.innerHTML = `
       <div class="blog-featured-img">
-        <img src="${esc(post.image)}" alt="${esc(post.imageAlt)}" loading="lazy">
+        ${FaizCover.svg(post)}
         <span class="blog-featured-badge"><i class="fas fa-bolt"></i> Latest</span>
       </div>
       <div class="blog-featured-body">
@@ -131,7 +189,7 @@
     const delay = Math.min(index * 60, 300);
     return `<article class="blog-card-item" style="animation-delay:${delay}ms">
       <div class="blog-card-img">
-        <img src="${esc(post.image)}" alt="${esc(post.imageAlt)}" loading="lazy">
+        ${FaizCover.svg(post)}
         <span class="blog-category-pill cat-${esc(post.category)}"><i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${esc(post.categoryLabel)}</span>
       </div>
       <div class="blog-card-body">
@@ -218,7 +276,7 @@
       homeGrid.innerHTML = posts.map(post => `
         <article class="blog-card animate-on-scroll">
           <div class="blog-img">
-            <img src="${esc(post.image)}" alt="${esc(post.imageAlt)}" loading="lazy">
+            ${FaizCover.svg(post)}
             <span class="blog-category">${esc(post.categoryLabel)}</span>
           </div>
           <div class="blog-body">
