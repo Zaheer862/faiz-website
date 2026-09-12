@@ -132,3 +132,24 @@
 .blog-load-more p { color: var(--text-muted); font-size: 0.85rem; margin: 0 0 1rem; }
 .blog-load-more p strong { color: var(--text-secondary); }
 .blog-load-more .btn { min-width: 200px; justify-content: center; }
+
+/* =====================================================
+   GENERATED POST COVERS (Sep 2026)
+   Each post renders an inline SVG built from its title/category/id
+   (see FaizCover in blog.js) instead of a shared stock photo.
+   Used in blog grid, featured card, and the homepage blog strip.
+   ===================================================== */
+.post-cover {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.45s ease;
+}
+.blog-card-item:hover .post-cover,
+.blog-featured-card:hover .post-cover,
+.blog-card:hover .post-cover {
+  transform: scale(1.05);
+}
+@media (prefers-reduced-motion: reduce) {
+  .post-cover { transition: none; }
+}
