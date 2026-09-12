@@ -54,7 +54,7 @@ const FaizCover = (function faizCoverFactory() {
 <g transform="translate(${gx} ${gy}) scale(${gs})" fill="none" stroke="${ac}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".16">${GLYPH[post.category] || GLYPH.tips}</g>
 <rect x="277" y="${(y0 - size - 20).toFixed(1)}" width="46" height="4" rx="2" fill="${ac}"/>
 <text x="300" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="800" font-size="${size}" fill="#f8fafc">${text}</text>
-<text x="570" y="330" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="${ac}" opacity=".85">F.AI.Z TECH BLOG</text>
+<text x="540" y="326" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="${ac}" opacity=".85">F.AI.Z TECH BLOG</text>
 </svg>`;
   }
   return { svg };
