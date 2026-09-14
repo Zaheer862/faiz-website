@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": 57,
+      "title": "Ocarina of Time Lands on Switch 2 on 5 November — Zelda Console Drops 29 Oct",
+      "category": "consoles",
+      "categoryLabel": "Consoles",
+      "date": "2026-09-14",
+      "dateDisplay": "14 Sep 2026",
+      "excerpt": "Nintendo's back-to-back Directs on 8 and 9 September set the dates: Ocarina of Time reborn on Switch 2 for 5 November, a Zelda 40th Anniversary console a week earlier on 29 October, and Metroid Ravenous in January 2027. Hum a tune at the mic and Link plays it back.",
+      "readTime": "4 min read",
+      "source": "https://godisageek.com/2026/09/nintendo-direct-september-2026-release-dates/",
+      "sourceLabel": "GodisaGeek",
+      "tags": [
+        "Nintendo",
+        "Switch 2",
+        "Zelda"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Is Your Telly Listening? Researchers Say LG TVs Recorded Audio in Standby",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-09-14",
+      "dateDisplay": "14 Sep 2026",
+      "excerpt": "A 135-minute investigation by Gamers Nexus and Level1Techs claims LG sets picked up background sound from up to 40 feet away — even in hibernation — and scanned home networks. LG disputes it, saying audio is only captured on a button press or the 'Hi LG' wake word.",
+      "readTime": "5 min read",
+      "source": "https://www.techrepublic.com/article/news-lg-smart-tv-ambient-audio-privacy-claims/",
+      "sourceLabel": "TechRepublic",
+      "tags": [
+        "Privacy",
+        "Smart TV",
+        "Security"
+      ]
+    },
+    {
       "id": 55,
       "title": "Airport Hackers Dump 8.7M UK Traveller Records After Ransom Refused",
       "category": "cyber",
