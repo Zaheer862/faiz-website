@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "id": 60,
+      "title": "Fake Job Offers Are Landing as Calendar Invites — Students, Read This",
+      "category": "cyber",
+      "categoryLabel": "Cyber Security",
+      "date": "2026-09-21",
+      "dateDisplay": "21 Sep 2026",
+      "excerpt": "Scammers have found a sneaky new delivery route: Google Calendar and Microsoft Teams invites that drop straight into your diary with a fake part-time job offer attached. With maintenance loans landing and term starting in Leicester, it's peak season for it.",
+      "readTime": "4 min read",
+      "source": "https://studentnews.manchester.ac.uk/2026/09/14/student-scam-alert-warning/",
+      "sourceLabel": "University of Manchester Student News",
+      "tags": [
+        "Cyber Security",
+        "Scams",
+        "Phishing",
+        "Students",
+        "Leicester"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Apple's First Foldable, the iPhone Duo, Starts at £1,999 in the UK",
+      "category": "phones",
+      "categoryLabel": "Phones",
+      "date": "2026-09-21",
+      "dateDisplay": "21 Sep 2026",
+      "excerpt": "Apple finally folded. The iPhone Duo pairs a 5.4-inch cover screen with a 7.6-inch inner display, runs the A20 Pro chip and starts at £1,999 — with the 2TB version tipped near £3,099. UK pre-orders open 16 October.",
+      "readTime": "4 min read",
+      "source": "https://www.gsmarena.com/iphone_folds_rumored_price_range_tipped-news-67408.php",
+      "sourceLabel": "GSMArena",
+      "tags": [
+        "Phones",
+        "Apple",
+        "iPhone Duo",
+        "Foldable",
+        "UK Release"
+      ]
+    },
+    {
       "id": 57,
       "title": "Ocarina of Time Lands on Switch 2 on 5 November — Zelda Console Drops 29 Oct",
       "category": "consoles",
