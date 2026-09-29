@@ -1424,3 +1424,45 @@
 }
 .shop-load-more p strong { color: var(--text-secondary); }
 .shop-load-more .btn { min-width: 200px; justify-content: center; }
+
+
+
+/* ============================================
+   2026-09 PREMIUM PASS
+   ============================================ */
+.product-detail-section { padding-top: 7rem; }
+.shop-hero h1 { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.03em; line-height: 0.98; font-size: clamp(2.8rem, 6vw, 4.8rem); }
+.shop-hero p { color: var(--muted); }
+.toolbar-search input, .toolbar-sort select { border-radius: 99px; border-color: var(--hairline); background: rgba(255,255,255,0.03); }
+.toolbar-search input:focus { border-color: rgba(255,255,255,0.3); box-shadow: none; }
+.filter-btn, .brand-btn, .series-btn { border-radius: 99px; border: 1px solid var(--hairline); background: rgba(255,255,255,0.03); color: #c6cdd9; font-weight: 500; }
+.brand-btn:hover, .series-btn:hover, .filter-btn:hover { border-color: rgba(255,255,255,0.3); color: var(--text-primary); background: rgba(255,255,255,0.05); }
+.filter-btn.active, .brand-btn.active, .series-btn.active { background: var(--text-primary); border-color: var(--text-primary); color: var(--bg-primary); }
+.brand-filter-label { font-family: var(--font-mono); }
+.shop-product-card { background: #0c111c; border: 1px solid var(--hairline); border-radius: 20px; box-shadow: none; }
+.shop-product-card:hover { border-color: var(--border-hover); transform: translateY(-3px); box-shadow: 0 18px 40px rgba(0,0,0,0.35); }
+.shop-product-img { background: #0a0f19; }
+.shop-product-badge { background: rgba(3, 7, 18, 0.75); color: var(--gold); border: 1px solid rgba(214,185,134,0.3); border-radius: 99px; padding: 0.3rem 0.7rem; font-family: var(--font-mono); font-weight: 600; backdrop-filter: blur(6px); }
+.shop-product-category { font-family: var(--font-mono); color: var(--text-muted); }
+.shop-product-name { font-family: var(--font-display); font-weight: 600; }
+.shop-product-desc { color: var(--muted); }
+.card-storage-pill { border: 1px solid var(--hairline); background: transparent; color: #c6cdd9; border-radius: 99px; }
+.card-storage-pill.active, .card-storage-pill.selected { background: var(--text-primary); color: var(--bg-primary); border-color: var(--text-primary); }
+.shop-product-price { font-family: var(--font-serif); font-weight: 400; font-size: 1.6rem; letter-spacing: -0.02em; color: var(--text-primary); }
+.add-to-cart-btn { background: var(--text-primary); color: var(--bg-primary); border-radius: 99px; font-weight: 600; }
+.add-to-cart-btn:hover { background: #ffffff; color: var(--bg-primary); transform: none; box-shadow: none; }
+.add-to-cart-btn.added { background: #25d366; color: #06281a; }
+.shipping-info-bar { border-color: var(--hairline); }
+.shipping-feature i, .shipping-feature .ic { color: var(--gold); }
+.shop-load-more { border-radius: 99px; }
+.cart-drawer, .modal { border-color: var(--hairline); }
+@media (max-width: 768px) {
+  .shop-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+  .shop-product-body { padding: 0.8rem; }
+  .shop-product-desc { display: none; }
+  .shop-product-name { font-size: 0.9rem; }
+  .shop-product-price { font-size: 1.25rem; }
+  .shop-product-footer { flex-direction: column; align-items: stretch; gap: 0.5rem; }
+  .add-to-cart-btn { width: 100%; justify-content: center; padding: 0.6rem 0.5rem; font-size: 0.8rem; }
+  .card-storage-pill { font-size: 0.62rem; padding: 0.2rem 0.5rem; }
+}

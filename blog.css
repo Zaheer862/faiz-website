@@ -153,3 +153,31 @@
 @media (prefers-reduced-motion: reduce) {
   .post-cover { transition: none; }
 }
+
+
+
+/* ============================================
+   2026-09 PREMIUM PASS
+   ============================================ */
+.blog-hero { background: var(--bg-primary); border-bottom: 1px solid var(--hairline); }
+.blog-hero h1 { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.03em; line-height: 0.98; font-size: clamp(2.8rem, 6vw, 4.8rem); }
+.blog-hero p { color: var(--muted); }
+.blog-stat span { font-family: var(--font-serif); font-weight: 400; color: var(--text-primary); font-size: 1.9rem; letter-spacing: -0.02em; }
+.blog-stat small { font-family: var(--font-mono); }
+.blog-stat-div { background: var(--hairline); }
+.blog-featured-card, .blog-card-item { background: #0c111c; border-color: var(--hairline); border-radius: 20px; }
+.blog-card-item:hover, .blog-featured-card:hover { border-color: var(--border-hover); box-shadow: 0 18px 40px rgba(0,0,0,0.35); }
+.blog-featured-badge { background: var(--text-primary); color: var(--bg-primary); border-radius: 99px; }
+.blog-featured-body h2 { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.02em; font-size: 2.1rem; line-height: 1.08; }
+.blog-featured-body p, .blog-card-item p { color: var(--muted); }
+.blog-card-item h3 { font-family: var(--font-display); font-weight: 600; }
+.blog-filter-btn { border-color: var(--hairline); color: #c6cdd9; font-weight: 500; }
+.blog-filter-btn:hover { border-color: rgba(255,255,255,0.3); color: var(--text-primary); }
+.blog-filter-btn.active { background: var(--text-primary); border-color: var(--text-primary); color: var(--bg-primary); }
+#blog-search { border-radius: 99px; border-color: var(--hairline); background: rgba(255,255,255,0.03); padding-left: 2.6rem; }
+#blog-search:focus { border-color: rgba(255,255,255,0.3); }
+/* Generated covers: same shapes, far less saturation */
+.blog-featured-img svg, .blog-card-img svg, .blog-img svg { filter: saturate(0.4) brightness(0.8) contrast(1.05); }
+.blog-featured-img, .blog-card-img, .blog-img { background: #0a0f19; }
+.blog-read-link, .blog-read-more { color: var(--text-primary); }
+.blog-read-link:hover, .blog-read-more:hover { color: var(--gold); }
