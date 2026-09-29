@@ -1,0 +1,221 @@
+{
+  "updated": "2026-09-29",
+  "note": "Source of truth for repair prices. prices.html and the homepage price check both read this file.",
+  "groups": {
+    "phones": {
+      "label": "Phones",
+      "columns": [
+        "iPhone",
+        "Samsung",
+        "Other Android"
+      ],
+      "rows": [
+        {
+          "name": "Screen Replacement",
+          "note": "OEM-quality display, colour-accurate and responsive",
+          "prices": [
+            "From £45",
+            "From £35",
+            "From £25"
+          ],
+          "time": "Same day, fitted while you wait"
+        },
+        {
+          "name": "Battery Replacement",
+          "note": "Genuine high-capacity cells — quick 30-min fitting",
+          "prices": [
+            "From £25",
+            "From £25",
+            "From £20"
+          ],
+          "time": "About 30 minutes"
+        },
+        {
+          "name": "Charging Port Repair",
+          "note": "Includes deep clean and component replacement if needed",
+          "prices": [
+            "From £30",
+            "From £25",
+            "From £20"
+          ],
+          "time": "Usually same day"
+        },
+        {
+          "name": "Back Glass Replacement",
+          "note": "Restores original look, feel and grip",
+          "prices": [
+            "From £35",
+            "From £30",
+            "From £25"
+          ],
+          "time": "1 to 2 working days"
+        },
+        {
+          "name": "Camera Repair",
+          "note": "Front or rear camera module replacement",
+          "prices": [
+            "From £35",
+            "From £30",
+            "From £25"
+          ],
+          "time": "Usually same day"
+        },
+        {
+          "name": "Speaker / Microphone",
+          "note": "Earpiece, loudspeaker, or microphone replacement",
+          "prices": [
+            "From £25",
+            "From £20",
+            "From £20"
+          ],
+          "time": "Usually same day"
+        },
+        {
+          "name": "Water Damage Recovery",
+          "note": "Bring it in ASAP for the best chance of recovery",
+          "prices": [
+            "POA",
+            "POA",
+            "POA"
+          ],
+          "time": "Free assessment first, then a quote"
+        }
+      ]
+    },
+    "tablets": {
+      "label": "Tablets",
+      "columns": [
+        "iPad",
+        "Android Tablet"
+      ],
+      "rows": [
+        {
+          "name": "Screen Replacement",
+          "note": "Full display assembly — glass and digitiser",
+          "prices": [
+            "From £55",
+            "From £45"
+          ],
+          "time": "1 to 3 working days"
+        },
+        {
+          "name": "Battery Replacement",
+          "note": "Restores full battery capacity and standby time",
+          "prices": [
+            "From £45",
+            "From £35"
+          ],
+          "time": "1 to 2 working days"
+        },
+        {
+          "name": "Charging Port Repair",
+          "note": "USB-C, Lightning, or micro-USB port",
+          "prices": [
+            "From £35",
+            "From £30"
+          ],
+          "time": "1 to 2 working days"
+        },
+        {
+          "name": "Camera Repair",
+          "note": "Front or rear camera module",
+          "prices": [
+            "From £40",
+            "From £35"
+          ],
+          "time": "1 to 2 working days"
+        },
+        {
+          "name": "Water Damage Recovery",
+          "note": "Free assessment — quote before any work",
+          "prices": [
+            "POA",
+            "POA"
+          ],
+          "time": "Free assessment first, then a quote"
+        }
+      ]
+    },
+    "laptops": {
+      "label": "Laptops & computers",
+      "columns": [
+        "MacBook",
+        "Windows Laptop"
+      ],
+      "rows": [
+        {
+          "name": "Screen Replacement",
+          "note": "Full display assembly replacement",
+          "prices": [
+            "From £80",
+            "From £55"
+          ],
+          "time": "2 to 3 working days"
+        },
+        {
+          "name": "Battery Replacement",
+          "note": "Genuine or OEM-spec cells with data intact",
+          "prices": [
+            "From £65",
+            "From £45"
+          ],
+          "time": "1 to 2 working days"
+        },
+        {
+          "name": "Keyboard Repair / Replacement",
+          "note": "Individual key repair or full keyboard swap",
+          "prices": [
+            "From £55",
+            "From £35"
+          ],
+          "time": "Ask for a turnaround when you book"
+        },
+        {
+          "name": "RAM Upgrade",
+          "note": "Improves speed and multitasking — price depends on spec",
+          "prices": [
+            "POA",
+            "From £25"
+          ],
+          "time": "Ask for a turnaround when you book"
+        },
+        {
+          "name": "HDD → SSD Upgrade",
+          "note": "Major speed boost — data migration included",
+          "prices": [
+            "POA",
+            "From £40"
+          ],
+          "time": "Ask for a turnaround when you book"
+        },
+        {
+          "name": "Virus Removal & Cleanup",
+          "note": "Full system scan, safe removal, and optimisation",
+          "prices": [
+            "From £35",
+            "From £35"
+          ],
+          "time": "Ask for a turnaround when you book"
+        },
+        {
+          "name": "OS Reinstall",
+          "note": "Clean install with data backup beforehand",
+          "prices": [
+            "From £40",
+            "From £30"
+          ],
+          "time": "Ask for a turnaround when you book"
+        },
+        {
+          "name": "Water Damage Recovery",
+          "note": "Bring in as soon as possible for best outcome",
+          "prices": [
+            "POA",
+            "POA"
+          ],
+          "time": "Free assessment first, then a quote"
+        }
+      ]
+    }
+  }
+}

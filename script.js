@@ -46,7 +46,9 @@ async function loadProducts(filter = 'all') {
     }
 
     const isHomepage = !window.location.pathname.includes('shop');
-    const HOMEPAGE_LIMIT = 8;
+    // Phones get 4 products in a 2-up grid, desktop keeps 8 — the old
+    // single-column stack of 8 cards made the mobile page ~4,700px longer.
+    const HOMEPAGE_LIMIT = window.matchMedia('(max-width: 768px)').matches ? 4 : 8;
 
     let filtered = filter === 'all'
       ? products
@@ -60,7 +62,7 @@ async function loadProducts(filter = 'all') {
     if (filtered.length === 0) {
       grid.innerHTML = `
         <div class="products-loading">
-          <i class="fas fa-box-open" style="opacity:0.5"></i>
+          ${fzIcon('box-open')}
           <span>No products in this category yet.</span>
         </div>`;
       return;
@@ -82,9 +84,9 @@ async function loadProducts(filter = 'all') {
           </div>
           <div class="product-name">${escapeHtml(p.name)}</div>
           <div class="product-desc">${escapeHtml(p.description)}</div>
-          <a href="https://wa.me/447440423053?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
+          <a href="https://wa.me/447526292760?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
              target="_blank" class="product-enquire">
-            <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
+            ${fzIcon('whatsapp')} Enquire on WhatsApp
           </a>
         </div>
       </div>
@@ -103,7 +105,7 @@ async function loadProducts(filter = 'all') {
   } catch (e) {
     grid.innerHTML = `
       <div class="products-loading">
-        <i class="fas fa-exclamation-circle" style="color: #ef4444;"></i>
+        ${fzIcon('exclamation-circle')}
         <span>Could not load products. Please try again later.</span>
       </div>`;
   }
@@ -328,42 +330,42 @@ function initDeviceRotator() {
     {
       src:   'images/site/hero-s25ultra.png',
       alt:   'Samsung Galaxy S25 Ultra',
-      pill:  '<i class="fas fa-bolt"></i> Same-Day Available',
+      pill:  fzIcon('bolt') + ' Same-Day Available',
       blend: false,
       glow:  'rgba(14,165,233,0.35)'
     },
     {
       src:   'images/site/hero-iphone.jpg',
       alt:   'Apple iPhone',
-      pill:  '<i class="fab fa-apple"></i> iPhones Repaired',
+      pill:  fzIcon('apple') + ' iPhones Repaired',
       blend: false,
       glow:  'rgba(200,200,200,0.2)'
     },
     {
       src:   'images/site/hero-android.jpg',
       alt:   'Android Phone Repair',
-      pill:  '<i class="fas fa-mobile-alt"></i> All Brands Repaired',
+      pill:  fzIcon('mobile-alt') + ' All Brands Repaired',
       blend: false,
       glow:  'rgba(52,168,83,0.28)'
     },
     {
       src:   'images/site/hero-s25.png',
       alt:   'Samsung Galaxy S25',
-      pill:  '<i class="fas fa-mobile-alt"></i> New Phones In Stock',
+      pill:  fzIcon('mobile-alt') + ' New Phones In Stock',
       blend: false,
       glow:  'rgba(14,165,233,0.35)'
     },
     {
       src:   'images/site/hero-watch.jpg',
       alt:   'Smartwatch Repair',
-      pill:  '<i class="fas fa-clock"></i> Smartwatches Too',
+      pill:  fzIcon('clock') + ' Smartwatches Too',
       blend: false,
       glow:  'rgba(234,179,8,0.28)'
     },
     {
       src:   'images/site/hero-console.jpg',
       alt:   'PlayStation Console Repair',
-      pill:  '<i class="fas fa-gamepad"></i> Consoles Repaired',
+      pill:  fzIcon('gamepad') + ' Consoles Repaired',
       blend: false,
       glow:  'rgba(0,114,198,0.35)'
     }
@@ -408,9 +410,58 @@ function initDeviceRotator() {
 }
 
 
+// --- Hero price check (reads prices.json, the same file prices.html syncs from) ---
+function initPriceCheck() {
+  const devSel = document.getElementById('pc-device');
+  const repSel = document.getElementById('pc-repair');
+  const priceEl = document.getElementById('pc-price');
+  const timeEl = document.getElementById('pc-time');
+  const bookEl = document.getElementById('pc-book');
+  if (!devSel || !repSel) return;
+
+  fetch('prices.json').then(r => r.json()).then(data => {
+    const devices = [];
+    Object.entries(data.groups).forEach(([gid, g]) => {
+      g.columns.forEach((label, col) => devices.push({ id: gid + ':' + col, label, gid, col }));
+    });
+    devSel.innerHTML = devices.map(d => `<option value="${d.id}">${escapeHtml(d.label)}</option>`).join('');
+
+    function fillRepairs(keep) {
+      const d = devices.find(x => x.id === devSel.value) || devices[0];
+      const rows = data.groups[d.gid].rows;
+      repSel.innerHTML = rows.map((r, i) => `<option value="${i}">${escapeHtml(r.name)}</option>`).join('');
+      const match = keep ? rows.findIndex(r => r.name === keep) : -1;
+      repSel.value = String(match >= 0 ? match : 0);
+    }
+
+    function update() {
+      const d = devices.find(x => x.id === devSel.value) || devices[0];
+      const row = data.groups[d.gid].rows[Number(repSel.value)] || data.groups[d.gid].rows[0];
+      priceEl.textContent = row.prices[d.col] || 'POA';
+      timeEl.textContent = row.time || '';
+      const msg = "Hi, I'd like a quote for " + d.label + ' ' + row.name.toLowerCase() + ' please';
+      bookEl.href = 'https://wa.me/447526292760?text=' + encodeURIComponent(msg);
+    }
+
+    devSel.addEventListener('change', () => {
+      const current = repSel.options[repSel.selectedIndex] ? repSel.options[repSel.selectedIndex].text : '';
+      fillRepairs(current);
+      update();
+    });
+    repSel.addEventListener('change', update);
+
+    fillRepairs();
+    update();
+  }).catch(() => {
+    // Leave the static defaults in place; the selects stay empty but the Book link still works.
+  });
+}
+
+
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
   loadProducts();
+  initPriceCheck();
   initFilters();
   initMenu();
   initScrollSpy();

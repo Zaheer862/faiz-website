@@ -98,9 +98,31 @@ function initScrollAnimations() {
 }
 
 
+// --- Keep the tables in step with prices.json (the homepage price check reads the same file) ---
+function syncPricesFromJson() {
+  fetch('prices.json').then(r => r.json()).then(data => {
+    Object.entries(data.groups).forEach(([gid, g]) => {
+      const panel = document.getElementById('tab-' + gid);
+      if (!panel) return;
+      panel.querySelectorAll('.price-row').forEach(rowEl => {
+        const nameEl = rowEl.querySelector('.service-name');
+        if (!nameEl) return;
+        const name = nameEl.textContent.replace(/\s+/g, ' ').trim();
+        const row = g.rows.find(r => r.name === name);
+        if (!row) return;
+        rowEl.querySelectorAll('.price-col .price-badge').forEach((badge, i) => {
+          if (row.prices[i] !== undefined) badge.textContent = row.prices[i];
+        });
+      });
+    });
+  }).catch(() => {});
+}
+
+
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
   initPriceTabs();
+  syncPricesFromJson();
   initHeaderScroll();
   initMenu();
   initScrollAnimations();

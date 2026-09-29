@@ -215,7 +215,7 @@ nav a:hover {
   font-weight: 600 !important;
 }
 
-.nav-shop-link i {
+.nav-shop-link i, .nav-shop-link .ic {
   font-size: 0.8rem;
 }
 
@@ -237,7 +237,7 @@ nav a:hover {
   box-shadow: var(--shadow-glow);
 }
 
-.nav-cta i {
+.nav-cta i, .nav-cta .ic {
   font-size: 1.05rem;
 }
 
@@ -356,7 +356,7 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
-.hero-badge i {
+.hero-badge i, .hero-badge .ic {
   color: #fbbf24;
 }
 
@@ -493,7 +493,7 @@ nav a:hover {
   text-shadow: 0 0 30px var(--accent-glow);
 }
 
-.hero-phone a i {
+.hero-phone a i, .hero-phone a .ic {
   font-size: 1.2rem;
 }
 
@@ -524,7 +524,7 @@ nav a:hover {
   letter-spacing: 0.5px;
 }
 
-.trust-item i {
+.trust-item i, .trust-item .ic {
   color: var(--accent);
   font-size: 0.85rem;
 }
@@ -556,7 +556,7 @@ section {
   margin-bottom: 0.75rem;
 }
 
-.section-label i {
+.section-label i, .section-label .ic {
   font-size: 0.7rem;
 }
 
@@ -668,7 +668,7 @@ section {
   margin-bottom: 0.75rem;
 }
 
-.service-devices i {
+.service-devices i, .service-devices .ic {
   font-size: 0.85rem;
   color: var(--text-muted);
   background: var(--bg-elevated);
@@ -682,7 +682,7 @@ section {
   transition: var(--transition);
 }
 
-.service-card:hover .service-devices i {
+.service-card:hover .service-devices i, .service-card:hover .service-devices .ic {
   color: var(--accent);
   border-color: var(--border-hover);
 }
@@ -763,7 +763,7 @@ section {
   font-size: 0.9rem;
 }
 
-.products-loading i {
+.products-loading i, .products-loading .ic {
   font-size: 1.5rem;
   color: var(--accent);
 }
@@ -796,7 +796,7 @@ section {
   overflow: hidden;
 }
 
-.product-img i {
+.product-img i, .product-img .ic {
   font-size: 2.5rem;
   color: var(--text-muted);
   opacity: 0.5;
@@ -1063,14 +1063,14 @@ section {
   line-height: 1.4;
 }
 
-.faq-question i {
+.faq-question i, .faq-question .ic {
   font-size: 0.75rem;
   color: var(--text-muted);
   transition: transform 0.3s ease;
   flex-shrink: 0;
 }
 
-.faq-item.active .faq-question i {
+.faq-item.active .faq-question i, .faq-item.active .faq-question .ic {
   transform: rotate(180deg);
   color: var(--accent);
 }
@@ -1185,7 +1185,7 @@ section {
   gap: 0.35rem;
 }
 
-.blog-meta i {
+.blog-meta i, .blog-meta .ic {
   font-size: 0.7rem;
 }
 
@@ -1219,7 +1219,7 @@ section {
   color: var(--accent-light);
 }
 
-.blog-read-more i {
+.blog-read-more i, .blog-read-more .ic {
   font-size: 0.7rem;
   transition: var(--transition);
 }
@@ -1395,7 +1395,7 @@ footer {
   color: var(--accent);
 }
 
-.footer-links a i {
+.footer-links a i, .footer-links a .ic {
   width: 16px;
   font-size: 0.8rem;
 }
@@ -1484,7 +1484,7 @@ footer {
   color: var(--text-primary);
 }
 
-.brand-logo i {
+.brand-logo i, .brand-logo .ic {
   font-size: 1.6rem;
 }
 
@@ -1649,7 +1649,7 @@ footer {
   margin: 0 auto;
 }
 
-.process-info-banner i {
+.process-info-banner i, .process-info-banner .ic {
   font-size: 1.3rem;
   color: var(--accent);
   margin-top: 0.1rem;
@@ -2070,7 +2070,7 @@ footer {
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 
-.hero-device-pill i {
+.hero-device-pill i, .hero-device-pill .ic {
   color: var(--accent);
   font-size: 0.75rem;
 }
@@ -2125,7 +2125,7 @@ footer {
   color: var(--text-secondary);
 }
 
-.hero-footer .trust-item i {
+.hero-footer .trust-item i, .hero-footer .trust-item .ic {
   color: var(--accent);
 }
 
@@ -2226,7 +2226,7 @@ footer {
   box-shadow: 0 6px 20px rgba(37,211,102,0.15);
 }
 
-.service-book-btn i {
+.service-book-btn i, .service-book-btn .ic {
   font-size: 0.85rem;
 }
 
@@ -2471,11 +2471,9 @@ textarea:focus-visible {
   body:has(.mobile-cta-bar) {
     padding-bottom: 72px;
   }
-  body:has(.mobile-cta-bar) .whatsapp-float {
-    bottom: calc(72px + 1rem);
-    width: 52px;
-    height: 52px;
-    right: 1rem;
+  /* The sticky bar already offers WhatsApp; a second floating bubble on top of it was clutter */
+  .whatsapp-float {
+    display: none;
   }
 }
 
@@ -2605,6 +2603,159 @@ textarea:focus-visible {
   font-size: 0.8rem;
   color: var(--text-muted);
 }
-.footer-hours i { width: 16px; font-size: 0.75rem; margin-right: 0.4rem; color: var(--text-secondary); }
+.footer-hours i, .footer-hours .ic { width: 16px; font-size: 0.75rem; margin-right: 0.4rem; color: var(--text-secondary); }
 .footer-hours span + span { padding-left: calc(16px + 0.4rem); }
 .footer-links a { line-height: 1.4; }
+
+
+
+/* ============================================
+   2026-09 HOMEPAGE UPGRADE
+   Benefit headline, hero stats, price check, fonts,
+   inline icons, tighter mobile products
+   ============================================ */
+
+:root {
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* 6. Type: display face for headings, mono for labels and figures */
+h1, h2, h3, .section-title, .logo-name, .footer-logo, .product-name, .service-body h3, .why-card h3, .process-content h3, .faq-question {
+  font-family: var(--font-display);
+}
+.section-label, .hero-tagline, .hero-badge, .stat-label, .logo-sub, .service-tag, .product-price, .product-badge, .brand-logos-label, .footer-heading, .trust-item, .price-check-label {
+  font-family: var(--font-mono);
+}
+.stat-num, .price-check-price { font-family: var(--font-mono); letter-spacing: -0.5px; }
+.section-label::before { content: '// '; opacity: 0.6; }
+
+/* 8. Inline SVG icons (replace Font Awesome on the homepage) */
+.ic {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+.ic-fill { fill: currentColor; stroke: none; }
+.ic-spin { animation: icSpin 1s linear infinite; }
+@keyframes icSpin { to { transform: rotate(360deg); } }
+.service-icon-wrap .ic, .why-icon .ic, .contact-icon .ic, .product-img .ic { width: 1em; height: 1em; }
+.whatsapp-float .ic { width: 1.7rem; height: 1.7rem; }
+.footer-social a .ic { width: 1rem; height: 1rem; }
+.hamburger .ic { display: none; }
+
+/* 2. Benefit headline instead of the wordmark */
+.hero-text .hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 5.2vw, 4.4rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
+.hero-text .hero-title .ai { display: block; }
+.hero-text .hero-tagline { letter-spacing: 3px; font-size: 0.78rem; }
+.hero-text .hero-desc { font-size: 1.05rem; }
+
+/* Stats sit beside the headline */
+.hero-text .hero-stats--inline {
+  max-width: 560px;
+  margin: 0 0 0.5rem;
+}
+.hero-stats--inline .hero-stat { padding: 0.9rem 0.6rem; }
+.hero-stats--inline .stat-num { font-size: 1.5rem; }
+.hero-stats--inline .stat-label { font-size: 0.58rem; letter-spacing: 1.2px; }
+
+/* 3. Price check panel */
+.price-check {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr auto auto;
+  align-items: end;
+  gap: 1.1rem 1.25rem;
+  padding: 1.25rem 1.5rem;
+  background: rgba(17, 24, 39, 0.85);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: left;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.price-check-intro { display: flex; flex-direction: column; gap: 0.3rem; align-self: center; }
+.price-check-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); }
+.price-check-sub { font-size: 0.85rem; color: var(--text-secondary); }
+.price-check-field { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.price-check-field > span:first-child { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); letter-spacing: 0.5px; }
+.price-check-select { position: relative; display: block; }
+.price-check-select select {
+  width: 100%;
+  height: 46px;
+  padding: 0 2.4rem 0 0.9rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.14);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.price-check-select select:focus { border-color: var(--accent); }
+.price-check-select .ic { position: absolute; right: 0.9rem; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--text-muted); }
+.price-check-result { display: flex; flex-direction: column; gap: 0.2rem; padding-left: 1.25rem; border-left: 1px solid var(--border); align-self: center; min-width: 150px; }
+.price-check-price { font-size: 1.6rem; font-weight: 700; line-height: 1; color: var(--text-primary); }
+.price-check-time { font-size: 0.78rem; color: var(--text-muted); }
+.price-check .btn { height: 46px; padding: 0 1.4rem; white-space: nowrap; align-self: end; }
+
+@media (max-width: 900px) {
+  /* The inline stats row otherwise widens the single hero column past the viewport */
+  .hero-main { grid-template-columns: minmax(0, 1fr); }
+  .hero-text { min-width: 0; max-width: 100%; }
+  .hero-text .hero-stats--inline { width: 100%; }
+  .hero-stat { min-width: 0; }
+  .price-check { grid-template-columns: 1fr 1fr; }
+  .price-check-intro { grid-column: 1 / -1; }
+  .price-check-result { grid-column: 1; border-left: none; padding-left: 0; }
+  .price-check .btn { grid-column: 2; width: 100%; justify-content: center; }
+}
+@media (max-width: 600px) {
+  .hero-text .hero-tagline { letter-spacing: 1.5px; font-size: 0.68rem; white-space: normal; }
+  .price-check { grid-template-columns: 1fr; padding: 1rem; }
+  .price-check-result, .price-check .btn { grid-column: 1; }
+  .hero-text .hero-stats--inline { max-width: none; }
+  .hero-text .hero-actions { flex-direction: column; }
+  .hero-text .hero-actions .btn { width: 100%; justify-content: center; }
+}
+@media (max-width: 480px) {
+  .hero-text .hero-title { letter-spacing: -0.02em; }
+}
+
+/* 4. Mobile products: two-up grid, four cards, no description */
+@media (max-width: 480px) {
+  .products-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+  .product-body { padding: 0.8rem; }
+  .product-desc { display: none; }
+  .product-name { font-size: 0.85rem; margin-bottom: 0.6rem; }
+  .product-price { font-size: 1rem; }
+  .product-badge { font-size: 0.58rem; }
+  .product-enquire { font-size: 0.72rem; padding: 0.55rem 0.4rem; }
+}
+
+/* 7. Tablet header: the desktop nav stays on between 769px and 1024px but ran out of room and overlapped the logo */
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav { gap: 0.8rem; right: 1.25rem; }
+  nav a { white-space: nowrap; font-size: 0.8rem; }
+  .nav-cta { padding: 0.45rem 0.8rem; }
+  .nav-cta .ic { font-size: 0.9rem; }
+  .header-inner { padding: 0 1.25rem; }
+  .logo-name { font-size: 1.3rem; letter-spacing: 3px; }
+  .logo-body .logo-sub { display: none; }
+}
