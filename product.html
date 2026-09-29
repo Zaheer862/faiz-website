@@ -14,15 +14,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="style.css?v=20260903" />
-  <link rel="stylesheet" href="shop.css?v=4" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260929d" />
+  <link rel="stylesheet" href="shop.css?v=20260929d" />
 
   <style>
     /* ── Product Detail Page Styles ── */
     .product-detail-section {
-      padding: 40px 0 80px;
+      padding: 112px 0 80px;
       min-height: 70vh;
     }
     .product-detail-section .container {
@@ -333,6 +332,32 @@
       animation: spin 0.8s linear infinite;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* 2026-09 premium pass */
+    .back-btn { border: 1px solid var(--hairline); border-radius: 99px; padding: 0.45rem 0.9rem; color: #c6cdd9; }
+    .back-btn:hover { color: var(--text-primary); border-color: rgba(255,255,255,0.3); }
+    .pd-image-wrap { background: #0a0f19; border: 1px solid var(--hairline); border-radius: 20px; }
+    .pd-badge, .pd-badge.like-new, .pd-badge.good { background: rgba(3,7,18,0.75); color: var(--gold); border: 1px solid rgba(214,185,134,0.3); border-radius: 99px; font-family: var(--font-mono); font-weight: 600; letter-spacing: 1px; }
+    .pd-brand-cat { font-family: var(--font-mono); color: var(--text-muted); }
+    .pd-name { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.02em; font-size: clamp(2rem, 3.6vw, 2.8rem); line-height: 1.05; }
+    .pd-price { font-family: var(--font-display); font-weight: 600; color: var(--text-primary); font-size: 2.2rem; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+    .pd-desc { color: var(--muted); }
+    .pd-variant-label { font-family: var(--font-mono); color: var(--text-muted); }
+    .pd-storage-btn { border-radius: 99px; border: 1px solid var(--hairline); background: rgba(255,255,255,0.03); color: #c6cdd9; }
+    .pd-storage-btn:hover { border-color: rgba(255,255,255,0.3); color: var(--text-primary); }
+    .pd-storage-btn.active { background: var(--text-primary); border-color: var(--text-primary); color: var(--bg-primary); }
+    .pd-storage-btn.active .pd-storage-extra { color: rgba(3,7,18,0.6); }
+    .pd-color-swatch.active { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(214,185,134,0.35); }
+    .pd-add-btn { background: var(--text-primary); color: var(--bg-primary); border-radius: 99px; box-shadow: none; }
+    .pd-add-btn:hover { background: #ffffff; transform: none; box-shadow: none; }
+    .pd-add-btn.added { background: #25d366; color: #06281a; }
+    .pd-whatsapp-btn { border-radius: 99px; }
+    .pd-trust-item .ic, .pd-trust-item i { color: var(--gold); }
+    .pd-specs-title, .pd-related-title { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.01em; font-size: 1.6rem; text-transform: none; }
+    .pd-specs-title::after { background: var(--hairline); }
+    .pd-specs-table tr { border-color: var(--hairline); }
+    .pd-specs-table td:first-child { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.5px; }
+    .pd-related .shop-product-card { border-radius: 20px; }
   </style>
 </head>
 <body>
@@ -348,7 +373,7 @@
       </a>
       <div class="header-right-mobile">
         <a href="#" class="mobile-cart-btn" id="mobile-cart-btn" aria-label="Shopping cart">
-          <i class="fas fa-shopping-bag"></i>
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
           <span class="cart-count" id="mobile-cart-count">0</span>
         </a>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -359,21 +384,21 @@
   </header>
 
   <nav id="main-nav">
-    <a href="tel:07440423053" class="nav-phone-mobile">
-      <i class="fas fa-phone-alt"></i> 07440 423 053
+    <a href="tel:+447526292760" class="nav-phone-mobile">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +44 7526 292760
     </a>
     <a href="index.html">Home</a>
     <a href="index.html#services">Services</a>
     <a href="prices.html">Prices</a>
-    <a href="shop.html" class="nav-shop-link active"><i class="fas fa-shopping-bag"></i> Shop</a>
+    <a href="shop.html" class="nav-shop-link active"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> Shop</a>
     <a href="blog.html">Blog</a>
     <a href="index.html#contact">Contact</a>
     <a href="#" class="nav-cart-btn" id="nav-cart-btn" aria-label="Shopping cart">
-      <i class="fas fa-shopping-bag"></i>
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
       <span class="cart-count" id="nav-cart-count">0</span>
     </a>
-    <a href="https://wa.me/447440423053" target="_blank" class="nav-cta">
-      <i class="fab fa-whatsapp"></i> WhatsApp Us
+    <a href="https://wa.me/447526292760" target="_blank" class="nav-cta">
+      <svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> WhatsApp Us
     </a>
   </nav>
 
@@ -398,12 +423,12 @@
           <span class="footer-logo-sub">Phone &middot; Tablet &middot; Computer</span>
           <p>Professional mobile, tablet &amp; computer repairs in Leicester. Fast turnaround, genuine parts, same-day service available.</p>
           <div class="footer-social">
-            <a href="https://www.facebook.com/faizmobilesleicester" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/faizmobilesleicester" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@faizmobilesleicester" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <a href="https://wa.me/447440423053" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-            <a href="mailto:faizmobilele55gs1@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-            <a href="tel:07440423053" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+            <a href="https://www.facebook.com/faizmobilesleicester" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+            <a href="https://www.instagram.com/faizmobilesleicester" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="https://www.tiktok.com/@faizmobilesleicester" target="_blank" rel="noopener" aria-label="TikTok"><svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.19 1.11 2.87 1.62 4.56 1.72v4.03c-1.59-.05-3.19-.38-4.63-1.07-.63-.28-1.21-.65-1.78-1.03-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-1.99 6.15-1.58.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+            <a href="https://wa.me/447526292760" target="_blank" aria-label="WhatsApp"><svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a>
+            <a href="mailto:faizmobilele55gs1@gmail.com" aria-label="Email"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></svg></a>
+            <a href="tel:+447526292760" aria-label="Phone"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
           </div>
         </div>
 
@@ -412,7 +437,7 @@
           <a href="index.html">Home</a>
           <a href="index.html#services">Services</a>
           <a href="prices.html">Repair Prices</a>
-          <a href="shop.html"><i class="fas fa-shopping-bag"></i> Shop Online</a>
+          <a href="shop.html"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> Shop Online</a>
           <a href="blog.html">Blog</a>
           <a href="index.html#faq">FAQ</a>
           <a href="index.html#reviews">Reviews</a>
@@ -421,12 +446,12 @@
 
         <div class="footer-links">
           <h4>Contact</h4>
-          <a href="tel:07440423053"><i class="fas fa-phone-alt"></i> 07440 423 053</a>
-          <a href="https://wa.me/447440423053" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-          <a href="mailto:faizmobilele55gs1@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
-          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=241B+Mere+Road+Leicester+LE5+5GS" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt"></i> 241B Mere Road, Leicester LE5 5GS</a>
+          <a href="tel:+447526292760"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +44 7526 292760</a>
+          <a href="https://wa.me/447526292760" target="_blank"><svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> WhatsApp</a>
+          <a href="mailto:faizmobilele55gs1@gmail.com"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></svg> Email Us</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=241B+Mere+Road+Leicester+LE5+5GS" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> 241B Mere Road, Leicester LE5 5GS</a>
           <div class="footer-hours">
-            <span><i class="fas fa-clock"></i> Mon&ndash;Fri 9am&ndash;7pm</span>
+            <span><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mon&ndash;Fri 9am&ndash;7pm</span>
             <span>Sat 9am&ndash;6pm &middot; Sun 11am&ndash;4pm</span>
           </div>
         </div>
@@ -438,23 +463,23 @@
     </div>
   </footer>
 
-  <a href="https://wa.me/447440423053" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
-    <i class="fab fa-whatsapp"></i>
+  <a href="https://wa.me/447526292760" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
   </a>
 
   <!-- CART SLIDE-OVER (same markup as shop.html so shop.js drives it) -->
   <div class="cart-overlay" id="cart-overlay"></div>
   <aside class="cart-drawer" id="cart-drawer">
     <div class="cart-drawer-header">
-      <h2><i class="fas fa-shopping-bag"></i> Your Cart</h2>
+      <h2><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> Your Cart</h2>
       <button class="cart-close" id="cart-close" aria-label="Close cart">
-        <i class="fas fa-times"></i>
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
     </div>
 
     <div class="cart-drawer-body" id="cart-drawer-body">
       <div class="cart-empty" id="cart-empty">
-        <i class="fas fa-shopping-bag"></i>
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
         <p>Your cart is empty</p>
         <span>Browse our products and add items to get started.</span>
       </div>
@@ -477,7 +502,7 @@
         </div>
       </div>
       <button class="btn btn-primary btn-full" id="checkout-btn">
-        <i class="fas fa-lock"></i> Proceed to Checkout
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Proceed to Checkout
       </button>
     </div>
   </aside>
@@ -487,8 +512,8 @@
   <div class="modal-overlay" id="checkout-overlay">
     <div class="modal" id="checkout-modal">
       <div class="modal-header">
-        <h2><i class="fas fa-lock"></i> Checkout</h2>
-        <button class="modal-close" id="checkout-close" aria-label="Close checkout"><i class="fas fa-times"></i></button>
+        <h2><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Checkout</h2>
+        <button class="modal-close" id="checkout-close" aria-label="Close checkout"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
       </div>
 
       <div class="modal-body" id="checkout-body">
@@ -537,7 +562,7 @@
               <textarea id="ship-notes" rows="3" placeholder="Any special instructions..."></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-full">
-              Continue to Order Review <i class="fas fa-arrow-right"></i>
+              Continue to Order Review <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
             </button>
           </form>
         </div>
@@ -547,13 +572,13 @@
           <h3 class="checkout-step-title"><span class="step-num">2</span> Review Your Order</h3>
 
           <div class="review-section">
-            <h4><i class="fas fa-map-marker-alt"></i> Shipping To</h4>
+            <h4><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Shipping To</h4>
             <div class="review-address" id="review-address"></div>
-            <button class="review-edit-btn" id="edit-shipping-btn"><i class="fas fa-pen"></i> Edit</button>
+            <button class="review-edit-btn" id="edit-shipping-btn"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Edit</button>
           </div>
 
           <div class="review-section">
-            <h4><i class="fas fa-box"></i> Order Items</h4>
+            <h4><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> Order Items</h4>
             <div class="review-items" id="review-items"></div>
           </div>
 
@@ -575,12 +600,12 @@
           </div>
 
           <div class="review-payment-note">
-            <i class="fas fa-info-circle"></i>
+            <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
             <p>After placing your order, we'll contact you via WhatsApp or phone to arrange payment and confirm delivery details.</p>
           </div>
 
           <button class="btn btn-primary btn-full btn-lg" id="place-order-btn">
-            <i class="fab fa-whatsapp"></i> Place Order via WhatsApp
+            <svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Place Order via WhatsApp
           </button>
         </div>
 
@@ -588,15 +613,15 @@
         <div class="checkout-step" id="step-confirmation" style="display:none;">
           <div class="confirmation-content">
             <div class="confirmation-icon">
-              <i class="fas fa-check-circle"></i>
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
             </div>
             <h3>Order Sent!</h3>
             <p>Your order has been sent to F.AI.Z via WhatsApp. We'll confirm your order and arrange payment shortly.</p>
             <div class="confirmation-details" id="confirmation-details"></div>
             <div class="confirmation-actions">
               <a href="shop.html" class="btn btn-outline">Continue Shopping</a>
-              <a href="https://wa.me/447440423053" target="_blank" class="btn btn-whatsapp">
-                <i class="fab fa-whatsapp"></i> Open WhatsApp
+              <a href="https://wa.me/447526292760" target="_blank" class="btn btn-whatsapp">
+                <svg class="ic ic-fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Open WhatsApp
               </a>
             </div>
           </div>
@@ -605,6 +630,7 @@
     </div>
   </div>
 
+  <script src="icons.js?v=20260929d"></script>
   <script src="shop.js?v=7"></script>
   <script>
   // ── Product Detail Page Logic ──────────────────────────────
@@ -731,7 +757,7 @@
       const waMsg = encodeURIComponent(
         `Hi F.AI.Z, I'm interested in: ${product.name} — £${product.price.toFixed(2)}\nProduct link: ${window.location.href}`
       );
-      const waLink = `https://wa.me/447440423053?text=${waMsg}`;
+      const waLink = `https://wa.me/447526292760?text=${waMsg}`;
 
       // Related products (same brand, exclude self, max 4)
       const related = allProducts
@@ -757,7 +783,7 @@
                     <span class="shop-product-price">£${p.price.toFixed(2)}</span>
                     <button class="add-to-cart-btn${rInCart?' added':''}"
                             onclick="event.stopPropagation();addToCart(${p.id})">
-                      <i class="fas ${rInCart?'fa-check':'fa-cart-plus'}"></i>
+                      ${fzIcon(rInCart?'check':'cart-plus')}
                     </button>
                   </div>
                 </div>
@@ -767,7 +793,7 @@
         </div>` : '';
 
       root.innerHTML = `
-        <a href="shop.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Shop</a>
+        <a href="shop.html" class="back-btn">${fzIcon('arrow-left')} Back to Shop</a>
 
         <div class="product-detail-grid">
           <!-- Image -->
@@ -830,19 +856,19 @@
 
             <div class="pd-actions">
               <button class="pd-add-btn${inCart?' added':''}" id="pd-cart-btn" onclick="pdAddToCart(${product.id})">
-                <i class="fas ${inCart?'fa-check':'fa-cart-plus'}"></i>
+                ${fzIcon(inCart?'check':'cart-plus')}
                 ${inCart ? 'In Cart' : 'Add to Cart'}
               </button>
               <a href="${waLink}" target="_blank" class="pd-whatsapp-btn">
-                <i class="fab fa-whatsapp"></i> Ask on WhatsApp
+                ${fzIcon('whatsapp')} Ask on WhatsApp
               </a>
             </div>
 
             <div class="pd-trust">
-              <div class="pd-trust-item"><i class="fas fa-truck"></i> Free UK delivery over £50</div>
-              <div class="pd-trust-item"><i class="fas fa-shield-alt"></i> 12-month warranty</div>
-              <div class="pd-trust-item"><i class="fas fa-undo"></i> 14-day returns</div>
-              <div class="pd-trust-item"><i class="fas fa-store"></i> In-store collection · LE5</div>
+              <div class="pd-trust-item">${fzIcon('truck')} Free UK delivery over £50</div>
+              <div class="pd-trust-item">${fzIcon('shield-alt')} 12-month warranty</div>
+              <div class="pd-trust-item">${fzIcon('undo')} 14-day returns</div>
+              <div class="pd-trust-item">${fzIcon('store')} In-store collection · LE5</div>
             </div>
           </div>
         </div>
@@ -870,14 +896,14 @@
     function showError(msg) {
       document.title = 'Product not found | F.AI.Z Mobiles Leicester';
       root.innerHTML = `
-        <a href="shop.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Shop</a>
+        <a href="shop.html" class="back-btn">${fzIcon('arrow-left')} Back to Shop</a>
         <div class="pd-notfound">
-          <div class="pd-notfound-icon"><i class="fas fa-box-open"></i></div>
+          <div class="pd-notfound-icon">${fzIcon('box-open')}</div>
           <h1>${escH(msg)}</h1>
           <p>That product may have sold out or the link is out of date. Everything we currently stock is in the shop — or message us and we'll find it for you.</p>
           <div class="pd-notfound-actions">
-            <a href="shop.html" class="btn btn-primary"><i class="fas fa-shopping-bag"></i> Browse the shop</a>
-            <a href="https://wa.me/447440423053?text=Hi%2C+I%27m+looking+for+a+product+that+isn%27t+on+the+site" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+            <a href="shop.html" class="btn btn-primary">${fzIcon('shopping-bag')} Browse the shop</a>
+            <a href="https://wa.me/447526292760?text=Hi%2C+I%27m+looking+for+a+product+that+isn%27t+on+the+site" target="_blank" class="btn btn-whatsapp">${fzIcon('whatsapp')} Ask on WhatsApp</a>
           </div>
         </div>`;
     }
@@ -892,7 +918,7 @@
         const btn = document.getElementById('pd-cart-btn');
         if (btn) {
           btn.classList.add('added');
-          btn.innerHTML = '<i class="fas fa-check"></i> In Cart';
+          btn.innerHTML = fzIcon('check') + ' In Cart';
         }
       }
     };

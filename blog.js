@@ -53,7 +53,7 @@ const FaizCover = (function faizCoverFactory() {
 <g fill="none" stroke="${ac}" stroke-width="1.5" opacity=".22"><circle cx="${cx}" cy="${cy}" r="95"/><circle cx="${cx}" cy="${cy}" r="150"/></g>
 <g transform="translate(${gx} ${gy}) scale(${gs})" fill="none" stroke="${ac}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".16">${GLYPH[post.category] || GLYPH.tips}</g>
 <rect x="277" y="${(y0 - size - 20).toFixed(1)}" width="46" height="4" rx="2" fill="${ac}"/>
-<text x="300" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="800" font-size="${size}" fill="#f8fafc">${text}</text>
+<text x="300" text-anchor="middle" font-family="Instrument Serif, Georgia, serif" font-weight="400" font-size="${Math.round(size*1.12)}" fill="#f8fafc">${text}</text>
 <text x="540" y="326" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="${ac}" opacity=".85">F.AI.Z TECH BLOG</text>
 </svg>`;
   }
@@ -64,8 +64,8 @@ const FaizCover = (function faizCoverFactory() {
   'use strict';
 
   const CAT_ICONS = {
-    phones: 'fa-mobile-alt', laptops: 'fa-laptop',
-    cyber: 'fa-shield-alt', consoles: 'fa-gamepad', tips: 'fa-tools'
+    phones: 'mobile-alt', laptops: 'laptop',
+    cyber: 'shield-alt', consoles: 'gamepad', tips: 'tools'
   };
 
   // Post fields are interpolated into HTML — escape them
@@ -115,17 +115,17 @@ const FaizCover = (function faizCoverFactory() {
     featuredEl.innerHTML = `
       <div class="blog-featured-img">
         ${FaizCover.svg(post)}
-        <span class="blog-featured-badge"><i class="fas fa-bolt"></i> Latest</span>
+        <span class="blog-featured-badge">${fzIcon('bolt')} Latest</span>
       </div>
       <div class="blog-featured-body">
         <span class="blog-category-pill cat-${esc(post.category)}">
-          <i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${esc(post.categoryLabel)}
+          ${fzIcon(CAT_ICONS[post.category] || 'tag')} ${esc(post.categoryLabel)}
         </span>
         <h2>${esc(post.title)}</h2>
         <p>${esc(post.excerpt)}</p>
         <div class="blog-card-footer">
-          <span class="blog-source-badge"><i class="fas fa-external-link-alt"></i> ${esc(post.sourceLabel)} &mdash; ${esc(post.dateDisplay)}</span>
-          <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-link">Read Article <i class="fas fa-arrow-right"></i></a>
+          <span class="blog-source-badge">${fzIcon('external-link-alt')} ${esc(post.sourceLabel)} &mdash; ${esc(post.dateDisplay)}</span>
+          <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-link">Read Article ${fzIcon('arrow-right')}</a>
         </div>
       </div>`;
   }
@@ -163,7 +163,7 @@ const FaizCover = (function faizCoverFactory() {
     }
     bar.innerHTML = `
       <p>Showing <strong>${shown}</strong> of <strong>${total}</strong> posts</p>
-      <button type="button" class="btn btn-outline" id="blog-load-more-btn"><i class="fas fa-plus"></i> Load ${Math.min(PAGE_SIZE, total - shown)} more</button>`;
+      <button type="button" class="btn btn-outline" id="blog-load-more-btn">${fzIcon('plus')} Load ${Math.min(PAGE_SIZE, total - shown)} more</button>`;
     document.getElementById('blog-load-more-btn').addEventListener('click', () => {
       visibleCount += PAGE_SIZE;
       render();
@@ -190,18 +190,18 @@ const FaizCover = (function faizCoverFactory() {
     return `<article class="blog-card-item" style="animation-delay:${delay}ms">
       <div class="blog-card-img">
         ${FaizCover.svg(post)}
-        <span class="blog-category-pill cat-${esc(post.category)}"><i class="fas ${CAT_ICONS[post.category] || 'fa-tag'}"></i> ${esc(post.categoryLabel)}</span>
+        <span class="blog-category-pill cat-${esc(post.category)}">${fzIcon(CAT_ICONS[post.category] || 'tag')} ${esc(post.categoryLabel)}</span>
       </div>
       <div class="blog-card-body">
         <div class="blog-card-meta">
-          <span><i class="fas fa-calendar-alt"></i>${esc(post.dateDisplay)}</span>
-          <span><i class="fas fa-clock"></i>${esc(post.readTime)}</span>
+          <span>${fzIcon('calendar-alt')}${esc(post.dateDisplay)}</span>
+          <span>${fzIcon('clock')}${esc(post.readTime)}</span>
         </div>
         <h3>${esc(post.title)}</h3>
         <p>${esc(post.excerpt)}</p>
         <div class="blog-card-footer">
-          <span class="blog-source-badge"><i class="fas fa-external-link-alt"></i> ${esc(post.sourceLabel)}</span>
-          <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-link">Read More <i class="fas fa-arrow-right"></i></a>
+          <span class="blog-source-badge">${fzIcon('external-link-alt')} ${esc(post.sourceLabel)}</span>
+          <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-link">Read More ${fzIcon('arrow-right')}</a>
         </div>
       </div></article>`;
   }
@@ -265,7 +265,7 @@ const FaizCover = (function faizCoverFactory() {
 (function () {
   const homeGrid = document.querySelector('#blog .blog-grid');
   if (!homeGrid) return;
-  const CAT_ICONS = { phones: 'fa-mobile-alt', laptops: 'fa-laptop', cyber: 'fa-shield-alt', consoles: 'fa-gamepad', tips: 'fa-tools' };
+  const CAT_ICONS = { phones: 'mobile-alt', laptops: 'laptop', cyber: 'shield-alt', consoles: 'gamepad', tips: 'tools' };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => (
     { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
   ));
@@ -281,13 +281,13 @@ const FaizCover = (function faizCoverFactory() {
           </div>
           <div class="blog-body">
             <div class="blog-meta">
-              <span><i class="fas fa-calendar-alt"></i> ${esc(post.dateDisplay)}</span>
-              <span><i class="fas fa-clock"></i> ${esc(post.readTime)}</span>
+              <span>${fzIcon('calendar-alt')} ${esc(post.dateDisplay)}</span>
+              <span>${fzIcon('clock')} ${esc(post.readTime)}</span>
             </div>
             <h3>${esc(post.title)}</h3>
             <p>${esc(post.excerpt.slice(0, 130))}…</p>
             <a href="${esc(post.source)}" target="_blank" rel="noopener" class="blog-read-more">
-              Read More <i class="fas fa-arrow-right"></i>
+              Read More ${fzIcon('arrow-right')}
             </a>
           </div>
         </article>

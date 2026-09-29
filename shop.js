@@ -4,7 +4,7 @@
 
 const DELIVERY_COST = 4.99;
 const FREE_DELIVERY_THRESHOLD = 100;
-const WHATSAPP_NUMBER = '447440423053';
+const WHATSAPP_NUMBER = '447526292760';
 
 const categoryIcons = {
   phones: 'fa-mobile-alt',
@@ -64,7 +64,7 @@ async function loadShopProducts() {
   } catch {
     if (grid) grid.innerHTML = `
       <div class="products-loading">
-        <i class="fas fa-exclamation-circle" style="color: #ef4444;"></i>
+        ${fzIcon('exclamation-circle')}
         <span>Could not load products. Please try again later.</span>
       </div>`;
   }
@@ -90,7 +90,7 @@ function renderLoadMore(shown, total) {
     <div class="shop-load-more-bar"><span style="width:${Math.round(shown / total * 100)}%"></span></div>
     <p>Showing <strong>${shown}</strong> of <strong>${total}</strong> products</p>
     ${remaining > 0 ? `<button type="button" class="btn btn-outline" id="shop-load-more-btn">
-      <i class="fas fa-plus"></i> Load ${Math.min(PAGE_SIZE, remaining)} more
+      ${fzIcon('plus')} Load ${Math.min(PAGE_SIZE, remaining)} more
     </button>` : ''}`;
   const btn = document.getElementById('shop-load-more-btn');
   if (btn) btn.addEventListener('click', () => {
@@ -141,7 +141,7 @@ function renderProducts() {
   if (filtered.length === 0) {
     grid.innerHTML = `
       <div class="products-loading">
-        <i class="fas fa-search" style="opacity:0.4"></i>
+        ${fzIcon('search')}
         <span>No products found. Try a different search or category.</span>
       </div>`;
     renderLoadMore(0, 0);
@@ -206,7 +206,7 @@ function renderProducts() {
           <button class="add-to-cart-btn${inCart ? ' added' : ''}"
                   data-id="${p.id}"
                   onclick="event.stopPropagation();addToCart(${p.id})">
-            <i class="fas ${inCart ? 'fa-check' : 'fa-cart-plus'}"></i>
+            ${fzIcon(inCart ? 'check' : 'cart-plus')}
             ${inCart ? 'In Cart' : 'Add to Cart'}
           </button>
         </div>
@@ -406,7 +406,7 @@ function updateCartUI() {
           <span class="cart-item-qty">${item.qty}</span>
           <button class="qty-btn" onclick="updateQty(${item.id}, 1)" aria-label="Increase quantity">+</button>
           <button class="cart-item-remove" onclick="removeFromCart(${item.id})" aria-label="Remove item">
-            <i class="fas fa-trash-alt"></i>
+            ${fzIcon('trash-alt')}
           </button>
         </div>
       </div>
@@ -742,7 +742,7 @@ function showToast(message) {
     document.body.appendChild(toast);
   }
 
-  toast.innerHTML = `<i class="fas fa-check-circle"></i> ${escapeHtml(message)}`;
+  toast.innerHTML = `${fzIcon('check-circle')} ${escapeHtml(message)}`;
   toast.classList.remove('show');
   void toast.offsetWidth;
   toast.classList.add('show');

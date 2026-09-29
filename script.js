@@ -46,7 +46,9 @@ async function loadProducts(filter = 'all') {
     }
 
     const isHomepage = !window.location.pathname.includes('shop');
-    const HOMEPAGE_LIMIT = 8;
+    // Phones get 4 products in a 2-up grid, desktop keeps 8 — the old
+    // single-column stack of 8 cards made the mobile page ~4,700px longer.
+    const HOMEPAGE_LIMIT = window.matchMedia('(max-width: 768px)').matches ? 4 : 8;
 
     let filtered = filter === 'all'
       ? products
@@ -60,7 +62,7 @@ async function loadProducts(filter = 'all') {
     if (filtered.length === 0) {
       grid.innerHTML = `
         <div class="products-loading">
-          <i class="fas fa-box-open" style="opacity:0.5"></i>
+          ${fzIcon('box-open')}
           <span>No products in this category yet.</span>
         </div>`;
       return;
@@ -82,9 +84,9 @@ async function loadProducts(filter = 'all') {
           </div>
           <div class="product-name">${escapeHtml(p.name)}</div>
           <div class="product-desc">${escapeHtml(p.description)}</div>
-          <a href="https://wa.me/447440423053?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
+          <a href="https://wa.me/447526292760?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
              target="_blank" class="product-enquire">
-            <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
+            ${fzIcon('whatsapp')} <span class="enq-long">Enquire on WhatsApp</span><span class="enq-short">Enquire</span>
           </a>
         </div>
       </div>
@@ -103,7 +105,7 @@ async function loadProducts(filter = 'all') {
   } catch (e) {
     grid.innerHTML = `
       <div class="products-loading">
-        <i class="fas fa-exclamation-circle" style="color: #ef4444;"></i>
+        ${fzIcon('exclamation-circle')}
         <span>Could not load products. Please try again later.</span>
       </div>`;
   }
@@ -328,55 +330,89 @@ function initDeviceRotator() {
     {
       src:   'images/site/hero-s25ultra.png',
       alt:   'Samsung Galaxy S25 Ultra',
-      pill:  '<i class="fas fa-bolt"></i> Same-Day Available',
+      pill:  fzIcon('bolt') + ' Same-Day Available',
       blend: false,
       glow:  'rgba(14,165,233,0.35)'
     },
     {
       src:   'images/site/hero-iphone.jpg',
+      photo: true,
       alt:   'Apple iPhone',
-      pill:  '<i class="fab fa-apple"></i> iPhones Repaired',
+      pill:  fzIcon('apple') + ' iPhones Repaired',
       blend: false,
       glow:  'rgba(200,200,200,0.2)'
     },
     {
       src:   'images/site/hero-android.jpg',
+      photo: true,
       alt:   'Android Phone Repair',
-      pill:  '<i class="fas fa-mobile-alt"></i> All Brands Repaired',
+      pill:  fzIcon('mobile-alt') + ' All Brands Repaired',
       blend: false,
       glow:  'rgba(52,168,83,0.28)'
     },
     {
       src:   'images/site/hero-s25.png',
       alt:   'Samsung Galaxy S25',
-      pill:  '<i class="fas fa-mobile-alt"></i> New Phones In Stock',
+      pill:  fzIcon('mobile-alt') + ' New Phones In Stock',
       blend: false,
       glow:  'rgba(14,165,233,0.35)'
     },
     {
       src:   'images/site/hero-watch.jpg',
+      photo: true,
       alt:   'Smartwatch Repair',
-      pill:  '<i class="fas fa-clock"></i> Smartwatches Too',
+      pill:  fzIcon('clock') + ' Smartwatches Too',
       blend: false,
       glow:  'rgba(234,179,8,0.28)'
     },
     {
       src:   'images/site/hero-console.jpg',
+      photo: true,
       alt:   'PlayStation Console Repair',
-      pill:  '<i class="fas fa-gamepad"></i> Consoles Repaired',
+      pill:  fzIcon('gamepad') + ' Consoles Repaired',
       blend: false,
       glow:  'rgba(0,114,198,0.35)'
     }
   ];
 
+  // Newer devices: drop a transparent PNG at each path below (800px+ tall,
+  // no background) and it joins the rotation automatically. Missing files
+  // are skipped, so nothing breaks before the file exists.
+  const extraRenders = [
+    { src: 'images/site/hero-fold8.png',       alt: 'Samsung Galaxy Z Fold in hand', pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
+    { src: 'images/site/hero-iphone-fold.png', alt: 'Foldable iPhone in hands',      pill: fzIcon('apple') + ' iPhones Repaired' },
+    { src: 'images/site/hero-iphone17.png',    alt: 'Apple iPhone 17 Pro',           pill: fzIcon('apple') + ' iPhones Repaired' },
+    { src: 'images/site/hero-pixel10.png',     alt: 'Google Pixel 10',               pill: fzIcon('mobile-alt') + ' All Brands Repaired' },
+    { src: 'images/site/hero-ipad.png',        alt: 'Apple iPad Pro',                pill: fzIcon('tablet-alt') + ' Tablets Repaired' }
+  ].map(d => Object.assign({ blend: false, glow: 'rgba(214,185,134,0.22)' }, d));
+
+  // Stock photos in a frame never looked premium next to the cut-out renders;
+  // rotate only the transparent device renders.
+  const candidates = devices.filter(d => !d.photo).concat(extraRenders);
+  const renders = [];
   let idx = 0;
 
-  // Preload all images silently
-  devices.forEach(d => { const i = new Image(); i.src = d.src; });
+  // Preload; keep only the files that actually exist
+  let pending = candidates.length;
+  candidates.forEach(d => {
+    const i = new Image();
+    i.onload = () => { renders.push(d); if (--pending === 0) start(); };
+    i.onerror = () => { if (--pending === 0) start(); };
+    i.src = d.src;
+  });
+
+  function start() {
+    // keep the authored order
+    renders.sort((a, b) => candidates.indexOf(a) - candidates.indexOf(b));
+    if (renders.length < 2) return;
+    img.style.transition = 'opacity 0.38s ease';
+    if (pill) pill.style.transition = 'opacity 0.38s ease';
+    setInterval(switchDevice, 4500);
+  }
 
   function switchDevice() {
-    idx = (idx + 1) % devices.length;
-    const dev = devices[idx];
+    idx = (idx + 1) % renders.length;
+    const dev = renders[idx];
 
     // Fade out
     img.style.opacity = '0';
@@ -386,6 +422,8 @@ function initDeviceRotator() {
       img.src = dev.src;
       img.alt = dev.alt;
       img.style.mixBlendMode = dev.blend ? 'multiply' : 'normal';
+      // Stock photos get a framed card; transparent device renders float free
+      img.classList.toggle('is-photo', !!dev.photo);
 
       if (pill) {
         pill.innerHTML = dev.pill;
@@ -400,17 +438,93 @@ function initDeviceRotator() {
     }, 380);
   }
 
-  // Add CSS transition if not already there
-  img.style.transition = 'opacity 0.38s ease';
-  if (pill) pill.style.transition = 'opacity 0.38s ease';
+}
 
-  setInterval(switchDevice, 3500);
+
+// --- Hero price check (reads prices.json, the same file prices.html syncs from) ---
+function initPriceCheck() {
+  const devSel = document.getElementById('pc-device');
+  const repSel = document.getElementById('pc-repair');
+  const priceEl = document.getElementById('pc-price');
+  const timeEl = document.getElementById('pc-time');
+  const bookEl = document.getElementById('pc-book');
+  if (!devSel || !repSel) return;
+
+  fetch('prices.json').then(r => r.json()).then(data => {
+    const devices = [];
+    Object.entries(data.groups).forEach(([gid, g]) => {
+      g.columns.forEach((label, col) => devices.push({ id: gid + ':' + col, label, gid, col }));
+    });
+    devSel.innerHTML = devices.map(d => `<option value="${d.id}">${escapeHtml(d.label)}</option>`).join('');
+
+    function fillRepairs(keep) {
+      const d = devices.find(x => x.id === devSel.value) || devices[0];
+      const rows = data.groups[d.gid].rows;
+      repSel.innerHTML = rows.map((r, i) => `<option value="${i}">${escapeHtml(r.name)}</option>`).join('');
+      const match = keep ? rows.findIndex(r => r.name === keep) : -1;
+      repSel.value = String(match >= 0 ? match : 0);
+    }
+
+    function update() {
+      const d = devices.find(x => x.id === devSel.value) || devices[0];
+      const row = data.groups[d.gid].rows[Number(repSel.value)] || data.groups[d.gid].rows[0];
+      priceEl.textContent = row.prices[d.col] || 'POA';
+      timeEl.textContent = row.time || '';
+      const msg = "Hi, I'd like a quote for " + d.label + ' ' + row.name.toLowerCase() + ' please';
+      bookEl.href = 'https://wa.me/447526292760?text=' + encodeURIComponent(msg);
+    }
+
+    devSel.addEventListener('change', () => {
+      const current = repSel.options[repSel.selectedIndex] ? repSel.options[repSel.selectedIndex].text : '';
+      fillRepairs(current);
+      update();
+    });
+    repSel.addEventListener('change', update);
+
+    fillRepairs();
+    update();
+  }).catch(() => {
+    // Leave the static defaults in place; the selects stay empty but the Book link still works.
+  });
+}
+
+
+// --- "Open now" badge in the hero, from the shop's opening hours (Europe/London) ---
+function initOpenBadge() {
+  const el = document.getElementById('open-badge-text');
+  const badge = document.getElementById('open-badge');
+  if (!el || !badge) return;
+  // [open, close] in minutes from midnight, Sunday first
+  const HOURS = [[11 * 60, 16 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 18 * 60]];
+  const fmt = m => {
+    const h = Math.floor(m / 60), mm = m % 60;
+    const h12 = ((h + 11) % 12) + 1;
+    return h12 + (mm ? ':' + String(mm).padStart(2, '0') : '') + (h < 12 ? 'am' : 'pm');
+  };
+  try {
+    const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false }).formatToParts(new Date());
+    const get = t => (parts.find(p => p.type === t) || {}).value;
+    const day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(get('weekday'));
+    const now = Number(get('hour')) % 24 * 60 + Number(get('minute'));
+    if (day < 0 || Number.isNaN(now)) return;
+    const [open, close] = HOURS[day];
+    if (now >= open && now < close) {
+      el.textContent = 'Open now until ' + fmt(close) + ' · Walk-ins welcome';
+      badge.classList.add('is-open');
+    } else {
+      const next = now < open ? HOURS[day][0] : HOURS[(day + 1) % 7][0];
+      el.textContent = 'Closed · Opens ' + (now < open ? 'today' : 'tomorrow') + ' at ' + fmt(next);
+      badge.classList.add('is-closed');
+    }
+  } catch (e) { /* keep the static text */ }
 }
 
 
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
   loadProducts();
+  initPriceCheck();
+  initOpenBadge();
   initFilters();
   initMenu();
   initScrollSpy();

@@ -2,7 +2,7 @@
 
 **Business:** Faiz Mobile Accessories Ltd
 **Location:** 241B Mere Road, Leicester LE5 5GS
-**Contact:** 07440 423 053 | faizmobilele55gs1@gmail.com
+**Contact:** +44 7526 292760 | faizmobilele55gs1@gmail.com
 **Goal:** Improve the site across design, mobile experience, features, and SEO — then publish on a custom domain.
 
 ---

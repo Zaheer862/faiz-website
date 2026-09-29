@@ -1,7 +1,7 @@
 # F.AI.Z Website — V2
 
 > **Faiz Mobile Accessories Ltd** — Phone, Tablet & Computer Repair, Leicester
-> 241B Mere Road, Leicester LE5 5GS | 07440 423 053
+> 241B Mere Road, Leicester LE5 5GS | +44 7526 292760
 
 This is the **V2 development project** for the F.AI.Z website. The goal is to improve the site across design, mobile experience, new features, SEO, and local reach — then publish it on a custom domain.
 
