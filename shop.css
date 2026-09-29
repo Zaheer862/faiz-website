@@ -1448,7 +1448,7 @@
 .shop-product-desc { color: var(--muted); }
 .card-storage-pill { border: 1px solid var(--hairline); background: transparent; color: #c6cdd9; border-radius: 99px; }
 .card-storage-pill.active, .card-storage-pill.selected { background: var(--text-primary); color: var(--bg-primary); border-color: var(--text-primary); }
-.shop-product-price { font-family: var(--font-serif); font-weight: 400; font-size: 1.6rem; letter-spacing: -0.02em; color: var(--text-primary); }
+.shop-product-price { font-family: var(--font-display); font-weight: 600; font-size: 1.4rem; letter-spacing: -0.02em; color: var(--text-primary); font-variant-numeric: tabular-nums; }
 .add-to-cart-btn { background: var(--text-primary); color: var(--bg-primary); border-radius: 99px; font-weight: 600; }
 .add-to-cart-btn:hover { background: #ffffff; color: var(--bg-primary); transform: none; box-shadow: none; }
 .add-to-cart-btn.added { background: #25d366; color: #06281a; }
