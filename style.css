@@ -2918,3 +2918,134 @@ nav a:hover { color: var(--text-primary); }
 section { scroll-margin-top: 80px; }
 .section-header { margin-bottom: 3.5rem; }
 .section-sub { color: #a3adbf; font-weight: 400; }
+
+
+
+/* ============================================
+   2026-09 EDITORIAL PASS
+   Instrument Serif display type with tight leading, muted body copy,
+   pill buttons, hairline stats strip, transparent-until-scrolled
+   header, faded wordmark behind the footer, more air between sections
+   ============================================ */
+
+:root {
+  --font-serif: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+  --muted: rgba(242, 242, 240, 0.55);
+}
+
+/* Display type */
+h1, h2, .section-title, .hero-text .hero-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+}
+.hero-text .hero-title { font-size: clamp(3.2rem, 5.4vw, 5rem); margin-bottom: 1.25rem; }
+.hero-text .hero-title .ai { display: block; }
+.hero-text .hero-title .ai { font-style: italic; font-weight: 400; color: var(--accent-light); text-shadow: none; }
+.section-title { font-size: clamp(2.6rem, 5vw, 4.2rem); margin-bottom: 1.25rem; }
+.section-header .section-title { max-width: 14ch; }
+.section-sub, .hero-text .hero-desc, .service-body p, .review-text, .process-content p, .why-item p, .product-desc, .blog-card p, .faq-answer p, .footer-brand p {
+  color: var(--muted);
+  font-weight: 400;
+}
+.hero-text .hero-desc { font-size: 1.15rem; line-height: 1.55; max-width: 480px; }
+.hero-text .hero-tagline { display: none; }
+
+/* Stats as a hairline strip with serif numerals, not a boxed grid */
+.hero-stats, .hero-text .hero-stats--inline {
+  background: transparent;
+  border: none;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  border-radius: 0;
+  max-width: 600px;
+  margin: 0.75rem 0 0;
+  gap: 0;
+}
+.hero-stats--inline .hero-stat { padding: 1.1rem 0.75rem 1rem; border-right: 1px solid var(--hairline); align-items: flex-start; }
+.hero-stats--inline .hero-stat:last-child { border-right: none; }
+.hero-stat:hover { background: transparent; }
+.stat-number-row { align-items: baseline; gap: 0.15rem; margin-bottom: 0.35rem; }
+.hero-stats--inline .stat-num, .stat-num { font-family: var(--font-serif); font-weight: 400; font-size: 2.2rem; letter-spacing: -0.03em; line-height: 0.9; }
+.stat-suffix { font-family: var(--font-serif); font-weight: 400; font-size: 1.15rem; color: var(--gold); letter-spacing: 0; }
+.hero-stats--inline .stat-label { font-size: 0.6rem; letter-spacing: 1.4px; color: var(--muted); text-align: left; }
+@media (max-width: 600px) {
+  .hero-stats--inline .hero-stat { align-items: center; border-bottom: 1px solid var(--hairline); }
+  .hero-stats--inline .hero-stat:nth-child(even) { border-right: none; }
+  .hero-stats--inline .hero-stat:nth-child(3), .hero-stats--inline .hero-stat:nth-child(4) { border-bottom: none; }
+  .hero-stats--inline .stat-label { text-align: center; }
+  .hero-text .hero-stats--inline { max-width: none; }
+}
+
+/* Pill buttons and pill controls */
+.btn, .nav-cta, .filter-btn, .service-book-btn, .product-enquire, .price-book-btn, .price-check .btn, .mobile-cta-bar .btn {
+  border-radius: 99px;
+}
+.btn-lg { padding: 0.95rem 1.9rem; }
+.btn-primary { background: rgba(255, 255, 255, 0.06); color: var(--text-primary); border: 1px solid rgba(255, 255, 255, 0.16); }
+.btn-primary:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.3); color: var(--text-primary); transform: none; }
+.btn-whatsapp { background: #25d366; color: #06281a; }
+.btn-whatsapp:hover { background: #33e07a; transform: none; box-shadow: none; }
+.btn-call { background: rgba(255, 255, 255, 0.06); color: var(--text-primary); border: 1px solid rgba(255, 255, 255, 0.16); }
+.mobile-cta-bar .btn-call { background: var(--text-primary); color: var(--bg-primary); border: none; }
+.filter-btn.active { background: var(--text-primary); color: var(--bg-primary); border-color: var(--text-primary); }
+.price-check-select select { border-radius: 99px; padding-left: 1.1rem; }
+
+/* Header: transparent over the hero, glass once scrolled */
+header, #site-header {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-bottom: 1px solid transparent;
+  box-shadow: none;
+}
+header.scrolled, #site-header.scrolled {
+  background: rgba(3, 7, 18, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--hairline);
+  box-shadow: none;
+}
+header::after { display: none; }
+.logo-name { font-family: var(--font-serif); font-weight: 400; font-size: 1.85rem; letter-spacing: 0.02em; }
+.logo-name .ai { font-style: italic; text-shadow: none; }
+.footer-logo { font-family: var(--font-serif); font-weight: 400; font-size: 2rem; letter-spacing: 0.02em; }
+.footer-logo .ai { font-style: italic; text-shadow: none; }
+
+/* More air */
+section { padding: 8rem 0; }
+#hero { padding-top: 8rem; }
+.section-header { margin-bottom: 4rem; }
+@media (max-width: 768px) {
+  section { padding: 5rem 0; }
+  .section-header { margin-bottom: 2.5rem; }
+}
+
+/* Cards: quieter still */
+.service-card, .product-card, .review-card, .why-item, .process-step, .faq-item, .blog-card, .contact-card, .price-check {
+  background: #0c111c;
+  border-radius: 20px;
+}
+.service-card .service-img img { filter: saturate(0.85); }
+.review-text { font-family: var(--font-serif); font-style: normal; font-size: 1.25rem; line-height: 1.35; letter-spacing: -0.01em; color: #e6e8ee; }
+
+/* Faded wordmark behind the footer */
+footer { position: relative; overflow: hidden; }
+footer .container { position: relative; z-index: 2; }
+.massive-wordmark {
+  position: absolute;
+  left: 50%;
+  bottom: -0.18em;
+  transform: translateX(-50%);
+  font-family: var(--font-serif);
+  font-size: clamp(6rem, 22vw, 22rem);
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  opacity: 0.045;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
