@@ -379,6 +379,10 @@ function initDeviceRotator() {
   // no background) and it joins the rotation automatically. Missing files
   // are skipped, so nothing breaks before the file exists.
   const extraRenders = [
+    { src: 'images/site/hero-iphone-pro.svg',   alt: 'Latest iPhone Pro',        pill: fzIcon('apple') + ' iPhones Repaired' },
+    { src: 'images/site/hero-iphone-fold.svg',  alt: 'Foldable iPhone',          pill: fzIcon('mobile-alt') + ' Foldables Repaired' },
+    { src: 'images/site/hero-galaxy-ultra.svg', alt: 'Samsung Galaxy Ultra',     pill: fzIcon('mobile-alt') + ' Galaxy Specialists' },
+    { src: 'images/site/hero-playstation.svg',  alt: 'PlayStation console',      pill: fzIcon('gamepad') + ' Consoles Repaired' },
     { src: 'images/site/hero-fold7.png',    alt: 'Samsung Galaxy Z Fold7',  pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
     { src: 'images/site/hero-flip7.png',    alt: 'Samsung Galaxy Z Flip7',  pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
     { src: 'images/site/hero-iphone17.png', alt: 'Apple iPhone 17 Pro',     pill: fzIcon('apple') + ' iPhones Repaired' },

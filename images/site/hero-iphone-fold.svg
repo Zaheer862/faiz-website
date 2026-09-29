@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800"><defs>
+  <linearGradient id="ti" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8d939c"/><stop offset="0.35" stop-color="#3a3f47"/><stop offset="0.6" stop-color="#20242a"/><stop offset="1" stop-color="#6c727b"/>
+  </linearGradient>
+  <linearGradient id="tiLight" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#d9dde3"/><stop offset="0.4" stop-color="#8a9099"/><stop offset="0.7" stop-color="#5b616a"/><stop offset="1" stop-color="#c9ced5"/>
+  </linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1b1f26"/><stop offset="1" stop-color="#0b0e13"/>
+  </linearGradient>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1b3a"/><stop offset="0.45" stop-color="#1a3d7a"/><stop offset="0.7" stop-color="#5b3ea6"/><stop offset="1" stop-color="#d6b986"/>
+  </linearGradient>
+  <linearGradient id="wall2" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#071226"/><stop offset="0.5" stop-color="#0e3a5a"/><stop offset="1" stop-color="#7ab8d9"/>
+  </linearGradient>
+  <radialGradient id="orb" cx="0.7" cy="0.25" r="0.7">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.35" stop-color="#d6b986" stop-opacity="0.35"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.16"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.02"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="lens" cx="0.35" cy="0.3" r="0.8">
+    <stop offset="0" stop-color="#3a4250"/><stop offset="0.5" stop-color="#0b0e13"/><stop offset="1" stop-color="#000"/>
+  </radialGradient>
+  <radialGradient id="lensIn" cx="0.4" cy="0.35" r="0.7">
+    <stop offset="0" stop-color="#2d5b8f"/><stop offset="0.6" stop-color="#0a1626"/><stop offset="1" stop-color="#000"/>
+  </radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+  <filter id="drop" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/></filter>
+  
+</defs>
+<g filter="url(#drop)">
+  <rect x="40" y="130" width="520" height="500" rx="46" fill="url(#ti)"/>
+  <rect x="45" y="135" width="510" height="490" rx="42" fill="url(#body)"/>
+  <rect x="54" y="144" width="492" height="472" rx="34" fill="url(#wall2)"/>
+  <rect x="54" y="144" width="492" height="472" rx="34" fill="url(#orb)"/>
+  <rect x="54" y="144" width="492" height="472" rx="34" fill="url(#gloss)"/>
+  <!-- crease -->
+  <rect x="298" y="144" width="4" height="472" fill="#000" opacity="0.18"/>
+  <rect x="296" y="144" width="1" height="472" fill="#fff" opacity="0.12"/>
+  <circle cx="512" cy="176" r="8" fill="#05070b"/>
+  <!-- hinge -->
+  <rect x="292" y="126" width="16" height="10" rx="3" fill="#6c727b"/>
+  <rect x="292" y="624" width="16" height="10" rx="3" fill="#6c727b"/>
+  <rect x="558" y="300" width="4" height="70" rx="2" fill="#5a606a"/>
+  <rect x="558" y="390" width="4" height="40" rx="2" fill="#5a606a"/>
+</g>
+<!-- widgets -->
+<g font-family="Inter, system-ui, sans-serif" fill="#fff">
+  <text x="90" y="230" font-weight="300" font-size="64" opacity="0.92">10:24</text>
+  <text x="92" y="262" font-weight="500" font-size="16" opacity="0.7">Tuesday 29 September</text>
+  <rect x="90" y="300" width="200" height="120" rx="22" fill="#fff" opacity="0.1"/>
+  <rect x="310" y="300" width="200" height="120" rx="22" fill="#fff" opacity="0.1"/>
+  <rect x="90" y="440" width="420" height="120" rx="22" fill="#fff" opacity="0.1"/>
+  <g opacity="0.85"><rect x="110" y="320" width="36" height="36" rx="10" fill="#d6b986"/><rect x="330" y="320" width="36" height="36" rx="10" fill="#7ab8d9"/><rect x="110" y="460" width="36" height="36" rx="10" fill="#25d366"/></g>
+</g>
+<rect x="240" y="596" width="120" height="5" rx="2.5" fill="#fff" opacity="0.7"/>
+</svg>
