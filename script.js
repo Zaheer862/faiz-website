@@ -375,15 +375,40 @@ function initDeviceRotator() {
     }
   ];
 
+  // Newer devices: drop a transparent PNG at each path below (800px+ tall,
+  // no background) and it joins the rotation automatically. Missing files
+  // are skipped, so nothing breaks before the file exists.
+  const extraRenders = [
+    { src: 'images/site/hero-fold7.png',    alt: 'Samsung Galaxy Z Fold7',  pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
+    { src: 'images/site/hero-flip7.png',    alt: 'Samsung Galaxy Z Flip7',  pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
+    { src: 'images/site/hero-iphone17.png', alt: 'Apple iPhone 17 Pro',     pill: fzIcon('apple') + ' iPhones Repaired' },
+    { src: 'images/site/hero-pixel10.png',  alt: 'Google Pixel 10',         pill: fzIcon('mobile-alt') + ' All Brands Repaired' },
+    { src: 'images/site/hero-ipad.png',     alt: 'Apple iPad Pro',          pill: fzIcon('tablet-alt') + ' Tablets Repaired' }
+  ].map(d => Object.assign({ blend: false, glow: 'rgba(214,185,134,0.22)' }, d));
+
   // Stock photos in a frame never looked premium next to the cut-out renders;
   // rotate only the transparent device renders.
-  const renders = devices.filter(d => !d.photo);
-  if (renders.length < 2) return;
-
+  const candidates = devices.filter(d => !d.photo).concat(extraRenders);
+  const renders = [];
   let idx = 0;
 
-  // Preload all images silently
-  renders.forEach(d => { const i = new Image(); i.src = d.src; });
+  // Preload; keep only the files that actually exist
+  let pending = candidates.length;
+  candidates.forEach(d => {
+    const i = new Image();
+    i.onload = () => { renders.push(d); if (--pending === 0) start(); };
+    i.onerror = () => { if (--pending === 0) start(); };
+    i.src = d.src;
+  });
+
+  function start() {
+    // keep the authored order
+    renders.sort((a, b) => candidates.indexOf(a) - candidates.indexOf(b));
+    if (renders.length < 2) return;
+    img.style.transition = 'opacity 0.38s ease';
+    if (pill) pill.style.transition = 'opacity 0.38s ease';
+    setInterval(switchDevice, 4500);
+  }
 
   function switchDevice() {
     idx = (idx + 1) % renders.length;
@@ -413,11 +438,6 @@ function initDeviceRotator() {
     }, 380);
   }
 
-  // Add CSS transition if not already there
-  img.style.transition = 'opacity 0.38s ease';
-  if (pill) pill.style.transition = 'opacity 0.38s ease';
-
-  setInterval(switchDevice, 4500);
 }
 
 
