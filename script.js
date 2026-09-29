@@ -382,7 +382,7 @@ function initDeviceRotator() {
     { src: 'images/site/hero-fold8.png',       alt: 'Samsung Galaxy Z Fold in hand', pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
     { src: 'images/site/hero-iphone-fold.png', alt: 'Foldable iPhone in hands',      pill: fzIcon('apple') + ' iPhones Repaired' },
     { src: 'images/site/hero-flip8.png',       alt: 'Samsung Galaxy Z Flip in hand', pill: fzIcon('mobile-alt') + ' Galaxy Specialists' },
-    { src: 'images/site/hero-playstation.svg', alt: 'PlayStation console',         pill: fzIcon('gamepad') + ' Consoles Repaired' },
+    { src: 'images/site/hero-ps5.png',         alt: 'PlayStation 5 with controller', pill: fzIcon('gamepad') + ' Consoles Repaired' },
     { src: 'images/site/hero-iphone17.png',    alt: 'Apple iPhone 17 Pro',           pill: fzIcon('apple') + ' iPhones Repaired' },
     { src: 'images/site/hero-pixel10.png',     alt: 'Google Pixel 10',               pill: fzIcon('mobile-alt') + ' All Brands Repaired' },
     { src: 'images/site/hero-ipad.png',        alt: 'Apple iPad Pro',                pill: fzIcon('tablet-alt') + ' Tablets Repaired' }
