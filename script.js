@@ -375,14 +375,19 @@ function initDeviceRotator() {
     }
   ];
 
+  // Stock photos in a frame never looked premium next to the cut-out renders;
+  // rotate only the transparent device renders.
+  const renders = devices.filter(d => !d.photo);
+  if (renders.length < 2) return;
+
   let idx = 0;
 
   // Preload all images silently
-  devices.forEach(d => { const i = new Image(); i.src = d.src; });
+  renders.forEach(d => { const i = new Image(); i.src = d.src; });
 
   function switchDevice() {
-    idx = (idx + 1) % devices.length;
-    const dev = devices[idx];
+    idx = (idx + 1) % renders.length;
+    const dev = renders[idx];
 
     // Fade out
     img.style.opacity = '0';
@@ -412,7 +417,7 @@ function initDeviceRotator() {
   img.style.transition = 'opacity 0.38s ease';
   if (pill) pill.style.transition = 'opacity 0.38s ease';
 
-  setInterval(switchDevice, 3500);
+  setInterval(switchDevice, 4500);
 }
 
 
