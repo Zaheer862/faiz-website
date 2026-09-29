@@ -86,7 +86,7 @@ async function loadProducts(filter = 'all') {
           <div class="product-desc">${escapeHtml(p.description)}</div>
           <a href="https://wa.me/447526292760?text=${encodeURIComponent('Hi, I\'m interested in: ' + p.name + ' (£' + p.price.toFixed(2) + ')')}"
              target="_blank" class="product-enquire">
-            ${fzIcon('whatsapp')} Enquire on WhatsApp
+            ${fzIcon('whatsapp')} <span class="enq-long">Enquire on WhatsApp</span><span class="enq-short">Enquire</span>
           </a>
         </div>
       </div>

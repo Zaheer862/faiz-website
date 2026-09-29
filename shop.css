@@ -45,7 +45,7 @@
   min-width: 240px;
 }
 
-.toolbar-search i {
+.toolbar-search i, .toolbar-search .ic, .toolbar-search .ic {
   position: absolute;
   left: 1rem;
   top: 50%;
@@ -81,7 +81,7 @@
   min-width: 200px;
 }
 
-.toolbar-sort i {
+.toolbar-sort i, .toolbar-sort .ic, .toolbar-sort .ic {
   position: absolute;
   left: 1rem;
   top: 50%;
@@ -92,15 +92,15 @@
 }
 
 .toolbar-sort::after {
-  content: "\f078";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid var(--text-muted);
+  border-bottom: 1.5px solid var(--text-muted);
   position: absolute;
-  right: 1rem;
+  right: 1.1rem;
   top: 50%;
-  transform: translateY(-50%);
-  color: var(--text-muted);
-  font-size: 0.7rem;
+  transform: translateY(-70%) rotate(45deg);
   pointer-events: none;
 }
 
@@ -185,7 +185,7 @@
   color: var(--accent-light);
 }
 
-.brand-btn i {
+.brand-btn i, .brand-btn .ic, .brand-btn .ic {
   font-size: 0.85rem;
 }
 
@@ -500,7 +500,7 @@
   gap: 1rem;
 }
 
-.shipping-feature i {
+.shipping-feature i, .shipping-feature .ic, .shipping-feature .ic {
   font-size: 1.5rem;
   color: var(--accent);
   margin-top: 0.15rem;
@@ -575,7 +575,7 @@
   gap: 0.5rem;
 }
 
-.cart-drawer-header h2 i {
+.cart-drawer-header h2 i, .cart-drawer-header h2 .ic, .cart-drawer-header h2 .ic {
   color: var(--accent);
 }
 
@@ -611,7 +611,7 @@
   padding: 3rem 1rem;
 }
 
-.cart-empty i {
+.cart-empty i, .cart-empty .ic, .cart-empty .ic {
   font-size: 3rem;
   color: var(--text-muted);
   opacity: 0.3;
@@ -887,7 +887,7 @@
   gap: 0.5rem;
 }
 
-.modal-header h2 i {
+.modal-header h2 i, .modal-header h2 .ic, .modal-header h2 .ic {
   color: var(--accent);
 }
 
@@ -1021,7 +1021,7 @@
   gap: 0.5rem;
 }
 
-.review-section h4 i {
+.review-section h4 i, .review-section h4 .ic, .review-section h4 .ic {
   color: var(--accent);
   font-size: 0.85rem;
 }
@@ -1137,7 +1137,7 @@
   margin: 1.5rem 0;
 }
 
-.review-payment-note i {
+.review-payment-note i, .review-payment-note .ic, .review-payment-note .ic {
   color: var(--accent);
   font-size: 1.1rem;
   margin-top: 0.1rem;
@@ -1164,7 +1164,7 @@
   margin-bottom: 1.5rem;
 }
 
-.confirmation-icon i {
+.confirmation-icon i, .confirmation-icon .ic, .confirmation-icon .ic {
   font-size: 4rem;
   color: #22c55e;
   animation: confirmPop 0.5s ease;
@@ -1242,7 +1242,7 @@
   transform: translateX(-50%) translateY(0);
 }
 
-.toast i {
+.toast i, .toast .ic, .toast .ic {
   color: #22c55e;
   font-size: 1rem;
 }
@@ -1453,7 +1453,7 @@
 .add-to-cart-btn:hover { background: #ffffff; color: var(--bg-primary); transform: none; box-shadow: none; }
 .add-to-cart-btn.added { background: #25d366; color: #06281a; }
 .shipping-info-bar { border-color: var(--hairline); }
-.shipping-feature i, .shipping-feature .ic { color: var(--gold); }
+.shipping-feature i, .shipping-feature .ic, .shipping-feature .ic { color: var(--gold); }
 .shop-load-more { border-radius: 99px; }
 .cart-drawer, .modal { border-color: var(--hairline); }
 @media (max-width: 768px) {

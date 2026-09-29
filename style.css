@@ -3084,3 +3084,56 @@ footer .container { position: relative; z-index: 2; }
 .nav-cart-btn .cart-count { background: var(--gold); color: #1a1408; }
 .nav-shop-link { color: var(--text-primary); }
 .nav-shop-link .ic { color: var(--gold); }
+
+
+/* ============================================
+   2026-09 LOOSE ENDS (homepage)
+   ============================================ */
+
+/* Blue leftovers → white / gold / hairline */
+.process-number { background: var(--text-primary); color: var(--bg-primary); font-family: var(--font-serif); font-size: 1.35rem; font-weight: 400; box-shadow: none; }
+.process-line, .process-connector { background: var(--hairline); }
+.process-info-banner { background: rgba(255,255,255,0.03); border: 1px solid var(--hairline); border-radius: 16px; color: var(--muted); }
+.process-info-banner strong { color: var(--text-primary); }
+.process-info-banner i, .process-info-banner .ic { color: var(--gold); }
+.service-icon-wrap, .why-icon-wrap, .contact-card-icon, .review-avatar, .faq-question .ic, .faq-question i {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--hairline);
+  color: var(--gold);
+}
+.service-icon-wrap, .why-icon-wrap, .contact-card-icon { border-radius: 12px; }
+.review-avatar { color: var(--text-primary); font-family: var(--font-serif); font-weight: 400; font-size: 1.1rem; }
+.faq-question .ic, .faq-question i { width: 28px; height: 28px; padding: 6px; border-radius: 50%; box-sizing: border-box; color: var(--text-muted); }
+.faq-item.active .faq-question .ic, .faq-item.active .faq-question i { color: var(--gold); }
+.filter-btn .ic { color: var(--text-muted); }
+.filter-btn.active .ic { color: var(--bg-primary); }
+
+/* Homepage product cards: small source images shown whole, serif price, outline enquire */
+.product-img { background: #0a0f19; padding: 1rem; }
+.product-img img { object-fit: contain !important; }
+.product-price { font-family: var(--font-serif); font-weight: 400; font-size: 1.5rem; color: var(--text-primary); letter-spacing: -0.02em; }
+.product-enquire { background: transparent; border: 1px solid var(--hairline); color: var(--text-primary); border-radius: 99px; font-weight: 500; }
+.product-enquire:hover { border-color: #25d366; color: #25d366; background: rgba(37,211,102,0.06); }
+.enq-short { display: none; }
+@media (max-width: 480px) {
+  .enq-long { display: none; }
+  .enq-short { display: inline; }
+}
+
+/* Footer CTA strip */
+.footer-cta-inner { border: 1px solid var(--hairline); border-radius: 20px; background: #0c111c; }
+.footer-cta-inner h3 { font-family: var(--font-serif); font-weight: 400; font-size: 2rem; letter-spacing: -0.02em; }
+.footer-cta-inner p { color: var(--muted); }
+
+/* Mobile tidy-ups */
+@media (max-width: 600px) {
+  .hero-footer .hero-trust-bar { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 1rem; justify-items: start; text-align: left; }
+  .hero-footer .trust-divider { display: none; }
+  .hero-footer .trust-item { font-size: 0.78rem; }
+  .brand-logos-row { gap: 1.1rem 1.4rem; }
+  .service-footer { flex-wrap: wrap; gap: 0.6rem; }
+  .service-book-btn { white-space: nowrap; }
+  .hours-row span:first-child { white-space: nowrap; }
+  .hours-row { font-size: 0.8rem; }
+  .footer-bottom p { font-size: 0.75rem; line-height: 1.6; }
+}
