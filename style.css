@@ -3252,3 +3252,5 @@ footer .container { position: relative; z-index: 2; }
   .hero-device-img { width: 220px; height: 310px; }
   .hero-device-glow { width: 300px; height: 300px; }
 }
+/* Photo cut-outs are lower resolution than the renders: never upscale past ~1.4x */
+.hero-device-img { max-width: 320px; }

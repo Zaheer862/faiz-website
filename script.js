@@ -379,15 +379,13 @@ function initDeviceRotator() {
   // no background) and it joins the rotation automatically. Missing files
   // are skipped, so nothing breaks before the file exists.
   const extraRenders = [
-    { src: 'images/site/hero-iphone-pro.svg',   alt: 'Latest iPhone Pro',        pill: fzIcon('apple') + ' iPhones Repaired' },
-    { src: 'images/site/hero-iphone-fold.svg',  alt: 'Foldable iPhone',          pill: fzIcon('mobile-alt') + ' Foldables Repaired' },
-    { src: 'images/site/hero-galaxy-ultra.svg', alt: 'Samsung Galaxy Ultra',     pill: fzIcon('mobile-alt') + ' Galaxy Specialists' },
-    { src: 'images/site/hero-playstation.svg',  alt: 'PlayStation console',      pill: fzIcon('gamepad') + ' Consoles Repaired' },
-    { src: 'images/site/hero-fold7.png',    alt: 'Samsung Galaxy Z Fold7',  pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
-    { src: 'images/site/hero-flip7.png',    alt: 'Samsung Galaxy Z Flip7',  pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
-    { src: 'images/site/hero-iphone17.png', alt: 'Apple iPhone 17 Pro',     pill: fzIcon('apple') + ' iPhones Repaired' },
-    { src: 'images/site/hero-pixel10.png',  alt: 'Google Pixel 10',         pill: fzIcon('mobile-alt') + ' All Brands Repaired' },
-    { src: 'images/site/hero-ipad.png',     alt: 'Apple iPad Pro',          pill: fzIcon('tablet-alt') + ' Tablets Repaired' }
+    { src: 'images/site/hero-fold8.png',       alt: 'Samsung Galaxy Z Fold in hand', pill: fzIcon('mobile-alt') + ' Foldables In Stock' },
+    { src: 'images/site/hero-iphone-fold.png', alt: 'Foldable iPhone in hands',      pill: fzIcon('apple') + ' iPhones Repaired' },
+    { src: 'images/site/hero-flip8.png',       alt: 'Samsung Galaxy Z Flip in hand', pill: fzIcon('mobile-alt') + ' Galaxy Specialists' },
+    { src: 'images/site/hero-ps5.png',         alt: 'PlayStation 5 with controller', pill: fzIcon('gamepad') + ' Consoles Repaired' },
+    { src: 'images/site/hero-iphone17.png',    alt: 'Apple iPhone 17 Pro',           pill: fzIcon('apple') + ' iPhones Repaired' },
+    { src: 'images/site/hero-pixel10.png',     alt: 'Google Pixel 10',               pill: fzIcon('mobile-alt') + ' All Brands Repaired' },
+    { src: 'images/site/hero-ipad.png',        alt: 'Apple iPad Pro',                pill: fzIcon('tablet-alt') + ' Tablets Repaired' }
   ].map(d => Object.assign({ blend: false, glow: 'rgba(214,185,134,0.22)' }, d));
 
   // Stock photos in a frame never looked premium next to the cut-out renders;
