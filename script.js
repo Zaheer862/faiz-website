@@ -336,6 +336,7 @@ function initDeviceRotator() {
     },
     {
       src:   'images/site/hero-iphone.jpg',
+      photo: true,
       alt:   'Apple iPhone',
       pill:  fzIcon('apple') + ' iPhones Repaired',
       blend: false,
@@ -343,6 +344,7 @@ function initDeviceRotator() {
     },
     {
       src:   'images/site/hero-android.jpg',
+      photo: true,
       alt:   'Android Phone Repair',
       pill:  fzIcon('mobile-alt') + ' All Brands Repaired',
       blend: false,
@@ -357,6 +359,7 @@ function initDeviceRotator() {
     },
     {
       src:   'images/site/hero-watch.jpg',
+      photo: true,
       alt:   'Smartwatch Repair',
       pill:  fzIcon('clock') + ' Smartwatches Too',
       blend: false,
@@ -364,6 +367,7 @@ function initDeviceRotator() {
     },
     {
       src:   'images/site/hero-console.jpg',
+      photo: true,
       alt:   'PlayStation Console Repair',
       pill:  fzIcon('gamepad') + ' Consoles Repaired',
       blend: false,
@@ -388,6 +392,8 @@ function initDeviceRotator() {
       img.src = dev.src;
       img.alt = dev.alt;
       img.style.mixBlendMode = dev.blend ? 'multiply' : 'normal';
+      // Stock photos get a framed card; transparent device renders float free
+      img.classList.toggle('is-photo', !!dev.photo);
 
       if (pill) {
         pill.innerHTML = dev.pill;
@@ -458,10 +464,42 @@ function initPriceCheck() {
 }
 
 
+// --- "Open now" badge in the hero, from the shop's opening hours (Europe/London) ---
+function initOpenBadge() {
+  const el = document.getElementById('open-badge-text');
+  const badge = document.getElementById('open-badge');
+  if (!el || !badge) return;
+  // [open, close] in minutes from midnight, Sunday first
+  const HOURS = [[11 * 60, 16 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 19 * 60], [9 * 60, 18 * 60]];
+  const fmt = m => {
+    const h = Math.floor(m / 60), mm = m % 60;
+    const h12 = ((h + 11) % 12) + 1;
+    return h12 + (mm ? ':' + String(mm).padStart(2, '0') : '') + (h < 12 ? 'am' : 'pm');
+  };
+  try {
+    const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false }).formatToParts(new Date());
+    const get = t => (parts.find(p => p.type === t) || {}).value;
+    const day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(get('weekday'));
+    const now = Number(get('hour')) % 24 * 60 + Number(get('minute'));
+    if (day < 0 || Number.isNaN(now)) return;
+    const [open, close] = HOURS[day];
+    if (now >= open && now < close) {
+      el.textContent = 'Open now until ' + fmt(close) + ' · Walk-ins welcome';
+      badge.classList.add('is-open');
+    } else {
+      const next = now < open ? HOURS[day][0] : HOURS[(day + 1) % 7][0];
+      el.textContent = 'Closed · Opens ' + (now < open ? 'today' : 'tomorrow') + ' at ' + fmt(next);
+      badge.classList.add('is-closed');
+    }
+  } catch (e) { /* keep the static text */ }
+}
+
+
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
   loadProducts();
   initPriceCheck();
+  initOpenBadge();
   initFilters();
   initMenu();
   initScrollSpy();
