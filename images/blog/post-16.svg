@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Cybersecurity fraud protection concept">
+  <defs>
+    <linearGradient id="bg16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#481518"/>
+      <stop offset="100%" stop-color="#8a0f16"/>
+    </linearGradient>
+    <radialGradient id="glowA16" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f6515a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f6515a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink16" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft16" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg16)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="517" cy="124" r="150" fill="url(#glowA16)" filter="url(#soft16)"/>
+  <circle cx="147" cy="317" r="120" fill="url(#glowA16)" opacity="0.5" filter="url(#soft16)"/>
+
+  <!-- decorative pattern -->
+  <circle cx="360" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="30" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="64" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="98" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="132" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="166" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="200" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="234" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="268" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="302" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="360" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="394" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="428" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="462" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="496" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="530" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="564" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+  <circle cx="598" cy="336" r="2.4" fill="#f6515a" opacity="0.18"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><path d="M50 6 L84 20 V48 C84 72 68 86 50 94 C32 86 16 72 16 48 V20 Z"
+             fill="none" stroke="#f6515a" stroke-width="4"/>
+           <path d="M37 49 L46 60 L65 36" fill="none" stroke="#f6515a" stroke-width="5"
+             stroke-linecap="round" stroke-linejoin="round"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="168" height="34" rx="17" fill="#f6515a" opacity="0.16"/>
+    <rect width="168" height="34" rx="17" fill="none" stroke="#f6515a" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><path d="M50 6 L84 20 V48 C84 72 68 86 50 94 C32 86 16 72 16 48 V20 Z"
+             fill="none" stroke="#f78e93" stroke-width="4"/>
+           <path d="M37 49 L46 60 L65 36" fill="none" stroke="#f78e93" stroke-width="5"
+             stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#f78e93">CYBER SECURITY</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#f6515a" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#f6515a" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><path d="M50 6 L84 20 V48 C84 72 68 86 50 94 C32 86 16 72 16 48 V20 Z"
+             fill="none" stroke="#f78e93" stroke-width="4"/>
+           <path d="M37 49 L46 60 L65 36" fill="none" stroke="#f78e93" stroke-width="5"
+             stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="56" font-weight="800" letter-spacing="-1" fill="url(#ink16)">FRAUD ALERT</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#f6515a"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Stay safe online</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#f6515a" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>

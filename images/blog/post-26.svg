@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Nintendo Switch handheld console gaming">
+  <defs>
+    <linearGradient id="bg26" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#05282b"/>
+    </linearGradient>
+    <radialGradient id="glowA26" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0bc5d2" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0bc5d2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink26" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft26" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg26)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="497" cy="129" r="150" fill="url(#glowA26)" filter="url(#soft26)"/>
+  <circle cx="127" cy="337" r="120" fill="url(#glowA26)" opacity="0.5" filter="url(#soft26)"/>
+
+  <!-- decorative pattern -->
+  <line x1="300" y1="-20" x2="440" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="340" y1="-20" x2="480" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="380" y1="-20" x2="520" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="420" y1="-20" x2="560" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="460" y1="-20" x2="600" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="500" y1="-20" x2="640" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="540" y1="-20" x2="680" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="580" y1="-20" x2="720" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+  <line x1="620" y1="-20" x2="760" y2="170" stroke="#0bc5d2" stroke-width="2" opacity="0.12"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><path d="M28 34 H72 C84 34 92 46 92 60 C92 72 86 78 79 78
+              C73 78 70 72 66 68 H34 C30 72 27 78 21 78 C14 78 8 72 8 60
+              C8 46 16 34 28 34 Z" fill="none" stroke="#0bc5d2" stroke-width="4"/>
+            <line x1="24" y1="50" x2="24" y2="62" stroke="#0bc5d2" stroke-width="4" stroke-linecap="round"/>
+            <line x1="18" y1="56" x2="30" y2="56" stroke="#0bc5d2" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="70" cy="52" r="4" fill="#0bc5d2"/>
+            <circle cx="80" cy="60" r="4" fill="#0bc5d2"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="117" height="34" rx="17" fill="#0bc5d2" opacity="0.16"/>
+    <rect width="117" height="34" rx="17" fill="none" stroke="#0bc5d2" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><path d="M28 34 H72 C84 34 92 46 92 60 C92 72 86 78 79 78
+              C73 78 70 72 66 68 H34 C30 72 27 78 21 78 C14 78 8 72 8 60
+              C8 46 16 34 28 34 Z" fill="none" stroke="#2be2ef" stroke-width="4"/>
+            <line x1="24" y1="50" x2="24" y2="62" stroke="#2be2ef" stroke-width="4" stroke-linecap="round"/>
+            <line x1="18" y1="56" x2="30" y2="56" stroke="#2be2ef" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="70" cy="52" r="4" fill="#2be2ef"/>
+            <circle cx="80" cy="60" r="4" fill="#2be2ef"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#2be2ef">CONSOLES</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#0bc5d2" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#0bc5d2" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><path d="M28 34 H72 C84 34 92 46 92 60 C92 72 86 78 79 78
+              C73 78 70 72 66 68 H34 C30 72 27 78 21 78 C14 78 8 72 8 60
+              C8 46 16 34 28 34 Z" fill="none" stroke="#2be2ef" stroke-width="4"/>
+            <line x1="24" y1="50" x2="24" y2="62" stroke="#2be2ef" stroke-width="4" stroke-linecap="round"/>
+            <line x1="18" y1="56" x2="30" y2="56" stroke="#2be2ef" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="70" cy="52" r="4" fill="#2be2ef"/>
+            <circle cx="80" cy="60" r="4" fill="#2be2ef"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1" fill="url(#ink26)">SWITCH 2</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#0bc5d2"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Gaming &amp; consoles</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#0bc5d2" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>

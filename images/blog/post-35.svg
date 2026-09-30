@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="Motorola Edge 70 Pro+ smartphone with triple camera">
+  <defs>
+    <linearGradient id="bg35" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="58%" stop-color="#122b49"/>
+      <stop offset="100%" stop-color="#0a478e"/>
+    </linearGradient>
+    <radialGradient id="glowA35" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#499cfc" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#499cfc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink35" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="soft35" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bg35)"/>
+
+  <!-- soft accent glows -->
+  <circle cx="479" cy="101" r="150" fill="url(#glowA35)" filter="url(#soft35)"/>
+  <circle cx="142" cy="324" r="120" fill="url(#glowA35)" opacity="0.5" filter="url(#soft35)"/>
+
+  <!-- decorative pattern -->
+  <circle cx="402" cy="218" r="35" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="530" cy="35" r="20" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="475" cy="148" r="32" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="388" cy="250" r="13" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="362" cy="143" r="20" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="579" cy="127" r="8" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="510" cy="176" r="16" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="533" cy="85" r="18" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="338" cy="95" r="28" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="502" cy="242" r="33" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="392" cy="128" r="12" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="437" cy="87" r="8" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="423" cy="205" r="19" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+  <circle cx="497" cy="134" r="9" fill="none" stroke="#499cfc" stroke-width="2" opacity="0.13"/>
+
+  <!-- large watermark icon -->
+  <g transform="translate(372,150) scale(2.1)" opacity="0.08"><rect x="34" y="8" width="32" height="84" rx="9" fill="none" stroke="#499cfc" stroke-width="4"/>
+          <rect x="40" y="18" width="20" height="58" rx="2" fill="#499cfc" opacity="0.35"/>
+          <rect x="44" y="11" width="12" height="3" rx="1.5" fill="#499cfc"/>
+          <circle cx="50" cy="84" r="3" fill="#499cfc"/></g>
+
+  <!-- category pill -->
+  <g transform="translate(40,38)">
+    <rect width="100" height="34" rx="17" fill="#499cfc" opacity="0.16"/>
+    <rect width="100" height="34" rx="17" fill="none" stroke="#499cfc" stroke-width="1" opacity="0.5"/>
+    <g transform="translate(13,7) scale(0.20)"><rect x="34" y="8" width="32" height="84" rx="9" fill="none" stroke="#88bdfb" stroke-width="4"/>
+          <rect x="40" y="18" width="20" height="58" rx="2" fill="#88bdfb" opacity="0.35"/>
+          <rect x="44" y="11" width="12" height="3" rx="1.5" fill="#88bdfb"/>
+          <circle cx="50" cy="84" r="3" fill="#88bdfb"/></g>
+    <text x="38" y="23" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#88bdfb">PHONES</text>
+  </g>
+
+  <!-- icon badge -->
+  <g transform="translate(40,120)">
+    <rect width="64" height="64" rx="16" fill="#499cfc" opacity="0.14"/>
+    <rect width="64" height="64" rx="16" fill="none" stroke="#499cfc" stroke-width="1.2" opacity="0.45"/>
+    <g transform="translate(13,13) scale(0.38)"><rect x="34" y="8" width="32" height="84" rx="9" fill="none" stroke="#88bdfb" stroke-width="4"/>
+          <rect x="40" y="18" width="20" height="58" rx="2" fill="#88bdfb" opacity="0.35"/>
+          <rect x="44" y="11" width="12" height="3" rx="1.5" fill="#88bdfb"/>
+          <circle cx="50" cy="84" r="3" fill="#88bdfb"/></g>
+  </g>
+
+  <!-- headline keyword -->
+  <text x="42" y="232" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1" fill="url(#ink35)">MOTOROLA</text>
+  <rect x="44" y="248" width="64" height="5" rx="2.5" fill="#499cfc"/>
+  <text x="42" y="284" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">New phone news &amp; leaks</text>
+
+  <!-- wordmark -->
+  <text x="42" y="324" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#499cfc" opacity="0.85">F.AI.Z<tspan fill="#64748b" letter-spacing="3"> · TECH</tspan></text>
+</svg>
